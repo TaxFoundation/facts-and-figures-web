@@ -1,0 +1,381 @@
+[{
+    "sheetName": "1",
+    "title": "A2",
+    "date": "A3",
+    "data": "B6:D58",
+    "notes": "A61",
+    "source": "A62"
+  },
+  {
+    "sheetName": "2",
+    "title": "A2",
+    "date": "A3",
+    "data": "B5:E57",
+    "notes": "A59",
+    "source": "A61"
+  },
+  {
+    "sheetName": "3",
+    "title": "B2",
+    "date": "B3",
+    "data": "B6:I57",
+    "notes": "A59",
+    "source": "A62"
+  },
+  {
+    "sheetName": "4",
+    "title": "A2",
+    "date": "A3",
+    "data": "B5:D57",
+    "notes": "A58",
+    "source": "A60"
+  },
+  {
+    "sheetName": "5",
+    "title": "A2",
+    "date": "A3",
+    "data": "B5:D56",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "6",
+    "title": "A2",
+    "date": "A3",
+    "data": "B5:D57",
+    "notes": "A60",
+    "source": "A66"
+  },
+  {
+    "sheetName": "7",
+    "title": "A2",
+    "date": "A3",
+    "data": "B5:D57",
+    "notes": "A59",
+    "source": "A66"
+  },
+  {
+    "sheetName": "8",
+    "title": "B2:B3",
+    "date": "B4",
+    "data": "B6:G58",
+    "notes": "A61",
+    "source": "A63",
+    "footnotes": "A60"
+  },
+  {
+    "sheetName": "9",
+    "title": "C2",
+    "date": "C3",
+    "data": "B5:D56",
+    "notes": "A58",
+    "source": "A60"
+  },
+  {
+    "sheetName": "10",
+    "title": "B2",
+    "date": "C3",
+    "data": "B5:F12",
+    "notes": "B14",
+    "source": "B21"
+  },
+  {
+    "sheetName": "11",
+    "title": "A2",
+    "date": "B3",
+    "data": "A5:C52",
+    "source": "A57",
+    "footnotes": "A54:A56",
+    "skip": true
+  },
+  {
+    "sheetName": "12",
+    "title": "A2",
+    "date": "A3",
+    "data": "A6:D223",
+    "notes": "A233",
+    "source": "A234",
+    "footnotes": "A224:A232",
+    "skip": true
+  },
+  {
+    "sheetName": "13",
+    "title": "A2",
+    "date": "B3",
+    "data": "B5:D56",
+    "notes": "A61",
+    "source": "A63",
+    "footnotes": "A58:A59"
+  },
+  {
+    "sheetName": "14",
+    "title": "A2",
+    "date": "B3",
+    "data": "B5:D57",
+    "notes": "A61",
+    "source": "A63",
+    "footnotes": "A59:A60"
+  },
+  {
+    "sheetName": "15",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "16",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "17",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "18",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "19",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "20",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "21",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "22",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "23",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "24",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "25",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "26",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "27",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "28",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "29",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "30",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "31",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "32",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "33",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "34",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "35",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "36",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "37",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "38",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "39",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "40",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "41",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "42",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  },
+  {
+    "sheetName": "43",
+    "title": "",
+    "date": "",
+    "data": "",
+    "notes": "",
+    "source": "",
+    "footnotes": ""
+  }
+]

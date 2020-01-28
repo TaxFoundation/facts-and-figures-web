@@ -8,13 +8,14 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react-scripts": "3.3.0",
+    "xlsx": "^0.15.5"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "concurrently -c \"magenta,cyan\" --names \"Data,React\" \"npm run watch-data\" \"react-scripts start\"",
+    "build": "npm run build-data && react-scripts build",
+    "build-data": "node ./src/compileData.js",
+    "watch-data": "node ./src/compileData.js --watch"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0"
   }
 }

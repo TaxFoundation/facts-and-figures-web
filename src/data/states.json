@@ -1,0 +1,313 @@
+[{
+    "id": 0,
+    "postal": "US",
+    "abbr": "U.S.",
+    "name": "United States"
+  },
+  {
+    "id": 1,
+    "postal": "AL",
+    "abbr": "Ala.",
+    "name": "Alabama"
+  },
+  {
+    "id": 2,
+    "postal": "AK",
+    "abbr": "Alaska",
+    "name": "Alaska"
+  },
+  {
+    "id": 4,
+    "postal": "AZ",
+    "abbr": "Ariz.",
+    "name": "Arizona"
+  },
+  {
+    "id": 5,
+    "postal": "AR",
+    "abbr": "Ark.",
+    "name": "Arkansas"
+  },
+  {
+    "id": 6,
+    "postal": "CA",
+    "abbr": "Calif.",
+    "name": "California"
+  },
+  {
+    "id": 8,
+    "postal": "CO",
+    "abbr": "Colo.",
+    "name": "Colorado"
+  },
+  {
+    "id": 9,
+    "postal": "CT",
+    "abbr": "Conn.",
+    "name": "Connecticut"
+  },
+  {
+    "id": 10,
+    "postal": "DE",
+    "abbr": "Del.",
+    "name": "Delaware"
+  },
+  {
+    "id": 12,
+    "postal": "FL",
+    "abbr": "Fla.",
+    "name": "Florida"
+  },
+  {
+    "id": 13,
+    "postal": "GA",
+    "abbr": "Ga.",
+    "name": "Georgia"
+  },
+  {
+    "id": 15,
+    "postal": "HI",
+    "abbr": "Hawaii",
+    "name": "Hawaii"
+  },
+  {
+    "id": 16,
+    "postal": "ID",
+    "abbr": "Idaho",
+    "name": " Idaho"
+  },
+  {
+    "id": 17,
+    "postal": "IL",
+    "abbr": "Ill.",
+    "name": "Illinois"
+  },
+  {
+    "id": 18,
+    "postal": "IN",
+    "abbr": "Ind.",
+    "name": "Indiana"
+  },
+  {
+    "id": 19,
+    "postal": "IA",
+    "abbr": "Iowa",
+    "name": "Iowa"
+  },
+  {
+    "id": 20,
+    "postal": "KS",
+    "abbr": "Kans.",
+    "name": "Kansas"
+  },
+  {
+    "id": 21,
+    "postal": "KY",
+    "abbr": "Ky.",
+    "name": "Kentucky"
+  },
+  {
+    "id": 22,
+    "postal": "LA",
+    "abbr": "La.",
+    "name": "Louisiana"
+  },
+  {
+    "id": 23,
+    "postal": "ME",
+    "abbr": "Maine",
+    "name": "Maine"
+  },
+  {
+    "id": 24,
+    "postal": "MD",
+    "abbr": "Md.",
+    "name": " Maryland"
+  },
+  {
+    "id": 25,
+    "postal": "MA",
+    "abbr": "Mass.",
+    "name": " Massachusetts"
+  },
+  {
+    "id": 26,
+    "postal": "MI",
+    "abbr": "Mich.",
+    "name": " Michigan"
+  },
+  {
+    "id": 27,
+    "postal": "MN",
+    "abbr": "Minn.",
+    "name": "Minnesota"
+  },
+  {
+    "id": 28,
+    "postal": "MS",
+    "abbr": "Miss.",
+    "name": "Mississippi"
+  },
+  {
+    "id": 29,
+    "postal": "MO",
+    "abbr": "Mo.",
+    "name": "Missouri"
+  },
+  {
+    "id": 30,
+    "postal": "MT",
+    "abbr": "Mont.",
+    "name": "Montana"
+  },
+  {
+    "id": 31,
+    "postal": "NE",
+    "abbr": "Nebr.",
+    "name": "Nebraska"
+  },
+  {
+    "id": 32,
+    "postal": "NV",
+    "abbr": "Nev.",
+    "name": "Nevada"
+  },
+  {
+    "id": 33,
+    "postal": "NH",
+    "abbr": "N.H.",
+    "name": "New Hampshire"
+  },
+  {
+    "id": 34,
+    "postal": "NJ",
+    "abbr": "N.J.",
+    "name": "New Jersey"
+  },
+  {
+    "id": 35,
+    "postal": "NM",
+    "abbr": "N.M.",
+    "name": "New Mexico"
+  },
+  {
+    "id": 36,
+    "postal": "NY",
+    "abbr": "N.Y.",
+    "name": "New York"
+  },
+  {
+    "id": 37,
+    "postal": "NC",
+    "abbr": "N.C.",
+    "name": "North Carolina"
+  },
+  {
+    "id": 38,
+    "postal": "ND",
+    "abbr": "N.D.",
+    "name": "North Dakota"
+  },
+  {
+    "id": 39,
+    "postal": "OH",
+    "abbr": "Ohio",
+    "name": "Ohio"
+  },
+  {
+    "id": 40,
+    "postal": "OK",
+    "abbr": "Okla.",
+    "name": "Oklahoma"
+  },
+  {
+    "id": 41,
+    "postal": "OR",
+    "abbr": "Ore.",
+    "name": "Oregon"
+  },
+  {
+    "id": 42,
+    "postal": "PA",
+    "abbr": "Pa.",
+    "name": " Pennsylvania"
+  },
+  {
+    "id": 44,
+    "postal": "RI",
+    "abbr": "R.I.",
+    "name": "Rhode Island"
+  },
+  {
+    "id": 45,
+    "postal": "SC",
+    "abbr": "S.C.",
+    "name": "South Carolina"
+  },
+  {
+    "id": 46,
+    "postal": "SD",
+    "abbr": "S.D.",
+    "name": "South Dakota"
+  },
+  {
+    "id": 47,
+    "postal": "TN",
+    "abbr": "Tenn.",
+    "name": "Tennessee"
+  },
+  {
+    "id": 48,
+    "postal": "TX",
+    "abbr": "Tex.",
+    "name": "Texas"
+  },
+  {
+    "id": 49,
+    "postal": "UT",
+    "abbr": "Utah",
+    "name": "Utah"
+  },
+  {
+    "id": 50,
+    "postal": "VT",
+    "abbr": "Vt.",
+    "name": "Vermont"
+  },
+  {
+    "id": 51,
+    "postal": "VA",
+    "abbr": "Va.",
+    "name": "Virgina"
+  },
+  {
+    "id": 53,
+    "postal": "WA",
+    "abbr": "Wash.",
+    "name": "Washington"
+  },
+  {
+    "id": 54,
+    "postal": "WV",
+    "abbr": "W.Va.",
+    "name": "West Virginia"
+  },
+  {
+    "id": 55,
+    "postal": "WI",
+    "abbr": "Wis.",
+    "name": "Wisconsin"
+  },
+  {
+    "id": 56,
+    "postal": "WY",
+    "abbr": "Wyo.",
+    "name": "Wyoming"
+  },
+  {
+    "id": 11,
+    "postal": "DC",
+    "abbr": "D.C.",
+    "name": "District of Columbia"
+  }
+]
