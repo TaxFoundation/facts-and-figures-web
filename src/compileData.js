@@ -11,6 +11,16 @@ const source = path.resolve(__dirname, 'data/facts-and-figures.xlsx');
 const destination = path.resolve(__dirname, 'data/data.json');
 const wb = XLSX.readFile(source);
 
+const mapValues = (table, sheet) => {
+  data[table.sheetName] = {};
+  data[table.sheetName].values = XLSX.utils.sheet_to_json(sheet, { header: 1, range: table.data, raw: false });
+  data[table.sheetName].title = sheet[table.title] ? sheet[table.title].v : null;
+  data[table.sheetName].date = sheet[table.date] ? sheet[table.date].v : null;
+  data[table.sheetName].notes = sheet[table.notes] ? sheet[table.notes].v : null;
+  data[table.sheetName].source = sheet[table.source] ? sheet[table.source].v : null;
+  data[table.sheetName].footnotes = sheet[table.footnotes] ? sheet[table.footnotes].v : null;
+};
+
 const buildData = () => {
   fs.access(source, err => {
     if (err) throw err;
@@ -20,9 +30,9 @@ const buildData = () => {
     if (table.data) {
       if (table.skip) {
         // TODO figure out what to do with weird tables
-        data[table.sheetName] = XLSX.utils.sheet_to_json(sheet, { header: 1, range: table.data });
+        mapValues(table, sheet);
       } else {
-        data[table.sheetName] = XLSX.utils.sheet_to_json(sheet, { header: 1, range: table.data });
+        mapValues(table, sheet);
       }
     }
   });

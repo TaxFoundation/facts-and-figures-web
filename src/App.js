@@ -10,14 +10,18 @@ function App() {
     <div>
       <div>
         <select value={table} onChange={e => setTable(e.target.value)}>
-          {keys.map(key => <option value={key}>{key}</option>)}
+          {keys.map(key => <option value={key}>{`Table ${key} - ${data[key].title}`}</option>)}
         </select>
       </div>
-      <div>
-        {data[table].map(row => {
-          return <div>{row.map(cell => <span>{cell}</span>)}</div>
+      <table>
+        <caption>{data[table].title}<br />{data[table].date}</caption>
+        {data[table].values.map(row => {
+          return <tr>{row.map(cell => <td>{cell}</td>)}</tr>
         })}
-      </div>
+      </table>
+      {data[table].footnotes ? <p>{data[table].footnotes}</p> : null}
+      {data[table].notes ? <p>{data[table].notes}</p> : null}
+      {data[table].source ? <p>{data[table].source}</p> : null}
     </div>
   );
 }
