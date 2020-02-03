@@ -1,5 +1,6 @@
 [{
     "sheetName": "1",
+    "type": "states",
     "title": "A2",
     "date": "A3",
     "data": "B6:D58",
@@ -8,6 +9,7 @@
   },
   {
     "sheetName": "2",
+    "type": "states",
     "title": "A2",
     "date": "A3",
     "data": "B5:E57",
@@ -16,6 +18,7 @@
   },
   {
     "sheetName": "3",
+    "type": "states",
     "title": "B2",
     "date": "B3",
     "data": "B6:I57",
@@ -24,6 +27,7 @@
   },
   {
     "sheetName": "4",
+    "type": "states",
     "title": "A2",
     "date": "A3",
     "data": "B5:D57",
@@ -32,6 +36,7 @@
   },
   {
     "sheetName": "5",
+    "type": "states",
     "title": "A2",
     "date": "A3",
     "data": "B5:D56",
@@ -41,6 +46,7 @@
   },
   {
     "sheetName": "6",
+    "type": "states",
     "title": "A2",
     "date": "A3",
     "data": "B5:D57",
@@ -49,6 +55,7 @@
   },
   {
     "sheetName": "7",
+    "type": "states",
     "title": "A2",
     "date": "A3",
     "data": "B5:D57",
@@ -57,6 +64,7 @@
   },
   {
     "sheetName": "8",
+    "type": "states",
     "title": "B2:B3",
     "date": "B4",
     "data": "B6:G58",
@@ -66,6 +74,7 @@
   },
   {
     "sheetName": "9",
+    "type": "states",
     "title": "C2",
     "date": "C3",
     "data": "B5:D56",
@@ -74,6 +83,7 @@
   },
   {
     "sheetName": "10",
+    "type": "table",
     "title": "B2",
     "date": "C3",
     "data": "B5:F12",
@@ -82,6 +92,7 @@
   },
   {
     "sheetName": "11",
+    "type": "table",
     "title": "A2",
     "date": "B3",
     "data": "A5:C52",
@@ -91,6 +102,7 @@
   },
   {
     "sheetName": "12",
+    "type": "brackets",
     "title": "A2",
     "date": "A3",
     "data": "A6:D223",
@@ -101,6 +113,7 @@
   },
   {
     "sheetName": "13",
+    "type": "states",
     "title": "A2",
     "date": "B3",
     "data": "B5:D56",
@@ -110,6 +123,7 @@
   },
   {
     "sheetName": "14",
+    "type": "states",
     "title": "A2",
     "date": "B3",
     "data": "B5:D57",
@@ -119,60 +133,67 @@
   },
   {
     "sheetName": "15",
-    "title": "",
-    "date": "",
-    "data": "",
-    "notes": "",
-    "source": "",
-    "footnotes": ""
+    "type": "brackets",
+    "title": "B3",
+    "date": "B4",
+    "data": "B6:E96",
+    "notes": "A120",
+    "source": "A123",
+    "footnotes": "A101:A115"
   },
   {
     "sheetName": "16",
-    "title": "",
-    "date": "",
-    "data": "",
-    "notes": "",
-    "source": "",
-    "footnotes": ""
+    "type": "states",
+    "title": "A2",
+    "date": "B3",
+    "data": "B5:D56",
+    "notes": "A63",
+    "source": "A64",
+    "footnotes": "A58:A60"
   },
   {
     "sheetName": "17",
-    "title": "",
-    "date": "",
-    "data": "",
-    "notes": "",
-    "source": "",
-    "footnotes": ""
+    "type": "states",
+    "title": "A2",
+    "date": "A3",
+    "data": "C5:E57",
+    "notes": "A61",
+    "source": "A63",
+    "footnotes": "A59:A60"
   },
   {
     "sheetName": "18",
-    "title": "",
-    "date": "",
-    "data": "",
-    "notes": "",
-    "source": "",
-    "footnotes": ""
+    "type": "states",
+    "title": "A2",
+    "date": "A3",
+    "data": "A5:C11",
+    "notes": "A14",
+    "source": "A16:A17",
+    "footnotes": "A13"
   },
   {
     "sheetName": "19",
-    "title": "",
-    "date": "",
-    "data": "",
-    "notes": "",
-    "source": "",
-    "footnotes": ""
+    "type": "states",
+    "title": "A2",
+    "date": "B3",
+    "data": "A5:F56",
+    "notes": "A63",
+    "source": "A65",
+    "footnotes": "A58:A62"
   },
   {
     "sheetName": "20",
-    "title": "",
-    "date": "",
-    "data": "",
-    "notes": "",
-    "source": "",
-    "footnotes": ""
+    "type": "states",
+    "title": "A2",
+    "date": "B3",
+    "data": "B5:D56",
+    "notes": "A62",
+    "source": "A64",
+    "footnotes": "A59:A60"
   },
   {
     "sheetName": "21",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -182,6 +203,7 @@
   },
   {
     "sheetName": "22",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -191,6 +213,7 @@
   },
   {
     "sheetName": "23",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -200,6 +223,7 @@
   },
   {
     "sheetName": "24",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -209,6 +233,7 @@
   },
   {
     "sheetName": "25",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -218,6 +243,7 @@
   },
   {
     "sheetName": "26",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -227,6 +253,7 @@
   },
   {
     "sheetName": "27",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -236,6 +263,7 @@
   },
   {
     "sheetName": "28",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -245,6 +273,7 @@
   },
   {
     "sheetName": "29",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -254,6 +283,7 @@
   },
   {
     "sheetName": "30",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -263,6 +293,7 @@
   },
   {
     "sheetName": "31",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -272,6 +303,7 @@
   },
   {
     "sheetName": "32",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -281,6 +313,7 @@
   },
   {
     "sheetName": "33",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -290,6 +323,7 @@
   },
   {
     "sheetName": "34",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -299,6 +333,7 @@
   },
   {
     "sheetName": "35",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -308,6 +343,7 @@
   },
   {
     "sheetName": "36",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -317,6 +353,7 @@
   },
   {
     "sheetName": "37",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -326,6 +363,7 @@
   },
   {
     "sheetName": "38",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -335,6 +373,7 @@
   },
   {
     "sheetName": "39",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -344,6 +383,7 @@
   },
   {
     "sheetName": "40",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -353,6 +393,7 @@
   },
   {
     "sheetName": "41",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -362,6 +403,7 @@
   },
   {
     "sheetName": "42",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
@@ -371,6 +413,7 @@
   },
   {
     "sheetName": "43",
+    "type": "states",
     "title": "",
     "date": "",
     "data": "",
