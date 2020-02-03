@@ -134,7 +134,7 @@
   {
     "sheetName": "15",
     "type": "brackets",
-    "title": "B3",
+    "title": "A3",
     "date": "B4",
     "data": "B6:E96",
     "notes": "A120",
@@ -194,8 +194,8 @@
   {
     "sheetName": "21",
     "type": "states",
-    "title": "A2",
-    "date": "B3",
+    "title": "A2:A3",
+    "date": "C4",
     "data": "B6:D58",
     "notes": "A61",
     "source": "A66",
@@ -224,9 +224,9 @@
   {
     "sheetName": "24",
     "type": "states",
-    "title": "A2",
+    "title": "A2:A3",
     "subtitle": "A3",
-    "date": "A4",
+    "date": "B4",
     "data": "A6:F58",
     "notes": "A61",
     "source": "A64"
@@ -234,7 +234,8 @@
   {
     "sheetName": "25",
     "type": "states",
-    "title": "A2:A3",
+    "title": "A2",
+    "subtitle": "A3",
     "date": "A4",
     "data": "B6:B58",
     "notes": "A60",
