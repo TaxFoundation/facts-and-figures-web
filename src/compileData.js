@@ -28,8 +28,12 @@ const concatRange = (range, sheet) => {
 
 const mapValues = (table, sheet) => {
   data[table.sheetName] = {};
-
   const metadata = ['title', 'subtitle', 'date', 'notes', 'source'];
+
+  data[table.sheetname].data = XLSX.utils.sheet_to_json(
+    sheet,
+    { header: 1, range: table.data, raw: false }
+  );
 
   metadata.forEach(term => {
     if (table[term]) {
