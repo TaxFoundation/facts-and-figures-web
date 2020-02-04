@@ -19,7 +19,7 @@ function App() {
           return <tr>{row.map(cell => <td>{cell}</td>)}</tr>
         })}
       </table>
-      {data[table].footnotes ? <p>{data[table].footnotes}</p> : null}
+      {data[table].footnotes ? data[table].footnotes.map(footnote => <p>{footnote[0]}</p>) : null}
       {data[table].notes ? <p>{data[table].notes}</p> : null}
       {data[table].source ? <p>{data[table].source}</p> : null}
     </div>

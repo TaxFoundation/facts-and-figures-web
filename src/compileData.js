@@ -41,10 +41,11 @@ const mapValues = (table, sheet) => {
         : concatRange(table[term], sheet);
     }
   });
-  data[table.sheetName].footnotes = sheet[table.footnotes]
-    ? sheet[table.footnotes].v
+  data[table.sheetName].footnotes = table.footnotes
+    ? XLSX.utils.sheet_to_json(sheet, { header: 1, range: table.footnotes, raw: false })
     : null;
-  if (table.footnotes) console.log(XLSX.utils.sheet_to_json(sheet, { header: 1, range: table.footnotes, raw: false }));
+
+    if (table.footnotes) console.log(XLSX.utils.sheet_to_json(sheet, { header: 1, range: table.footnotes, raw: false }));
 };
 
 const buildData = () => {
