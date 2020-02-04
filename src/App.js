@@ -15,7 +15,7 @@ function App() {
       </div>
       <table>
         <caption>{data[table].title}<br />{data[table].date}</caption>
-        {data[table].values.map(row => {
+        {data[table].data.map(row => {
           return <tr>{row.map(cell => <td>{cell}</td>)}</tr>
         })}
       </table>

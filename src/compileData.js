@@ -14,7 +14,6 @@ const wb = XLSX.readFile(source);
 const concatRange = (range, sheet) => {
   const cells = XLSX.utils.sheet_to_json(sheet, { header: 1, range, raw: false });
   let values = [];
-
   cells.forEach(row => {
     row.forEach(cell => values.push(cell));
   });
@@ -30,7 +29,7 @@ const mapValues = (table, sheet) => {
   data[table.sheetName] = {};
   const metadata = ['title', 'subtitle', 'date', 'notes', 'source'];
 
-  data[table.sheetname].data = XLSX.utils.sheet_to_json(
+  data[table.sheetName].data = XLSX.utils.sheet_to_json(
     sheet,
     { header: 1, range: table.data, raw: false }
   );
@@ -45,6 +44,7 @@ const mapValues = (table, sheet) => {
   data[table.sheetName].footnotes = sheet[table.footnotes]
     ? sheet[table.footnotes].v
     : null;
+  if (table.footnotes) console.log(XLSX.utils.sheet_to_json(sheet, { header: 1, range: table.footnotes, raw: false }));
 };
 
 const buildData = () => {
