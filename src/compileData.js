@@ -55,12 +55,7 @@ const buildData = () => {
   mappings.forEach(table => {
     const sheet = wb.Sheets[table.sheetName];
     if (table.data) {
-      if (table.skip) {
-        // TODO figure out what to do with weird tables
-        mapValues(table, sheet);
-      } else {
-        mapValues(table, sheet);
-      }
+      mapValues(table, sheet);
     }
   });
 };
