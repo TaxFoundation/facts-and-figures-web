@@ -52,9 +52,9 @@ function App() {
         </div>
         <Table>
           <caption>
-            {data[table].title}
-            <br />
-            {data[table].date}
+            <h1>{data[table].title}</h1>
+            {data[table].subtitle ? <p>{data[table].subtitle}</p> : null}
+            <p>{data[table].date}</p>
           </caption>
           {data[table].data.map((row, i) =>
             i === 0 ? <TableHeader headings={row} /> : <TableRow row={row} />

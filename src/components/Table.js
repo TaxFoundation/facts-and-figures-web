@@ -6,6 +6,22 @@ const StyledTable = styled.table`
   border-collapse: collapse;
   max-width: 800px;
   width: 100%;
+
+  caption {
+    margin-bottom: 1rem;
+
+    h1 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    p {
+      font-style: italic;
+      margin: 0;
+    }
+  }
+
 `;
 
 const Table = ({children}) => {
