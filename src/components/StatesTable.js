@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { kebabCase } from 'lodash';
 
 import Table from './Table';
-import { StyledTableHeader } from './ui/TableHeader';
+import SortedHeading from './ui/SortedHeading';
 import { StyledTableRow } from './ui/TableRow';
 
 const StatesTable = ({ id, data }) => {
@@ -18,10 +18,13 @@ const StatesTable = ({ id, data }) => {
         <p>{data.date}</p>
       </caption>
       <thead>
-        <StyledTableHeader>
+        <tr>
           {data.data.headers.map(header => (
-            <th
+            <SortedHeading
               key={`table-${id}-header-${header.id}`}
+              ascending={sortAsc}
+              orderedBy={sortBy}
+              id={header.id === 'state' ? 'fips' : header.id}
               onClick={() => {
                 header.id === 'state'
                   ? setSortBy('fips')
@@ -29,10 +32,10 @@ const StatesTable = ({ id, data }) => {
                 setSortAsc(!sortAsc);
               }}
             >
-              {header.name}
-            </th>
+              <div>{header.name}</div>
+            </SortedHeading>
           ))}
-        </StyledTableHeader>
+        </tr>
       </thead>
       <tbody>
         {data.data.values
