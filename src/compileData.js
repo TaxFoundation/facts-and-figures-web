@@ -52,11 +52,12 @@ const parseStateTable = table => {
     });
     value['state'] = theState.name;
     value['fips'] = theState.id;
-    row
-      .slice(1)
-      .forEach(
-        (cell, i) => (value[headers.find(h => h.order === i + 1).id] = cell)
-      );
+    row.slice(1).forEach((cell, i) => {
+      let theValue = cell;
+      const DC = /\((\d+)\)/;
+      if (cell.match(DC)) theValue = cell.match(DC)[1];
+      value[headers.find(h => h.order === i + 1).id] = theValue;
+    });
 
     return value;
   });
