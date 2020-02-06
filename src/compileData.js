@@ -1,6 +1,7 @@
 const XLSX = require('xlsx');
 const path = require('path');
 const fs = require('fs');
+const _ = require('lodash');
 
 const mappings = require('./data/mappings.json');
 const states = require('./data/states.json');
@@ -29,16 +30,29 @@ const concatRange = (range, sheet) => {
   return cooncatenation;
 };
 
-// const parseStateTable = (table) => {
-//   const headerRow = table[0];
-//   const rankColumn = headerRow.reduce((acc, curr, i) => {
-//     if (curr === 'Rank') return acc + i;
-//     return acc;
-//   }, 0);
-// }
+const parseStateTable = table => {
+  const headerRow = table[0];
+  const headers = headerRow.map((header, i) => {
+    return {
+      name: header,
+      id: _.kebabCase(header),
+      order: i
+    };
+  });
+  const values = table.slice(1).map(row => {
+    let value = {};
+    row.forEach(
+      (cell, i) => (value[headers.find(h => h.order === i).id] = cell)
+    );
+    return value;
+  });
+  return { headers, values };
+};
 
 const mapValues = (table, sheet) => {
-  data[table.sheetName] = {};
+  data[table.sheetName] = {
+    type: table.type
+  };
   const metadata = ['title', 'subtitle', 'date', 'notes', 'source'];
 
   const rawData = XLSX.utils.sheet_to_json(sheet, {
@@ -47,7 +61,8 @@ const mapValues = (table, sheet) => {
     raw: false
   });
 
-  data[table.sheetName].data = rawData;
+  data[table.sheetName].data =
+    table.type === 'states' ? parseStateTable(rawData) : rawData;
 
   metadata.forEach(term => {
     if (table[term]) {
