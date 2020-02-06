@@ -15,7 +15,7 @@ const StyledTableRow = styled.tr`
 const TableRow = ({ row }) => (
   <StyledTableRow>
     {row.map(cell => (
-      <td>{cell}</td>
+      <td key={`cell-${cell}`}>{cell}</td>
     ))}
   </StyledTableRow>
 );

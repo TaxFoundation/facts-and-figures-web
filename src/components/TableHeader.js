@@ -13,7 +13,7 @@ const StyledTableHeader = styled.tr`
 const TableHeader = ({ headings }) => (
   <StyledTableHeader>
     {headings.map(heading => (
-      <th>{heading}</th>
+      <th key={`cell-${heading}`}>{heading}</th>
     ))}
   </StyledTableHeader>
 );

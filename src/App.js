@@ -63,7 +63,11 @@ function App() {
             <p>{data[table].date}</p>
           </caption>
           {data[table].data.map((row, i) =>
-            i === 0 ? <TableHeader headings={row} /> : <TableRow row={row} />
+            i === 0 ? (
+              <TableHeader key={`table-${table}-row-${i}`} headings={row} />
+            ) : (
+              <TableRow key={`table-${table}-row-${i}`} row={row} />
+            )
           )}
         </Table>
         {data[table].footnotes
