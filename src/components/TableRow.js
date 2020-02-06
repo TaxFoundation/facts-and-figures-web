@@ -3,12 +3,11 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const StyledTableRow = styled.tr`
-  &:nth-child(even) {
-    background-color: ${props => props.theme.tfBlueHighlight};
-  }
+  border-bottom: 1px solid ${props => props.theme.borderColor};
 
   td {
     padding: 0.25rem;
+    text-align: center;
   }
 `;
 

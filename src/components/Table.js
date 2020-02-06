@@ -4,7 +4,6 @@ import styled from 'styled-components';
 
 const StyledTable = styled.table`
   border-collapse: collapse;
-  max-width: 800px;
   width: 100%;
 
   caption {

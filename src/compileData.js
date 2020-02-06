@@ -25,14 +25,20 @@ const concatRange = (range, sheet) => {
   return cooncatenation;
 };
 
+const parseStateTable = (table) => {
+
+}
+
 const mapValues = (table, sheet) => {
   data[table.sheetName] = {};
   const metadata = ['title', 'subtitle', 'date', 'notes', 'source'];
 
-  data[table.sheetName].data = XLSX.utils.sheet_to_json(
+  const rawData = XLSX.utils.sheet_to_json(
     sheet,
     { header: 1, range: table.data, raw: false }
   );
+
+  data[table.sheetName].data = rawData;
 
   metadata.forEach(term => {
     if (table[term]) {
@@ -44,8 +50,6 @@ const mapValues = (table, sheet) => {
   data[table.sheetName].footnotes = table.footnotes
     ? XLSX.utils.sheet_to_json(sheet, { header: 1, range: table.footnotes, raw: false })
     : null;
-
-    if (table.footnotes) console.log(XLSX.utils.sheet_to_json(sheet, { header: 1, range: table.footnotes, raw: false }));
 };
 
 const buildData = () => {

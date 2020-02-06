@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 
 import Theme from './Theme';
+import Select from './components/Select';
 import Table from './components/Table';
 import TableHeader from './components/TableHeader';
 import TableRow from './components/TableRow';
@@ -35,6 +36,11 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
+const AppWrapper = styled.div`
+  margin: 0 auto;
+  max-width: 800px;
+`;
+
 function App() {
   const [table, setTable] = useState('1');
   const keys = Object.keys(data);
@@ -42,13 +48,13 @@ function App() {
   return (
     <ThemeProvider theme={Theme}>
       <GlobalStyle />
-      <div>
+      <AppWrapper>
         <div>
-          <select value={table} onChange={e => setTable(e.target.value)}>
+          <Select value={table} onChange={e => setTable(e.target.value)}>
             {keys.map(key => (
               <option value={key}>{`Table ${key} - ${data[key].title}`}</option>
             ))}
-          </select>
+          </Select>
         </div>
         <Table>
           <caption>
@@ -65,7 +71,7 @@ function App() {
           : null}
         {data[table].notes ? <p>{data[table].notes}</p> : null}
         {data[table].source ? <p>{data[table].source}</p> : null}
-      </div>
+      </AppWrapper>
     </ThemeProvider>
   );
 }
