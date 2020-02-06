@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 const StyledTableRow = styled.tr`
   border-bottom: 1px solid ${props => props.theme.borderColor};
+  border-top: 1px solid ${props => props.theme.borderColor};
 
   td {
     padding: 0.25rem;
