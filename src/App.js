@@ -61,7 +61,7 @@ function App() {
           </Select>
         </div>
         {data[table].type === 'states' ? (
-          <StatesTable data={data[table]} />
+          <StatesTable id={table} data={data[table]} />
         ) : (
           <Table>
             <caption>

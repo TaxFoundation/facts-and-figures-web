@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { kebabCase } from 'lodash';
 
 import Table from './Table';
 import { StyledTableHeader } from './ui/TableHeader';
 import { StyledTableRow } from './ui/TableRow';
 
-const StatesTable = ({ data }) => {
+const StatesTable = ({ id, data }) => {
   const [sortBy, setSortBy] = useState('state');
   const [sortAsc, setSortAsc] = useState(true);
 
@@ -20,6 +21,7 @@ const StatesTable = ({ data }) => {
         <StyledTableHeader>
           {data.data.headers.map(header => (
             <th
+              key={`table-${id}-header-${header.id}`}
               onClick={() => {
                 setSortBy(header.id);
                 setSortAsc(!sortAsc);
@@ -36,9 +38,13 @@ const StatesTable = ({ data }) => {
             return sortAsc ? a[sortBy] - b[sortBy] : b[sortBy] - a[sortBy];
           })
           .map(row => (
-            <StyledTableRow>
-              {data.data.headers.map(header => {
-                return <td>{row[header.id]}</td>;
+            <StyledTableRow key={`table-${id}-row-${kebabCase(row.state)}`}>
+              {data.data.headers.map((header, i) => {
+                return (
+                  <td key={`table-${id}-row-${kebabCase(row.state)}-${i}`}>
+                    {row[header.id]}
+                  </td>
+                );
               })}
             </StyledTableRow>
           ))}
