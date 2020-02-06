@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-const StyledTableHeader = styled.tr`
+export const StyledTableHeader = styled.tr`
   border-bottom: 2px solid ${props => props.theme.tfBlue};
 
   th {

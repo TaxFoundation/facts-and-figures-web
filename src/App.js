@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 
 import Theme from './Theme';
-import Select from './components/Select';
+import Select from './components/ui/Select';
 import Table from './components/Table';
-import TableHeader from './components/TableHeader';
-import TableRow from './components/TableRow';
+import TableHeader from './components/ui/TableHeader';
+import TableRow from './components/ui/TableRow';
 import data from './data/data.json';
 
 const GlobalStyle = createGlobalStyle`
