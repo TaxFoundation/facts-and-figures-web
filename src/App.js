@@ -52,7 +52,10 @@ function App() {
         <div>
           <Select value={table} onChange={e => setTable(e.target.value)}>
             {keys.map(key => (
-              <option value={key}>{`Table ${key} - ${data[key].title}`}</option>
+              <option
+                key={`table-option-${key}`}
+                value={key}
+              >{`Table ${key} - ${data[key].title}`}</option>
             ))}
           </Select>
         </div>
