@@ -1,10 +1,9 @@
 const XLSX = require('xlsx');
 const path = require('path');
 const fs = require('fs');
-const _ = require('lodash');
 
 const mappings = require('./data/mappings.json');
-const states = require('./data/states.json');
+const parseStateTable = require('./data/parseStateTable');
 
 let data = {};
 
@@ -28,40 +27,6 @@ const concatRange = (range, sheet) => {
   }, '');
 
   return cooncatenation;
-};
-
-const parseStateTable = table => {
-  const headerRow = table[0];
-  const headers = headerRow.map((header, i) => {
-    return {
-      name: header,
-      id: _.kebabCase(header),
-      order: i
-    };
-  });
-  const values = table.slice(1).map(row => {
-    let value = {};
-    const stateAbbr = /([a-z]+\.?[a-z]+\.?)/i;
-    const theState = states.find(state => {
-      const theAbbr = row[0].match(stateAbbr);
-      return (
-        state.abbr === theAbbr[1] ||
-        state.postal === theAbbr[1] ||
-        state.name === theAbbr[1]
-      );
-    });
-    value['state'] = theState.name;
-    value['fips'] = theState.id;
-    row.slice(1).forEach((cell, i) => {
-      let theValue = cell;
-      const DC = /\((\d+)\)/;
-      if (cell.match(DC)) theValue = cell.match(DC)[1];
-      value[headers.find(h => h.order === i + 1).id] = theValue;
-    });
-
-    return value;
-  });
-  return { headers, values };
 };
 
 const mapValues = (table, sheet) => {

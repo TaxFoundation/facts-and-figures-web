@@ -58,6 +58,9 @@ const StatesTable = ({ id, data }) => {
   );
 };
 
-StatesTable.propTypes = {};
+StatesTable.propTypes = {
+  id: PropTypes.oneOf([PropTypes.string, PropTypes.number]),
+  data: PropTypes.object
+};
 
 export default StatesTable;
