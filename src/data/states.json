@@ -1,8 +1,15 @@
-[{
+[
+  {
     "id": 0,
     "postal": "US",
     "abbr": "U.S.",
     "name": "United States"
+  },
+  {
+    "id": 0,
+    "postal": "US",
+    "abbr": "Fed.",
+    "name": "Federal"
   },
   {
     "id": 1,
@@ -278,7 +285,7 @@
     "id": 51,
     "postal": "VA",
     "abbr": "Va.",
-    "name": "Virgina"
+    "name": "Virginia"
   },
   {
     "id": 53,

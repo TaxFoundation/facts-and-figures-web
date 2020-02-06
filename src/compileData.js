@@ -41,9 +41,23 @@ const parseStateTable = table => {
   });
   const values = table.slice(1).map(row => {
     let value = {};
-    row.forEach(
-      (cell, i) => (value[headers.find(h => h.order === i).id] = cell)
-    );
+    const stateAbbr = /([a-z]+\.?[a-z]+\.?)/i;
+    const theState = states.find(state => {
+      const theAbbr = row[0].match(stateAbbr);
+      return (
+        state.abbr === theAbbr[1] ||
+        state.postal === theAbbr[1] ||
+        state.name === theAbbr[1]
+      );
+    });
+    value['state'] = theState.name;
+    value['fips'] = theState.id;
+    row
+      .slice(1)
+      .forEach(
+        (cell, i) => (value[headers.find(h => h.order === i + 1).id] = cell)
+      );
+
     return value;
   });
   return { headers, values };

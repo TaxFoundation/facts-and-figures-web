@@ -1,4 +1,5 @@
-[{
+[
+  {
     "sheetName": "1",
     "type": "states",
     "title": "A2",
@@ -30,7 +31,7 @@
     "type": "states",
     "title": "A2",
     "date": "A3",
-    "data": "B5:D57",
+    "data": "B5:D56",
     "notes": "A58",
     "source": "A60"
   },
@@ -251,7 +252,7 @@
   },
   {
     "sheetName": "27",
-    "type": "states",
+    "type": "table",
     "title": "A2",
     "date": "B3",
     "data": "B5:C16",

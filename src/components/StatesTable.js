@@ -7,7 +7,7 @@ import { StyledTableHeader } from './ui/TableHeader';
 import { StyledTableRow } from './ui/TableRow';
 
 const StatesTable = ({ id, data }) => {
-  const [sortBy, setSortBy] = useState('state');
+  const [sortBy, setSortBy] = useState('fips');
   const [sortAsc, setSortAsc] = useState(true);
 
   return (
@@ -23,7 +23,9 @@ const StatesTable = ({ id, data }) => {
             <th
               key={`table-${id}-header-${header.id}`}
               onClick={() => {
-                setSortBy(header.id);
+                header.id === 'state'
+                  ? setSortBy('fips')
+                  : setSortBy(header.id);
                 setSortAsc(!sortAsc);
               }}
             >
