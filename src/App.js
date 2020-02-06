@@ -74,7 +74,9 @@ function App() {
           )}
         </Table>
         {data[table].footnotes
-          ? data[table].footnotes.map(footnote => <p>{footnote[0]}</p>)
+          ? data[table].footnotes.map((footnote, i) => (
+              <p key={`footnote-${table}-${i}`}>{footnote[0]}</p>
+            ))
           : null}
         {data[table].notes ? <p>{data[table].notes}</p> : null}
         {data[table].source ? <p>{data[table].source}</p> : null}
