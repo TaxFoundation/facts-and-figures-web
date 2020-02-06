@@ -20,15 +20,10 @@ const StyledTable = styled.table`
       margin: 0;
     }
   }
-
 `;
 
-const Table = ({children}) => {
-  return (
-    <StyledTable>
-      {children}
-    </StyledTable>
-  )
+const Table = ({ children }) => {
+  return <StyledTable>{children}</StyledTable>;
 };
 
 Table.propTypes = {

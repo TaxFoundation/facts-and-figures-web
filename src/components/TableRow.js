@@ -23,5 +23,5 @@ const TableRow = ({ row }) => (
 export default TableRow;
 
 TableRow.propTypes = {
-  row: PropTypes.array,
+  row: PropTypes.array
 };

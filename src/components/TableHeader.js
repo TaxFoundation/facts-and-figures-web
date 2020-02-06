@@ -19,7 +19,7 @@ const TableHeader = ({ headings }) => (
 );
 
 TableHeader.propTypes = {
-  headings: PropTypes.array,
+  headings: PropTypes.array
 };
 
 export default TableHeader;
