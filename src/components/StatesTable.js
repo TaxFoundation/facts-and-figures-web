@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { kebabCase } from 'lodash';
 
-import Table from './Table';
+import { AlternateRowTable } from './Table';
 import SortedHeading from './ui/SortedHeading';
 import { StyledTableRow } from './ui/TableRow';
 
@@ -11,7 +11,7 @@ const StatesTable = ({ id, data }) => {
   const [sortAsc, setSortAsc] = useState(true);
 
   return (
-    <Table>
+    <AlternateRowTable>
       <caption>
         <h1>{data.title}</h1>
         {data.subtitle ? <p>{data.subtitle}</p> : null}
@@ -54,7 +54,7 @@ const StatesTable = ({ id, data }) => {
             </StyledTableRow>
           ))}
       </tbody>
-    </Table>
+    </AlternateRowTable>
   );
 };
 
