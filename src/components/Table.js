@@ -22,6 +22,12 @@ const StyledTable = styled.table`
   }
 `;
 
+export const AlternateRowTable = styled(StyledTable)`
+  tr:nth-child(even) {
+    background-color: ${props => props.theme.tfBlueHighlight};
+  }
+`;
+
 const Table = ({ children }) => {
   return <StyledTable>{children}</StyledTable>;
 };

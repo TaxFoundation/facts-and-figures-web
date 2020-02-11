@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 
 import Theme from './Theme';
-import Select from './components/Select';
+import Select from './components/ui/Select';
 import Table from './components/Table';
-import TableHeader from './components/TableHeader';
-import TableRow from './components/TableRow';
+import StatesTable from './components/StatesTable';
+import TableHeader from './components/ui/TableHeader';
+import TableRow from './components/ui/TableRow';
 import data from './data/data.json';
 
 const GlobalStyle = createGlobalStyle`
@@ -59,20 +60,24 @@ function App() {
             ))}
           </Select>
         </div>
-        <Table>
-          <caption>
-            <h1>{data[table].title}</h1>
-            {data[table].subtitle ? <p>{data[table].subtitle}</p> : null}
-            <p>{data[table].date}</p>
-          </caption>
-          {data[table].data.map((row, i) =>
-            i === 0 ? (
-              <TableHeader key={`table-${table}-row-${i}`} headings={row} />
-            ) : (
-              <TableRow key={`table-${table}-row-${i}`} row={row} />
-            )
-          )}
-        </Table>
+        {data[table].type === 'states' ? (
+          <StatesTable id={table} data={data[table]} />
+        ) : (
+          <Table>
+            <caption>
+              <h1>{data[table].title}</h1>
+              {data[table].subtitle ? <p>{data[table].subtitle}</p> : null}
+              <p>{data[table].date}</p>
+            </caption>
+            {data[table].data.map((row, i) =>
+              i === 0 ? (
+                <TableHeader key={`table-${table}-row-${i}`} headings={row} />
+              ) : (
+                <TableRow key={`table-${table}-row-${i}`} row={row} />
+              )
+            )}
+          </Table>
+        )}
         {data[table].footnotes
           ? data[table].footnotes.map((footnote, i) => (
               <p key={`footnote-${table}-${i}`}>{footnote[0]}</p>
