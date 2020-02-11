@@ -59,7 +59,7 @@ const StatesTable = ({ id, data }) => {
 };
 
 StatesTable.propTypes = {
-  id: PropTypes.oneOf([PropTypes.string, PropTypes.number]),
+  id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   data: PropTypes.object
 };
 
