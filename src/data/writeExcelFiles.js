@@ -1,7 +1,6 @@
 const XLSX = require('xlsx');
 const path = require('path');
 const fs = require('fs');
-const _ = require('lodash');
 
 function maxLength(arrays) {
   let length = 0;

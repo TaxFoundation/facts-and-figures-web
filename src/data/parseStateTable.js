@@ -85,7 +85,7 @@ module.exports = function(table) {
     row.slice(1).forEach((cell, i) => {
       const header = headers.find(h => h.order === i + 1).id;
       const DC = /\((\d+)\)/;
-      if (cell.match(DC)) {
+      if (cell && cell.match(DC)) {
         value[header] = cell.match(DC)[1];
       } else {
         value[header] = cell;

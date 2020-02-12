@@ -23,7 +23,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "tax-freedom-day": "April 16"
+          "tax-freedom-day": "April 16",
+          "rank": null
         },
         {
           "fips": 1,
@@ -1319,7 +1320,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "collections-per-capita": "$3,151"
+          "collections-per-capita": "$3,151",
+          "rank": null
         },
         {
           "fips": 1,
@@ -1653,7 +1655,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "revenue-per-capita": "$6,416"
+          "revenue-per-capita": "$6,416",
+          "rank": null
         },
         {
           "fips": 1,
@@ -1985,7 +1988,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "collections-per-capita": "$5,073"
+          "collections-per-capita": "$5,073",
+          "rank": null
         },
         {
           "fips": 1,
@@ -2325,7 +2329,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "revenue-per-capita": "$9,573"
+          "revenue-per-capita": "$9,573",
+          "rank": null
         },
         {
           "fips": 1,
@@ -3181,7 +3186,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "fed-aid-as-percentage-of-general-revenue": "22.7%"
+          "fed-aid-as-percentage-of-general-revenue": "22.7%",
+          "rank": null
         },
         {
           "fips": 1,
@@ -3561,11 +3567,14 @@
     "type": "table",
     "data": [
       [
-        "Individual Income Tax"
+        "Individual Income Tax",
+        null,
+        null
       ],
       [
         null,
-        "Single"
+        "Single",
+        null
       ],
       [
         "Rates",
@@ -3609,7 +3618,8 @@
       ],
       [
         null,
-        "Married Filing Jointly"
+        "Married Filing Jointly",
+        null
       ],
       [
         "Rates",
@@ -3653,7 +3663,8 @@
       ],
       [
         null,
-        "Head of Household"
+        "Head of Household",
+        null
       ],
       [
         "Rates",
@@ -3696,7 +3707,9 @@
         "$518,400"
       ],
       [
-        "Social Security and Medicare Payroll Taxes (a)"
+        "Social Security and Medicare Payroll Taxes (a)",
+        null,
+        null
       ],
       [
         "15.3%",
@@ -3714,7 +3727,9 @@
         "$200,000"
       ],
       [
-        "Corporate Income Tax"
+        "Corporate Income Tax",
+        null,
+        null
       ],
       [
         "Rates",
@@ -3727,7 +3742,9 @@
         "$0"
       ],
       [
-        "Select Federal Excise Taxes (b)"
+        "Select Federal Excise Taxes (b)",
+        null,
+        null
       ],
       [
         "Item",
@@ -3828,7 +3845,8 @@
       [
         "Alaska",
         null,
-        "None"
+        "None",
+        null
       ],
       [
         "Ariz. (c, d)",
@@ -3940,7 +3958,9 @@
       ],
       [
         "Colo. (b)",
-        "4.63% of federal taxable income with modifications"
+        "4.63% of federal taxable income with modifications",
+        null,
+        null
       ],
       [
         "Conn. (f)",
@@ -4023,7 +4043,8 @@
       [
         "Fla.",
         null,
-        "None"
+        "None",
+        null
       ],
       [
         "Ga.",
@@ -4177,11 +4198,15 @@
       ],
       [
         "Ill.",
-        "4.95% of federal AGI"
+        "4.95% of federal AGI",
+        null,
+        null
       ],
       [
         "Ind. (b)",
-        "3.23% of federal AGI"
+        "3.23% of federal AGI",
+        null,
+        null
       ],
       [
         "Iowa (a, b, c, d)",
@@ -4257,7 +4282,9 @@
       ],
       [
         "Ky. (b)",
-        "5% of federal AGI"
+        "5% of federal AGI",
+        null,
+        null
       ],
       [
         "La. (a)",
@@ -4345,11 +4372,15 @@
       ],
       [
         "Mass.",
-        "5% of federal AGI"
+        "5% of federal AGI",
+        null,
+        null
       ],
       [
         "Mich. (b)",
-        "4.25% of federal AGI"
+        "4.25% of federal AGI",
+        null,
+        null
       ],
       [
         "Minn. (c)",
@@ -4516,7 +4547,8 @@
       [
         "Nev.",
         null,
-        "None"
+        "None",
+        null
       ],
       [
         "N.H. (g)",
@@ -4827,7 +4859,8 @@
       [
         "S.D.",
         null,
-        "None"
+        "None",
+        null
       ],
       [
         "Tenn. (g)",
@@ -4838,11 +4871,14 @@
       [
         "Tex.",
         null,
-        "None"
+        "None",
+        null
       ],
       [
         "Utah",
-        "4.95% of federal AGI"
+        "4.95% of federal AGI",
+        null,
+        null
       ],
       [
         "Vt. (c, d)",
@@ -4895,7 +4931,8 @@
       [
         "Wash.",
         null,
-        "None"
+        "None",
+        null
       ],
       [
         "W.Va. (b)",
@@ -4954,7 +4991,8 @@
       [
         "Wyo.",
         null,
-        "None"
+        "None",
+        null
       ],
       [
         "D.C.",
@@ -5056,7 +5094,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "collections-per-capita": "$1,198"
+          "collections-per-capita": "$1,198",
+          "rank": null
         },
         {
           "fips": 1,
@@ -5424,7 +5463,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "collections-per-capita": "$1,181"
+          "collections-per-capita": "$1,181",
+          "rank": null
         },
         {
           "fips": 1,
@@ -6128,7 +6168,8 @@
       [
         "Nev.",
         null,
-        "(a)"
+        "(a)",
+        null
       ],
       [
         "N.H.",
@@ -6205,7 +6246,8 @@
       [
         "Ohio",
         null,
-        "(a)"
+        "(a)",
+        null
       ],
       [
         "Okla.",
@@ -6246,7 +6288,8 @@
       [
         "S.D.",
         null,
-        "None"
+        "None",
+        null
       ],
       [
         "Tenn. (a)",
@@ -6257,7 +6300,8 @@
       [
         "Tex.",
         null,
-        "(a)"
+        "(a)",
+        null
       ],
       [
         "Utah",
@@ -6292,7 +6336,8 @@
       [
         "Wash. ",
         null,
-        "(a)"
+        "(a)",
+        null
       ],
       [
         "W.Va.",
@@ -6309,7 +6354,8 @@
       [
         "Wyo.",
         null,
-        "None"
+        "None",
+        null
       ],
       [
         "D.C.",
@@ -6379,7 +6425,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "collections-per-capita": "$147"
+          "collections-per-capita": "$147",
+          "rank": null
         },
         {
           "fips": 1,
@@ -6760,7 +6807,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "collections-per-capita": "$162"
+          "collections-per-capita": "$162",
+          "rank": null
         },
         {
           "fips": 1,
@@ -7714,7 +7762,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "collections-per-capita": "$970"
+          "collections-per-capita": "$970",
+          "rank": null
         },
         {
           "fips": 1,
@@ -8082,7 +8131,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "collections-per-capita": "$1,196"
+          "collections-per-capita": "$1,196",
+          "rank": null
         },
         {
           "fips": 1,
@@ -8784,7 +8834,10 @@
         {
           "fips": 0,
           "state": "Federal",
-          "excise-tax": "$0.184"
+          "excise-tax": "$0.184",
+          "other-taxes-and-fees": null,
+          "total": null,
+          "rank": null
         },
         {
           "fips": 1,
@@ -9244,7 +9297,8 @@
           "state": "United States",
           "gasoline-license-taxes": "40.8%",
           "tolls-user-fees": "12.9%",
-          "total-tolls-user-fees-user-taxes": "53.7%"
+          "total-tolls-user-fees-user-taxes": "53.7%",
+          "rank": null
         },
         {
           "fips": 1,
@@ -9670,216 +9724,330 @@
           "name": "State",
           "id": "state",
           "order": 0
+        },
+        {
+          "name": "Tax Rate",
+          "id": "tax-rate",
+          "order": 1
+        },
+        {
+          "name": "Rank",
+          "id": "rank",
+          "order": 2
         }
       ],
       "values": [
         {
           "fips": 0,
-          "state": "Federal"
+          "state": "Federal",
+          "tax-rate": "$1.0066",
+          "rank": null
         },
         {
           "fips": 1,
-          "state": "Alabama"
+          "state": "Alabama",
+          "tax-rate": "$0.675",
+          "rank": "40"
         },
         {
           "fips": 2,
-          "state": "Alaska"
+          "state": "Alaska",
+          "tax-rate": "$2.00",
+          "rank": "16"
         },
         {
           "fips": 4,
-          "state": "Arizona"
+          "state": "Arizona",
+          "tax-rate": "$2.00",
+          "rank": "16"
         },
         {
           "fips": 5,
-          "state": "Arkansas"
+          "state": "Arkansas",
+          "tax-rate": "$1.15",
+          "rank": "34"
         },
         {
           "fips": 6,
-          "state": "California"
+          "state": "California",
+          "tax-rate": "$2.87",
+          "rank": "10"
         },
         {
           "fips": 8,
-          "state": "Colorado"
+          "state": "Colorado",
+          "tax-rate": "$0.84",
+          "rank": "38"
         },
         {
           "fips": 9,
-          "state": "Connecticut"
+          "state": "Connecticut",
+          "tax-rate": "$4.35",
+          "rank": "1"
         },
         {
           "fips": 10,
-          "state": "Delaware"
+          "state": "Delaware",
+          "tax-rate": "$2.10",
+          "rank": "14"
         },
         {
           "fips": 12,
-          "state": "Florida"
+          "state": "Florida",
+          "tax-rate": "$1.339",
+          "rank": "30"
         },
         {
           "fips": 13,
-          "state": "Georgia"
+          "state": "Georgia",
+          "tax-rate": "$0.37",
+          "rank": "48"
         },
         {
           "fips": 15,
-          "state": "Hawaii"
+          "state": "Hawaii",
+          "tax-rate": "$3.20",
+          "rank": "5"
         },
         {
           "fips": 16,
-          "state": " Idaho"
+          "state": " Idaho",
+          "tax-rate": "$0.57",
+          "rank": "44"
         },
         {
           "fips": 17,
-          "state": "Illinois"
+          "state": "Illinois",
+          "tax-rate": "$2.98",
+          "rank": "9"
         },
         {
           "fips": 18,
-          "state": "Indiana"
+          "state": "Indiana",
+          "tax-rate": "$0.995",
+          "rank": "37"
         },
         {
           "fips": 19,
-          "state": "Iowa"
+          "state": "Iowa",
+          "tax-rate": "$1.36",
+          "rank": "29"
         },
         {
           "fips": 20,
-          "state": "Kansas"
+          "state": "Kansas",
+          "tax-rate": "$1.29",
+          "rank": "32"
         },
         {
           "fips": 21,
-          "state": "Kentucky"
+          "state": "Kentucky",
+          "tax-rate": "$1.10",
+          "rank": "35"
         },
         {
           "fips": 22,
-          "state": "Louisiana"
+          "state": "Louisiana",
+          "tax-rate": "$1.08",
+          "rank": "36"
         },
         {
           "fips": 23,
-          "state": "Maine"
+          "state": "Maine",
+          "tax-rate": "$2.00",
+          "rank": "16"
         },
         {
           "fips": 24,
-          "state": " Maryland"
+          "state": " Maryland",
+          "tax-rate": "$2.00",
+          "rank": "16"
         },
         {
           "fips": 25,
-          "state": " Massachusetts"
+          "state": " Massachusetts",
+          "tax-rate": "$3.51",
+          "rank": "4"
         },
         {
           "fips": 26,
-          "state": " Michigan"
+          "state": " Michigan",
+          "tax-rate": "$2.00",
+          "rank": "16"
         },
         {
           "fips": 27,
-          "state": "Minnesota"
+          "state": "Minnesota",
+          "tax-rate": "$3.04",
+          "rank": "7"
         },
         {
           "fips": 28,
-          "state": "Mississippi"
+          "state": "Mississippi",
+          "tax-rate": "$0.68",
+          "rank": "39"
         },
         {
           "fips": 29,
-          "state": "Missouri"
+          "state": "Missouri",
+          "tax-rate": "$0.17",
+          "rank": "50"
         },
         {
           "fips": 30,
-          "state": "Montana"
+          "state": "Montana",
+          "tax-rate": "$1.70",
+          "rank": "24"
         },
         {
           "fips": 31,
-          "state": "Nebraska"
+          "state": "Nebraska",
+          "tax-rate": "$0.64",
+          "rank": "41"
         },
         {
           "fips": 32,
-          "state": "Nevada"
+          "state": "Nevada",
+          "tax-rate": "$1.80",
+          "rank": "22"
         },
         {
           "fips": 33,
-          "state": "New Hampshire"
+          "state": "New Hampshire",
+          "tax-rate": "$1.78",
+          "rank": "23"
         },
         {
           "fips": 34,
-          "state": "New Jersey"
+          "state": "New Jersey",
+          "tax-rate": "$2.70",
+          "rank": "11"
         },
         {
           "fips": 35,
-          "state": "New Mexico"
+          "state": "New Mexico",
+          "tax-rate": "$2.00",
+          "rank": "16"
         },
         {
           "fips": 36,
-          "state": "New York"
+          "state": "New York",
+          "tax-rate": "$4.35",
+          "rank": "1"
         },
         {
           "fips": 37,
-          "state": "North Carolina"
+          "state": "North Carolina",
+          "tax-rate": "$0.45",
+          "rank": "46"
         },
         {
           "fips": 38,
-          "state": "North Dakota"
+          "state": "North Dakota",
+          "tax-rate": "$0.44",
+          "rank": "47"
         },
         {
           "fips": 39,
-          "state": "Ohio"
+          "state": "Ohio",
+          "tax-rate": "$1.60",
+          "rank": "26"
         },
         {
           "fips": 40,
-          "state": "Oklahoma"
+          "state": "Oklahoma",
+          "tax-rate": "$2.03",
+          "rank": "15"
         },
         {
           "fips": 41,
-          "state": "Oregon"
+          "state": "Oregon",
+          "tax-rate": "$1.33",
+          "rank": "31"
         },
         {
           "fips": 42,
-          "state": " Pennsylvania"
+          "state": " Pennsylvania",
+          "tax-rate": "$2.60",
+          "rank": "12"
         },
         {
           "fips": 44,
-          "state": "Rhode Island"
+          "state": "Rhode Island",
+          "tax-rate": "$4.25",
+          "rank": "3"
         },
         {
           "fips": 45,
-          "state": "South Carolina"
+          "state": "South Carolina",
+          "tax-rate": "$0.57",
+          "rank": "44"
         },
         {
           "fips": 46,
-          "state": "South Dakota"
+          "state": "South Dakota",
+          "tax-rate": "$1.53",
+          "rank": "27"
         },
         {
           "fips": 47,
-          "state": "Tennessee"
+          "state": "Tennessee",
+          "tax-rate": "$0.62",
+          "rank": "42"
         },
         {
           "fips": 48,
-          "state": "Texas"
+          "state": "Texas",
+          "tax-rate": "$1.41",
+          "rank": "28"
         },
         {
           "fips": 49,
-          "state": "Utah"
+          "state": "Utah",
+          "tax-rate": "$1.70",
+          "rank": "24"
         },
         {
           "fips": 50,
-          "state": "Vermont"
+          "state": "Vermont",
+          "tax-rate": "$3.08",
+          "rank": "6"
         },
         {
           "fips": 51,
-          "state": "Virginia"
+          "state": "Virginia",
+          "tax-rate": "$0.30",
+          "rank": "49"
         },
         {
           "fips": 53,
-          "state": "Washington"
+          "state": "Washington",
+          "tax-rate": "$3.025",
+          "rank": "8"
         },
         {
           "fips": 54,
-          "state": "West Virginia"
+          "state": "West Virginia",
+          "tax-rate": "$1.20",
+          "rank": "33"
         },
         {
           "fips": 55,
-          "state": "Wisconsin"
+          "state": "Wisconsin",
+          "tax-rate": "$2.52",
+          "rank": "13"
         },
         {
           "fips": 56,
-          "state": "Wyoming"
+          "state": "Wyoming",
+          "tax-rate": "$0.60",
+          "rank": "43"
         },
         {
           "fips": 11,
-          "state": "District of Columbia"
+          "state": "District of Columbia",
+          "tax-rate": "$4.98",
+          "rank": "1"
         }
       ]
     },
@@ -10120,7 +10288,8 @@
         {
           "fips": 0,
           "state": "Federal",
-          "tax-rate": "$13.50"
+          "tax-rate": "$13.50",
+          "rank": null
         },
         {
           "footnotes": [
@@ -10593,30 +10762,48 @@
           "name": "State",
           "id": "state",
           "order": 0
+        },
+        {
+          "name": "Tax Rate",
+          "id": "tax-rate",
+          "order": 1
+        },
+        {
+          "name": "Rank",
+          "id": "rank",
+          "order": 2
         }
       ],
       "values": [
         {
           "fips": 0,
-          "state": "Federal"
+          "state": "Federal",
+          "tax-rate": "$1.07",
+          "rank": null
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 1,
-          "state": "Alabama"
+          "state": "Alabama",
+          "tax-rate": "$1.70",
+          "rank": "5"
         },
         {
           "fips": 2,
-          "state": "Alaska"
+          "state": "Alaska",
+          "tax-rate": "$2.50",
+          "rank": "2"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 4,
-          "state": "Arizona"
+          "state": "Arizona",
+          "tax-rate": "$0.84",
+          "rank": "26"
         },
         {
           "footnotes": [
@@ -10624,130 +10811,168 @@
             "c"
           ],
           "fips": 5,
-          "state": "Arkansas"
+          "state": "Arkansas",
+          "tax-rate": "$1.41",
+          "rank": "11"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 6,
-          "state": "California"
+          "state": "California",
+          "tax-rate": "$0.20",
+          "rank": "45"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 8,
-          "state": "Colorado"
+          "state": "Colorado",
+          "tax-rate": "$0.32",
+          "rank": "40"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 9,
-          "state": "Connecticut"
+          "state": "Connecticut",
+          "tax-rate": "$0.72",
+          "rank": "28"
         },
         {
           "fips": 10,
-          "state": "Delaware"
+          "state": "Delaware",
+          "tax-rate": "$1.63",
+          "rank": "7"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 12,
-          "state": "Florida"
+          "state": "Florida",
+          "tax-rate": "$2.25",
+          "rank": "3"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 13,
-          "state": "Georgia"
+          "state": "Georgia",
+          "tax-rate": "$1.51",
+          "rank": "8"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 15,
-          "state": "Hawaii"
+          "state": "Hawaii",
+          "tax-rate": "$1.38",
+          "rank": "14"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 16,
-          "state": " Idaho"
+          "state": " Idaho",
+          "tax-rate": "$0.45",
+          "rank": "37"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 17,
-          "state": "Illinois"
+          "state": "Illinois",
+          "tax-rate": "$1.39",
+          "rank": "13"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 18,
-          "state": "Indiana"
+          "state": "Indiana",
+          "tax-rate": "$0.47",
+          "rank": "36"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 19,
-          "state": "Iowa"
+          "state": "Iowa",
+          "tax-rate": "$1.75",
+          "rank": "4"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 20,
-          "state": "Kansas"
+          "state": "Kansas",
+          "tax-rate": "$0.30",
+          "rank": "41"
         },
         {
           "footnotes": [
             "d"
           ],
           "fips": 21,
-          "state": "Kentucky"
+          "state": "Kentucky",
+          "tax-rate": "$3.30",
+          "rank": "1"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 22,
-          "state": "Louisiana"
+          "state": "Louisiana",
+          "tax-rate": "$0.76",
+          "rank": "27"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 23,
-          "state": "Maine"
+          "state": "Maine",
+          "tax-rate": "$0.60",
+          "rank": "32"
         },
         {
           "footnotes": [
             "c"
           ],
           "fips": 24,
-          "state": " Maryland"
+          "state": " Maryland",
+          "tax-rate": "$1.48",
+          "rank": "10"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 25,
-          "state": " Massachusetts"
+          "state": " Massachusetts",
+          "tax-rate": "$0.55",
+          "rank": "33"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 26,
-          "state": " Michigan"
+          "state": " Michigan",
+          "tax-rate": "$0.51",
+          "rank": "35"
         },
         {
           "footnotes": [
@@ -10755,7 +10980,9 @@
             "c"
           ],
           "fips": 27,
-          "state": "Minnesota"
+          "state": "Minnesota",
+          "tax-rate": "$1.22",
+          "rank": "17"
         },
         {
           "footnotes": [
@@ -10763,32 +10990,42 @@
             "e"
           ],
           "fips": 28,
-          "state": "Mississippi"
+          "state": "Mississippi",
+          "tax-rate": "--",
+          "rank": "--"
         },
         {
           "fips": 29,
-          "state": "Missouri"
+          "state": "Missouri",
+          "tax-rate": "$0.42",
+          "rank": "38"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 30,
-          "state": "Montana"
+          "state": "Montana",
+          "tax-rate": "$1.06",
+          "rank": "20"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 31,
-          "state": "Nebraska"
+          "state": "Nebraska",
+          "tax-rate": "$0.95",
+          "rank": "23"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 32,
-          "state": "Nevada"
+          "state": "Nevada",
+          "tax-rate": "$0.70",
+          "rank": "30"
         },
         {
           "footnotes": [
@@ -10796,78 +11033,102 @@
             "e"
           ],
           "fips": 33,
-          "state": "New Hampshire"
+          "state": "New Hampshire",
+          "tax-rate": "--",
+          "rank": "--"
         },
         {
           "fips": 34,
-          "state": "New Jersey"
+          "state": "New Jersey",
+          "tax-rate": "$0.88",
+          "rank": "24"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 35,
-          "state": "New Mexico"
+          "state": "New Mexico",
+          "tax-rate": "$1.70",
+          "rank": "5"
         },
         {
           "fips": 36,
-          "state": "New York"
+          "state": "New York",
+          "tax-rate": "$0.30",
+          "rank": "41"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 37,
-          "state": "North Carolina"
+          "state": "North Carolina",
+          "tax-rate": "$1.00",
+          "rank": "22"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 38,
-          "state": "North Dakota"
+          "state": "North Dakota",
+          "tax-rate": "$1.22",
+          "rank": "18"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 39,
-          "state": "Ohio"
+          "state": "Ohio",
+          "tax-rate": "$0.32",
+          "rank": "39"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 40,
-          "state": "Oklahoma"
+          "state": "Oklahoma",
+          "tax-rate": "$0.72",
+          "rank": "28"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 41,
-          "state": "Oregon"
+          "state": "Oregon",
+          "tax-rate": "$0.67",
+          "rank": "31"
         },
         {
           "footnotes": [
             "e"
           ],
           "fips": 42,
-          "state": " Pennsylvania"
+          "state": " Pennsylvania",
+          "tax-rate": "--",
+          "rank": "--"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 44,
-          "state": "Rhode Island"
+          "state": "Rhode Island",
+          "tax-rate": "$1.40",
+          "rank": "12"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 45,
-          "state": "South Carolina"
+          "state": "South Carolina",
+          "tax-rate": "$1.08",
+          "rank": "19"
         },
         {
           "footnotes": [
@@ -10875,70 +11136,90 @@
             "c"
           ],
           "fips": 46,
-          "state": "South Dakota"
+          "state": "South Dakota",
+          "tax-rate": "$1.31",
+          "rank": "15"
         },
         {
           "footnotes": [
             "b"
           ],
           "fips": 47,
-          "state": "Tennessee"
+          "state": "Tennessee",
+          "tax-rate": "$1.27",
+          "rank": "16"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 48,
-          "state": "Texas"
+          "state": "Texas",
+          "tax-rate": "$0.20",
+          "rank": "44"
         },
         {
           "footnotes": [
             "e"
           ],
           "fips": 49,
-          "state": "Utah"
+          "state": "Utah",
+          "tax-rate": "--",
+          "rank": "--"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 50,
-          "state": "Vermont"
+          "state": "Vermont",
+          "tax-rate": "$0.55",
+          "rank": "33"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 51,
-          "state": "Virginia"
+          "state": "Virginia",
+          "tax-rate": "$1.51",
+          "rank": "8"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 53,
-          "state": "Washington"
+          "state": "Washington",
+          "tax-rate": "$0.87",
+          "rank": "25"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 54,
-          "state": "West Virginia"
+          "state": "West Virginia",
+          "tax-rate": "$1.00",
+          "rank": "21"
         },
         {
           "footnotes": [
             "a"
           ],
           "fips": 55,
-          "state": "Wisconsin"
+          "state": "Wisconsin",
+          "tax-rate": "$0.25",
+          "rank": "43"
         },
         {
           "footnotes": [
             "e"
           ],
           "fips": 56,
-          "state": "Wyoming"
+          "state": "Wyoming",
+          "tax-rate": "--",
+          "rank": "--"
         },
         {
           "footnotes": [
@@ -10946,7 +11227,9 @@
             "c"
           ],
           "fips": 11,
-          "state": "District of Columbia"
+          "state": "District of Columbia",
+          "tax-rate": "$1.89",
+          "rank": "4"
         }
       ]
     },
@@ -10997,7 +11280,8 @@
         {
           "fips": 0,
           "state": "Federal",
-          "tax-rate": "$0.58"
+          "tax-rate": "$0.58",
+          "rank": null
         },
         {
           "footnotes": [
@@ -11426,7 +11710,8 @@
           ],
           "fips": 0,
           "state": "Federal",
-          "average-state-local-tax-rate": "9.05%"
+          "average-state-local-tax-rate": "9.05%",
+          "rank": null
         },
         {
           "fips": 1,
@@ -12229,7 +12514,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "collections-per-capita": "$570"
+          "collections-per-capita": "$570",
+          "rank": null
         },
         {
           "fips": 1,
@@ -12569,7 +12855,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "effective-tax-rate": "1.11%"
+          "effective-tax-rate": "1.11%",
+          "rank": null
         },
         {
           "fips": 1,
@@ -12909,7 +13196,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "collections-per-capita": "$1,617"
+          "collections-per-capita": "$1,617",
+          "rank": null
         },
         {
           "fips": 1,
@@ -13701,7 +13989,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "debt-per-capita": "$3,587"
+          "debt-per-capita": "$3,587",
+          "rank": null
         },
         {
           "fips": 1,
@@ -14035,7 +14324,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "debt-per-capita": "$9,415"
+          "debt-per-capita": "$9,415",
+          "rank": null
         },
         {
           "fips": 1,
@@ -14704,7 +14994,8 @@
         {
           "fips": 0,
           "state": "United States",
-          "income-per-capita": "$54,446"
+          "income-per-capita": "$54,446",
+          "rank": null
         },
         {
           "fips": 1,
