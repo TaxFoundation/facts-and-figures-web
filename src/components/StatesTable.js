@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { kebabCase } from 'lodash';
 
@@ -27,8 +27,21 @@ function sortValues(a, b, sortAsc) {
 }
 
 const StatesTable = ({ id, data }) => {
+  const [table, setTable] = useState(id);
   const [sortBy, setSortBy] = useState('fips');
   const [sortAsc, setSortAsc] = useState(true);
+
+  useEffect(() => {
+    console.log(sortBy, id, table);
+    if (id !== table) {
+      setTable(id);
+    }
+    return () => {
+      setSortBy('fips');
+      setSortAsc(true);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [id, table]);
 
   return (
     <AlternateRowTable>
@@ -61,21 +74,22 @@ const StatesTable = ({ id, data }) => {
         </tr>
       </thead>
       <tbody>
-        {data.data.values
-          .sort((a, b) => sortValues(a[sortBy], b[sortBy], sortAsc))
-          .map((row, i) => (
-            <StyledTableRow key={`table-${id}-row-${kebabCase(row.state)}`}>
-              {data.data.headers.map((header, i) => {
-                return (
-                  <td key={`table-${id}-row-${kebabCase(row.state)}-${i}`}>
-                    {i === 0 && row.footnotes
-                      ? `${row[header.id]} (${row.footnotes.join(', ')})`
-                      : row[header.id]}
-                  </td>
-                );
-              })}
-            </StyledTableRow>
-          ))}
+        {id === table &&
+          data.data.values
+            .sort((a, b) => sortValues(a[sortBy], b[sortBy], sortAsc))
+            .map((row, i) => (
+              <StyledTableRow key={`table-${id}-row-${kebabCase(row.state)}`}>
+                {data.data.headers.map((header, i) => {
+                  return (
+                    <td key={`table-${id}-row-${kebabCase(row.state)}-${i}`}>
+                      {i === 0 && row.footnotes
+                        ? `${row[header.id]} (${row.footnotes.join(', ')})`
+                        : row[header.id]}
+                    </td>
+                  );
+                })}
+              </StyledTableRow>
+            ))}
       </tbody>
     </AlternateRowTable>
   );
