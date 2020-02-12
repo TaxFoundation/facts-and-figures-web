@@ -42,12 +42,14 @@ const StatesTable = ({ id, data }) => {
           .sort((a, b) => {
             return sortAsc ? a[sortBy] - b[sortBy] : b[sortBy] - a[sortBy];
           })
-          .map(row => (
+          .map((row, i) => (
             <StyledTableRow key={`table-${id}-row-${kebabCase(row.state)}`}>
               {data.data.headers.map((header, i) => {
                 return (
                   <td key={`table-${id}-row-${kebabCase(row.state)}-${i}`}>
-                    {row[header.id]}
+                    {i === 0 && row.footnotes
+                      ? `${row[header.id]} (${row.footnotes.join(', ')})`
+                      : row[header.id]}
                   </td>
                 );
               })}
