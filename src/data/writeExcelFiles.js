@@ -7,6 +7,7 @@ module.exports = data => {
     const wb = XLSX.utils.book_new();
     const ws_data = [];
     const top = ['title', 'subtitle', 'date'];
+    const bottom = ['notes', 'source'];
     const length = Array.isArray(data[key].data)
       ? data[key].data[0].length
       : data[key].data.headers.length;
@@ -42,9 +43,25 @@ module.exports = data => {
       });
       ws_data.push(new Array(length));
     }
+
+    if (data[key].footnotes) {
+      data[key].footnotes.forEach(footnote => {
+        const fnArray = new Array(length);
+        fnArray[0] = footnote;
+        ws_data.push(fnArray);
+      });
+    }
+
+    bottom.forEach(item => {
+      if (data[key][item]) {
+        const itemArray = new Array(length);
+        itemArray[0] = data[key][item];
+        ws_data.push(itemArray);
+      }
+    });
     // TODO add data to one sheet in file
     console.log(`Writing Table ${key}...`);
-    // XLSX.writeFile(wb, `../public/data/${_.kebabCase(data.title)}.xlsx`);
     console.log(ws_data);
+    // XLSX.writeFile(wb, destination);
   });
 };
