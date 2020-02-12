@@ -6,9 +6,23 @@ import { AlternateRowTable } from './Table';
 import SortedHeading from './ui/SortedHeading';
 import { StyledTableRow } from './ui/TableRow';
 
-function sortValues(a, b, sortAsc, sortBy) {
-  if (typeof +a === 'number' && typeof +b === 'number') {
-    return sortAsc ? a[sortBy] - b[sortBy] : b[sortBy] - a[sortBy];
+function sortValues(a, b, sortAsc) {
+  const numberMatch = /^\$?(\d+\.?\d*)%?$/;
+
+  if (isNaN(a) && isNaN(b)) {
+    const A = a
+      .replace(',', '')
+      .trim()
+      .match(numberMatch);
+    const B = b
+      .replace(',', '')
+      .trim()
+      .match(numberMatch);
+    if (A && B) {
+      return sortAsc ? +A[1] - +B[1] : +B[1] - +A[1];
+    }
+  } else if (typeof +a === 'number' && typeof +b === 'number') {
+    return sortAsc ? a - b : b - a;
   }
 }
 
@@ -48,7 +62,7 @@ const StatesTable = ({ id, data }) => {
       </thead>
       <tbody>
         {data.data.values
-          .sort((a, b) => sortValues(a, b, sortAsc, sortBy))
+          .sort((a, b) => sortValues(a[sortBy], b[sortBy], sortAsc))
           .map((row, i) => (
             <StyledTableRow key={`table-${id}-row-${kebabCase(row.state)}`}>
               {data.data.headers.map((header, i) => {
