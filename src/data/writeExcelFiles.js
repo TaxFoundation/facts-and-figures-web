@@ -91,10 +91,7 @@ module.exports = data => {
     console.log(`Old Excel files deleted.`);
 
     keys.forEach(key => {
-      const destination = path.join(
-        outputDirectory,
-        `table-${key}-${_.kebabCase(data[key].title)}.xlsx`
-      );
+      const destination = path.join(outputDirectory, `table-${key}.xlsx`);
       writeWorkbook(key, data, destination);
     });
   });

@@ -5,6 +5,7 @@ import Theme from './Theme';
 import Select from './components/ui/Select';
 import Table from './components/Table';
 import StatesTable from './components/StatesTable';
+import { StyledButtonLink } from './components/ui/Button';
 import TableHeader from './components/ui/TableHeader';
 import TableRow from './components/ui/TableRow';
 import data from './data/data.json';
@@ -50,7 +51,7 @@ function App() {
     <ThemeProvider theme={Theme}>
       <GlobalStyle />
       <AppWrapper>
-        <div>
+        <div style={{ marginBottom: '1rem' }}>
           <Select value={table} onChange={e => setTable(e.target.value)}>
             {keys.map(key => (
               <option
@@ -59,6 +60,9 @@ function App() {
               >{`Table ${key} - ${data[key].title}`}</option>
             ))}
           </Select>
+          <StyledButtonLink href={`data/table-${table}.xlsx`} download>
+            Download Table {table} as an Excel File
+          </StyledButtonLink>
         </div>
         {data[table].type === 'states' ? (
           <StatesTable id={table} data={data[table]} />
