@@ -4,6 +4,16 @@ const fs = require('fs');
 
 const mappings = require('./data/mappings.json');
 const parseStateTable = require('./data/parseStateTable');
+const writeExcelFiles = require('./data/writeExcelFiles');
+
+function maxLength(arrays) {
+  let length = 0;
+  arrays.forEach(array => {
+    length = Math.max(length, array.length);
+  });
+
+  return length;
+}
 
 let data = {};
 
@@ -39,6 +49,13 @@ const mapValues = (table, sheet) => {
     header: 1,
     range: table.data,
     raw: false
+  });
+
+  const columns = maxLength(rawData);
+  rawData.forEach(row => {
+    while (row.length < columns) {
+      row.push(null);
+    }
   });
 
   data[table.sheetName].data =
@@ -79,6 +96,8 @@ const writeData = () => {
     console.log('Writing new data to file...');
     fs.writeFileSync(destination, JSON.stringify(data, null, 2));
     console.log('New data created.');
+    console.log('Writing individual Excel files...');
+    writeExcelFiles(data);
   } catch (err) {
     throw err;
   }

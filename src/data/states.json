@@ -60,6 +60,12 @@
     "name": "Delaware"
   },
   {
+    "id": 10,
+    "postal": "DE",
+    "abbr": "Dela.",
+    "name": "Delaware"
+  },
+  {
     "id": 12,
     "postal": "FL",
     "abbr": "Fla.",
