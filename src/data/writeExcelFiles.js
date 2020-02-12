@@ -28,7 +28,11 @@ module.exports = data => {
       data[key].data.values.forEach(row => {
         let theRow = [];
         data[key].data.headers.forEach(header => {
-          if (row[header.id]) {
+          if (header.id === 'state' && row.footnotes) {
+            theRow.push(
+              `${row[header.id].trim()} (${row.footnotes.join(', ')})`
+            );
+          } else if (row[header.id]) {
             theRow.push(row[header.id].trim());
           } else {
             theRow.push(null);
