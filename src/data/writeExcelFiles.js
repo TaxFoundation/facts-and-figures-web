@@ -78,6 +78,8 @@ function writeWorkbook(key, data, destination) {
   const ws = XLSX.utils.aoa_to_sheet(ws_data);
   XLSX.utils.book_append_sheet(wb, ws, `Facts and Figures Table ${key}`);
   XLSX.writeFileSync(wb, destination);
+
+  return ws;
 }
 
 module.exports = data => {
@@ -98,10 +100,16 @@ module.exports = data => {
     }
     console.log(`Old Excel files deleted.`);
 
+    let wb = XLSX.utils.book_new();
     keys.forEach(key => {
       const destination = path.join(outputDirectory, `table-${key}.xlsx`);
-      writeWorkbook(key, data, destination);
+      let sheet = writeWorkbook(key, data, destination);
+      XLSX.utils.book_append_sheet(wb, sheet, key);
     });
+    XLSX.writeFileSync(
+      wb,
+      path.join(outputDirectory, 'facts-and-figures.xlsx')
+    );
   });
   console.log('New Excel files written.');
 };

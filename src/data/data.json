@@ -7160,79 +7160,54 @@
     ]
   },
   "18": {
-    "type": "states",
-    "data": {
-      "headers": [
-        {
-          "name": "State",
-          "id": "state",
-          "order": 0
-        },
-        {
-          "name": "Name of Tax",
-          "id": "name-of-tax",
-          "order": 1
-        },
-        {
-          "name": "Range of Rates",
-          "id": "range-of-rates",
-          "order": 2
-        }
+    "type": "table",
+    "data": [
+      [
+        "State",
+        "Name of Tax",
+        "Range of Rates"
       ],
-      "values": [
-        {
-          "fips": 10,
-          "state": "Delaware",
-          "name-of-tax": "Manufacturers' & Merchants' License Tax",
-          "range-of-rates": "0.0945% - 1.9914%"
-        },
-        {
-          "fips": 32,
-          "state": "Nevada",
-          "name-of-tax": "Commerce Tax",
-          "range-of-rates": "0.051%-0.331%"
-        },
-        {
-          "fips": 39,
-          "state": "Ohio",
-          "name-of-tax": "Commercial Activities Tax (CAT)",
-          "range-of-rates": "0.26%"
-        },
-        {
-          "fips": 41,
-          "state": "Oregon",
-          "name-of-tax": "Corporate Activity Tax (CAT)",
-          "range-of-rates": "0.57%"
-        },
-        {
-          "fips": 47,
-          "state": "Tennessee",
-          "name-of-tax": "Business Tax",
-          "range-of-rates": "0.02% - 0.3%"
-        },
-        {
-          "fips": 48,
-          "state": "Texas",
-          "name-of-tax": "Franchise (Margin) Tax",
-          "range-of-rates": "0.331% -  0.75%"
-        },
-        {
-          "footnotes": [
-            "a"
-          ],
-          "fips": 51,
-          "state": "Virginia",
-          "name-of-tax": "Business/Professional/Occupational License Tax (BPOL)",
-          "range-of-rates": "0.02% - 0.58%"
-        },
-        {
-          "fips": 53,
-          "state": "Washington",
-          "name-of-tax": "Business & Occupation Tax (B&O)",
-          "range-of-rates": "0.13% - 3.3%"
-        }
+      [
+        "Del.",
+        "Manufacturers' & Merchants' License Tax",
+        "0.0945% - 1.9914%"
+      ],
+      [
+        "Nev.",
+        "Commerce Tax",
+        "0.051%-0.331%"
+      ],
+      [
+        "Ohio",
+        "Commercial Activities Tax (CAT)",
+        "0.26%"
+      ],
+      [
+        "Ore.",
+        "Corporate Activity Tax (CAT)",
+        "0.57%"
+      ],
+      [
+        "Tenn.",
+        "Business Tax",
+        "0.02% - 0.3%"
+      ],
+      [
+        "Tex.",
+        "Franchise (Margin) Tax",
+        "0.331% -  0.75%"
+      ],
+      [
+        "Va. (a)",
+        "Business/Professional/Occupational License Tax (BPOL)",
+        "0.02% - 0.58%"
+      ],
+      [
+        "Wash.",
+        "Business & Occupation Tax (B&O)",
+        "0.13% - 3.3%"
       ]
-    },
+    ],
     "title": "State Gross Receipts Taxes",
     "date": "As of January 1, 2020",
     "notes": "Note: Gross receipts taxes are complex business taxes imposed at a low rate but on a wide base of transactions, resulting in high effective tax rates that can vary by industry. These taxes also often have minimum taxes that can result in much higher effective rates for some small businesses.",
