@@ -1,6 +1,7 @@
 const XLSX = require('xlsx');
 const path = require('path');
 const fs = require('fs');
+const _ = require('lodash');
 
 const mappings = require('./data/mappings.json');
 const parseStateTable = require('./data/parseStateTable');
@@ -61,6 +62,50 @@ const mapValues = (table, sheet) => {
     : null;
 };
 
+const writeTableToExcel = data => {
+  const keys = Object.keys(data);
+  keys.forEach(key => {
+    const wb = XLSX.utils.book_new();
+    const ws_data = [];
+    const top = ['title', 'subtitle', 'date'];
+    const length = Array.isArray(data[key].data)
+      ? data[key].data[0].length
+      : data[key].data.headers.length;
+
+    top.forEach(item => {
+      if (data[key][item]) {
+        const itemArray = new Array(length);
+        itemArray[0] = data[key][item];
+        ws_data.push(itemArray);
+      }
+    });
+
+    if (data[key].type !== 'states') {
+      ws_data.push(new Array(length));
+      ws_data.push(data[key].data);
+      ws_data.push(new Array(length));
+    } else {
+      ws_data.push(new Array(length));
+      data[key].data.values.forEach(row => {
+        let theRow = [];
+        data[key].data.headers.forEach(header => {
+          if (row[header.id]) {
+            theRow.push(row[header.id].trim());
+          } else {
+            theRow.push(null);
+          }
+        });
+        ws_data.push(theRow);
+      });
+      ws_data.push(new Array(length));
+    }
+    // TODO add data to one sheet in file
+    console.log(`Writing Table ${key}...`);
+    // XLSX.writeFile(wb, `../public/data/${_.kebabCase(data.title)}.xlsx`);
+    console.log(ws_data);
+  });
+};
+
 const buildData = () => {
   fs.access(source, err => {
     if (err) throw err;
@@ -79,6 +124,8 @@ const writeData = () => {
     console.log('Writing new data to file...');
     fs.writeFileSync(destination, JSON.stringify(data, null, 2));
     console.log('New data created.');
+    console.log('Writing individual Excel files...');
+    writeTableToExcel(data);
   } catch (err) {
     throw err;
   }
