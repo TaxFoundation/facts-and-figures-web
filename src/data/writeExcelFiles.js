@@ -24,7 +24,7 @@ function writeWorkbook(key, data, destination) {
   top.forEach(item => {
     if (data[key][item]) {
       const itemArray = new Array(length);
-      itemArray[0] = data[key][item];
+      itemArray[0] = data[key][item].trim();
       ws_data.push(itemArray);
     }
   });
@@ -35,6 +35,13 @@ function writeWorkbook(key, data, destination) {
     ws_data.push(new Array(length));
   } else {
     ws_data.push(new Array(length));
+    // create array for header row
+    let theHeaders = [];
+    data[key].data.headers.forEach(header => {
+      theHeaders.push(header.name);
+    });
+    ws_data.push(theHeaders);
+    // create arrays for each row of data
     data[key].data.values.forEach(row => {
       let theRow = [];
       data[key].data.headers.forEach(header => {
@@ -54,15 +61,17 @@ function writeWorkbook(key, data, destination) {
   if (data[key].footnotes) {
     data[key].footnotes.forEach(footnote => {
       const fnArray = new Array(length);
-      fnArray[0] = footnote;
-      ws_data.push(fnArray);
+      if (footnote[0]) {
+        fnArray[0] = footnote[0].trim();
+        ws_data.push(fnArray);
+      }
     });
   }
 
   bottom.forEach(item => {
     if (data[key][item]) {
       const itemArray = new Array(length);
-      itemArray[0] = data[key][item];
+      itemArray[0] = data[key][item].trim();
       ws_data.push(itemArray);
     }
   });
