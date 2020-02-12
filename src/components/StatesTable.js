@@ -6,6 +6,12 @@ import { AlternateRowTable } from './Table';
 import SortedHeading from './ui/SortedHeading';
 import { StyledTableRow } from './ui/TableRow';
 
+function sortValues(a, b, sortAsc, sortBy) {
+  if (typeof +a === 'number' && typeof +b === 'number') {
+    return sortAsc ? a[sortBy] - b[sortBy] : b[sortBy] - a[sortBy];
+  }
+}
+
 const StatesTable = ({ id, data }) => {
   const [sortBy, setSortBy] = useState('fips');
   const [sortAsc, setSortAsc] = useState(true);
@@ -26,10 +32,13 @@ const StatesTable = ({ id, data }) => {
               orderedBy={sortBy}
               id={header.id === 'state' ? 'fips' : header.id}
               onClick={() => {
+                header.id === sortBy ||
+                (header.id === 'state' && sortBy === 'fips')
+                  ? setSortAsc(!sortAsc)
+                  : setSortAsc(true);
                 header.id === 'state'
                   ? setSortBy('fips')
                   : setSortBy(header.id);
-                setSortAsc(!sortAsc);
               }}
             >
               <div>{header.name}</div>
@@ -39,9 +48,7 @@ const StatesTable = ({ id, data }) => {
       </thead>
       <tbody>
         {data.data.values
-          .sort((a, b) => {
-            return sortAsc ? a[sortBy] - b[sortBy] : b[sortBy] - a[sortBy];
-          })
+          .sort((a, b) => sortValues(a, b, sortAsc, sortBy))
           .map((row, i) => (
             <StyledTableRow key={`table-${id}-row-${kebabCase(row.state)}`}>
               {data.data.headers.map((header, i) => {

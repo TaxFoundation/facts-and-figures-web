@@ -1,7 +1,6 @@
 const XLSX = require('xlsx');
 const path = require('path');
 const fs = require('fs');
-const _ = require('lodash');
 
 const mappings = require('./data/mappings.json');
 const parseStateTable = require('./data/parseStateTable');
