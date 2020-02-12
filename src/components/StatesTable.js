@@ -6,20 +6,16 @@ import { AlternateRowTable } from './Table';
 import SortedHeading from './ui/SortedHeading';
 import { StyledTableRow } from './ui/TableRow';
 
-function sortValues(a, b, sortAsc) {
-  const numberMatch = /^\$?(\d+\.?\d*)%?$/;
+function valueCleanup(value) {
+  return value.trim().replace(/[$%,-]/g, '');
+}
 
+function sortValues(a, b, sortAsc) {
   if (isNaN(a) && isNaN(b)) {
-    const A = a
-      .replace(',', '')
-      .trim()
-      .match(numberMatch);
-    const B = b
-      .replace(',', '')
-      .trim()
-      .match(numberMatch);
-    if (A && B) {
-      return sortAsc ? +A[1] - +B[1] : +B[1] - +A[1];
+    const A = valueCleanup(a);
+    const B = valueCleanup(b);
+    if (!isNaN(A) && !isNaN(B)) {
+      return sortAsc ? +A - +B : +B - +A;
     }
   } else if (typeof +a === 'number' && typeof +b === 'number') {
     return sortAsc ? a - b : b - a;
@@ -32,7 +28,6 @@ const StatesTable = ({ id, data }) => {
   const [sortAsc, setSortAsc] = useState(true);
 
   useEffect(() => {
-    console.log(sortBy, id, table);
     if (id !== table) {
       setTable(id);
     }

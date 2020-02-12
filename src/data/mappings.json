@@ -165,7 +165,7 @@
   },
   {
     "sheetName": "18",
-    "type": "states",
+    "type": "table",
     "title": "A2",
     "date": "A3",
     "data": "A5:C13",
