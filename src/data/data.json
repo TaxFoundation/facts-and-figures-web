@@ -3493,8 +3493,8 @@
     },
     "title": "Federal Aid as a Percentage of State General Revenue",
     "date": "Fiscal Year 2017",
-    "notes": "Note: Figures are calculated by dividing each state's \"Intergovernmental Revenue\" by its \"General Revenue.\" \"Intergovernmental Revenue\" includes money transferred from one level of government to another, like federal grants to states.\"General Revenue\" includes all tax revenue but excludes utility revenue, liquor store revenue, and investment income from state pension funds. D.C. is included only in combined state-local data.",
-    "source": "Sources: U.S. Census Bureau, \"Annual Survey of State and Local Government Finances\"; Tax Foundation calculations",
+    "notes": "Note: Figures are calculated by dividing each state's \"Federal Intergovernmental Revenue\" by its \"General Revenue.\" \"Federal Intergovernmental Revenue\" includes money transferred from the federal government to states. \"General Revenue\" includes all tax revenue but excludes utility revenue, liquor store revenue, and investment income from state pension funds. D.C. is designated as a local entity by the U.S. Census Bureau and is thus not included here.",
+    "source": "Sources: U.S. Census Bureau, \"Annual Survey of State and Local Government Finances\"; Tax Foundation calculations.",
     "footnotes": null
   },
   "10": {
@@ -3808,7 +3808,7 @@
     "source": "Sources: Tax Foundation; Internal Revenue Service; Bloomberg Tax; American Petroleum Institute; Alchohol and Tobacco Tax and Trade Bureau. ",
     "footnotes": [
       [
-        "(a) These are total payroll tax rates. The Social Security tax is split evenly between employer and employee (6.2% each) for all income levels up to $137,700. The 1.45% Medicare tax is levied on both employers and employees on all income. The Additional Medicare Tax of 0.9% is levied only on households with wages and compensation exceeding $200,000 in the case of single filers, and compensation exceeding $250,000 in the case of married households filing jointly."
+        "(a) These are total payroll tax rates. The Social Security tax is split evenly between employer and employee (6.2% each) for all income levels up to $137,700. The 1.45% Medicare tax is levied on both employers and employees on all income levels. The Additional Medicare Tax of 0.9% is levied only on households with wages and compensation exceeding $200,000 in the case of single filers, and compensation exceeding $250,000 in the case of married households filing jointly."
       ],
       [
         "(b) In state excise tax Tables 23-31, federal gasoline, alcohol, cell phone, and tobacco excise taxes are included under the \"Federal\" line and are in addition to any state taxes."
@@ -4305,7 +4305,7 @@
         "$50,000 "
       ],
       [
-        "Maine (c, d)",
+        "Maine (c)",
         "5.80%",
         ">",
         "$0 "
@@ -5056,7 +5056,7 @@
         "(d) 2019 brackets due to data availability."
       ],
       [
-        "(e) Rates apply to individuals earning more than $79,300 in Arkansas. Two special tax tables exist for low- and middle-income individuals: one for individuals below $22,000 in income, and one for those between $22,000 and $79,300."
+        "(e) Rates apply to individuals earning more than $79,300 in Arkansas. Two special tax tables exist for low- and middle-income individuals: one for individuals below $22,200 in income, and one for those between $22,200 and $79,300."
       ],
       [],
       [],
@@ -8422,7 +8422,7 @@
     },
     "title": " State & Local General Sales Tax Collections per Capita",
     "date": "Fiscal Year 2017",
-    "notes": "Note: Some states levy gross receipts taxes in addition to sales taxes, which the U.S. Census Bureau includes in collections data. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See Table 18 for information on gross receipts taxes. See Table 43 for people per household by state. ",
+    "notes": "Note: Some states levy gross receipts taxes in addition to sales taxes, which the U.S. Census Bureau includes in collections data. See Table 18 for information on gross receipts taxes. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See Table 43 for people per household by state. ",
     "source": "Sources: U.S. Census Bureau, \"Annual Survey of State and Local Government Finances\"; Tax Foundation calculations.",
     "footnotes": [
       [
@@ -10182,7 +10182,7 @@
       ],
       [
         "Alaska ",
-        "$50/ounce mature flowers, $25/ouce immature flowers, $15/oz. trim, $1 per clone"
+        "$50/oz. mature flowers, $25/oz. immature flowers, $15/oz. trim, $1 per clone"
       ],
       [
         "Calif.",
@@ -10190,7 +10190,7 @@
       ],
       [
         null,
-        "$9.65/oz flowers & $2.87/oz leaves cultivation tax, $1.35/oz fresh cannabis plant"
+        "$9.65/oz. flowers & $2.87/oz. leaves cultivation tax, $1.35/oz fresh cannabis plant"
       ],
       [
         "Colo.",
@@ -13758,7 +13758,7 @@
         }
       ]
     },
-    "title": "Estate Tax Rates & Exemptions",
+    "title": "State Estate Tax Rates & Exemptions",
     "date": "As of January 1, 2020",
     "source": "Sources: Bloomberg Tax; state statutes.",
     "footnotes": [
