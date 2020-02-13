@@ -12,7 +12,7 @@ const SortedHeading = styled.th`
     overflow: hidden;
     text-overflow: ellipsis;
 
-    @media screen and (min-width: 700px) {
+    @media screen and (min-width: 500px) {
       padding-right: 0.5rem;
       position: relative;
 
