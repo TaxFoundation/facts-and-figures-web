@@ -10057,7 +10057,7 @@
         {
           "fips": 9,
           "state": "Connecticut",
-          "tax-rate": "$0.40 per ml. closed tanks, 10% of wholesale other vapor products"
+          "tax-rate": "$0.40/ml closed tanks, 10% of wholesale other vapor products"
         },
         {
           "fips": 10,
@@ -10100,7 +10100,7 @@
         {
           "fips": 33,
           "state": "New Hampshire",
-          "tax-rate": "$0.30 per ml. closed tanks, 8% of wholesale open tanks"
+          "tax-rate": "$0.30/ml closed tanks, 8% of wholesale open tanks"
         },
         {
           "fips": 34,
@@ -10140,7 +10140,7 @@
         {
           "fips": 53,
           "state": "Washington",
-          "tax-rate": "$0.09 per ml. open tanks, $0.27 per ml. closed tanks "
+          "tax-rate": "$0.09/ml. open tanks, $0.27/ml closed tanks "
         },
         {
           "fips": 54,
@@ -11638,8 +11638,8 @@
     "title": "State Beer Excise Tax Rates",
     "subtitle": "(Dollars per Gallon)",
     "date": "As of January 1, 2020",
-    "notes": "Note: Rates are those applicable to off-premise sales of 4.7% a.b.v. beer in 12-ounce containers which have been imported from outside the state. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
-    "source": "Source: Distilled Spirits Council of the United States; Tax Foundation.",
+    "notes": "Note: Rates are those applicable to off-premise sales of 4.7% a.b.v. beer in 12-ounce containers which have been imported from outside the state. At the federal level, beer is subject to differing tax rates. Small domestic brewers are taxed between $0.11/gallon and $0.516/gallon. All other brewers are taxes at rates between $0.516/gallon and $0.58/gallon. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
+    "source": "Sources: Distilled Spirits Council of the United States; state revenue departments; Tax Foundation.",
     "footnotes": [
       [
         "(a) Includes statewide local rate in Alabama ($0.52) and Georgia ($0.53)."
@@ -13144,7 +13144,7 @@
     "title": " Property Taxes Paid as a Percentage of Owner-Occupied Housing Value",
     "date": "Calendar Year 2018",
     "notes": "Note: The figures in this table are mean effective property tax rates on owner-occupied housing (total real taxes paid/total home value). As a result, the data exclude property taxes paid by businesses, renters, and others. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
-    "source": "Sources: U.S. Census Bureau, \"2017 American Community Survey\"; Tax Foundation calculations.",
+    "source": "Sources: U.S. Census Bureau, \"2018 American Community Survey\"; Tax Foundation calculations.",
     "footnotes": null
   },
   "35": {
