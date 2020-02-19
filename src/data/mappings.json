@@ -240,7 +240,8 @@
     "date": "A4",
     "data": "B6:D58",
     "notes": "A60",
-    "source": "A63"
+    "source": "A63",
+    "footnotes": "A61"
   },
   {
     "sheetName": "26",
