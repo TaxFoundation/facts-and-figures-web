@@ -9782,7 +9782,7 @@
           "fips": 15,
           "state": "Hawaii",
           "tax-rate": "$3.20",
-          "rank": "5"
+          "rank": "6"
         },
         {
           "fips": 16,
@@ -9842,7 +9842,7 @@
           "fips": 25,
           "state": " Massachusetts",
           "tax-rate": "$3.51",
-          "rank": "4"
+          "rank": "5"
         },
         {
           "fips": 26,
@@ -9856,8 +9856,8 @@
           ],
           "fips": 27,
           "state": "Minnesota",
-          "tax-rate": "$3.04",
-          "rank": "7"
+          "tax-rate": "$3.65",
+          "rank": "4"
         },
         {
           "fips": 28,
@@ -9989,7 +9989,7 @@
           "fips": 50,
           "state": "Vermont",
           "tax-rate": "$3.08",
-          "rank": "6"
+          "rank": "7"
         },
         {
           "fips": 51,
