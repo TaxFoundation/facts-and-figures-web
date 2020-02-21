@@ -11,9 +11,10 @@ function valueCleanup(value) {
 }
 
 function sortValues(a, b, sortAsc) {
-  if (isNaN(a) && isNaN(b)) {
+  if (isNaN(a) || isNaN(b)) {
     const A = valueCleanup(a);
     const B = valueCleanup(b);
+    console.log(a, A, b, B)
     if (!isNaN(A) && !isNaN(B)) {
       return sortAsc ? +A - +B : +B - +A;
     }
@@ -47,9 +48,9 @@ const StatesTable = ({ id, data }) => {
       </caption>
       <thead>
         <tr>
-          {data.data.headers.map(header => (
+          {data.data.headers.map((header, i) => (
             <SortedHeading
-              key={`table-${id}-header-${header.id}`}
+              key={`table-${id}-header-${header.id}-${i}`}
               ascending={sortAsc}
               orderedBy={sortBy}
               id={header.id === 'state' ? 'fips' : header.id}
