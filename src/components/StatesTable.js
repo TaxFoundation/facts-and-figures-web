@@ -12,9 +12,8 @@ function valueCleanup(value) {
 
 function sortValues(a, b, sortAsc) {
   if (isNaN(a) || isNaN(b)) {
-    const A = valueCleanup(a);
-    const B = valueCleanup(b);
-    console.log(a, A, b, B)
+    const A = a ? valueCleanup(a) : 0;
+    const B = b ? valueCleanup(b) : 0;
     if (!isNaN(A) && !isNaN(B)) {
       return sortAsc ? +A - +B : +B - +A;
     }
