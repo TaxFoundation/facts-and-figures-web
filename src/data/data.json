@@ -10031,11 +10031,11 @@
     "title": "State Cigarette Excise Tax Rates ",
     "subtitle": "(Dollars per 20-Pack)",
     "date": "As of January 1, 2021",
-    "notes": "(a) Rate includes in lieu cigarette sales tax collected at wholesale.",
+    "notes": "Note: Local taxes are not included and can be substantial. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
     "source": "Sources: Bloomberg Tax; state revenue departments; Tax Foundation.",
     "footnotes": [
       [
-        "Note: Local taxes are not included and can be substantial. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included."
+        "(a) Rate includes in lieu cigarette sales tax collected at wholesale."
       ]
     ]
   },
