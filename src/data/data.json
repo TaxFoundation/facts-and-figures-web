@@ -3561,7 +3561,7 @@
     ],
     "title": "Federal Income Tax Payments by Income Percentile",
     "date": "Calendar Year 2018",
-    "notes": "Note: There were rougly 144.3 million total federal income tax filers in 2018. Total adjusted gross income (AGI) was rougly $11.6 trillion. The top 1% of earners have AGI above $540,009; the top 5% have AGI above $217,913; the top 10% have AGI above $151,935; the top 25% have AGI above $87,044; and the top 50% have AGI above $43,614. ",
+    "notes": "Note: There were roughly 144.3 million total federal income tax filers in 2018. Total adjusted gross income (AGI) was roughly $11.6 trillion. The top 1% of earners have AGI above $540,009; the top 5% have AGI above $217,913; the top 10% have AGI above $151,935; the top 25% have AGI above $87,044; and the top 50% have AGI above $43,614. ",
     "source": "Sources: Tax Foundation, \"Summary of the Latest Federal Income Tax Data, 2021 Update\"; IRS, Statistics of Income Division.",
     "footnotes": null
   },
@@ -3806,7 +3806,7 @@
     ],
     "title": "Selected Federal Tax Rates",
     "date": "Calendar Year 2021",
-    "source": "Sources: Tax Foundation; Internal Revenue Service; Bloomberg Tax; American Petroleum Institute; Alchohol and Tobacco Tax and Trade Bureau. ",
+    "source": "Sources: Tax Foundation; IRS; American Petroleum Institute; Alchohol and Tobacco Tax and Trade Bureau. ",
     "footnotes": [
       [
         "(a) These are total payroll tax rates. The Social Security tax is split evenly between employer and employee (6.2% each) for all income levels up to $142,800. The 1.45% Medicare tax is levied on both employers and employees on all income levels. The Additional Medicare Tax of 0.9% is levied only on households with wages and compensation exceeding $200,000 in a calendar year."
@@ -4199,7 +4199,7 @@
       ],
       [
         "Ill.",
-        "5%",
+        "4.95%",
         ">",
         "$0 "
       ],
@@ -4883,7 +4883,7 @@
       ],
       [
         "Utah",
-        "5%",
+        "4.95%",
         ">",
         "$0 "
       ],
@@ -5041,13 +5041,13 @@
     "title": "State Individual Income Tax Rates",
     "date": "As of January 1, 2021",
     "notes": "Note: Brackets are for single taxpayers. Some states double bracket widths for joint filers (Ala., Ariz, Conn., Hawaii, Idaho, Kans., La., Maine, Nebr., Ore.). California doubles all but the top two brackets. Oklahoma doubles all but the top bracket. Some states increase but do not double brackets for joint filers (Ga., Minn., N.M., N.D., N.Y., Vt., Wis.). Maryland increases some but not all brackets. New Jersey adds a 2.45% rate and increases some bracket widths. Consult the Tax Foundation website for tables for joint filers.",
-    "source": "Source: Tax Foundation; state tax statutes, forms, and instructions; Bloomberg Tax.",
+    "source": "Sources: Tax Foundation; state tax statutes, forms, and instructions; Bloomberg Tax.",
     "footnotes": [
       [
         "(a) These states allow some or all of federal income tax paid to be deducted from state taxable income."
       ],
       [
-        "(b) Local income taxes are excluded. Eleven states have county- or city-level income taxes; the average rates expressed as a percentage of AGI within each jurisdiction are: 0.10% in Alabama; 0.36% in Indiana; 0.11% in Iowa; 1.29% in Kentucky; 2.18% in Maryland; 0.17% in Michigan; 0.22% in Missouri; 1.47% in New York; 1.59% in Ohio; and 1.15% in Pennsylvania. Data are not available in Delaware, where Wilmington imposes a municipal income tax. In California, Colorado, Kansas, New Jersey, Oregon, and West Virginia, some jurisdictions have payroll taxes; flat, dollar-denominated wage taxes; or interest and dividend income taxes. See Jared Walczak, “Local Income Taxes in 2019.\""
+        "(b) Local income taxes are excluded. Eleven states have county- or city-level income taxes; the average rates expressed as a percentage of AGI within each jurisdiction are: 0.10% in Alabama; 0.36% in Indiana; 0.11% in Iowa; 1.29% in Kentucky; 2.18% in Maryland; 0.17% in Michigan; 0.22% in Missouri; 1.47% in New York; 1.59% in Ohio; and 1.15% in Pennsylvania; data are not available in Delaware, where Wilmington imposes a municipal income tax. In California, Colorado, Kansas, New Jersey, Oregon, and West Virginia, some jurisdictions have payroll taxes; flat, dollar-denominated wage taxes; or interest and dividend income taxes. See Jared Walczak, “Local Income Taxes in 2019.\""
       ],
       [
         "(c) Bracket levels are adjusted for inflation each year."
@@ -5989,7 +5989,7 @@
       ],
       [
         "Ill. (e)",
-        "10.49%",
+        "9.50%",
         ">",
         "$0 "
       ],
@@ -6360,7 +6360,7 @@
     "source": "Sources: Tax Foundation; state tax statutes, forms, and instructions; Bloomberg Tax.",
     "footnotes": [
       [
-        "(a) Connecticut charges a 10% surtax on a business's tax liability if it has gross proceeds of $100 million or more, or it it files as part of a combined unitary group."
+        "(a) Connecticut charges a 10% surtax on a business's tax liability if it has gross proceeds of $100 million or more, or if it files as part of a combined unitary group."
       ],
       [
         "(b) Nevada, Ohio, Texas, and Washington do not have a corporate income tax but do have a gross receipts tax with rates not strictly comparable to corporate income tax rates. See Table 18 for more information. Delaware, Oregon, and Tennessee have gross receipts taxes in addition to corporate income taxes, as do several states like Pennsylvania, Virginia, and West Virginia, which permit gross receipts taxes at the local (but not state) level."
@@ -6385,7 +6385,7 @@
       ],
       [],
       [
-        "(g) Mississippi continues to phase out the 3 percent bracket by increasing the exemption by $1,000 a year. By the start of 2022, the 3% bracket will be fully eliminated."
+        "(g) Mississippi continues to phase out the 3% bracket by increasing the exemption by $1,000 a year. By the start of 2022, the 3% bracket will be fully eliminated."
       ],
       [],
       []
@@ -10376,8 +10376,8 @@
           ],
           "fips": 9,
           "state": "Connecticut",
-          "tax-rate": "$5.40",
-          "rank": "29"
+          "tax-rate": "$5.94",
+          "rank": "26"
         },
         {
           "footnotes": [
@@ -10571,7 +10571,7 @@
           "fips": 34,
           "state": "New Jersey",
           "tax-rate": "$5.50",
-          "rank": "27"
+          "rank": "28"
         },
         {
           "fips": 35,
@@ -10620,7 +10620,7 @@
           "fips": 40,
           "state": "Oklahoma",
           "tax-rate": "$5.56",
-          "rank": "26"
+          "rank": "27"
         },
         {
           "footnotes": [
@@ -10647,7 +10647,7 @@
           "fips": 44,
           "state": "Rhode Island",
           "tax-rate": "$5.40",
-          "rank": "29"
+          "rank": "30"
         },
         {
           "footnotes": [
@@ -10656,7 +10656,7 @@
           "fips": 45,
           "state": "South Carolina",
           "tax-rate": "$5.42",
-          "rank": "28"
+          "rank": "29"
         },
         {
           "footnotes": [
@@ -10761,7 +10761,7 @@
     "title": "State Spirits Excise Tax Rates",
     "subtitle": " (Dollars per Gallon)",
     "date": " As of January 1, 2021",
-    "notes": "Note: Rates are those applicable to off-premise sales of 40% alcohol by volume (a.b.v.) distilled spirits in 750ml containers. At the federal level, spirits are subject to a tiered tax system. Federal rates are $2.70 per proof gallon on the first 100,000 gallons per calendar year, $13.34/proof gallon for more than 100,000 gallons but less than 22,23,000 and $13.50/proof gallon for more than 22,230,000 gallons. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. The alcohol excise tax provisions of the Tax Cuts and Jobs Act were made permanent as of Dec. 27, 2020.",
+    "notes": "Note: Rates are those applicable to off-premise sales of 40% alcohol by volume (a.b.v.) distilled spirits in 750ml containers. At the federal level, spirits are subject to a tiered tax system. Federal rates are $2.70 per proof gallon on the first 100,000 gallons per calendar year, $13.34/proof gallon for more than 100,000 gallons but less than 22.23 million and $13.50/proof gallon for more than 22.23 million gallons. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. The alcohol excise tax provisions of the Tax Cuts and Jobs Act were made permanent as of Dec. 27, 2020.",
     "source": "Sources: Distilled Spirits Council of the United States; Alcohol and Tobacco Tax and Trade Bureau.",
     "footnotes": [
       [
@@ -10869,8 +10869,8 @@
           ],
           "fips": 9,
           "state": "Connecticut",
-          "tax-rate": "$0.72",
-          "rank": "28"
+          "tax-rate": "$0.792",
+          "rank": "27"
         },
         {
           "fips": 10,
@@ -10966,7 +10966,7 @@
           "fips": 22,
           "state": "Louisiana",
           "tax-rate": "$0.76",
-          "rank": "27"
+          "rank": "28"
         },
         {
           "footnotes": [
@@ -11122,7 +11122,7 @@
           "fips": 40,
           "state": "Oklahoma",
           "tax-rate": "$0.72",
-          "rank": "28"
+          "rank": "29"
         },
         {
           "footnotes": [
@@ -11266,11 +11266,11 @@
     "title": "State Wine Excise Tax Rates",
     "subtitle": "(Dollars per Gallon)",
     "date": "As of January 1, 2021",
-    "notes": "Note: Rates are those applicable to off-premise sales of 11% alcohol by volume (a.b.v.) non-carbonated wine in 750ml containers. Federal rates vary by alcohol content and type of wine, ranging up to $3.15 for 21-24 percent alcohol and $3.40 for sparkling wine. Federal rates also vary based on number of gallons sold. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
-    "source": "Source: Distilled Spirits Council of the United States; Alcohol Tax and Trade Bureau.",
+    "notes": "Note: Rates are those applicable to off-premise sales of 11% alcohol by volume (a.b.v.) non-carbonated wine in 750ml containers. Federal rates vary by alcohol content and type of wine, ranging up to $3.15 for 21-24% alcohol and $3.40 for sparkling wine. Federal rates also vary based on number of gallons sold. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
+    "source": "Sources: Distilled Spirits Council of the United States; Alcohol Tax and Trade Bureau.",
     "footnotes": [
       [
-        "(a) Different rates also applicable to alcohol content, place of production, size of container, place purchased (on- or off-premise or on board airlines) or type of wine (carbonated, vermouth, etc.)."
+        "(a) Different rates also applicable to alcohol content, place of production, size of container, place purchased (on- or off-premise or on board airlines), or type of wine (carbonated, vermouth, etc.)."
       ],
       [
         "(b) Includes case fees and/or bottle fees which may vary with size of container."
@@ -11282,7 +11282,7 @@
         "(d) Includes the wholesale tax rate of 10%, converted to a gallonage excise tax rate."
       ],
       [
-        "(e) Control states, where the government controls all sales. Products can be subject to ad valorem mark-up as well as excise taxes. Only license state volume-based tax rates are shown."
+        "(e) Control states, where the government controls all sales. Products can be subject to ad valorem markup as well as excise taxes. Only license state volume-based tax rates are shown."
       ]
     ]
   },
@@ -11693,7 +11693,7 @@
     "title": "State Beer Excise Tax Rates",
     "subtitle": "(Dollars per Gallon)",
     "date": "As of January 1, 2021",
-    "notes": "Note: Rates are those applicable to off-premise sales of 4.7% a.b.v. beer in 12-ounce containers which have been imported from outside the state. At the federal level, beer is subject to differing tax rates. Small domestic brewers are taxed between $0.11/gallon and $0.516/gallon. All other brewers are taxes at rates between $0.516/gallon and $0.58/gallon. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
+    "notes": "Note: Rates are those applicable to off-premise sales of 4.7% alcohol by volume (a.b.v.) beer in 12-ounce containers which have been imported from outside the state. At the federal level, beer is subject to differing tax rates. Small domestic brewers are taxed between $0.11/gallon and $0.516/gallon. All other brewers are taxed at rates between $0.516/gallon and $0.58/gallon. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
     "source": "Sources: Distilled Spirits Council of the United States; Alcohol and Tobacco Tax and Trade Bureau; state revenue departments.",
     "footnotes": [
       [
@@ -13687,7 +13687,7 @@
         "(c) Based on a fixed dollar payment schedule. Effective tax rates decrease as taxable capital increases."
       ],
       [
-        "(d) The tax rate is 0.15% for the first year and 0.1% for all following years. Illinois's tax is being phased out by exempting increasing amounts of capital stock liability. The 2021 exemption is $1,000. The tax will be fully phased out by 2024."
+        "(d) The tax rate is 0.15% for the first year and 0.1% for all following years. Illinois' tax is being phased out by exempting increasing amounts of capital stock liability. The 2021 exemption is $1,000. The tax will be fully phased out by 2024."
       ],
       [
         "(e) The rate is 0.15% for the first $300,000 of taxable capital."
@@ -13815,7 +13815,7 @@
         "(a) Connecticut's exclusion is scheduled to rise further, matching the federal threshold by 2023."
       ],
       [
-        "(b) Maryland has both an estate and an inheritance tax.  See Table 38."
+        "(b) Maryland has both an estate and an inheritance tax. See Table 38."
       ]
     ]
   },
@@ -13974,7 +13974,7 @@
       ]
     ],
     "title": "State Inheritance Tax Rates & Exemptions",
-    "date": "As of January 1, 2020",
+    "date": "As of January 1, 2021",
     "notes": "Note: Inheritance taxes are levied on the posthumous transfer of assets based on relationship to the decedent. Generally, Class A beneficiaries are spouses, children, and often siblings. Class B beneficiaries are non-immediate family members. Class C beneficiaries are non-family members. Unlike estate taxes, the term \"exemption\" here applies not to the size of the estate but to the size of the gift itself. ",
     "source": "Sources: Bloomberg Tax; state statutes.",
     "footnotes": [
@@ -13982,7 +13982,7 @@
         "(a) Class B also includes siblings; Class D is for-profit organizations; Class E, foreign charitable organizations; Class F, unknown heirs; and Class G, recognized charities."
       ],
       [
-        "(b) Maryland has both an estate tax and an inheritance tax. See table 37."
+        "(b) Maryland has both an estate tax and an inheritance tax. See Table 37."
       ],
       [
         "(c) Nebraska's inheritance tax is levied at the county level."
@@ -13991,7 +13991,7 @@
         "(d) New Jersey's inheritance tax only applies to estates over $1 million. Class C is for non-immediate family members; Class D, non-related individuals; Class E, charitable organizations."
       ],
       [
-        "(e) Parent-to-child transfers to children 21 years and under, transfers of farms and farming equipment, and transfers of some family-owned bussineses are exempt."
+        "(e) Parent-to-child transfers to children 21 years and under, transfers of farms and farming equipment, and transfers of some family-owned busineses are exempt."
       ]
     ]
   },
