@@ -2644,7 +2644,7 @@
     },
     "title": "State & Local Revenue per Capita",
     "date": "Fiscal Year 2018",
-    "notes": "Note: \"Revenue\" here refers to the U.S. Census Bureau's General Revenue classification. This measure includes revenue such as taxes, fees, licenses, and intergovernmental revenue but excludes revenue from government enterprises such as utilities and liquor stores, as well as insurance trust revenue. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See Table 43 for people per household by state.",
+    "notes": "Note: \"Revenue\" refers to the U.S. Census Bureau's General Revenue classification. This measure includes revenue such as taxes, fees, licenses, and intergovernmental revenue but excludes revenue from government enterprises such as utilities and liquor stores, as well as insurance trust revenue. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See Table 43 for people per household by state.",
     "source": "Sources: U.S. Census Bureau, \"Annual Survey of State and Local Government Finances\"; Tax Foundation calculations.",
     "footnotes": null
   },
@@ -10207,7 +10207,7 @@
     },
     "title": "State Vapor Excise Tax Rates",
     "date": "As of January 1, 2021",
-    "notes": "Note: Several states (Alaska, Illinois, and Maryland) impose local taxes as well as general sales taxes on vapor products. Those are not included here. Manufacturing value generally refers to the value before wholesale. Wholesale value refers to either the price paid by the wholesaler or the price paid by retail to wholesale.",
+    "notes": "Note: Several states (Alaska, Illinois, and Maryland) impose local taxes as well as general sales taxes on vapor products. Those are not included here. Manufacturing value generally refers to the value paid by wholesale. Wholesale value refers to either the price paid by the wholesaler or the price paid by retail to wholesale.",
     "source": "Sources: State statutes; Bloomberg Tax.",
     "footnotes": [
       []
@@ -10262,7 +10262,7 @@
       ],
       [
         "N.J. (a, b)",
-        "up to $10 per ounce, if the average retail price of an ounce of usable cannabis was $350 or more;\r\nup to $30 per ounce, if the average retail price of an ounce of usable cannabis was less than $350 but at least $250;\r\nup to $40 per ounce, if the average retail price of an ounce of usable cannabis was less than $250 but at least $200;\r\nup to $60 per ounce, if the average retail price of an ounce of usable cannabis was less than $200"
+        "Up to $10 per ounce, if the average retail price of an ounce of usable cannabis was $350 or more;\r\nup to $30 per ounce, if the average retail price of an ounce of usable cannabis was less than $350 but at least $250;\r\nup to $40 per ounce, if the average retail price of an ounce of usable cannabis was less than $250 but at least $200;\r\nup to $60 per ounce, if the average retail price of an ounce of usable cannabis was less than $200"
       ],
       [
         "Ore.",
@@ -12053,7 +12053,7 @@
     },
     "title": "State & Local Cell Phone Tax Rates",
     "date": "As of July 1, 2020",
-    "notes": "Note: The local tax rate is calculated as the average of the tax in the largest city and the capital city. Figures include state and local sales taxes. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
+    "notes": "Note: The local tax rate is calculated as the average of the tax in the largest city and the capital city. Figures include state and local general sales taxes. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
     "source": "Source:  Tax Foundation, “Wireless Tax Burden Remains High Due to Federal Surcharge Increase.\"",
     "footnotes": [
       [
