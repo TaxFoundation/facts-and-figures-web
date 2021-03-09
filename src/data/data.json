@@ -367,374 +367,368 @@
       ],
       "values": [
         {
-          "fips": 0,
-          "state": "United States",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.9%",
-          "total-tax-burden-per-capita": "$4,420"
-        },
-        {
           "fips": 1,
           "state": "Alabama",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.7%",
-          "rank": "37",
-          "total-tax-burden-per-capita": "$3,067"
+          "state-local-tax-burden-as-a-share-of-state-income": "9.0%",
+          "rank": "13",
+          "total-tax-burden-per-capita": "$3,893"
         },
         {
           "fips": 2,
           "state": "Alaska",
-          "state-local-tax-burden-as-a-share-of-state-income": "6.5%",
-          "rank": "50",
-          "total-tax-burden-per-capita": "$3,229"
+          "state-local-tax-burden-as-a-share-of-state-income": "5.8%",
+          "rank": "1",
+          "total-tax-burden-per-capita": "$3,605"
         },
         {
           "fips": 4,
           "state": "Arizona",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.8%",
-          "rank": "36",
-          "total-tax-burden-per-capita": "$3,276"
+          "state-local-tax-burden-as-a-share-of-state-income": "8.7%",
+          "rank": "6",
+          "total-tax-burden-per-capita": "$3,926"
         },
         {
           "fips": 5,
           "state": "Arkansas",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.1%",
-          "rank": "17",
-          "total-tax-burden-per-capita": "$3,519"
+          "state-local-tax-burden-as-a-share-of-state-income": "10.4%",
+          "rank": "34",
+          "total-tax-burden-per-capita": "$4,581"
         },
         {
           "fips": 6,
           "state": "California",
-          "state-local-tax-burden-as-a-share-of-state-income": "11.0%",
-          "rank": "4",
-          "total-tax-burden-per-capita": "$5,237"
+          "state-local-tax-burden-as-a-share-of-state-income": "11.5%",
+          "rank": "43",
+          "total-tax-burden-per-capita": "$7,529"
         },
         {
           "fips": 8,
           "state": "Colorado",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.9%",
-          "rank": "34",
-          "total-tax-burden-per-capita": "$4,304"
+          "state-local-tax-burden-as-a-share-of-state-income": "9.4%",
+          "rank": "17",
+          "total-tax-burden-per-capita": "$5,677"
         },
         {
           "fips": 9,
           "state": "Connecticut",
-          "state-local-tax-burden-as-a-share-of-state-income": "12.6%",
-          "rank": "2",
-          "total-tax-burden-per-capita": "$7,869"
+          "state-local-tax-burden-as-a-share-of-state-income": "12.8%",
+          "rank": "49",
+          "total-tax-burden-per-capita": "$9,705"
         },
         {
           "fips": 10,
           "state": "Delaware",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.2%",
-          "rank": "13",
-          "total-tax-burden-per-capita": "$4,412"
+          "state-local-tax-burden-as-a-share-of-state-income": "10.3%",
+          "rank": "33",
+          "total-tax-burden-per-capita": "$5,550"
         },
         {
           "fips": 12,
           "state": "Florida",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.9%",
-          "rank": "34",
-          "total-tax-burden-per-capita": "$3,738"
+          "state-local-tax-burden-as-a-share-of-state-income": "8.8%",
+          "rank": "8",
+          "total-tax-burden-per-capita": "$4,555"
         },
         {
           "fips": 13,
           "state": "Georgia",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.1%",
-          "rank": "32",
-          "total-tax-burden-per-capita": "$3,426"
+          "state-local-tax-burden-as-a-share-of-state-income": "8.9%",
+          "rank": "10",
+          "total-tax-burden-per-capita": "$4,221"
         },
         {
           "fips": 15,
           "state": "Hawaii",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.2%",
-          "rank": "13",
-          "total-tax-burden-per-capita": "$4,576"
+          "state-local-tax-burden-as-a-share-of-state-income": "12.7%",
+          "rank": "48",
+          "total-tax-burden-per-capita": "$7,144"
         },
         {
           "fips": 16,
           "state": " Idaho",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.3%",
-          "rank": "26",
-          "total-tax-burden-per-capita": "$3,318"
+          "state-local-tax-burden-as-a-share-of-state-income": "9.6%",
+          "rank": "20",
+          "total-tax-burden-per-capita": "$4,336"
         },
         {
           "fips": 17,
           "state": "Illinois",
-          "state-local-tax-burden-as-a-share-of-state-income": "11.0%",
-          "rank": "4",
-          "total-tax-burden-per-capita": "$5,235"
+          "state-local-tax-burden-as-a-share-of-state-income": "11.1%",
+          "rank": "41",
+          "total-tax-burden-per-capita": "$6,450"
         },
         {
           "fips": 18,
           "state": "Indiana",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.5%",
-          "rank": "22",
-          "total-tax-burden-per-capita": "$3,585"
+          "state-local-tax-burden-as-a-share-of-state-income": "8.9%",
+          "rank": "12",
+          "total-tax-burden-per-capita": "$4,289"
         },
         {
           "fips": 19,
           "state": "Iowa",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.2%",
-          "rank": "30",
-          "total-tax-burden-per-capita": "$4,037"
+          "state-local-tax-burden-as-a-share-of-state-income": "10.8%",
+          "rank": "38",
+          "total-tax-burden-per-capita": "$5,499"
         },
         {
           "fips": 20,
           "state": "Kansas",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.5%",
-          "rank": "22",
-          "total-tax-burden-per-capita": "$4,131"
+          "state-local-tax-burden-as-a-share-of-state-income": "10.1%",
+          "rank": "29",
+          "total-tax-burden-per-capita": "$5,292"
         },
         {
           "fips": 21,
           "state": "Kentucky",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.5%",
-          "rank": "22",
-          "total-tax-burden-per-capita": "$3,298"
+          "state-local-tax-burden-as-a-share-of-state-income": "9.9%",
+          "rank": "26",
+          "total-tax-burden-per-capita": "$4,279"
         },
         {
           "fips": 22,
           "state": "Louisiana",
-          "state-local-tax-burden-as-a-share-of-state-income": "7.6%",
-          "rank": "45",
-          "total-tax-burden-per-capita": "$2,950"
+          "state-local-tax-burden-as-a-share-of-state-income": "9.2%",
+          "rank": "15",
+          "total-tax-burden-per-capita": "$4,292"
         },
         {
           "fips": 23,
           "state": "Maine",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.2%",
-          "rank": "13",
-          "total-tax-burden-per-capita": "$3,997"
+          "state-local-tax-burden-as-a-share-of-state-income": "11.0%",
+          "rank": "39",
+          "total-tax-burden-per-capita": "$5,492"
         },
         {
           "fips": 24,
           "state": " Maryland",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.9%",
-          "rank": "7",
-          "total-tax-burden-per-capita": "$5,920"
+          "state-local-tax-burden-as-a-share-of-state-income": "11.8%",
+          "rank": "45",
+          "total-tax-burden-per-capita": "$7,539"
         },
         {
           "fips": 25,
           "state": " Massachusetts",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.3%",
-          "rank": "10",
-          "total-tax-burden-per-capita": "$5,872"
+          "state-local-tax-burden-as-a-share-of-state-income": "10.5%",
+          "rank": "36",
+          "total-tax-burden-per-capita": "$7,658"
         },
         {
           "fips": 26,
           "state": " Michigan",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.4%",
-          "rank": "25",
-          "total-tax-burden-per-capita": "$3,631"
+          "state-local-tax-burden-as-a-share-of-state-income": "10.0%",
+          "rank": "28",
+          "total-tax-burden-per-capita": "$4,841"
         },
         {
           "fips": 27,
           "state": "Minnesota",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.8%",
-          "rank": "8",
-          "total-tax-burden-per-capita": "$5,185"
+          "state-local-tax-burden-as-a-share-of-state-income": "12.1%",
+          "rank": "46",
+          "total-tax-burden-per-capita": "$7,001"
         },
         {
           "fips": 28,
           "state": "Mississippi",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.6%",
-          "rank": "40",
-          "total-tax-burden-per-capita": "$2,742"
+          "state-local-tax-burden-as-a-share-of-state-income": "9.5%",
+          "rank": "18",
+          "total-tax-burden-per-capita": "$3,654"
         },
         {
           "fips": 29,
           "state": "Missouri",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.3%",
-          "rank": "26",
-          "total-tax-burden-per-capita": "$3,591"
+          "state-local-tax-burden-as-a-share-of-state-income": "9.2%",
+          "rank": "16",
+          "total-tax-burden-per-capita": "$4,431"
         },
         {
           "fips": 30,
           "state": "Montana",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.7%",
-          "rank": "37",
-          "total-tax-burden-per-capita": "$3,389"
+          "state-local-tax-burden-as-a-share-of-state-income": "10.1%",
+          "rank": "30",
+          "total-tax-burden-per-capita": "$4,956"
         },
         {
           "fips": 31,
           "state": "Nebraska",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.2%",
-          "rank": "30",
-          "total-tax-burden-per-capita": "$4,197"
+          "state-local-tax-burden-as-a-share-of-state-income": "10.3%",
+          "rank": "32",
+          "total-tax-burden-per-capita": "$5,548"
         },
         {
           "fips": 32,
           "state": "Nevada",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.1%",
-          "rank": "43",
-          "total-tax-burden-per-capita": "$3,349"
+          "state-local-tax-burden-as-a-share-of-state-income": "9.7%",
+          "rank": "22",
+          "total-tax-burden-per-capita": "$4,895"
         },
         {
           "fips": 33,
           "state": "New Hampshire",
-          "state-local-tax-burden-as-a-share-of-state-income": "7.9%",
-          "rank": "44",
-          "total-tax-burden-per-capita": "$3,961"
+          "state-local-tax-burden-as-a-share-of-state-income": "9.7%",
+          "rank": "23",
+          "total-tax-burden-per-capita": "$6,090"
         },
         {
           "fips": 34,
           "state": "New Jersey",
-          "state-local-tax-burden-as-a-share-of-state-income": "12.2%",
-          "rank": "3",
-          "total-tax-burden-per-capita": "$6,926"
+          "state-local-tax-burden-as-a-share-of-state-income": "11.7%",
+          "rank": "44",
+          "total-tax-burden-per-capita": "$8,134"
         },
         {
           "fips": 35,
           "state": "New Mexico",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.7%",
-          "rank": "37",
-          "total-tax-burden-per-capita": "$3,141"
+          "state-local-tax-burden-as-a-share-of-state-income": "8.8%",
+          "rank": "7",
+          "total-tax-burden-per-capita": "$3,736"
         },
         {
           "fips": 36,
           "state": "New York",
-          "state-local-tax-burden-as-a-share-of-state-income": "12.7%",
-          "rank": "1",
-          "total-tax-burden-per-capita": "$6,993"
+          "state-local-tax-burden-as-a-share-of-state-income": "14.1%",
+          "rank": "50",
+          "total-tax-burden-per-capita": "$9,987"
         },
         {
           "fips": 37,
           "state": "North Carolina",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.8%",
-          "rank": "18",
-          "total-tax-burden-per-capita": "$3,659"
+          "state-local-tax-burden-as-a-share-of-state-income": "9.5%",
+          "rank": "19",
+          "total-tax-burden-per-capita": "$4,490"
         },
         {
           "fips": 38,
           "state": "North Dakota",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.0%",
-          "rank": "33",
-          "total-tax-burden-per-capita": "$4,867"
+          "state-local-tax-burden-as-a-share-of-state-income": "8.9%",
+          "rank": "9",
+          "total-tax-burden-per-capita": "$4,996"
         },
         {
           "fips": 39,
           "state": "Ohio",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.8%",
-          "rank": "18",
-          "total-tax-burden-per-capita": "$3,924"
+          "state-local-tax-burden-as-a-share-of-state-income": "10.3%",
+          "rank": "31",
+          "total-tax-burden-per-capita": "$5,107"
         },
         {
           "fips": 40,
           "state": "Oklahoma",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.6%",
-          "rank": "40",
-          "total-tax-burden-per-capita": "$3,515"
+          "state-local-tax-burden-as-a-share-of-state-income": "8.2%",
+          "rank": "5",
+          "total-tax-burden-per-capita": "$3,841"
         },
         {
           "fips": 41,
           "state": "Oregon",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.3%",
-          "rank": "10",
-          "total-tax-burden-per-capita": "$4,095"
+          "state-local-tax-burden-as-a-share-of-state-income": "11.1%",
+          "rank": "40",
+          "total-tax-burden-per-capita": "$5,809"
         },
         {
           "fips": 42,
           "state": " Pennsylvania",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.2%",
-          "rank": "13",
-          "total-tax-burden-per-capita": "$4,589"
+          "state-local-tax-burden-as-a-share-of-state-income": "10.4%",
+          "rank": "35",
+          "total-tax-burden-per-capita": "$5,970"
         },
         {
           "fips": 44,
           "state": "Rhode Island",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.8%",
-          "rank": "8",
-          "total-tax-burden-per-capita": "$4,998"
+          "state-local-tax-burden-as-a-share-of-state-income": "11.4%",
+          "rank": "42",
+          "total-tax-burden-per-capita": "$6,334"
         },
         {
           "fips": 45,
           "state": "South Carolina",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.4%",
-          "rank": "42",
-          "total-tax-burden-per-capita": "$2,936"
+          "state-local-tax-burden-as-a-share-of-state-income": "8.9%",
+          "rank": "11",
+          "total-tax-burden-per-capita": "$4,000"
         },
         {
           "fips": 46,
           "state": "South Dakota",
-          "state-local-tax-burden-as-a-share-of-state-income": "7.1%",
-          "rank": "48",
-          "total-tax-burden-per-capita": "$3,318"
+          "state-local-tax-burden-as-a-share-of-state-income": "9.1%",
+          "rank": "14",
+          "total-tax-burden-per-capita": "$4,855"
         },
         {
           "fips": 47,
           "state": "Tennessee",
-          "state-local-tax-burden-as-a-share-of-state-income": "7.3%",
-          "rank": "47",
-          "total-tax-burden-per-capita": "$2,805"
+          "state-local-tax-burden-as-a-share-of-state-income": "7.0%",
+          "rank": "3",
+          "total-tax-burden-per-capita": "$3,368"
         },
         {
           "fips": 48,
           "state": "Texas",
-          "state-local-tax-burden-as-a-share-of-state-income": "7.6%",
-          "rank": "45",
-          "total-tax-burden-per-capita": "$3,340"
+          "state-local-tax-burden-as-a-share-of-state-income": "8.0%",
+          "rank": "4",
+          "total-tax-burden-per-capita": "$4,143"
         },
         {
           "fips": 49,
           "state": "Utah",
           "state-local-tax-burden-as-a-share-of-state-income": "9.6%",
           "rank": "21",
-          "total-tax-burden-per-capita": "$3,556"
+          "total-tax-burden-per-capita": "$4,636"
         },
         {
           "fips": 50,
           "state": "Vermont",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.3%",
-          "rank": "10",
-          "total-tax-burden-per-capita": "$4,557"
+          "state-local-tax-burden-as-a-share-of-state-income": "12.3%",
+          "rank": "47",
+          "total-tax-burden-per-capita": "$6,693"
         },
         {
           "fips": 51,
           "state": "Virginia",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.3%",
-          "rank": "26",
-          "total-tax-burden-per-capita": "$4,623"
+          "state-local-tax-burden-as-a-share-of-state-income": "10.0%",
+          "rank": "27",
+          "total-tax-burden-per-capita": "$5,854"
         },
         {
           "fips": 53,
           "state": "Washington",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.3%",
-          "rank": "26",
-          "total-tax-burden-per-capita": "$4,541"
+          "state-local-tax-burden-as-a-share-of-state-income": "9.8%",
+          "rank": "24",
+          "total-tax-burden-per-capita": "$6,245"
         },
         {
           "fips": 54,
           "state": "West Virginia",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.8%",
-          "rank": "18",
-          "total-tax-burden-per-capita": "$3,331"
+          "state-local-tax-burden-as-a-share-of-state-income": "9.9%",
+          "rank": "25",
+          "total-tax-burden-per-capita": "$4,114"
         },
         {
           "fips": 55,
           "state": "Wisconsin",
-          "state-local-tax-burden-as-a-share-of-state-income": "11.0%",
-          "rank": "4",
-          "total-tax-burden-per-capita": "$4,734"
+          "state-local-tax-burden-as-a-share-of-state-income": "10.7%",
+          "rank": "37",
+          "total-tax-burden-per-capita": "$5,632"
         },
         {
           "fips": 56,
           "state": "Wyoming",
-          "state-local-tax-burden-as-a-share-of-state-income": "7.1%",
-          "rank": "48",
-          "total-tax-burden-per-capita": "$4,407"
+          "state-local-tax-burden-as-a-share-of-state-income": "7.0%",
+          "rank": "2",
+          "total-tax-burden-per-capita": "$4,282"
         },
         {
           "fips": 11,
           "state": "District of Columbia",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.6%",
-          "rank": "10",
-          "total-tax-burden-per-capita": "$7,541"
+          "state-local-tax-burden-as-a-share-of-state-income": "10.1%",
+          "rank": "29",
+          "total-tax-burden-per-capita": "$8,261"
         }
       ]
     },
     "title": "State-Local Tax Burdens per Capita & as a Percentage of Income",
-    "date": "Fiscal Year 2012",
-    "notes": "Note: Data for years 1977 to 2012 are available at www.TaxFoundation.org/burdens. Payments made to out-of-state governments are tallied in taxpayer's state of residence where possible. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See table 43 for people per household by state.",
-    "source": "Source: Tax Foundation, State-Local Tax Burden Rankings FY 2012.",
+    "date": "Calendar Year 2019",
+    "notes": "Note: Payments made to out-of-state governments are tallied in taxpayer's state of residence where possible. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See table 43 for people per household by state.",
+    "source": "Source: Tax Foundation.",
     "footnotes": null
   },
   "3": {
@@ -14695,309 +14689,309 @@
         {
           "fips": 1,
           "state": "Alabama",
-          "funded-ratio": "71.9%",
-          "rank": "25"
+          "funded-ratio": "69%",
+          "rank": "28"
         },
         {
           "fips": 2,
           "state": "Alaska",
-          "funded-ratio": "68.4%",
+          "funded-ratio": "67%",
           "rank": "31"
         },
         {
           "fips": 4,
           "state": "Arizona",
-          "funded-ratio": "65.5%",
-          "rank": "34"
+          "funded-ratio": "67%",
+          "rank": "31"
         },
         {
           "fips": 5,
           "state": "Arkansas",
-          "funded-ratio": "81.2%",
-          "rank": "17"
+          "funded-ratio": "79%",
+          "rank": "16"
         },
         {
           "fips": 6,
           "state": "California",
-          "funded-ratio": "71.1%",
-          "rank": "26"
+          "funded-ratio": "72%",
+          "rank": "25"
         },
         {
           "fips": 8,
           "state": "Colorado",
-          "funded-ratio": "58.8%",
+          "funded-ratio": "55%",
           "rank": "42"
         },
         {
           "fips": 9,
           "state": "Connecticut",
-          "funded-ratio": "46.7%",
-          "rank": "47"
+          "funded-ratio": "46%",
+          "rank": "46"
         },
         {
           "fips": 10,
           "state": "Delaware",
-          "funded-ratio": "85.1%",
-          "rank": "10"
+          "funded-ratio": "83%",
+          "rank": "11"
         },
         {
           "fips": 12,
           "state": "Florida",
-          "funded-ratio": "79.9%",
-          "rank": "19"
+          "funded-ratio": "77%",
+          "rank": "18"
         },
         {
           "fips": 13,
           "state": "Georgia",
-          "funded-ratio": "80.1%",
-          "rank": "18"
+          "funded-ratio": "79%",
+          "rank": "16"
         },
         {
           "fips": 15,
           "state": "Hawaii",
-          "funded-ratio": "55.5%",
-          "rank": "43"
+          "funded-ratio": "55%",
+          "rank": "42"
         },
         {
           "fips": 16,
           "state": " Idaho",
-          "funded-ratio": "92.4%",
-          "rank": "6"
+          "funded-ratio": "94%",
+          "rank": "3"
         },
         {
           "fips": 17,
           "state": "Illinois",
-          "funded-ratio": "39.0%",
+          "funded-ratio": "39%",
           "rank": "49"
         },
         {
           "fips": 18,
           "state": "Indiana",
-          "funded-ratio": "66.5%",
-          "rank": "33"
+          "funded-ratio": "44%",
+          "rank": "48"
         },
         {
           "fips": 19,
           "state": "Iowa",
-          "funded-ratio": "83.6%",
-          "rank": "12"
+          "funded-ratio": "85%",
+          "rank": "8"
         },
         {
           "fips": 20,
           "state": "Kansas",
-          "funded-ratio": "68.9%",
-          "rank": "29"
+          "funded-ratio": "70%",
+          "rank": "27"
         },
         {
           "fips": 21,
           "state": "Kentucky",
-          "funded-ratio": "44.9%",
-          "rank": "48"
+          "funded-ratio": "46%",
+          "rank": "46"
         },
         {
           "fips": 22,
           "state": "Louisiana",
-          "funded-ratio": "67.3%",
-          "rank": "32"
+          "funded-ratio": "65%",
+          "rank": "34"
         },
         {
           "fips": 23,
           "state": "Maine",
-          "funded-ratio": "84.5%",
+          "funded-ratio": "83%",
           "rank": "11"
         },
         {
           "fips": 24,
           "state": " Maryland",
-          "funded-ratio": "70.4%",
-          "rank": "28"
+          "funded-ratio": "72%",
+          "rank": "25"
         },
         {
           "fips": 25,
           "state": " Massachusetts",
-          "funded-ratio": "60.6%",
-          "rank": "41"
+          "funded-ratio": "59%",
+          "rank": "40"
         },
         {
           "fips": 26,
           "state": " Michigan",
-          "funded-ratio": "63.2%",
-          "rank": "38"
+          "funded-ratio": "61%",
+          "rank": "37"
         },
         {
           "fips": 27,
           "state": "Minnesota",
-          "funded-ratio": "81.8%",
-          "rank": "15"
+          "funded-ratio": "85%",
+          "rank": "8"
         },
         {
           "fips": 28,
           "state": "Mississippi",
-          "funded-ratio": "62.6%",
-          "rank": "39"
+          "funded-ratio": "62%",
+          "rank": "36"
         },
         {
           "fips": 29,
           "state": "Missouri",
-          "funded-ratio": "77.8%",
-          "rank": "21"
+          "funded-ratio": "61%",
+          "rank": "37"
         },
         {
           "fips": 30,
           "state": "Montana",
-          "funded-ratio": "72.6%",
+          "funded-ratio": "73%",
           "rank": "24"
         },
         {
           "fips": 31,
           "state": "Nebraska",
-          "funded-ratio": "90.3%",
-          "rank": "7"
+          "funded-ratio": "91%",
+          "rank": "5"
         },
         {
           "fips": 32,
           "state": "Nevada",
-          "funded-ratio": "75.3%",
-          "rank": "23"
+          "funded-ratio": "77%",
+          "rank": "18"
         },
         {
           "fips": 33,
           "state": "New Hampshire",
-          "funded-ratio": "64.7%",
-          "rank": "36"
+          "funded-ratio": "65%",
+          "rank": "34"
         },
         {
           "fips": 34,
           "state": "New Jersey",
-          "funded-ratio": "38.4%",
+          "funded-ratio": "36%",
           "rank": "50"
         },
         {
           "fips": 35,
           "state": "New Mexico",
-          "funded-ratio": "61.0%",
-          "rank": "40"
+          "funded-ratio": "68%",
+          "rank": "30"
         },
         {
           "fips": 36,
           "state": "New York",
-          "funded-ratio": "98.0%",
-          "rank": "2"
+          "funded-ratio": "92%",
+          "rank": "4"
         },
         {
           "fips": 37,
           "state": "North Carolina",
-          "funded-ratio": "88.6%",
-          "rank": "8"
+          "funded-ratio": "87%",
+          "rank": "7"
         },
         {
           "fips": 38,
           "state": "North Dakota",
-          "funded-ratio": "65.2%",
-          "rank": "35"
+          "funded-ratio": "75%",
+          "rank": "22"
         },
         {
           "fips": 39,
           "state": "Ohio",
-          "funded-ratio": "75.8%",
+          "funded-ratio": "75%",
           "rank": "22"
         },
         {
           "fips": 40,
           "state": "Oklahoma",
-          "funded-ratio": "81.3%",
-          "rank": "16"
+          "funded-ratio": "80%",
+          "rank": "14"
         },
         {
           "fips": 41,
           "state": "Oregon",
-          "funded-ratio": "82.1%",
+          "funded-ratio": "80%",
           "rank": "14"
         },
         {
           "fips": 42,
           "state": " Pennsylvania",
-          "funded-ratio": "54.8%",
-          "rank": "45"
+          "funded-ratio": "56%",
+          "rank": "41"
         },
         {
           "fips": 44,
           "state": "Rhode Island",
-          "funded-ratio": "54.2%",
-          "rank": "46"
+          "funded-ratio": "53%",
+          "rank": "45"
         },
         {
           "fips": 45,
           "state": "South Carolina",
-          "funded-ratio": "55.1%",
-          "rank": "44"
+          "funded-ratio": "55%",
+          "rank": "42"
         },
         {
           "fips": 46,
           "state": "South Dakota",
-          "funded-ratio": "100.0%",
+          "funded-ratio": "99%",
           "rank": "1"
         },
         {
           "fips": 47,
           "state": "Tennessee",
-          "funded-ratio": "97.7%",
-          "rank": "3"
+          "funded-ratio": "91%",
+          "rank": "5"
         },
         {
           "fips": 48,
           "state": "Texas",
-          "funded-ratio": "70.6%",
-          "rank": "27"
+          "funded-ratio": "67%",
+          "rank": "31"
         },
         {
           "fips": 49,
           "state": "Utah",
-          "funded-ratio": "85.2%",
-          "rank": "9"
+          "funded-ratio": "84%",
+          "rank": "10"
         },
         {
           "fips": 50,
           "state": "Vermont",
-          "funded-ratio": "64.2%",
+          "funded-ratio": "61%",
           "rank": "37"
         },
         {
           "fips": 51,
           "state": "Virginia",
-          "funded-ratio": "79.0%",
-          "rank": "20"
+          "funded-ratio": "77%",
+          "rank": "18"
         },
         {
           "fips": 53,
           "state": "Washington",
-          "funded-ratio": "93.9%",
-          "rank": "5"
+          "funded-ratio": "77%",
+          "rank": "18"
         },
         {
           "fips": 54,
           "state": "West Virginia",
-          "funded-ratio": "82.3%",
+          "funded-ratio": "82%",
           "rank": "13"
         },
         {
           "fips": 55,
           "state": "Wisconsin",
-          "funded-ratio": "96.5%",
-          "rank": "4"
+          "funded-ratio": "96%",
+          "rank": "2"
         },
         {
           "fips": 56,
           "state": "Wyoming",
-          "funded-ratio": "68.5%",
-          "rank": "30"
+          "funded-ratio": "69%",
+          "rank": "28"
         }
       ]
     },
     "title": "Funded Ratio of Public Pension Plans",
-    "date": "Fiscal Year 2018",
-    "notes": "Note: Funded ratio is defined as the level of assets in proportion to accrued pension liability. D.C. is not included in the source material.",
-    "source": "Source: The Pew Charitable Trusts, \"The State Pension Funding Gap: 2018\" (2020).",
+    "date": "Fiscal Year 2019",
+    "notes": "Note: Funded ratio is defined as the level of assets in proportion to accrued pension liability.",
+    "source": "Source: Truth in Accounting.",
     "footnotes": null
   },
   "42": {
