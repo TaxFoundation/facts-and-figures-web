@@ -85,6 +85,7 @@ const buildData = () => {
   mappings.forEach(table => {
     const sheet = wb.Sheets[table.sheetName];
     if (table.data) {
+      console.log(`Mapping ${table.sheetName}`);
       mapValues(table, sheet);
     }
   });
