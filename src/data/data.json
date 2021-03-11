@@ -367,6 +367,12 @@
       ],
       "values": [
         {
+          "fips": 0,
+          "state": "United States",
+          "state-local-tax-burden-as-a-share-of-state-income": "10.3%",
+          "total-tax-burden-per-capita": "$5,755"
+        },
+        {
           "fips": 1,
           "state": "Alabama",
           "state-local-tax-burden-as-a-share-of-state-income": "9.0%",
