@@ -50,6 +50,10 @@ module.exports = function(table) {
 
   // Assume all other rows after first are data
   const values = table.slice(1).map(row => {
+    if (! row[0]) {
+      return false;
+    }
+
     let value = {};
 
     // figure out which state this is
@@ -58,6 +62,7 @@ module.exports = function(table) {
     const footnotesCheck = /\((.*)\)/;
 
     const theState = states.find(state => {
+
       const theAbbr = row[0].match(stateAbbr);
 
       // Got to try them all, because data inconsistency
