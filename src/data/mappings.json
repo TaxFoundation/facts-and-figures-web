@@ -4,27 +4,27 @@
     "type": "states",
     "title": "A2",
     "date": "A3",
-    "data": "B5:D57",
+    "data": "B5:D56",
+    "notes": "A58",
+    "source": "A60"
+  },
+  {
+    "sheetName": "2",
+    "type": "states",
+    "title": "A2",
+    "date": "A3",
+    "data": "B5:E57",
     "notes": "A59",
     "source": "A61"
   },
   {
-    "sheetName": "2",
+    "sheetName": "3",
     "type": "states",
     "title": "B2",
     "date": "B3",
     "data": "B6:H57",
     "notes": "A59",
     "source": "A62"
-  },
-  {
-    "sheetName": "3",
-    "type": "states",
-    "title": "A2",
-    "date": "A3",
-    "data": "B5:D56",
-    "notes": "A58",
-    "source": "A60"
   },
   {
     "sheetName": "4",
@@ -60,6 +60,7 @@
     "date": "B4",
     "data": "B6:G58",
     "notes": "A60",
+    "footnotes": "A61",
     "source": "A63"
   },
   {
@@ -146,7 +147,7 @@
     "type": "states",
     "title": "A2",
     "date": "A3",
-    "data": "C5:D57",
+    "data": "C5:E57",
     "notes": "A61",
     "source": "A63",
     "footnotes": "A59:A61"
@@ -169,7 +170,7 @@
     "data": "A5:F56",
     "notes": "A63",
     "source": "A65",
-    "footnotes": "A58:A63"
+    "footnotes": "A58:A62"
   },
   {
     "sheetName": "19",
@@ -207,9 +208,9 @@
     "title": "B2:B3",
     "date": "B4",
     "data": "B6:F58",
-    "notes": "A60:A61",
+    "notes": "A60",
     "source": "A62",
-    "footnotes": "A58"
+    "footnotes": "A61"
   },
   {
     "sheetName": "23",

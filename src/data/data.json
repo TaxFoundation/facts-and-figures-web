@@ -9,8 +9,8 @@
           "order": 0
         },
         {
-          "name": "State-Local Tax Burden as a Share of State Income",
-          "id": "state-local-tax-burden-as-a-share-of-state-income",
+          "name": "Collections per Capita",
+          "id": "collections-per-capita",
           "order": 1
         },
         {
@@ -23,324 +23,715 @@
         {
           "fips": 0,
           "state": "United States",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.3%",
+          "collections-per-capita": "$3,217",
           "rank": null
         },
         {
           "fips": 1,
           "state": "Alabama",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.0%",
-          "rank": "13"
+          "collections-per-capita": "$2,397",
+          "rank": "42"
         },
         {
           "fips": 2,
           "state": "Alaska",
-          "state-local-tax-burden-as-a-share-of-state-income": "5.8%",
-          "rank": "1"
+          "collections-per-capita": "$1,797",
+          "rank": "50"
         },
         {
           "fips": 4,
           "state": "Arizona",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.7%",
-          "rank": "6"
+          "collections-per-capita": "$2,487",
+          "rank": "39"
         },
         {
           "fips": 5,
           "state": "Arkansas",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.4%",
-          "rank": "34"
+          "collections-per-capita": "$3,405",
+          "rank": "16"
         },
         {
           "fips": 6,
           "state": "California",
-          "state-local-tax-burden-as-a-share-of-state-income": "11.5%",
-          "rank": "43"
+          "collections-per-capita": "$4,349",
+          "rank": "9"
         },
         {
           "fips": 8,
           "state": "Colorado",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.4%",
-          "rank": "17"
+          "collections-per-capita": "$2,611",
+          "rank": "36"
         },
         {
           "fips": 9,
           "state": "Connecticut",
-          "state-local-tax-burden-as-a-share-of-state-income": "12.8%",
-          "rank": "49"
+          "collections-per-capita": "$5,103",
+          "rank": "4"
         },
         {
           "fips": 10,
           "state": "Delaware",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.3%",
-          "rank": "33"
+          "collections-per-capita": "$4,602",
+          "rank": "6"
         },
         {
           "fips": 12,
           "state": "Florida",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.8%",
-          "rank": "8"
+          "collections-per-capita": "$2,002",
+          "rank": "49"
         },
         {
           "fips": 13,
           "state": "Georgia",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.9%",
-          "rank": "10"
+          "collections-per-capita": "$2,218",
+          "rank": "45"
         },
         {
           "fips": 15,
           "state": "Hawaii",
-          "state-local-tax-burden-as-a-share-of-state-income": "12.7%",
-          "rank": "48"
+          "collections-per-capita": "$5,296",
+          "rank": "3"
         },
         {
           "fips": 16,
           "state": " Idaho",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.6%",
-          "rank": "20"
+          "collections-per-capita": "$2,872",
+          "rank": "31"
         },
         {
           "fips": 17,
           "state": "Illinois",
-          "state-local-tax-burden-as-a-share-of-state-income": "11.1%",
-          "rank": "41"
+          "collections-per-capita": "$3,534",
+          "rank": "14"
         },
         {
           "fips": 18,
           "state": "Indiana",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.9%",
-          "rank": "12"
+          "collections-per-capita": "$3,297",
+          "rank": "20"
         },
         {
           "fips": 19,
           "state": "Iowa",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.8%",
-          "rank": "38"
+          "collections-per-capita": "$3,342",
+          "rank": "19"
         },
         {
           "fips": 20,
           "state": "Kansas",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.1%",
-          "rank": "29"
+          "collections-per-capita": "$3,288",
+          "rank": "21"
         },
         {
           "fips": 21,
           "state": "Kentucky",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.9%",
-          "rank": "26"
+          "collections-per-capita": "$2,967",
+          "rank": "29"
         },
         {
           "fips": 22,
           "state": "Louisiana",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.2%",
-          "rank": "15"
+          "collections-per-capita": "$2,443",
+          "rank": "40"
         },
         {
           "fips": 23,
           "state": "Maine",
-          "state-local-tax-burden-as-a-share-of-state-income": "11.0%",
-          "rank": "39"
+          "collections-per-capita": "$3,561",
+          "rank": "13"
         },
         {
           "fips": 24,
           "state": " Maryland",
-          "state-local-tax-burden-as-a-share-of-state-income": "11.8%",
-          "rank": "45"
+          "collections-per-capita": "$3,866",
+          "rank": "11"
         },
         {
           "fips": 25,
           "state": " Massachusetts",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.5%",
-          "rank": "36"
+          "collections-per-capita": "$4,499",
+          "rank": "8"
         },
         {
           "fips": 26,
           "state": " Michigan",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.0%",
-          "rank": "28"
+          "collections-per-capita": "$2,785",
+          "rank": "32"
         },
         {
           "fips": 27,
           "state": "Minnesota",
-          "state-local-tax-burden-as-a-share-of-state-income": "12.1%",
-          "rank": "46"
+          "collections-per-capita": "$4,695",
+          "rank": "5"
         },
         {
           "fips": 28,
           "state": "Mississippi",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.5%",
-          "rank": "18"
+          "collections-per-capita": "$2,735",
+          "rank": "33"
         },
         {
           "fips": 29,
           "state": "Missouri",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.2%",
-          "rank": "16"
+          "collections-per-capita": "$2,016",
+          "rank": "48"
         },
         {
           "fips": 30,
           "state": "Montana",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.1%",
+          "collections-per-capita": "$2,922",
           "rank": "30"
         },
         {
           "fips": 31,
           "state": "Nebraska",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.3%",
-          "rank": "32"
+          "collections-per-capita": "$2,986",
+          "rank": "28"
         },
         {
           "fips": 32,
           "state": "Nevada",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.7%",
-          "rank": "22"
+          "collections-per-capita": "$3,045",
+          "rank": "26"
         },
         {
           "fips": 33,
           "state": "New Hampshire",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.7%",
-          "rank": "23"
+          "collections-per-capita": "$2,075",
+          "rank": "47"
         },
         {
           "fips": 34,
           "state": "New Jersey",
-          "state-local-tax-burden-as-a-share-of-state-income": "11.7%",
-          "rank": "44"
+          "collections-per-capita": "$4,083",
+          "rank": "10"
         },
         {
           "fips": 35,
           "state": "New Mexico",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.8%",
-          "rank": "7"
+          "collections-per-capita": "$3,377",
+          "rank": "18"
         },
         {
           "fips": 36,
           "state": "New York",
-          "state-local-tax-burden-as-a-share-of-state-income": "14.1%",
-          "rank": "50"
+          "collections-per-capita": "$4,590",
+          "rank": "7"
         },
         {
           "fips": 37,
           "state": "North Carolina",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.5%",
-          "rank": "19"
+          "collections-per-capita": "$2,711",
+          "rank": "34"
         },
         {
           "fips": 38,
           "state": "North Dakota",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.9%",
-          "rank": "9"
+          "collections-per-capita": "$5,566",
+          "rank": "1"
         },
         {
           "fips": 39,
           "state": "Ohio",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.3%",
-          "rank": "31"
+          "collections-per-capita": "$2,592",
+          "rank": "37"
         },
         {
           "fips": 40,
           "state": "Oklahoma",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.2%",
-          "rank": "5"
+          "collections-per-capita": "$2,590",
+          "rank": "38"
         },
         {
           "fips": 41,
           "state": "Oregon",
-          "state-local-tax-burden-as-a-share-of-state-income": "11.1%",
-          "rank": "40"
+          "collections-per-capita": "$3,015",
+          "rank": "27"
         },
         {
           "fips": 42,
           "state": " Pennsylvania",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.4%",
-          "rank": "35"
+          "collections-per-capita": "$3,129",
+          "rank": "24"
         },
         {
           "fips": 44,
           "state": "Rhode Island",
-          "state-local-tax-burden-as-a-share-of-state-income": "11.4%",
-          "rank": "42"
+          "collections-per-capita": "$3,214",
+          "rank": "23"
         },
         {
           "fips": 45,
           "state": "South Carolina",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.9%",
-          "rank": "11"
+          "collections-per-capita": "$2,304",
+          "rank": "43"
         },
         {
           "fips": 46,
           "state": "South Dakota",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.1%",
-          "rank": "14"
+          "collections-per-capita": "$2,276",
+          "rank": "44"
         },
         {
           "fips": 47,
           "state": "Tennessee",
-          "state-local-tax-burden-as-a-share-of-state-income": "7.0%",
-          "rank": "3"
+          "collections-per-capita": "$2,427",
+          "rank": "41"
         },
         {
           "fips": 48,
           "state": "Texas",
-          "state-local-tax-burden-as-a-share-of-state-income": "8.0%",
-          "rank": "4"
+          "collections-per-capita": "$2,093",
+          "rank": "46"
         },
         {
           "fips": 49,
           "state": "Utah",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.6%",
-          "rank": "21"
+          "collections-per-capita": "$2,669",
+          "rank": "35"
         },
         {
           "fips": 50,
           "state": "Vermont",
-          "state-local-tax-burden-as-a-share-of-state-income": "12.3%",
-          "rank": "47"
+          "collections-per-capita": "$5,318",
+          "rank": "2"
         },
         {
           "fips": 51,
           "state": "Virginia",
-          "state-local-tax-burden-as-a-share-of-state-income": "10.0%",
-          "rank": "27"
+          "collections-per-capita": "$3,251",
+          "rank": "22"
         },
         {
           "fips": 53,
           "state": "Washington",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.8%",
-          "rank": "24"
+          "collections-per-capita": "$3,766",
+          "rank": "12"
         },
         {
           "fips": 54,
           "state": "West Virginia",
-          "state-local-tax-burden-as-a-share-of-state-income": "9.9%",
+          "collections-per-capita": "$3,049",
           "rank": "25"
         },
         {
           "fips": 55,
           "state": "Wisconsin",
+          "collections-per-capita": "$3,413",
+          "rank": "15"
+        },
+        {
+          "fips": 56,
+          "state": "Wyoming",
+          "collections-per-capita": "$3,405",
+          "rank": "17"
+        }
+      ]
+    },
+    "title": "State Tax Collections per Capita",
+    "date": "Fiscal Year 2020",
+    "notes": "Note: D.C. is included only in combined state and local data; see Table 5. See Table 42 for people per household by state. ",
+    "source": "Sources: U.S. Census Bureau, \"Annual Survey of State Government Tax Collections\"; Tax Foundation calculations.",
+    "footnotes": null
+  },
+  "2": {
+    "type": "states",
+    "data": {
+      "headers": [
+        {
+          "name": "State",
+          "id": "state",
+          "order": 0
+        },
+        {
+          "name": "State-Local Tax Burden as a Share of State Income",
+          "id": "state-local-tax-burden-as-a-share-of-state-income",
+          "order": 1
+        },
+        {
+          "name": "Rank",
+          "id": "rank",
+          "order": 2
+        },
+        {
+          "name": "Total Tax Burden (per Capita)",
+          "id": "total-tax-burden-per-capita",
+          "order": 3
+        }
+      ],
+      "values": [
+        {
+          "fips": 0,
+          "state": "United States",
+          "state-local-tax-burden-as-a-share-of-state-income": "10.3%",
+          "total-tax-burden-per-capita": "$5,755"
+        },
+        {
+          "fips": 1,
+          "state": "Alabama",
+          "state-local-tax-burden-as-a-share-of-state-income": "9.0%",
+          "rank": "13",
+          "total-tax-burden-per-capita": "$3,893"
+        },
+        {
+          "fips": 2,
+          "state": "Alaska",
+          "state-local-tax-burden-as-a-share-of-state-income": "5.8%",
+          "rank": "1",
+          "total-tax-burden-per-capita": "$3,605"
+        },
+        {
+          "fips": 4,
+          "state": "Arizona",
+          "state-local-tax-burden-as-a-share-of-state-income": "8.7%",
+          "rank": "6",
+          "total-tax-burden-per-capita": "$3,926"
+        },
+        {
+          "fips": 5,
+          "state": "Arkansas",
+          "state-local-tax-burden-as-a-share-of-state-income": "10.4%",
+          "rank": "34",
+          "total-tax-burden-per-capita": "$4,581"
+        },
+        {
+          "fips": 6,
+          "state": "California",
+          "state-local-tax-burden-as-a-share-of-state-income": "11.5%",
+          "rank": "43",
+          "total-tax-burden-per-capita": "$7,529"
+        },
+        {
+          "fips": 8,
+          "state": "Colorado",
+          "state-local-tax-burden-as-a-share-of-state-income": "9.4%",
+          "rank": "17",
+          "total-tax-burden-per-capita": "$5,677"
+        },
+        {
+          "fips": 9,
+          "state": "Connecticut",
+          "state-local-tax-burden-as-a-share-of-state-income": "12.8%",
+          "rank": "49",
+          "total-tax-burden-per-capita": "$9,705"
+        },
+        {
+          "fips": 10,
+          "state": "Delaware",
+          "state-local-tax-burden-as-a-share-of-state-income": "10.3%",
+          "rank": "33",
+          "total-tax-burden-per-capita": "$5,550"
+        },
+        {
+          "fips": 12,
+          "state": "Florida",
+          "state-local-tax-burden-as-a-share-of-state-income": "8.8%",
+          "rank": "8",
+          "total-tax-burden-per-capita": "$4,555"
+        },
+        {
+          "fips": 13,
+          "state": "Georgia",
+          "state-local-tax-burden-as-a-share-of-state-income": "8.9%",
+          "rank": "10",
+          "total-tax-burden-per-capita": "$4,221"
+        },
+        {
+          "fips": 15,
+          "state": "Hawaii",
+          "state-local-tax-burden-as-a-share-of-state-income": "12.7%",
+          "rank": "48",
+          "total-tax-burden-per-capita": "$7,144"
+        },
+        {
+          "fips": 16,
+          "state": " Idaho",
+          "state-local-tax-burden-as-a-share-of-state-income": "9.6%",
+          "rank": "20",
+          "total-tax-burden-per-capita": "$4,336"
+        },
+        {
+          "fips": 17,
+          "state": "Illinois",
+          "state-local-tax-burden-as-a-share-of-state-income": "11.1%",
+          "rank": "41",
+          "total-tax-burden-per-capita": "$6,450"
+        },
+        {
+          "fips": 18,
+          "state": "Indiana",
+          "state-local-tax-burden-as-a-share-of-state-income": "8.9%",
+          "rank": "12",
+          "total-tax-burden-per-capita": "$4,289"
+        },
+        {
+          "fips": 19,
+          "state": "Iowa",
+          "state-local-tax-burden-as-a-share-of-state-income": "10.8%",
+          "rank": "38",
+          "total-tax-burden-per-capita": "$5,499"
+        },
+        {
+          "fips": 20,
+          "state": "Kansas",
+          "state-local-tax-burden-as-a-share-of-state-income": "10.1%",
+          "rank": "29",
+          "total-tax-burden-per-capita": "$5,292"
+        },
+        {
+          "fips": 21,
+          "state": "Kentucky",
+          "state-local-tax-burden-as-a-share-of-state-income": "9.9%",
+          "rank": "26",
+          "total-tax-burden-per-capita": "$4,279"
+        },
+        {
+          "fips": 22,
+          "state": "Louisiana",
+          "state-local-tax-burden-as-a-share-of-state-income": "9.2%",
+          "rank": "15",
+          "total-tax-burden-per-capita": "$4,292"
+        },
+        {
+          "fips": 23,
+          "state": "Maine",
+          "state-local-tax-burden-as-a-share-of-state-income": "11.0%",
+          "rank": "39",
+          "total-tax-burden-per-capita": "$5,492"
+        },
+        {
+          "fips": 24,
+          "state": " Maryland",
+          "state-local-tax-burden-as-a-share-of-state-income": "11.8%",
+          "rank": "45",
+          "total-tax-burden-per-capita": "$7,539"
+        },
+        {
+          "fips": 25,
+          "state": " Massachusetts",
+          "state-local-tax-burden-as-a-share-of-state-income": "10.5%",
+          "rank": "36",
+          "total-tax-burden-per-capita": "$7,658"
+        },
+        {
+          "fips": 26,
+          "state": " Michigan",
+          "state-local-tax-burden-as-a-share-of-state-income": "10.0%",
+          "rank": "28",
+          "total-tax-burden-per-capita": "$4,841"
+        },
+        {
+          "fips": 27,
+          "state": "Minnesota",
+          "state-local-tax-burden-as-a-share-of-state-income": "12.1%",
+          "rank": "46",
+          "total-tax-burden-per-capita": "$7,001"
+        },
+        {
+          "fips": 28,
+          "state": "Mississippi",
+          "state-local-tax-burden-as-a-share-of-state-income": "9.5%",
+          "rank": "18",
+          "total-tax-burden-per-capita": "$3,654"
+        },
+        {
+          "fips": 29,
+          "state": "Missouri",
+          "state-local-tax-burden-as-a-share-of-state-income": "9.2%",
+          "rank": "16",
+          "total-tax-burden-per-capita": "$4,431"
+        },
+        {
+          "fips": 30,
+          "state": "Montana",
+          "state-local-tax-burden-as-a-share-of-state-income": "10.1%",
+          "rank": "30",
+          "total-tax-burden-per-capita": "$4,956"
+        },
+        {
+          "fips": 31,
+          "state": "Nebraska",
+          "state-local-tax-burden-as-a-share-of-state-income": "10.3%",
+          "rank": "32",
+          "total-tax-burden-per-capita": "$5,548"
+        },
+        {
+          "fips": 32,
+          "state": "Nevada",
+          "state-local-tax-burden-as-a-share-of-state-income": "9.7%",
+          "rank": "22",
+          "total-tax-burden-per-capita": "$4,895"
+        },
+        {
+          "fips": 33,
+          "state": "New Hampshire",
+          "state-local-tax-burden-as-a-share-of-state-income": "9.7%",
+          "rank": "23",
+          "total-tax-burden-per-capita": "$6,090"
+        },
+        {
+          "fips": 34,
+          "state": "New Jersey",
+          "state-local-tax-burden-as-a-share-of-state-income": "11.7%",
+          "rank": "44",
+          "total-tax-burden-per-capita": "$8,134"
+        },
+        {
+          "fips": 35,
+          "state": "New Mexico",
+          "state-local-tax-burden-as-a-share-of-state-income": "8.8%",
+          "rank": "7",
+          "total-tax-burden-per-capita": "$3,736"
+        },
+        {
+          "fips": 36,
+          "state": "New York",
+          "state-local-tax-burden-as-a-share-of-state-income": "14.1%",
+          "rank": "50",
+          "total-tax-burden-per-capita": "$9,987"
+        },
+        {
+          "fips": 37,
+          "state": "North Carolina",
+          "state-local-tax-burden-as-a-share-of-state-income": "9.5%",
+          "rank": "19",
+          "total-tax-burden-per-capita": "$4,490"
+        },
+        {
+          "fips": 38,
+          "state": "North Dakota",
+          "state-local-tax-burden-as-a-share-of-state-income": "8.9%",
+          "rank": "9",
+          "total-tax-burden-per-capita": "$4,996"
+        },
+        {
+          "fips": 39,
+          "state": "Ohio",
+          "state-local-tax-burden-as-a-share-of-state-income": "10.3%",
+          "rank": "31",
+          "total-tax-burden-per-capita": "$5,107"
+        },
+        {
+          "fips": 40,
+          "state": "Oklahoma",
+          "state-local-tax-burden-as-a-share-of-state-income": "8.2%",
+          "rank": "5",
+          "total-tax-burden-per-capita": "$3,841"
+        },
+        {
+          "fips": 41,
+          "state": "Oregon",
+          "state-local-tax-burden-as-a-share-of-state-income": "11.1%",
+          "rank": "40",
+          "total-tax-burden-per-capita": "$5,809"
+        },
+        {
+          "fips": 42,
+          "state": " Pennsylvania",
+          "state-local-tax-burden-as-a-share-of-state-income": "10.4%",
+          "rank": "35",
+          "total-tax-burden-per-capita": "$5,970"
+        },
+        {
+          "fips": 44,
+          "state": "Rhode Island",
+          "state-local-tax-burden-as-a-share-of-state-income": "11.4%",
+          "rank": "42",
+          "total-tax-burden-per-capita": "$6,334"
+        },
+        {
+          "fips": 45,
+          "state": "South Carolina",
+          "state-local-tax-burden-as-a-share-of-state-income": "8.9%",
+          "rank": "11",
+          "total-tax-burden-per-capita": "$4,000"
+        },
+        {
+          "fips": 46,
+          "state": "South Dakota",
+          "state-local-tax-burden-as-a-share-of-state-income": "9.1%",
+          "rank": "14",
+          "total-tax-burden-per-capita": "$4,855"
+        },
+        {
+          "fips": 47,
+          "state": "Tennessee",
+          "state-local-tax-burden-as-a-share-of-state-income": "7.0%",
+          "rank": "3",
+          "total-tax-burden-per-capita": "$3,368"
+        },
+        {
+          "fips": 48,
+          "state": "Texas",
+          "state-local-tax-burden-as-a-share-of-state-income": "8.0%",
+          "rank": "4",
+          "total-tax-burden-per-capita": "$4,143"
+        },
+        {
+          "fips": 49,
+          "state": "Utah",
+          "state-local-tax-burden-as-a-share-of-state-income": "9.6%",
+          "rank": "21",
+          "total-tax-burden-per-capita": "$4,636"
+        },
+        {
+          "fips": 50,
+          "state": "Vermont",
+          "state-local-tax-burden-as-a-share-of-state-income": "12.3%",
+          "rank": "47",
+          "total-tax-burden-per-capita": "$6,693"
+        },
+        {
+          "fips": 51,
+          "state": "Virginia",
+          "state-local-tax-burden-as-a-share-of-state-income": "10.0%",
+          "rank": "27",
+          "total-tax-burden-per-capita": "$5,854"
+        },
+        {
+          "fips": 53,
+          "state": "Washington",
+          "state-local-tax-burden-as-a-share-of-state-income": "9.8%",
+          "rank": "24",
+          "total-tax-burden-per-capita": "$6,245"
+        },
+        {
+          "fips": 54,
+          "state": "West Virginia",
+          "state-local-tax-burden-as-a-share-of-state-income": "9.9%",
+          "rank": "25",
+          "total-tax-burden-per-capita": "$4,114"
+        },
+        {
+          "fips": 55,
+          "state": "Wisconsin",
           "state-local-tax-burden-as-a-share-of-state-income": "10.7%",
-          "rank": "37"
+          "rank": "37",
+          "total-tax-burden-per-capita": "$5,632"
         },
         {
           "fips": 56,
           "state": "Wyoming",
           "state-local-tax-burden-as-a-share-of-state-income": "7.0%",
-          "rank": "2"
+          "rank": "2",
+          "total-tax-burden-per-capita": "$4,282"
         },
         {
           "fips": 11,
           "state": "District of Columbia",
           "state-local-tax-burden-as-a-share-of-state-income": "10.1%",
-          "rank": "29"
+          "rank": "29",
+          "total-tax-burden-per-capita": "$8,261"
         }
       ]
     },
     "title": "State-Local Tax Burdens per Capita & as a Percentage of Income",
     "date": "Calendar Year 2019",
-    "notes": "Note: Payments made to out-of-state governments are tallied in taxpayer's state of residence where possible. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See table 43 for people per household by state.",
+    "notes": "Note: Payments made to out-of-state governments are tallied in taxpayer's state of residence where possible. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See Table 42 for people per household by state.",
     "source": "Source: Tax Foundation, State-Local Tax Burden Rankings FY 2019.",
     "footnotes": null
   },
-  "2": {
+  "3": {
     "type": "states",
     "data": {
       "headers": [
@@ -897,341 +1288,6 @@
     "date": "As of July 1, 2021",
     "notes": "Note: The State Business Tax Climate Index measures how each state's tax laws affect economic performance. A rank of 1 means the state's tax system is more favorable for business; a rank of 50 means the state's tax system is less favorable for business. Component rankings do not average to the total. States without a given tax rank equally as number 1. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
     "source": "Source: Tax Foundation, 2022 State Business Tax Climate Index.",
-    "footnotes": null
-  },
-  "3": {
-    "type": "states",
-    "data": {
-      "headers": [
-        {
-          "name": "State",
-          "id": "state",
-          "order": 0
-        },
-        {
-          "name": "Collections per Capita",
-          "id": "collections-per-capita",
-          "order": 1
-        },
-        {
-          "name": "Rank",
-          "id": "rank",
-          "order": 2
-        }
-      ],
-      "values": [
-        {
-          "fips": 0,
-          "state": "United States",
-          "collections-per-capita": "$3,217",
-          "rank": null
-        },
-        {
-          "fips": 1,
-          "state": "Alabama",
-          "collections-per-capita": "$2,397",
-          "rank": "42"
-        },
-        {
-          "fips": 2,
-          "state": "Alaska",
-          "collections-per-capita": "$1,797",
-          "rank": "50"
-        },
-        {
-          "fips": 4,
-          "state": "Arizona",
-          "collections-per-capita": "$2,487",
-          "rank": "39"
-        },
-        {
-          "fips": 5,
-          "state": "Arkansas",
-          "collections-per-capita": "$3,405",
-          "rank": "16"
-        },
-        {
-          "fips": 6,
-          "state": "California",
-          "collections-per-capita": "$4,349",
-          "rank": "9"
-        },
-        {
-          "fips": 8,
-          "state": "Colorado",
-          "collections-per-capita": "$2,611",
-          "rank": "36"
-        },
-        {
-          "fips": 9,
-          "state": "Connecticut",
-          "collections-per-capita": "$5,103",
-          "rank": "4"
-        },
-        {
-          "fips": 10,
-          "state": "Delaware",
-          "collections-per-capita": "$4,602",
-          "rank": "6"
-        },
-        {
-          "fips": 12,
-          "state": "Florida",
-          "collections-per-capita": "$2,002",
-          "rank": "49"
-        },
-        {
-          "fips": 13,
-          "state": "Georgia",
-          "collections-per-capita": "$2,218",
-          "rank": "45"
-        },
-        {
-          "fips": 15,
-          "state": "Hawaii",
-          "collections-per-capita": "$5,296",
-          "rank": "3"
-        },
-        {
-          "fips": 16,
-          "state": " Idaho",
-          "collections-per-capita": "$2,872",
-          "rank": "31"
-        },
-        {
-          "fips": 17,
-          "state": "Illinois",
-          "collections-per-capita": "$3,534",
-          "rank": "14"
-        },
-        {
-          "fips": 18,
-          "state": "Indiana",
-          "collections-per-capita": "$3,297",
-          "rank": "20"
-        },
-        {
-          "fips": 19,
-          "state": "Iowa",
-          "collections-per-capita": "$3,342",
-          "rank": "19"
-        },
-        {
-          "fips": 20,
-          "state": "Kansas",
-          "collections-per-capita": "$3,288",
-          "rank": "21"
-        },
-        {
-          "fips": 21,
-          "state": "Kentucky",
-          "collections-per-capita": "$2,967",
-          "rank": "29"
-        },
-        {
-          "fips": 22,
-          "state": "Louisiana",
-          "collections-per-capita": "$2,443",
-          "rank": "40"
-        },
-        {
-          "fips": 23,
-          "state": "Maine",
-          "collections-per-capita": "$3,561",
-          "rank": "13"
-        },
-        {
-          "fips": 24,
-          "state": " Maryland",
-          "collections-per-capita": "$3,866",
-          "rank": "11"
-        },
-        {
-          "fips": 25,
-          "state": " Massachusetts",
-          "collections-per-capita": "$4,499",
-          "rank": "8"
-        },
-        {
-          "fips": 26,
-          "state": " Michigan",
-          "collections-per-capita": "$2,785",
-          "rank": "32"
-        },
-        {
-          "fips": 27,
-          "state": "Minnesota",
-          "collections-per-capita": "$4,695",
-          "rank": "5"
-        },
-        {
-          "fips": 28,
-          "state": "Mississippi",
-          "collections-per-capita": "$2,735",
-          "rank": "33"
-        },
-        {
-          "fips": 29,
-          "state": "Missouri",
-          "collections-per-capita": "$2,016",
-          "rank": "48"
-        },
-        {
-          "fips": 30,
-          "state": "Montana",
-          "collections-per-capita": "$2,922",
-          "rank": "30"
-        },
-        {
-          "fips": 31,
-          "state": "Nebraska",
-          "collections-per-capita": "$2,986",
-          "rank": "28"
-        },
-        {
-          "fips": 32,
-          "state": "Nevada",
-          "collections-per-capita": "$3,045",
-          "rank": "26"
-        },
-        {
-          "fips": 33,
-          "state": "New Hampshire",
-          "collections-per-capita": "$2,075",
-          "rank": "47"
-        },
-        {
-          "fips": 34,
-          "state": "New Jersey",
-          "collections-per-capita": "$4,083",
-          "rank": "10"
-        },
-        {
-          "fips": 35,
-          "state": "New Mexico",
-          "collections-per-capita": "$3,377",
-          "rank": "18"
-        },
-        {
-          "fips": 36,
-          "state": "New York",
-          "collections-per-capita": "$4,590",
-          "rank": "7"
-        },
-        {
-          "fips": 37,
-          "state": "North Carolina",
-          "collections-per-capita": "$2,711",
-          "rank": "34"
-        },
-        {
-          "fips": 38,
-          "state": "North Dakota",
-          "collections-per-capita": "$5,566",
-          "rank": "1"
-        },
-        {
-          "fips": 39,
-          "state": "Ohio",
-          "collections-per-capita": "$2,592",
-          "rank": "37"
-        },
-        {
-          "fips": 40,
-          "state": "Oklahoma",
-          "collections-per-capita": "$2,590",
-          "rank": "38"
-        },
-        {
-          "fips": 41,
-          "state": "Oregon",
-          "collections-per-capita": "$3,015",
-          "rank": "27"
-        },
-        {
-          "fips": 42,
-          "state": " Pennsylvania",
-          "collections-per-capita": "$3,129",
-          "rank": "24"
-        },
-        {
-          "fips": 44,
-          "state": "Rhode Island",
-          "collections-per-capita": "$3,214",
-          "rank": "23"
-        },
-        {
-          "fips": 45,
-          "state": "South Carolina",
-          "collections-per-capita": "$2,304",
-          "rank": "43"
-        },
-        {
-          "fips": 46,
-          "state": "South Dakota",
-          "collections-per-capita": "$2,276",
-          "rank": "44"
-        },
-        {
-          "fips": 47,
-          "state": "Tennessee",
-          "collections-per-capita": "$2,427",
-          "rank": "41"
-        },
-        {
-          "fips": 48,
-          "state": "Texas",
-          "collections-per-capita": "$2,093",
-          "rank": "46"
-        },
-        {
-          "fips": 49,
-          "state": "Utah",
-          "collections-per-capita": "$2,669",
-          "rank": "35"
-        },
-        {
-          "fips": 50,
-          "state": "Vermont",
-          "collections-per-capita": "$5,318",
-          "rank": "2"
-        },
-        {
-          "fips": 51,
-          "state": "Virginia",
-          "collections-per-capita": "$3,251",
-          "rank": "22"
-        },
-        {
-          "fips": 53,
-          "state": "Washington",
-          "collections-per-capita": "$3,766",
-          "rank": "12"
-        },
-        {
-          "fips": 54,
-          "state": "West Virginia",
-          "collections-per-capita": "$3,049",
-          "rank": "25"
-        },
-        {
-          "fips": 55,
-          "state": "Wisconsin",
-          "collections-per-capita": "$3,413",
-          "rank": "15"
-        },
-        {
-          "fips": 56,
-          "state": "Wyoming",
-          "collections-per-capita": "$3,405",
-          "rank": "17"
-        }
-      ]
-    },
-    "title": "State Tax Collections per Capita",
-    "date": "Fiscal Year 2020",
-    "notes": "Note: D.C. is included only in combined state and local data; see Table 5. See Table 42 for people per household by state. ",
-    "source": "Sources: U.S. Census Bureau, \"Annual Survey of State Government Tax Collections\"; Tax Foundation calculations.",
     "footnotes": null
   },
   "4": {
@@ -2761,7 +2817,11 @@
     "date": "Fiscal Year 2019",
     "notes": "(a) \"Other Taxes\" include excise taxes (such as those on alcohol, tobacco, motor vehicles, utilities, and licenses), severance taxes, stock transfer taxes, estate and gift taxes, and other miscellaneous taxes.",
     "source": "Sources: U.S. Census Bureau, \"Annual Survey of State and Local Government Finances\"; Tax Foundation calculations.",
-    "footnotes": null
+    "footnotes": [
+      [
+        "Note: Percentages may not add to 100 due to rounding."
+      ]
+    ]
   },
   "8": {
     "type": "states",
@@ -4677,7 +4737,7 @@
         "(a) These states allow some or all of federal income tax paid to be deducted from state taxable income."
       ],
       [
-        "(b) Local income taxes are excluded. Eleven states have county- or city-level income taxes; the average rates expressed as a percentage of AGI within each jurisdiction are: 0.12% in Alabama; 0.01% in Delaware; 0.38% in Indiana; 0.12% in Iowa; 1.48% in Kentucky; 2.69% in Maryland; 0.22% in Michigan; 0.27% in Missouri; 1.69% in New York; 1.93% in Ohio; and 1.34% in Pennsylvania. In California, Colorado, Kansas, New Jersey, Oregon, and West Virginia, some jurisdictions have payroll taxes, flat-rate wage taxes, or interest and dividend income taxes. See Jared Walczak, “Local Income Taxes in 2019,” Tax Foundation, July 30, 2019, https://taxfoundation.org/local-income-taxes-2019/.   \t"
+        "(b) Local income taxes are excluded. Eleven states have county- or city-level income taxes; the average rates expressed as a percentage of AGI within each jurisdiction are: 0.12% in Alabama; 0.01% in Delaware; 0.38% in Indiana; 0.12% in Iowa; 1.48% in Kentucky; 2.69% in Maryland; 0.22% in Michigan; 0.27% in Missouri; 1.69% in New York; 1.93% in Ohio; and 1.34% in Pennsylvania. In California, Colorado, Kansas, New Jersey, Oregon, and West Virginia, some jurisdictions have payroll taxes, flat-rate wage taxes, or interest and dividend income taxes. See Jared Walczak, “Local Income Taxes in 2019,” Tax Foundation, July 30, 2019.   \t"
       ],
       [
         "(c) Bracket levels are adjusted for inflation each year."
@@ -5971,7 +6031,7 @@
     ],
     "title": "State Corporate Income Tax Rates",
     "date": "As of January 1, 2022",
-    "notes": "Note: In addition to regular income taxes, many states impose other taxes on corporations such as gross receipts taxes (Table 18) and capital stock taxes (Table 36). Some states also impose an alternative minimum tax and special rates on financial institutions.",
+    "notes": "Note: In addition to regular income taxes, many states impose other taxes on corporations such as gross receipts taxes (Table 17) and capital stock taxes (Table 35). Some states also impose an alternative minimum tax and special rates on financial institutions.",
     "source": "Sources: Tax Foundation; state tax statutes, forms, and instructions; Bloomberg Tax.",
     "footnotes": [
       [
@@ -5980,7 +6040,7 @@
       [],
       [],
       [
-        "(b) Nevada, Ohio, Texas, and Washington do not have a corporate income tax but do have a gross receipts tax with rates not strictly comparable to corporate income tax rates. See Table 18 for more information. Delaware, Oregon, and Tennessee have gross receipts taxes in addition to corporate income taxes, as do several states like Pennsylvania, Virginia, and West Virginia, which permit gross receipts taxes at the local (but not state) level."
+        "(b) Nevada, Ohio, Texas, and Washington do not have a corporate income tax but do have a gross receipts tax with rates not strictly comparable to corporate income tax rates. See Table 17 for more information. Delaware, Oregon, and Tennessee have gross receipts taxes in addition to corporate income taxes, as do several states like Pennsylvania, Virginia, and West Virginia, which permit gross receipts taxes at the local (but not state) level."
       ],
       [],
       [],
@@ -6371,7 +6431,7 @@
         "(a) Delaware collects both corporate income taxes and gross receipts taxes."
       ],
       [
-        "(b) The U.S. Census Bureau does not classify revenue from gross receipts taxes such as those in Delaware, Nevada, Ohio, Oregon, Tennessee, Texas, and Washington as corporate tax revenue. See Table 18 for gross receipts taxes."
+        "(b) The U.S. Census Bureau does not classify revenue from gross receipts taxes such as those in Delaware, Nevada, Ohio, Oregon, Tennessee, Texas, and Washington as corporate tax revenue. See Table 17 for gross receipts taxes."
       ],
       [],
       [],
@@ -6393,48 +6453,61 @@
           "name": "Collections Per Capita",
           "id": "collections-per-capita",
           "order": 1
+        },
+        {
+          "name": "Rank",
+          "id": "rank",
+          "order": 2
         }
       ],
       "values": [
         {
           "fips": 0,
           "state": "United States",
-          "collections-per-capita": "$200"
+          "collections-per-capita": "$200",
+          "rank": null
         },
         {
           "fips": 1,
           "state": "Alabama",
-          "collections-per-capita": "$140"
+          "collections-per-capita": "$140",
+          "rank": "30"
         },
         {
           "fips": 2,
           "state": "Alaska",
-          "collections-per-capita": "$455"
+          "collections-per-capita": "$455",
+          "rank": "4"
         },
         {
           "fips": 4,
           "state": "Arizona",
-          "collections-per-capita": "$71"
+          "collections-per-capita": "$71",
+          "rank": "44"
         },
         {
           "fips": 5,
           "state": "Arkansas",
-          "collections-per-capita": "$177"
+          "collections-per-capita": "$177",
+          "rank": "20"
         },
         {
           "fips": 6,
           "state": "California",
-          "collections-per-capita": "$349"
+          "collections-per-capita": "$349",
+          "rank": "6"
         },
         {
           "fips": 8,
           "state": "Colorado",
-          "collections-per-capita": "$138"
+          "collections-per-capita": "$138",
+          "rank": "31"
         },
         {
           "fips": 9,
           "state": "Connecticut",
-          "collections-per-capita": "$253"
+          "collections-per-capita": "$253",
+          "rank": "10"
         },
         {
           "footnotes": [
@@ -6442,102 +6515,122 @@
           ],
           "fips": 10,
           "state": "Delaware",
-          "collections-per-capita": "$305"
+          "collections-per-capita": "$305",
+          "rank": "7"
         },
         {
           "fips": 12,
           "state": "Florida",
-          "collections-per-capita": "$145"
+          "collections-per-capita": "$145",
+          "rank": "29"
         },
         {
           "fips": 13,
           "state": "Georgia",
-          "collections-per-capita": "$120"
+          "collections-per-capita": "$120",
+          "rank": "33"
         },
         {
           "fips": 15,
           "state": "Hawaii",
-          "collections-per-capita": "$135"
+          "collections-per-capita": "$135",
+          "rank": "32"
         },
         {
           "fips": 16,
           "state": " Idaho",
-          "collections-per-capita": "$159"
+          "collections-per-capita": "$159",
+          "rank": "28"
         },
         {
           "fips": 17,
           "state": "Illinois",
-          "collections-per-capita": "$244"
+          "collections-per-capita": "$244",
+          "rank": "12"
         },
         {
           "fips": 18,
           "state": "Indiana",
-          "collections-per-capita": "$112"
+          "collections-per-capita": "$112",
+          "rank": "35"
         },
         {
           "fips": 19,
           "state": "Iowa",
-          "collections-per-capita": "$170"
+          "collections-per-capita": "$170",
+          "rank": "23"
         },
         {
           "fips": 20,
           "state": "Kansas",
-          "collections-per-capita": "$167"
+          "collections-per-capita": "$167",
+          "rank": "24"
         },
         {
           "fips": 21,
           "state": "Kentucky",
-          "collections-per-capita": "$172"
+          "collections-per-capita": "$172",
+          "rank": "22"
         },
         {
           "fips": 22,
           "state": "Louisiana",
-          "collections-per-capita": "$107"
+          "collections-per-capita": "$107",
+          "rank": "38"
         },
         {
           "fips": 23,
           "state": "Maine",
-          "collections-per-capita": "$188"
+          "collections-per-capita": "$188",
+          "rank": "19"
         },
         {
           "fips": 24,
           "state": " Maryland",
-          "collections-per-capita": "$215"
+          "collections-per-capita": "$215",
+          "rank": "17"
         },
         {
           "fips": 25,
           "state": " Massachusetts",
-          "collections-per-capita": "$428"
+          "collections-per-capita": "$428",
+          "rank": "5"
         },
         {
           "fips": 26,
           "state": " Michigan",
-          "collections-per-capita": "$114"
+          "collections-per-capita": "$114",
+          "rank": "34"
         },
         {
           "fips": 27,
           "state": "Minnesota",
-          "collections-per-capita": "$304"
+          "collections-per-capita": "$304",
+          "rank": "8"
         },
         {
           "fips": 28,
           "state": "Mississippi",
-          "collections-per-capita": "$166"
+          "collections-per-capita": "$166",
+          "rank": "26"
         },
         {
           "fips": 29,
           "state": "Missouri",
-          "collections-per-capita": "$74"
+          "collections-per-capita": "$74",
+          "rank": "43"
         },
         {
           "fips": 30,
           "state": "Montana",
-          "collections-per-capita": "$173"
+          "collections-per-capita": "$173",
+          "rank": "21"
         },
         {
           "fips": 31,
           "state": "Nebraska",
-          "collections-per-capita": "$219"
+          "collections-per-capita": "$219",
+          "rank": "16"
         },
         {
           "footnotes": [
@@ -6545,37 +6638,44 @@
           ],
           "fips": 32,
           "state": "Nevada",
-          "collections-per-capita": "$0"
+          "collections-per-capita": "$0",
+          "rank": "--"
         },
         {
           "fips": 33,
           "state": "New Hampshire",
-          "collections-per-capita": "$612"
+          "collections-per-capita": "$612",
+          "rank": "1"
         },
         {
           "fips": 34,
           "state": "New Jersey",
-          "collections-per-capita": "$456"
+          "collections-per-capita": "$456",
+          "rank": "3"
         },
         {
           "fips": 35,
           "state": "New Mexico",
-          "collections-per-capita": "$97"
+          "collections-per-capita": "$97",
+          "rank": "39"
         },
         {
           "fips": 36,
           "state": "New York",
-          "collections-per-capita": "$547"
+          "collections-per-capita": "$547",
+          "rank": "2"
         },
         {
           "fips": 37,
           "state": "North Carolina",
-          "collections-per-capita": "$80"
+          "collections-per-capita": "$80",
+          "rank": "40"
         },
         {
           "fips": 38,
           "state": "North Dakota",
-          "collections-per-capita": "$192"
+          "collections-per-capita": "$192",
+          "rank": "18"
         },
         {
           "footnotes": [
@@ -6583,12 +6683,14 @@
           ],
           "fips": 39,
           "state": "Ohio",
-          "collections-per-capita": "$24"
+          "collections-per-capita": "$24",
+          "rank": "46"
         },
         {
           "fips": 40,
           "state": "Oklahoma",
-          "collections-per-capita": "$77"
+          "collections-per-capita": "$77",
+          "rank": "42"
         },
         {
           "footnotes": [
@@ -6596,22 +6698,26 @@
           ],
           "fips": 41,
           "state": "Oregon",
-          "collections-per-capita": "$239"
+          "collections-per-capita": "$239",
+          "rank": "14"
         },
         {
           "fips": 42,
           "state": " Pennsylvania",
-          "collections-per-capita": "$274"
+          "collections-per-capita": "$274",
+          "rank": "9"
         },
         {
           "fips": 44,
           "state": "Rhode Island",
-          "collections-per-capita": "$167"
+          "collections-per-capita": "$167",
+          "rank": "25"
         },
         {
           "fips": 45,
           "state": "South Carolina",
-          "collections-per-capita": "$77"
+          "collections-per-capita": "$77",
+          "rank": "41"
         },
         {
           "footnotes": [
@@ -6619,7 +6725,8 @@
           ],
           "fips": 46,
           "state": "South Dakota",
-          "collections-per-capita": "$52"
+          "collections-per-capita": "$52",
+          "rank": "45"
         },
         {
           "footnotes": [
@@ -6627,7 +6734,8 @@
           ],
           "fips": 47,
           "state": "Tennessee",
-          "collections-per-capita": "$249"
+          "collections-per-capita": "$249",
+          "rank": "11"
         },
         {
           "footnotes": [
@@ -6635,17 +6743,20 @@
           ],
           "fips": 48,
           "state": "Texas",
-          "collections-per-capita": "$0"
+          "collections-per-capita": "$0",
+          "rank": "--"
         },
         {
           "fips": 49,
           "state": "Utah",
-          "collections-per-capita": "$163"
+          "collections-per-capita": "$163",
+          "rank": "27"
         },
         {
           "fips": 50,
           "state": "Vermont",
-          "collections-per-capita": "$240"
+          "collections-per-capita": "$240",
+          "rank": "13"
         },
         {
           "footnotes": [
@@ -6653,7 +6764,8 @@
           ],
           "fips": 51,
           "state": "Virginia",
-          "collections-per-capita": "$108"
+          "collections-per-capita": "$108",
+          "rank": "37"
         },
         {
           "footnotes": [
@@ -6662,17 +6774,20 @@
           ],
           "fips": 53,
           "state": "Washington",
-          "collections-per-capita": "$0"
+          "collections-per-capita": "$0",
+          "rank": "--"
         },
         {
           "fips": 54,
           "state": "West Virginia",
-          "collections-per-capita": "$111"
+          "collections-per-capita": "$111",
+          "rank": "36"
         },
         {
           "fips": 55,
           "state": "Wisconsin",
-          "collections-per-capita": "$234"
+          "collections-per-capita": "$234",
+          "rank": "15"
         },
         {
           "footnotes": [
@@ -6680,12 +6795,14 @@
           ],
           "fips": 56,
           "state": "Wyoming",
-          "collections-per-capita": "$0"
+          "collections-per-capita": "$0",
+          "rank": "--"
         },
         {
           "fips": 11,
           "state": "District of Columbia",
-          "collections-per-capita": "$911"
+          "collections-per-capita": "$911",
+          "rank": "1"
         }
       ]
     },
@@ -7256,9 +7373,6 @@
       ],
       [
         "(e) Certain jurisdictions are not subject to statewide sales tax rates and collect a local rate of 3.3125%. New Jersey’s average local rate is represented as a negative."
-      ],
-      [
-        "Note: D.C.’s ranks do not affect states’ ranks, but the figures in parentheses indicate where it would rank if included."
       ]
     ]
   },
@@ -7971,7 +8085,7 @@
     },
     "title": "State & Local General Sales Tax Collections ",
     "date": "per Capita ",
-    "notes": "Note: Some states levy gross receipts taxes in addition to sales taxes, which the U.S. Census Bureau includes in collections data. See Table 18 for information on gross receipts taxes. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See Table 43 for people per household by state. ",
+    "notes": "Note: Some states levy gross receipts taxes in addition to sales taxes, which the U.S. Census Bureau includes in collections data. See Table 17 for information on gross receipts taxes. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See Table 42 for people per household by state. ",
     "source": "Sources: U.S. Census Bureau, \"Annual Survey of State and Local Government Finances\"; Tax Foundation calculations.",
     "footnotes": [
       [
@@ -8781,10 +8895,12 @@
     },
     "title": " State Gasoline Tax Rates (Cents per Gallon)",
     "date": "as of January 1, 2022",
-    "notes": " Note: Excise taxes are special taxes on specific goods or activities--such as gasoline, tobacco, or gambling--rather than general tax bases such as income or consumption. Excise taxes are often included in the final price of products and services, and are hidden to consumers. The American Petroleum Institute (API) has developed a methodology for determining the average tax rate on a gallon of fuel. Rates may include any of the following: excise taxes, environmental fees, storage tank taxes, other fees or taxes, and general sales tax. In states where gasoline is subject to the general sales tax, or where the fuel tax is based on the average sale price, the average rate determined by API is sensitive to changes in the price of gasoline. States that fully or partially apply general sales taxes to gasoline are California, Connecticut, Illinois, Indiana, Michigan, and New York. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
+    "notes": "Note: Excise taxes are special taxes on specific goods or activities--such as gasoline, tobacco, or gambling--rather than general tax bases such as income or consumption. Excise taxes are often included in the final price of products and services, and are hidden to consumers. ",
     "source": "Source: American Petroleum Institute, \"State Motor Fuel Reports (January 2022).\"",
     "footnotes": [
-      []
+      [
+        "The American Petroleum Institute (API) has developed a methodology for determining the average tax rate on a gallon of fuel. Rates may include any of the following: excise taxes, environmental fees, storage tank taxes, other fees or taxes, and general sales tax. In states where gasoline is subject to the general sales tax, or where the fuel tax is based on the average sale price, the average rate determined by API is sensitive to changes in the price of gasoline. States that fully or partially apply general sales taxes to gasoline are California, Connecticut, Illinois, Indiana, Michigan, and New York. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included."
+      ]
     ]
   },
   "23": {
@@ -9595,7 +9711,7 @@
     "source": "Sources: Bloomberg Tax; state revenue departments; Tax Foundation.",
     "footnotes": [
       [
-        "(a) Rate includes in lieu cigarette sales tax collected at wholesale."
+        "(a) Rate includes in-lieu cigarette sales tax collected at wholesale."
       ]
     ]
   },
@@ -9624,7 +9740,7 @@
       ],
       [
         "Ga.",
-        "Open: 7% of wholesale; Closed system: $0.05/ml"
+        "Open: 7% of wholesale; Closed: $0.05/ml"
       ],
       [
         "Ill. ",
@@ -9648,7 +9764,7 @@
       ],
       [
         "Maryland",
-        "Open: 12% of retail; \nClosed: 60% of retail"
+        "Open: 12% of retail; \r\nClosed: 60% of retail"
       ],
       [
         "Mass.",
@@ -9668,11 +9784,11 @@
       ],
       [
         "N.J.",
-        "Open: 10% of wholesale; \nClosed: $0.10/ml"
+        "Open: 10% of wholesale; \r\nClosed: $0.10/ml"
       ],
       [
         "N.M.",
-        "Open: 12.5% of wholesale; \nClosed: $0.50 per pod"
+        "Open: 12.5% of wholesale; \r\nClosed: $0.50 per pod"
       ],
       [
         "N.Y.",
@@ -9708,7 +9824,7 @@
       ],
       [
         "Wash.",
-        "Open: $0.09/ml; \nClosed: $0.27/ml"
+        "Open: $0.09/ml; \r\nClosed: $0.27/ml"
       ],
       [
         "W.Va.",
@@ -9746,7 +9862,7 @@
       ],
       [
         "Alaska ",
-        "$50/oz. mature flowers;\n$25/oz. immature flowers;\n$15/oz. trim, $1 per clone"
+        "$50/oz. mature flowers;\r\n$25/oz. immature flowers;\r\n$15/oz. trim, $1 per clone"
       ],
       [
         "Ariz.",
@@ -9754,23 +9870,23 @@
       ],
       [
         "Calif.",
-        "15% excise tax (levied on wholesale at average market rate);\n$10.08/oz. flowers & $3/oz. leaves cultivation tax;\n$1.41/oz fresh cannabis plant"
+        "15% excise tax (levied on wholesale at average market rate);\r\n$10.08/oz. flowers & $3/oz. leaves cultivation tax;\r\n$1.41/oz fresh cannabis plant"
       ],
       [
         "Colo.",
-        "15% excise tax (levied on wholesale at average market rate);\n15% excise tax (retail price) "
+        "15% excise tax (levied on wholesale at average market rate);\r\n15% excise tax (retail price) "
       ],
       [
         "Conn. (a)",
-        "$0.00625 per milligram of THC in flower; \n$0.00275 per milligram of THC in edibles; \n$0.009 per milligram of THC in other cannabis products"
+        "$0.00625 per milligram of THC in flower; \r\n$0.00275 per milligram of THC in edibles; \r\n$0.009 per milligram of THC in other cannabis products"
       ],
       [
         "Ill.",
-        "7% excise tax of value at wholesale level; \n10% tax on cannabis flower or products with less than 35% THC; \n20% tax on products infused with cannabis, such as edible products; \n25% tax on any product with a THC concentration higher than 35%"
+        "7% excise tax of value at wholesale level; \r\n10% tax on cannabis flower or products with less than 35% THC; \r\n20% tax on products infused with cannabis, such as edible products; \r\n25% tax on any product with a THC concentration higher than 35%"
       ],
       [
         "Maine",
-        "10% excise tax (retail price), $335/lb. flower;\n$94/lb. trim;\n$1.5 per immature plant or seedling;\n$0.3 per seed"
+        "10% excise tax (retail price), $335/lb. flower;\r\n$94/lb. trim;\r\n$1.5 per immature plant or seedling;\r\n$0.3 per seed"
       ],
       [
         "Mass.",
@@ -9786,11 +9902,11 @@
       ],
       [
         "Nev.",
-        "15% excise tax (fair market value at wholesale);\n10% excise tax (retail price)"
+        "15% excise tax (fair market value at wholesale);\r\n10% excise tax (retail price)"
       ],
       [
         "N.J. (a, b)",
-        "Up to $10 per ounce, if the average retail price of an ounce of usable cannabis was $350 or more;\nup to $30 per ounce, if the average retail price of an ounce of usable cannabis was less than $350 but at least $250;\nup to $40 per ounce, if the average retail price of an ounce of usable cannabis was less than $250 but at least $200;\nup to $60 per ounce, if the average retail price of an ounce of usable cannabis was less than $200"
+        "Up to $10 per ounce, if the average retail price of an ounce of usable cannabis was $350 or more;\r\nup to $30 per ounce, if the average retail price of an ounce of usable cannabis was less than $350 but at least $250;\r\nup to $40 per ounce, if the average retail price of an ounce of usable cannabis was less than $250 but at least $200;\r\nup to $60 per ounce, if the average retail price of an ounce of usable cannabis was less than $200"
       ],
       [
         "N.M. (a)",
@@ -9823,7 +9939,7 @@
     "source": "Sources: State statutes; Bloomberg Tax. ",
     "footnotes": [
       [
-        "(a) As of January 2022, retail sale of recreational marijuana has not yet started."
+        "(a) As of January 2022, retail sale of recreational marijuana had not yet started."
       ]
     ]
   },
@@ -10294,11 +10410,11 @@
     "title": "State Spirits Excise Tax Rates",
     "subtitle": " (Dollars per Gallon)",
     "date": " As of January 1, 2022",
-    "notes": "Note: Rates are those applicable to off-premise sales of 40% alcohol by volume (a.b.v.) distilled spirits in 750ml containers. At the federal level, spirits are subject to a tiered tax system. Federal rates are $2.70 per proof gallon on the first 100,000 gallons per calendar year, $13.34/proof gallon for more than 100,000 gallons but less than 22.23 million and $13.50/proof gallon for more than 22.23 million gallons. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. The alcohol excise tax provisions of the Tax Cuts and Jobs Act were made permanent as of Dec. 27, 2020.",
+    "notes": "Note: Rates are those applicable to off-premise sales of 40% alcohol by volume (a.b.v.) distilled spirits in 750ml containers. At the federal level, spirits are subject to a tiered tax system. Federal rates are $2.70 per proof gallon on the first 100,000 gallons per calendar year, $13.34/proof gallon for more than 100,000 gallons but less than 22.23 million, and $13.50/proof gallon for more than 22.23 million gallons. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. The alcohol excise tax provisions of the Tax Cuts and Jobs Act were made permanent as of Dec. 27, 2020.",
     "source": "Sources: Distilled Spirits Council of the United States; Alcohol and Tobacco Tax and Trade Bureau.",
     "footnotes": [
       [
-        "(a) Control states, where the government controls all sales. Products can be subject to ad valorem mark-up as well as excise taxes. "
+        "(a) Control states, where the government controls all sales. Products can be subject to ad valorem (value-based) markup as well as excise taxes. "
       ],
       [
         "(b) Different rates also applicable according to alcohol content, place of production, size of container, or place purchased (on- or off-premise or onboard airlines)."
@@ -10803,7 +10919,7 @@
     "source": "Sources: Distilled Spirits Council of the United States; Alcohol Tax and Trade Bureau.",
     "footnotes": [
       [
-        "(a) Different rates also applicable to alcohol content, place of production, size of container, place purchased (on- or off-premise or on board airlines), or type of wine (carbonated, vermouth, etc.)."
+        "(a) Different rates also applicable to alcohol content, place of production, size of container, place purchased (on- or off-premise or onboard airlines), or type of wine (carbonated, vermouth, etc.)."
       ],
       [
         "(b) Includes case fees and/or bottle fees which may vary with size of container."
@@ -11587,7 +11703,7 @@
     "title": "State & Local Cell Phone Tax Rates",
     "date": "As of July 1, 2021",
     "notes": "Note: The local tax rate is calculated as the average of the tax in the largest city and the capital city. Figures include state and local general sales taxes. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
-    "source": "Source:  Tax Foundation, “Excise Taxes and Fees on Wireless Services Increase Again in 2021.\"",
+    "source": "Source:  Tax Foundation, “Excise Taxes and Fees on Wireless Services Increase Again in 2021,\" October 2021.",
     "footnotes": [
       [
         "(a) The federal tax listed is the federal Universal Service Fund (USF)."
@@ -12393,7 +12509,7 @@
     "source": "Source: U.S. Census Bureau, \"Annual Survey of State and Local Government Finances\"; Tax Foundation calculations.",
     "footnotes": [
       [
-        "Note: Excise taxes are sales and other special taxes imposed on select items, such as tobacco products, alcoholic beverages, and motor fuels. This table also includes excise taxes, or selective sales taxes, on amusements, insurance premiums, parimutuels, and public utilities. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See Table 43 for people per household by state."
+        "Note: Excise taxes are sales and other special taxes imposed on select items, such as tobacco products, alcoholic beverages, and motor fuels. This table also includes excise taxes, or selective sales taxes, on amusements, insurance premiums, parimutuels, and public utilities. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See Table 42 for people per household by state."
       ]
     ]
   },
@@ -14544,7 +14660,7 @@
     "title": "Funded Ratio of Public Pension Plans",
     "date": "Fiscal Year 2020",
     "notes": "Note: Funded ratio is defined as the level of assets in proportion to accrued pension liability.",
-    "source": "Source: Truth in Accounting.",
+    "source": "Source: Truth in Accounting, \"Pension Database.\"",
     "footnotes": null
   },
   "41": {
@@ -15225,7 +15341,7 @@
     },
     "title": "People per Household by State",
     "date": "2018-2019",
-    "notes": "Note: This does not include persons living in institutionalized housing, defined as adult or juvenile correctional institutions, some medical and military facilities, hospitals and psychiatric facilities.",
+    "notes": "Note: This does not include persons living in institutionalized housing, defined as adult or juvenile correctional institutions, some medical and military facilities, and hospitals and psychiatric facilities.",
     "source": "Source: U.S. Census Bureau.",
     "footnotes": null
   }
