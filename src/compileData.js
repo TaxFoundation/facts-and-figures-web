@@ -32,11 +32,11 @@ const concatRange = (range, sheet) => {
     row.forEach(cell => values.push(cell));
   });
 
-  const cooncatenation = values.reduce((prev, curr) => {
+  const concatenation = values.reduce((prev, curr) => {
     return `${prev} ${curr.trim()}`;
   }, '');
 
-  return cooncatenation;
+  return concatenation;
 };
 
 const mapValues = (table, sheet) => {
