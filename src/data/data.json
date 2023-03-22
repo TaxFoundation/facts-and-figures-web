@@ -728,7 +728,7 @@
     },
     "title": "State-Local Tax Burdens per Capita & as a Percentage of Income",
     "date": "Calendar Year 2022",
-    "notes": "Note: Rank refers to state and local tax burden as a share of state income. Payments made to out-of-state governments are tallied in taxpayer's state of residence where possible. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See table 42 for people per household by state.",
+    "notes": "Note: Rank refers to state and local tax burden as a share of state income. Payments made to out-of-state governments are tallied in the taxpayer's state of residence where possible. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See table 42 for people per household by state.",
     "source": "Source: Tax Foundation, State-Local Tax Burden Rankings FY 2019.",
     "footnotes": null
   },
@@ -3164,7 +3164,7 @@
     "data": [
       [
         "Income Percentile",
-        "Income Taxes Paid ($ millions)",
+        "Income Taxes Paid ($ Millions)",
         "Group's Share of Total AGI",
         "Group's Share of Income Taxes",
         "Average Income Tax Rate"
@@ -4580,7 +4580,7 @@
     ],
     "title": "State Individual Income Tax Rates",
     "date": "As of January 3, 2023",
-    "notes": "Note: Brackets are for single taxpayers. Some states double bracket widths for joint filers (Ala., Ariz, Conn., Hawaii, Kans., La., Maine, Nebr., Ore.). California doubles all but the top two brackets. Oklahoma doubles all but the top bracket. Some states increase but do not double brackets for joint filers (Ga., Minn., N.M., N.D., N.Y., Vt., Wis.). Maryland increases some but not all brackets. New Jersey adds a 2.45% rate and increases some bracket widths. Consult the Tax Foundation website for tables for joint filers.",
+    "notes": "Note: Brackets are for single taxpayers. Some states double bracket widths for joint filers (Ala., Ariz., Conn., Hawaii, Kans., La., Maine, Nebr., Ore.). California doubles all but the top two brackets. Oklahoma doubles all but the top bracket. Some states increase but do not double brackets for joint filers (Ga., Minn., N.M., N.D., N.Y., Vt., Wis.). Maryland increases some but not all brackets. New Jersey adds a 2.45% rate and increases some bracket widths. Consult the Tax Foundation website for tables for joint filers.",
     "source": "Source: Tax Foundation; state tax statutes, forms, and instructions; Bloomberg Tax.",
     "footnotes": [
       [
@@ -4599,7 +4599,7 @@
         "(e) 2022 brackets due to data availability."
       ],
       [
-        "(f) Rates includes the additional mental health services tax at the rate of 1 percent on taxable income in excess of $1 million."
+        "(f) Rates include the additional mental health services tax at the rate of 1 percent on taxable income in excess of $1 million."
       ],
       [
         "(g) California and Oregon do not fully index their top brackets."
@@ -5771,7 +5771,7 @@
         "$0 "
       ],
       [
-        "Ore. (a)",
+        "Ore. (b)",
         "6.6%",
         ">",
         "$0 "
@@ -5891,7 +5891,7 @@
       [],
       [],
       [
-        "(b) Nevada, Ohio, Texas, and Washington do not have a corporate income tax but do have a gross receipts tax with rates not strictly comparable to corporate income tax rates. See Table 18 for more information. Delaware, Oregon, and Tennessee have gross receipts taxes in addition to corporate income taxes, as do several states like Pennsylvania, Virginia, and West Virginia, which permit gross receipts taxes at the local (but not state) level."
+        "(b) Nevada, Ohio, Texas, and Washington do not have a corporate income tax but do have a gross receipts tax with rates not strictly comparable to corporate income tax rates. See Table 17 for more information. Delaware, Oregon, and Tennessee have gross receipts taxes in addition to corporate income taxes, as do several states like Pennsylvania, Virginia, and West Virginia, which permit gross receipts taxes at the local (but not state) level."
       ],
       [],
       [],
@@ -8759,7 +8759,7 @@
         "(b) In Connecticut, the gas tax was suspended for much of 2022 and will be incrementally introduced in 2023, returning to 25 cents per gallon by May."
       ],
       [
-        "(c) Illinois's rate does not include additional taxes levied by Cook, DuPage, Kane, Lake, and McHenry Counties or the city of Chicago."
+        "(c) Illinois's rate does not include additional taxes levied by Cook, DuPage, Kane, Lake, and McHenry counties or the city of Chicago."
       ]
     ]
   },
@@ -10289,7 +10289,7 @@
         "(a) Control states, where the government controls all sales. Products can be subject to ad valorem mark-up as well as excise taxes. "
       ],
       [
-        "(b) Different rates also applicable according to alcohol content, place of production, size of container, or place purchased (on- or off-premise or onboard airlines)."
+        "(b) Different rates also applicable according to alcohol content, place of production, size of container, or place purchased (on- or off-premise or on board airlines)."
       ],
       [
         "(c) Includes case fees and/or bottle fees which may vary with size of container."
@@ -11230,7 +11230,7 @@
         "(c) Includes case fees and/or bottle fees which may vary with the size of container."
       ],
       [
-        "(d) Different rates also applicable according to alcohol content, place of production, size of container, or place purchased (on- or off-premise or onboard airlines)."
+        "(d) Different rates also applicable according to alcohol content, place of production, size of container, or place purchased (on- or off-premise or on board airlines)."
       ],
       [
         "(e) Includes the wholesale tax rate in Kentucky (10%) and Tennessee ($35.60 per barrel), converted into a gallonage excise tax rate."
