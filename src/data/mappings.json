@@ -59,8 +59,8 @@
     "title": "B2:B3",
     "date": "B4",
     "data": "B6:G58",
-    "notes": "A60",
-    "footnotes": "A61",
+    "notes": "A61",
+    "footnotes": "A60",
     "source": "A63"
   },
   {
@@ -68,7 +68,7 @@
     "type": "states",
     "title": "A2",
     "date": "C3",
-    "data": "B5:G56",
+    "data": "B5:D56",
     "notes": "A58",
     "source": "A60"
   },
@@ -96,10 +96,10 @@
     "type": "brackets",
     "title": "A2",
     "date": "A3",
-    "data": "A6:D204",
-    "notes": "A213",
-    "source": "A217",
-    "footnotes": "A205:A212",
+    "data": "A6:D188",
+    "notes": "A200",
+    "source": "A204",
+    "footnotes": "A189:A198",
     "skip": true
   },
   {
@@ -127,10 +127,10 @@
     "type": "brackets",
     "title": "A3",
     "date": "B4",
-    "data": "B6:E92",
-    "notes": "A110",
-    "source": "A114",
-    "footnotes": "A95:A107"
+    "data": "B6:E91",
+    "notes": "A109",
+    "source": "A113",
+    "footnotes": "A94:A106"
   },
   {
     "sheetName": "15",
@@ -150,7 +150,7 @@
     "data": "C5:E57",
     "notes": "A61",
     "source": "A63",
-    "footnotes": "A59:A61"
+    "footnotes": "A59:A60"
   },
   {
     "sheetName": "17",
@@ -186,7 +186,7 @@
     "sheetName": "20",
     "type": "states",
     "title": "A2",
-    "date": "A3",
+    "date": "C4",
     "data": "B6:D58",
     "notes": "A61",
     "source": "A66",
@@ -208,9 +208,9 @@
     "title": "B2:B3",
     "date": "B4",
     "data": "B6:F58",
-    "notes": "A60",
-    "source": "A62",
-    "footnotes": "A61"
+    "notes": "A63:64",
+    "source": "A66",
+    "footnotes": "A60:A62"
   },
   {
     "sheetName": "23",
@@ -237,20 +237,20 @@
     "type": "table",
     "title": "A2",
     "date": "B3",
-    "data": "B5:C35",
-    "notes": "A41",
-    "source": "A43",
-    "footnotes": "A38"
+    "data": "B5:C36",
+    "notes": "A42",
+    "source": "A44",
+    "footnotes": "A39"
   },
   {
     "sheetName": "26",
     "type": "table",
     "title": "A2",
     "date": "B3",
-    "data": "B5:C23",
-    "notes": "A27",
-    "source": "A37",
-    "footnotes": "A26"
+    "data": "B5:C25",
+    "notes": "A30",
+    "source": "A40",
+    "footnotes": "A28"
   },
   {
     "sheetName": "27",
@@ -282,7 +282,7 @@
     "date": "A4",
     "data": "B6:D58",
     "notes": "A65",
-    "source": "A68",
+    "source": "A72",
     "footnotes": "A60:A64"
   },
   {
@@ -311,7 +311,7 @@
     "date": "C4",
     "data": "B6:F58",
     "source": "B65",
-    "footnotes": "B60"
+    "notes": "B60"
   },
   {
     "sheetName": "33",
