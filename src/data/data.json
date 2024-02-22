@@ -11654,7 +11654,7 @@
           ],
           "fips": 6,
           "state": "California",
-          "state-general-sales-tax": "8.25%",
+          "state-general-sales-tax": "7.25%",
           "grocery-treatment": "Exempt",
           "candy-treated-as-groceries": "Yes",
           "soda-treated-as-groceries": "No"
@@ -11969,8 +11969,8 @@
           ],
           "fips": 49,
           "state": "Utah",
-          "state-general-sales-tax": "4.85%",
-          "grocery-treatment": "1.75%",
+          "state-general-sales-tax": "6.10%",
+          "grocery-treatment": "3.00%",
           "candy-treated-as-groceries": "Yes",
           "soda-treated-as-groceries": "Yes"
         },
