@@ -45,10 +45,6 @@ const SortedHeading = styled.th`
       }
     }
   }
-
-  &:hover {
-    background-color: ${props => props.theme.tfBlueHighlight};
-  }
 `;
 
 export default SortedHeading;

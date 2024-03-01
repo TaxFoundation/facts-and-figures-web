@@ -26,9 +26,24 @@ const GlobalStyle = createGlobalStyle`
       font-size: ${props => props.theme.printSize};
     }
   }
-  * {
-    font-family: ${props => props.theme.fontFamilies.lato};
+  thead,
+  caption,
+  a,
+  caption p,
+  th {
+    font-family: ${props => props.theme.fontFamilies.RobotoFlex};
   }
+  tbody,
+  td,
+  tfoot,
+  td p {
+    font-family: ${props => props.theme.fontFamilies.RobotoMono};
+    font-size: .9rem;
+  }
+  p {
+    font-family: ${props => props.theme.fontFamilies.RobotoMono};
+    font-size: .7rem;
+  } 
   div,
   h1,
   h2,
