@@ -28,13 +28,22 @@ const GlobalStyle = createGlobalStyle`
   }
   thead,
   caption,
-  a {
+  a,
+  caption p,
+  th {
     font-family: ${props => props.theme.fontFamilies.RobotoFlex};
   }
-  tbody {
+  tbody,
+  td,
+  tfoot,
+  td p {
     font-family: ${props => props.theme.fontFamilies.RobotoMono};
     font-size: .9rem;
   }
+  p {
+    font-family: ${props => props.theme.fontFamilies.RobotoMono};
+    font-size: .7rem;
+  } 
   div,
   h1,
   h2,

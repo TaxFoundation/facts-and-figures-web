@@ -9,7 +9,7 @@ const Select = styled.select`
   background-repeat: no-repeat;
   background-position: 98% center;
   border: 1px solid #333;
-  border-radius: 4px;
+  border-radius: 0px;
   color: #333;
   cursor: pointer;
   font-size: 1rem;
