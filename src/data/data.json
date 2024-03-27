@@ -8683,7 +8683,7 @@
     },
     "title": " State Gasoline Tax Rates (Cents per Gallon)",
     "date": "as of January 1, 2024",
-    "notes": "",
+    "notes": "Note: Excise taxes are special taxes on specific goods or activities—such as gasoline, tobacco, or gambling—rather than general tax bases such as income or consumption. Excise taxes are often included in the final price of products and services, and are hidden to consumers. In order to determine the average tax rate on a gallon of fuel, rates may include any of the following: excise taxes, environmental fees, storage tank taxes, other fees or taxes, and general sales tax. In states where gasoline is subject to the general sales tax, or where the fuel tax is based on the average sale price, the average rate is sensitive to changes in the price of gasoline. States that fully or partially apply general sales taxes to gasoline are California, Connecticut, Illinois, Indiana, Michigan, and New York. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
     "source": "Sources: U.S. Energy Information Agency; state statutes; Tax Foundation calculations.",
     "footnotes": [
       [
@@ -12372,8 +12372,8 @@
     },
     "title": " State & Local Excise Tax Collections per Capita",
     "date": "Fiscal Year 2021",
-    "notes": "Source: U.S. Census Bureau, \"Annual Survey of State and Local Government Finances\"; Tax Foundation calculations.",
-    "source": "Note: Excise taxes are sales and other special taxes imposed on select items, such as tobacco products, alcoholic beverages, and motor fuels. This table also includes excise taxes, or selective sales taxes, on amusements, insurance premiums, parimutuels, and public utilities. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See Table 42 for people per household by state.",
+    "notes": "Note: Excise taxes are sales and other special taxes imposed on select items, such as tobacco products, alcoholic beverages, and motor fuels. This table also includes excise taxes, or selective sales taxes, on amusements, insurance premiums, parimutuels, and public utilities. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See Table 42 for people per household by state.",
+    "source": "Source: U.S. Census Bureau, \"Annual Survey of State and Local Government Finances\"; Tax Foundation calculations.",
     "footnotes": null
   },
   "33": {
