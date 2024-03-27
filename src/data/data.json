@@ -1275,12 +1275,12 @@
         {
           "fips": 11,
           "state": "District of Columbia",
-          "overall-index-rank": "48",
-          "corp-tax": "30",
-          "ind-income-tax": "48",
-          "sales-tax": "38",
-          "unemp-ins-tax": "38",
-          "prop-tax": "50"
+          "overall-index-rank": "(48)",
+          "corp-tax": "(30)",
+          "ind-income-tax": "(48)",
+          "sales-tax": "(38)",
+          "unemp-ins-tax": "(38)",
+          "prop-tax": "(50)"
         }
       ]
     },
@@ -1956,7 +1956,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "collections-per-capita": "$13,275",
-          "rank": "1"
+          "rank": "(1)"
         }
       ]
     },
@@ -2297,7 +2297,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "revenue-per-capita": "$25,151",
-          "rank": "1"
+          "rank": "(1)"
         }
       ]
     },
@@ -5245,7 +5245,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "collections-per-capita": "$3,945",
-          "rank": "1"
+          "rank": "(1)"
         }
       ]
     },
@@ -6540,7 +6540,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "collections-per-capita": "$1,279",
-          "rank": "1"
+          "rank": "(1)"
         }
       ]
     },
@@ -7083,7 +7083,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "state-tax-rate": "6.00%",
-          "rank": "38",
+          "rank": "(38)",
           "avg-local-tax-rate-a": "--",
           "combined-rate": "6.00%"
         }
@@ -7814,7 +7814,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "collections-per-capita": "$1,840",
-          "rank": "9"
+          "rank": "(9)"
         }
       ]
     },
@@ -8165,7 +8165,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "sales-tax-breadth": "44%",
-          "rank": "15"
+          "rank": "(15)"
         }
       ]
     },
@@ -8626,7 +8626,7 @@
           "excise-tax": "$0.235",
           "other-taxes-and-fees": "$0.114",
           "total": "$0.349",
-          "rank": "17"
+          "rank": "(17)"
         }
       ]
     },
@@ -9091,7 +9091,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "gasoline-license-taxes": "11.7%",
-          "rank": "50",
+          "rank": "(50)",
           "tolls-user-fees": "0.2%",
           "total-tolls-user-fees-user-taxes": "11.9%"
         }
@@ -9440,7 +9440,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "tax-rate": "$5.03",
-          "rank": "2"
+          "rank": "(2)"
         }
       ]
     },
@@ -10163,7 +10163,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "tax-rate": "$6.68",
-          "rank": "22"
+          "rank": "(22)"
         }
       ]
     },
@@ -10668,7 +10668,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "tax-rate": "$2.07",
-          "rank": "4"
+          "rank": "(4)"
         }
       ]
     },
@@ -11099,7 +11099,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "tax-rate": "$0.79",
-          "rank": "5"
+          "rank": "(5)"
         }
       ]
     },
@@ -11460,7 +11460,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "average-state-local-tax-rate": "12.20%",
-          "rank": "25"
+          "rank": "(25)"
         }
       ]
     },
@@ -12264,7 +12264,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "collections-per-capita": "$535",
-          "rank": "34"
+          "rank": "(34)"
         }
       ]
     },
@@ -12605,7 +12605,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "effective-tax-rate": "0.57%",
-          "rank": "37"
+          "rank": "(37)"
         }
       ]
     },
@@ -12946,7 +12946,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "collections-per-capita": "$4,489",
-          "rank": "1"
+          "rank": "(1)"
         }
       ]
     },
@@ -14068,7 +14068,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "debt-per-capita": "$29,714",
-          "rank": "1"
+          "rank": "(1)"
         }
       ]
     },
@@ -14738,7 +14738,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "income-per-capita": "$95,521",
-          "rank": "1"
+          "rank": "(1)"
         }
       ]
     },
