@@ -8710,7 +8710,7 @@
         },
         {
           "name": "Rank",
-          "id": "rank",
+          "id": "rank1",
           "order": 2
         },
         {
@@ -8725,7 +8725,7 @@
         },
         {
           "name": "Rank",
-          "id": "rank",
+          "id": "rank2",
           "order": 5
         }
       ],
@@ -8742,409 +8742,460 @@
           "fips": 1,
           "state": "Alabama",
           "gasoline-license-taxes": "49.9%",
-          "rank": "21",
+          "rank1": "12",
           "tolls-user-fees": "0.5%",
-          "total-tolls-user-fees-user-taxes": "50.4%"
+          "total-tolls-user-fees-user-taxes": "50.4%",
+          "rank2": "21"
         },
         {
           "fips": 2,
           "state": "Alaska",
           "gasoline-license-taxes": "8.4%",
-          "rank": "50",
+          "rank1": "50",
           "tolls-user-fees": "3.8%",
-          "total-tolls-user-fees-user-taxes": "12.2%"
+          "total-tolls-user-fees-user-taxes": "12.2%",
+          "rank2": "50"
         },
         {
           "fips": 4,
           "state": "Arizona",
           "gasoline-license-taxes": "38.8%",
-          "rank": "33",
+          "rank1": "24",
           "tolls-user-fees": "1.0%",
-          "total-tolls-user-fees-user-taxes": "39.7%"
+          "total-tolls-user-fees-user-taxes": "39.7%",
+          "rank2": "33"
         },
         {
           "fips": 5,
           "state": "Arkansas",
           "gasoline-license-taxes": "34.9%",
-          "rank": "38",
+          "rank1": "28",
           "tolls-user-fees": "0.4%",
-          "total-tolls-user-fees-user-taxes": "35.3%"
+          "total-tolls-user-fees-user-taxes": "35.3%",
+          "rank2": "38"
         },
         {
           "fips": 6,
           "state": "California",
           "gasoline-license-taxes": "54.4%",
-          "rank": "16",
+          "rank1": "6",
           "tolls-user-fees": "2.5%",
-          "total-tolls-user-fees-user-taxes": "57.0%"
+          "total-tolls-user-fees-user-taxes": "57.0%",
+          "rank2": "16"
         },
         {
           "fips": 8,
           "state": "Colorado",
           "gasoline-license-taxes": "31.9%",
-          "rank": "32",
+          "rank1": "35",
           "tolls-user-fees": "7.8%",
-          "total-tolls-user-fees-user-taxes": "39.7%"
+          "total-tolls-user-fees-user-taxes": "39.7%",
+          "rank2": "32"
         },
         {
           "fips": 9,
           "state": "Connecticut",
           "gasoline-license-taxes": "32.1%",
-          "rank": "42",
+          "rank1": "33",
           "tolls-user-fees": "1.0%",
-          "total-tolls-user-fees-user-taxes": "33.1%"
+          "total-tolls-user-fees-user-taxes": "33.1%",
+          "rank2": "42"
         },
         {
           "fips": 10,
           "state": "Delaware",
           "gasoline-license-taxes": "23.3%",
-          "rank": "4",
+          "rank1": "47",
           "tolls-user-fees": "42.7%",
-          "total-tolls-user-fees-user-taxes": "66.0%"
+          "total-tolls-user-fees-user-taxes": "66.0%",
+          "rank2": "4"
         },
         {
           "fips": 12,
           "state": "Florida",
           "gasoline-license-taxes": "43.1%",
-          "rank": "10",
+          "rank1": "19",
           "tolls-user-fees": "17.3%",
-          "total-tolls-user-fees-user-taxes": "60.4%"
+          "total-tolls-user-fees-user-taxes": "60.4%",
+          "rank2": "10"
         },
         {
           "fips": 13,
           "state": "Georgia",
           "gasoline-license-taxes": "42.4%",
-          "rank": "27",
+          "rank1": "20",
           "tolls-user-fees": "2.4%",
-          "total-tolls-user-fees-user-taxes": "44.9%"
+          "total-tolls-user-fees-user-taxes": "44.9%",
+          "rank2": "27"
         },
         {
           "fips": 15,
           "state": "Hawaii",
           "gasoline-license-taxes": "59.9%",
-          "rank": "9",
+          "rank1": "3",
           "tolls-user-fees": "0.5%",
-          "total-tolls-user-fees-user-taxes": "60.4%"
+          "total-tolls-user-fees-user-taxes": "60.4%",
+          "rank2": "9"
         },
         {
           "fips": 16,
           "state": " Idaho",
           "gasoline-license-taxes": "49.5%",
-          "rank": "19",
+          "rank1": "13",
           "tolls-user-fees": "4.4%",
-          "total-tolls-user-fees-user-taxes": "54.0%"
+          "total-tolls-user-fees-user-taxes": "54.0%",
+          "rank2": "19"
         },
         {
           "fips": 17,
           "state": "Illinois",
           "gasoline-license-taxes": "55.4%",
-          "rank": "2",
+          "rank1": "4",
           "tolls-user-fees": "14.1%",
-          "total-tolls-user-fees-user-taxes": "69.6%"
+          "total-tolls-user-fees-user-taxes": "69.6%",
+          "rank2": "2"
         },
         {
           "fips": 18,
           "state": "Indiana",
           "gasoline-license-taxes": "51.0%",
-          "rank": "12",
+          "rank1": "11",
           "tolls-user-fees": "8.1%",
-          "total-tolls-user-fees-user-taxes": "59.2%"
+          "total-tolls-user-fees-user-taxes": "59.2%",
+          "rank2": "12"
         },
         {
           "fips": 19,
           "state": "Iowa",
           "gasoline-license-taxes": "46.1%",
-          "rank": "24",
+          "rank1": "17",
           "tolls-user-fees": "0.2%",
-          "total-tolls-user-fees-user-taxes": "46.3%"
+          "total-tolls-user-fees-user-taxes": "46.3%",
+          "rank2": "24"
         },
         {
           "fips": 20,
           "state": "Kansas",
           "gasoline-license-taxes": "35.3%",
-          "rank": "31",
+          "rank1": "27",
           "tolls-user-fees": "6.5%",
-          "total-tolls-user-fees-user-taxes": "41.9%"
+          "total-tolls-user-fees-user-taxes": "41.9%",
+          "rank2": "31"
         },
         {
           "fips": 21,
           "state": "Kentucky",
           "gasoline-license-taxes": "41.0%",
-          "rank": "25",
+          "rank1": "21",
           "tolls-user-fees": "4.3%",
-          "total-tolls-user-fees-user-taxes": "45.3%"
+          "total-tolls-user-fees-user-taxes": "45.3%",
+          "rank2": "25"
         },
         {
           "fips": 22,
           "state": "Louisiana",
           "gasoline-license-taxes": "30.8%",
-          "rank": "46",
+          "rank1": "39",
           "tolls-user-fees": "1.3%",
-          "total-tolls-user-fees-user-taxes": "32.1%"
+          "total-tolls-user-fees-user-taxes": "32.1%",
+          "rank2": "46"
         },
         {
           "fips": 23,
           "state": "Maine",
           "gasoline-license-taxes": "32.0%",
-          "rank": "28",
+          "rank1": "34",
           "tolls-user-fees": "11.9%",
-          "total-tolls-user-fees-user-taxes": "43.9%"
+          "total-tolls-user-fees-user-taxes": "43.9%",
+          "rank2": "28"
         },
         {
           "fips": 24,
-          "state": " Maryland",
+          "state": "Maryland",
           "gasoline-license-taxes": "51.3%",
-          "rank": "1",
+          "rank1": "10",
           "tolls-user-fees": "23.5%",
-          "total-tolls-user-fees-user-taxes": "74.8%"
+          "total-tolls-user-fees-user-taxes": "74.8%",
+          "rank2": "1"
         },
         {
           "fips": 25,
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "gasoline-license-taxes": "33.3%",
-          "rank": "8",
+          "rank1": "31",
           "tolls-user-fees": "29.7%",
-          "total-tolls-user-fees-user-taxes": "63.1%"
+          "total-tolls-user-fees-user-taxes": "63.1%",
+          "rank2": "8"
         },
         {
           "fips": 26,
-          "state": " Michigan",
+          "state": "Michigan",
           "gasoline-license-taxes": "47.7%",
-          "rank": "23",
+          "rank1": "14",
           "tolls-user-fees": "2.4%",
-          "total-tolls-user-fees-user-taxes": "50.1%"
+          "total-tolls-user-fees-user-taxes": "50.1%",
+          "rank2": "23"
         },
         {
           "fips": 27,
           "state": "Minnesota",
           "gasoline-license-taxes": "31.8%",
-          "rank": "39",
+          "rank1": "36",
           "tolls-user-fees": "3.2%",
-          "total-tolls-user-fees-user-taxes": "35.0%"
+          "total-tolls-user-fees-user-taxes": "35.0%",
+          "rank2": "39"
         },
         {
           "fips": 28,
           "state": "Mississippi",
           "gasoline-license-taxes": "33.6%",
-          "rank": "40",
+          "rank1": "29",
           "tolls-user-fees": "0.4%",
-          "total-tolls-user-fees-user-taxes": "34.0%"
+          "total-tolls-user-fees-user-taxes": "34.0%",
+          "rank2": "40"
         },
         {
           "fips": 29,
           "state": "Missouri",
           "gasoline-license-taxes": "36.5%",
-          "rank": "34",
+          "rank1": "26",
           "tolls-user-fees": "1.3%",
-          "total-tolls-user-fees-user-taxes": "37.8%"
+          "total-tolls-user-fees-user-taxes": "37.8%",
+          "rank2": "34"
         },
         {
           "fips": 30,
           "state": "Montana",
           "gasoline-license-taxes": "46.8%",
-          "rank": "22",
+          "rank1": "16",
           "tolls-user-fees": "3.5%",
-          "total-tolls-user-fees-user-taxes": "50.3%"
+          "total-tolls-user-fees-user-taxes": "50.3%",
+          "rank2": "22"
         },
         {
           "fips": 31,
           "state": "Nebraska",
           "gasoline-license-taxes": "33.4%",
-          "rank": "37",
+          "rank1": "30",
           "tolls-user-fees": "1.8%",
-          "total-tolls-user-fees-user-taxes": "35.3%"
+          "total-tolls-user-fees-user-taxes": "35.3%",
+          "rank2": "37"
         },
         {
           "fips": 32,
           "state": "Nevada",
           "gasoline-license-taxes": "41.0%",
-          "rank": "29",
+          "rank1": "22",
           "tolls-user-fees": "2.4%",
-          "total-tolls-user-fees-user-taxes": "43.4%"
+          "total-tolls-user-fees-user-taxes": "43.4%",
+          "rank2": "29"
         },
         {
           "fips": 33,
           "state": "New Hampshire",
           "gasoline-license-taxes": "26.6%",
-          "rank": "26",
+          "rank1": "42",
           "tolls-user-fees": "18.3%",
-          "total-tolls-user-fees-user-taxes": "44.9%"
+          "total-tolls-user-fees-user-taxes": "44.9%",
+          "rank2": "26"
         },
         {
           "fips": 34,
           "state": "New Jersey",
           "gasoline-license-taxes": "24.6%",
-          "rank": "3",
+          "rank1": "45",
           "tolls-user-fees": "44.1%",
-          "total-tolls-user-fees-user-taxes": "68.7%"
+          "total-tolls-user-fees-user-taxes": "68.7%",
+          "rank2": "3"
         },
         {
           "fips": 35,
           "state": "New Mexico",
           "gasoline-license-taxes": "36.6%",
-          "rank": "35",
+          "rank1": "25",
           "tolls-user-fees": "1.1%",
-          "total-tolls-user-fees-user-taxes": "37.8%"
+          "total-tolls-user-fees-user-taxes": "37.8%",
+          "rank2": "35"
         },
         {
           "fips": 36,
           "state": "New York",
           "gasoline-license-taxes": "25.1%",
-          "rank": "15",
+          "rank1": "44",
           "tolls-user-fees": "32.9%",
-          "total-tolls-user-fees-user-taxes": "58.0%"
+          "total-tolls-user-fees-user-taxes": "58.0%",
+          "rank2": "15"
         },
         {
           "fips": 37,
           "state": "North Carolina",
           "gasoline-license-taxes": "61.3%",
-          "rank": "6",
+          "rank1": "2",
           "tolls-user-fees": "3.4%",
-          "total-tolls-user-fees-user-taxes": "64.7%"
+          "total-tolls-user-fees-user-taxes": "64.7%",
+          "rank2": "6"
         },
         {
           "fips": 38,
           "state": "North Dakota",
           "gasoline-license-taxes": "21.5%",
-          "rank": "49",
+          "rank1": "49",
           "tolls-user-fees": "1.4%",
-          "total-tolls-user-fees-user-taxes": "22.9%"
+          "total-tolls-user-fees-user-taxes": "22.9%",
+          "rank2": "49"
         },
         {
           "fips": 39,
           "state": "Ohio",
           "gasoline-license-taxes": "52.4%",
-          "rank": "14",
+          "rank1": "9",
           "tolls-user-fees": "5.6%",
-          "total-tolls-user-fees-user-taxes": "58.0%"
+          "total-tolls-user-fees-user-taxes": "58.0%",
+          "rank2": "14"
         },
         {
           "fips": 40,
           "state": "Oklahoma",
           "gasoline-license-taxes": "45.5%",
-          "rank": "17",
+          "rank1": "18",
           "tolls-user-fees": "10.5%",
-          "total-tolls-user-fees-user-taxes": "56.0%"
+          "total-tolls-user-fees-user-taxes": "56.0%",
+          "rank2": "17"
         },
         {
           "fips": 41,
           "state": "Oregon",
           "gasoline-license-taxes": "54.9%",
-          "rank": "13",
+          "rank1": "5",
           "tolls-user-fees": "3.4%",
-          "total-tolls-user-fees-user-taxes": "58.3%"
+          "total-tolls-user-fees-user-taxes": "58.3%",
+          "rank2": "13"
         },
         {
           "fips": 42,
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "gasoline-license-taxes": "40.6%",
-          "rank": "18",
+          "rank1": "23",
           "tolls-user-fees": "13.5%",
-          "total-tolls-user-fees-user-taxes": "54.2%"
+          "total-tolls-user-fees-user-taxes": "54.2%",
+          "rank2": "18"
         },
         {
           "fips": 44,
           "state": "Rhode Island",
           "gasoline-license-taxes": "23.3%",
-          "rank": "43",
+          "rank1": "46",
           "tolls-user-fees": "9.5%",
-          "total-tolls-user-fees-user-taxes": "32.8%"
+          "total-tolls-user-fees-user-taxes": "32.8%",
+          "rank2": "43"
         },
         {
           "fips": 45,
           "state": "South Carolina",
           "gasoline-license-taxes": "52.8%",
-          "rank": "11",
+          "rank1": "8",
           "tolls-user-fees": "6.4%",
-          "total-tolls-user-fees-user-taxes": "59.2%"
+          "total-tolls-user-fees-user-taxes": "59.2%",
+          "rank2": "11"
         },
         {
           "fips": 46,
           "state": "South Dakota",
           "gasoline-license-taxes": "26.8%",
-          "rank": "47",
+          "rank1": "41",
           "tolls-user-fees": "1.0%",
-          "total-tolls-user-fees-user-taxes": "27.7%"
+          "total-tolls-user-fees-user-taxes": "27.7%",
+          "rank2": "47"
         },
         {
           "fips": 47,
           "state": "Tennessee",
           "gasoline-license-taxes": "63.8%",
-          "rank": "7",
+          "rank1": "1",
           "tolls-user-fees": "0.2%",
-          "total-tolls-user-fees-user-taxes": "64.0%"
+          "total-tolls-user-fees-user-taxes": "64.0%",
+          "rank2": "7"
         },
         {
           "fips": 48,
           "state": "Texas",
           "gasoline-license-taxes": "31.4%",
-          "rank": "30",
+          "rank1": "38",
           "tolls-user-fees": "10.6%",
-          "total-tolls-user-fees-user-taxes": "42.0%"
+          "total-tolls-user-fees-user-taxes": "42.0%",
+          "rank2": "30"
         },
         {
           "fips": 49,
           "state": "Utah",
           "gasoline-license-taxes": "30.7%",
-          "rank": "45",
+          "rank1": "40",
           "tolls-user-fees": "1.4%",
-          "total-tolls-user-fees-user-taxes": "32.2%"
+          "total-tolls-user-fees-user-taxes": "32.2%",
+          "rank2": "45"
         },
         {
           "fips": 50,
           "state": "Vermont",
           "gasoline-license-taxes": "25.1%",
-          "rank": "48",
+          "rank1": "43",
           "tolls-user-fees": "0.4%",
-          "total-tolls-user-fees-user-taxes": "25.5%"
+          "total-tolls-user-fees-user-taxes": "25.5%",
+          "rank2": "48"
         },
         {
           "fips": 51,
           "state": "Virginia",
           "gasoline-license-taxes": "31.6%",
-          "rank": "36",
+          "rank1": "37",
           "tolls-user-fees": "5.0%",
-          "total-tolls-user-fees-user-taxes": "36.6%"
+          "total-tolls-user-fees-user-taxes": "36.6%",
+          "rank2": "36"
         },
         {
           "fips": 53,
           "state": "Washington",
           "gasoline-license-taxes": "54.1%",
-          "rank": "5",
+          "rank1": "7",
           "tolls-user-fees": "11.0%",
-          "total-tolls-user-fees-user-taxes": "65.1%"
+          "total-tolls-user-fees-user-taxes": "65.1%",
+          "rank2": "5"
         },
         {
           "fips": 54,
           "state": "West Virginia",
           "gasoline-license-taxes": "23.1%",
-          "rank": "44",
+          "rank1": "48",
           "tolls-user-fees": "9.5%",
-          "total-tolls-user-fees-user-taxes": "32.6%"
+          "total-tolls-user-fees-user-taxes": "32.6%",
+          "rank2": "44"
         },
         {
           "fips": 55,
           "state": "Wisconsin",
           "gasoline-license-taxes": "47.1%",
-          "rank": "20",
+          "rank1": "15",
           "tolls-user-fees": "4.8%",
-          "total-tolls-user-fees-user-taxes": "51.8%"
+          "total-tolls-user-fees-user-taxes": "51.8%",
+          "rank2": "20"
         },
         {
           "fips": 56,
           "state": "Wyoming",
           "gasoline-license-taxes": "32.6%",
-          "rank": "41",
+          "rank1": "32",
           "tolls-user-fees": "0.8%",
-          "total-tolls-user-fees-user-taxes": "33.4%"
+          "total-tolls-user-fees-user-taxes": "33.4%",
+          "rank2": "41"
         },
         {
           "fips": 11,
           "state": "District of Columbia",
           "gasoline-license-taxes": "11.7%",
-          "rank": "(50)",
+          "rank1": "(50)",
           "tolls-user-fees": "0.2%",
-          "total-tolls-user-fees-user-taxes": "11.9%"
+          "total-tolls-user-fees-user-taxes": "11.9%",
+          "rank2": "(50)"
         }
       ]
     },
