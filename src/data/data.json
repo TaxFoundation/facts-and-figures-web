@@ -8683,7 +8683,7 @@
     },
     "title": " State Gasoline Tax Rates (Cents per Gallon)",
     "date": "as of January 1, 2024",
-    "notes": "Note: Excise taxes are special taxes on specific goods or activities—such as gasoline, tobacco, or gambling—rather than general tax bases such as income or consumption. Excise taxes are often included in the final price of products and services, and are hidden to consumers. In order to determine the the average tax rate on a gallon of fuel, rates may include any of the following: excise taxes, environmental fees, storage tank taxes, other fees or taxes, and general sales tax. In states where gasoline is subject to the general sales tax, or where the fuel tax is based on the average sale price, the average rate is sensitive to changes in the price of gasoline. States that fully or partially apply general sales taxes to gasoline are California, Connecticut, Illinois, Indiana, Michigan, and New York. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
+    "notes": "Note: Excise taxes are special taxes on specific goods or activities—such as gasoline, tobacco, or gambling—rather than general tax bases such as income or consumption. Excise taxes are often included in the final price of products and services, and are hidden to consumers. In order to determine the average tax rate on a gallon of fuel, rates may include any of the following: excise taxes, environmental fees, storage tank taxes, other fees or taxes, and general sales tax. In states where gasoline is subject to the general sales tax, or where the fuel tax is based on the average sale price, the average rate is sensitive to changes in the price of gasoline. States that fully or partially apply general sales taxes to gasoline are California, Connecticut, Illinois, Indiana, Michigan, and New York. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
     "source": "Sources: U.S. Energy Information Agency; state statutes; Tax Foundation calculations.",
     "footnotes": [
       [
@@ -15246,6 +15246,99 @@
     "date": "2019-2022",
     "notes": "Note: This does not include persons living in institutionalized housing, defined as adult or juvenile correctional institutions, some medical and military facilities, hospitals and psychiatric facilities. The Census Bureau did not release geographical comparison tables for 2020.",
     "source": "Source: U.S. Census Bureau.",
+    "footnotes": null
+  },
+  "43": {
+    "type": "brackets",
+    "data": [
+      [
+        "Household Effective Tax Incidence Rates",
+        null,
+        null,
+        null
+      ],
+      [
+        "Quintile",
+        "Total",
+        "Federal",
+        "State & Local"
+      ],
+      [
+        "1",
+        "10.1%",
+        "2.3%",
+        "7.8%"
+      ],
+      [
+        "2",
+        "13.9%",
+        "4.9%",
+        "8.9%"
+      ],
+      [
+        "3",
+        "22.4%",
+        "12.5%",
+        "9.9%"
+      ],
+      [
+        "4",
+        "28.0%",
+        "17.9%",
+        "10.1%"
+      ],
+      [
+        "5",
+        "41.4%",
+        "29.3%",
+        "12.1%"
+      ],
+      [
+        "Household Effective Rates of Taxes and Transfers",
+        null,
+        null,
+        null
+      ],
+      [
+        "Quintile",
+        "Rate",
+        null,
+        null
+      ],
+      [
+        "1",
+        "-127.0%",
+        null,
+        null
+      ],
+      [
+        "2",
+        "-31.0%",
+        null,
+        null
+      ],
+      [
+        "3",
+        "2.0%",
+        null,
+        null
+      ],
+      [
+        "4",
+        "15.9%",
+        null,
+        null
+      ],
+      [
+        "5",
+        "30.7%",
+        null,
+        null
+      ]
+    ],
+    "title": "Tax and Transfer Distributions",
+    "date": "Fiscal Year 2019",
+    "source": "Sources: Bureau of Economic Analysis; Bureau of Labor Statistics; Social Security Administration; Centers for Medicare and Medicaid Services; U.S. Department of Veterans Affairs; Tax Foundation analysis.",
     "footnotes": null
   }
 }
