@@ -4496,7 +4496,7 @@
         "(c) Bracket levels are adjusted for inflation every year."
       ],
       [
-        "(d) Rates apply to individuals earning more than $87,000 in Arkansas. A special tax table exists for individuals that earn less than $87,000."
+        "(d) Rates apply to individuals earning more than $87,000 in Arkansas. A special tax table exists for individuals who earn less than $87,000."
       ],
       [
         "(e) 2023 brackets due to data availability."
@@ -4844,7 +4844,7 @@
         },
         {
           "footnotes": [
-            "a"
+            "c"
           ],
           "fips": 53,
           "state": "Washington",
@@ -4884,6 +4884,9 @@
       ],
       [
         "(b) State does not tax wage income but does tax interest and dividend income."
+      ],
+      [
+        "(c) State now taxes capital gains income, which may be reflected in income tax collections in future FYs, depending on state and Census classifications."
       ]
     ]
   },
@@ -5213,7 +5216,7 @@
         },
         {
           "footnotes": [
-            "a"
+            "c"
           ],
           "fips": 53,
           "state": "Washington",
@@ -5259,6 +5262,9 @@
       ],
       [
         "(b) State does not tax wage income but does tax interest and dividend income."
+      ],
+      [
+        "(c) State now taxes capital gains income, which may be reflected in income tax collections in future FYs, depending on state and Census classifications."
       ]
     ]
   },
@@ -15244,7 +15250,7 @@
     },
     "title": "People per Household by State",
     "date": "2019-2022",
-    "notes": "Note: This does not include persons living in institutionalized housing, defined as adult or juvenile correctional institutions, some medical and military facilities, hospitals and psychiatric facilities. The Census Bureau did not release geographical comparison tables for 2020.",
+    "notes": "Note: This does not include persons living in institutionalized housing, defined as adult or juvenile correctional institutions, some medical and military facilities, hospitals, and psychiatric facilities. The Census Bureau did not release geographical comparison tables for 2020.",
     "source": "Source: U.S. Census Bureau.",
     "footnotes": null
   },
