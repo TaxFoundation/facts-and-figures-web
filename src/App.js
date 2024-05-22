@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 
 import Theme from './Theme';
@@ -57,6 +57,30 @@ const AppWrapper = styled.div`
   margin: 0 auto;
   max-width: 800px;
 `;
+
+
+  function resize() {
+    setInterval(() => {
+      if (document.querySelector('.app').clientHeight) {
+        window.parent.postMessage(
+          { height: document.querySelector('.app').clientHeight },
+          '*'
+        );
+      }
+    }, 100);
+  }
+
+  const MyComponent = () => {
+    const [hasPageBeenRendered, setHasPageBeenRendered] = useState(false);
+  
+    useEffect(() => {
+      setHasPageBeenRendered(true);
+    }, []);
+  
+    return (
+      {resize}
+    );
+  };
 
 function App() {
   const [table, setTable] = useState('1');
