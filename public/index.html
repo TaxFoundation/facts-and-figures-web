@@ -123,11 +123,13 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script type="text/javascript" src="%PUBLIC_URL%/pym.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="js/facts-and-figures.js"></script>
+    <script type="text/javascript" src="js/pym.js"></script>
     <script>
-      window.addEventListener('load', function() {
+      window.addEventListener("load", function () {
         var pymChild = new pym.Child({
-          polling: 25
+          polling: 25,
         });
         pymChild.sendHeight();
       });
