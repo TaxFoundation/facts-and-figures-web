@@ -70,18 +70,6 @@ const AppWrapper = styled.div`
     }, 100);
   }
 
-  const MyComponent = () => {
-    const [hasPageBeenRendered, setHasPageBeenRendered] = useState(false);
-  
-    useEffect(() => {
-      setHasPageBeenRendered(true);
-    }, []);
-  
-    return (
-      {resize}
-    );
-  };
-
 function App() {
   const [table, setTable] = useState('1');
   const keys = Object.keys(data);
