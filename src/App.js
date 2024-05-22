@@ -58,18 +58,6 @@ const AppWrapper = styled.div`
   max-width: 800px;
 `;
 
-
-  function resize() {
-    setInterval(() => {
-      if (document.querySelector('.app').clientHeight) {
-        window.parent.postMessage(
-          { height: document.querySelector('.app').clientHeight },
-          '*'
-        );
-      }
-    }, 100);
-  }
-
 function App() {
   const [table, setTable] = useState('1');
   const keys = Object.keys(data);
