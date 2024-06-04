@@ -775,7 +775,7 @@
         {
           "fips": 1,
           "state": "Alabama",
-          "overall-index-rank": "40",
+          "overall-index-rank": "39",
           "corp-tax": "19",
           "ind-income-tax": "33",
           "sales-tax": "50",
@@ -790,7 +790,7 @@
           "ind-income-tax": "1",
           "sales-tax": "5",
           "unemp-ins-tax": "48",
-          "prop-tax": "27"
+          "prop-tax": "26"
         },
         {
           "fips": 4,
@@ -805,7 +805,7 @@
         {
           "fips": 5,
           "state": "Arkansas",
-          "overall-index-rank": "39",
+          "overall-index-rank": "38",
           "corp-tax": "28",
           "ind-income-tax": "37",
           "sales-tax": "44",
@@ -836,7 +836,7 @@
           "fips": 9,
           "state": "Connecticut",
           "overall-index-rank": "47",
-          "corp-tax": "31",
+          "corp-tax": "30",
           "ind-income-tax": "46",
           "sales-tax": "23",
           "unemp-ins-tax": "26",
@@ -845,7 +845,7 @@
         {
           "fips": 10,
           "state": "Delaware",
-          "overall-index-rank": "20",
+          "overall-index-rank": "21",
           "corp-tax": "50",
           "ind-income-tax": "43",
           "sales-tax": "2",
@@ -870,7 +870,7 @@
           "ind-income-tax": "35",
           "sales-tax": "28",
           "unemp-ins-tax": "34",
-          "prop-tax": "28"
+          "prop-tax": "31"
         },
         {
           "fips": 15,
@@ -880,7 +880,7 @@
           "ind-income-tax": "47",
           "sales-tax": "26",
           "unemp-ins-tax": "41",
-          "prop-tax": "31"
+          "prop-tax": "30"
         },
         {
           "fips": 16,
@@ -895,7 +895,7 @@
         {
           "fips": 17,
           "state": "Illinois",
-          "overall-index-rank": "38",
+          "overall-index-rank": "37",
           "corp-tax": "43",
           "ind-income-tax": "14",
           "sales-tax": "39",
@@ -917,7 +917,7 @@
           "state": "Iowa",
           "overall-index-rank": "33",
           "corp-tax": "29",
-          "ind-income-tax": "21",
+          "ind-income-tax": "22",
           "sales-tax": "15",
           "unemp-ins-tax": "32",
           "prop-tax": "41"
@@ -927,7 +927,7 @@
           "state": "Kansas",
           "overall-index-rank": "26",
           "corp-tax": "21",
-          "ind-income-tax": "26",
+          "ind-income-tax": "27",
           "sales-tax": "29",
           "unemp-ins-tax": "16",
           "prop-tax": "18"
@@ -945,9 +945,9 @@
         {
           "fips": 22,
           "state": "Louisiana",
-          "overall-index-rank": "37",
-          "corp-tax": "30",
-          "ind-income-tax": "27",
+          "overall-index-rank": "40",
+          "corp-tax": "34",
+          "ind-income-tax": "29",
           "sales-tax": "48",
           "unemp-ins-tax": "13",
           "prop-tax": "21"
@@ -957,7 +957,7 @@
           "state": "Maine",
           "overall-index-rank": "34",
           "corp-tax": "35",
-          "ind-income-tax": "25",
+          "ind-income-tax": "26",
           "sales-tax": "8",
           "unemp-ins-tax": "29",
           "prop-tax": "46"
@@ -966,7 +966,7 @@
           "fips": 24,
           "state": " Maryland",
           "overall-index-rank": "45",
-          "corp-tax": "34",
+          "corp-tax": "33",
           "ind-income-tax": "45",
           "sales-tax": "34",
           "unemp-ins-tax": "43",
@@ -985,12 +985,12 @@
         {
           "fips": 26,
           "state": " Michigan",
-          "overall-index-rank": "11",
+          "overall-index-rank": "12",
           "corp-tax": "20",
           "ind-income-tax": "12",
           "sales-tax": "12",
           "unemp-ins-tax": "7",
-          "prop-tax": "26"
+          "prop-tax": "29"
         },
         {
           "fips": 27,
@@ -1005,9 +1005,9 @@
         {
           "fips": 28,
           "state": "Mississippi",
-          "overall-index-rank": "23",
+          "overall-index-rank": "20",
           "corp-tax": "8",
-          "ind-income-tax": "30",
+          "ind-income-tax": "19",
           "sales-tax": "25",
           "unemp-ins-tax": "5",
           "prop-tax": "37"
@@ -1015,9 +1015,9 @@
         {
           "fips": 29,
           "state": "Missouri",
-          "overall-index-rank": "12",
+          "overall-index-rank": "11",
           "corp-tax": "3",
-          "ind-income-tax": "19",
+          "ind-income-tax": "20",
           "sales-tax": "30",
           "unemp-ins-tax": "3",
           "prop-tax": "9"
@@ -1035,8 +1035,8 @@
         {
           "fips": 31,
           "state": "Nebraska",
-          "overall-index-rank": "30",
-          "corp-tax": "32",
+          "overall-index-rank": "31",
+          "corp-tax": "31",
           "ind-income-tax": "32",
           "sales-tax": "9",
           "unemp-ins-tax": "9",
@@ -1075,7 +1075,7 @@
         {
           "fips": 35,
           "state": "New Mexico",
-          "overall-index-rank": "22",
+          "overall-index-rank": "23",
           "corp-tax": "13",
           "ind-income-tax": "36",
           "sales-tax": "35",
@@ -1107,7 +1107,7 @@
           "state": "North Dakota",
           "overall-index-rank": "17",
           "corp-tax": "10",
-          "ind-income-tax": "20",
+          "ind-income-tax": "21",
           "sales-tax": "32",
           "unemp-ins-tax": "14",
           "prop-tax": "7"
@@ -1127,7 +1127,7 @@
           "state": "Oklahoma",
           "overall-index-rank": "19",
           "corp-tax": "4",
-          "ind-income-tax": "23",
+          "ind-income-tax": "24",
           "sales-tax": "38",
           "unemp-ins-tax": "2",
           "prop-tax": "15"
@@ -1145,9 +1145,9 @@
         {
           "fips": 42,
           "state": " Pennsylvania",
-          "overall-index-rank": "31",
+          "overall-index-rank": "30",
           "corp-tax": "41",
-          "ind-income-tax": "22",
+          "ind-income-tax": "23",
           "sales-tax": "16",
           "unemp-ins-tax": "21",
           "prop-tax": "14"
@@ -1167,7 +1167,7 @@
           "state": "South Carolina",
           "overall-index-rank": "29",
           "corp-tax": "6",
-          "ind-income-tax": "29",
+          "ind-income-tax": "30",
           "sales-tax": "33",
           "unemp-ins-tax": "27",
           "prop-tax": "36"
@@ -1180,7 +1180,7 @@
           "ind-income-tax": "1",
           "sales-tax": "27",
           "unemp-ins-tax": "35",
-          "prop-tax": "30"
+          "prop-tax": "28"
         },
         {
           "fips": 47,
@@ -1230,7 +1230,7 @@
           "ind-income-tax": "34",
           "sales-tax": "10",
           "unemp-ins-tax": "36",
-          "prop-tax": "29"
+          "prop-tax": "27"
         },
         {
           "fips": 53,
@@ -1245,9 +1245,9 @@
         {
           "fips": 54,
           "state": "West Virginia",
-          "overall-index-rank": "21",
+          "overall-index-rank": "22",
           "corp-tax": "17",
-          "ind-income-tax": "24",
+          "ind-income-tax": "25",
           "sales-tax": "24",
           "unemp-ins-tax": "33",
           "prop-tax": "10"
@@ -1256,7 +1256,7 @@
           "fips": 55,
           "state": "Wisconsin",
           "overall-index-rank": "24",
-          "corp-tax": "33",
+          "corp-tax": "32",
           "ind-income-tax": "38",
           "sales-tax": "6",
           "unemp-ins-tax": "28",
