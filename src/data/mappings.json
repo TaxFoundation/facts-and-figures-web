@@ -59,9 +59,8 @@
     "title": "B2:B3",
     "date": "B4",
     "data": "B6:G58",
-    "notes": "A61",
-    "footnotes": "A60",
-    "source": "A63"
+    "notes": "A60",
+    "source": "A62"
   },
   {
     "sheetName": "8",
@@ -96,10 +95,10 @@
     "type": "brackets",
     "title": "A2",
     "date": "A3",
-    "data": "A6:D172",
-    "notes": "A184",
-    "source": "A188",
-    "footnotes": "A173:A182",
+    "data": "A6:D167",
+    "notes": "A178",
+    "source": "A182",
+    "footnotes": "A168:A176",
     "skip": true
   },
   {
@@ -118,19 +117,19 @@
     "title": "A2",
     "date": "B3",
     "data": "B5:D57",
-    "notes": "A62",
-    "source": "A64",
-    "footnotes": "A59:A61"
+    "notes": "A61",
+    "source": "A63",
+    "footnotes": "A59:A60"
   },
   {
     "sheetName": "14",
     "type": "brackets",
     "title": "A3",
     "date": "B4",
-    "data": "B6:E89",
-    "notes": "A105",
-    "source": "A109",
-    "footnotes": "A92:A103"
+    "data": "B6:E87",
+    "notes": "A104",
+    "source": "A108",
+    "footnotes": "A90:A103"
   },
   {
     "sheetName": "15",
@@ -208,9 +207,9 @@
     "title": "B2:B3",
     "date": "B4",
     "data": "B6:F58",
-    "notes": "A62",
-    "source": "A64",
-    "footnotes": "A60:A61"
+    "notes": "A63",
+    "source": "A65",
+    "footnotes": "A60:A62"
   },
   {
     "sheetName": "23",
@@ -229,18 +228,18 @@
     "date": "A4",
     "data": "B6:D58",
     "notes": "A61",
-    "footnotes": "A60",
-    "source": "A63"
+    "footnotes": "A60:A61",
+    "source": "A64"
   },
   {
     "sheetName": "25",
     "type": "table",
     "title": "A2",
     "date": "B3",
-    "data": "B5:C36",
-    "notes": "A42",
-    "source": "A44",
-    "footnotes": "A39"
+    "data": "B5:C39",
+    "notes": "A44",
+    "source": "A46",
+    "footnotes": "A42"
   },
   {
     "sheetName": "26",
@@ -260,7 +259,7 @@
     "date": "A4",
     "data": "B6:D58",
     "notes": "A67",
-    "source": "A72",
+    "source": "A68",
     "footnotes": "A60:A65"
   },
   {
@@ -281,8 +280,8 @@
     "subtitle": "B3",
     "date": "A4",
     "data": "B6:D58",
-    "notes": "A65",
-    "source": "A72",
+    "notes": "A66",
+    "source": "A68",
     "footnotes": "A60:A64"
   },
   {
@@ -337,9 +336,9 @@
     "title": "A2",
     "date": "B3",
     "data": "B5:D20",
-    "notes": "A29",
+    "notes": "A30",
     "footnotes": "A23:A28",
-    "source": "A31"
+    "source": "A32"
   },
   {
     "sheetName": "36",
@@ -347,18 +346,18 @@
     "title": "A2",
     "date": "B3",
     "data": "B5:D18",
-    "source": "A23",
-    "footnotes": "A20:A21"
+    "source": "A24",
+    "footnotes": "A20:A22"
   },
   {
     "sheetName": "37",
     "type": "brackets",
     "title": "A2",
     "date": "B3",
-    "data": "B5:E29",
-    "source": "A37",
-    "notes": "A36",
-    "footnotes": "A31:A35"
+    "data": "B5:E22",
+    "source": "A31",
+    "notes": "A29",
+    "footnotes": "A24:A27"
   },
   {
     "sheetName": "38",
