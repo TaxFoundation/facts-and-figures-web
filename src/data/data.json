@@ -1621,7 +1621,7 @@
     },
     "title": "State Revenue per Capita",
     "date": "Fiscal Year 2022",
-    "notes": "Note: \"Revenue\" refers to the U.S. Census Bureau's General Revenue classification. This measure includes taxes, fees, licenses, and intergovernmental revenue but excludes revenue from government enterprises such as utilities and liquor stores, as well as insurance trust revenue. D.C. is included only in combined state and local data. See Table 42 for people per household by state. ",
+    "notes": "Note: \"Revenue\" refers to the US Census Bureau's General Revenue classification. This measure includes taxes, fees, licenses, and intergovernmental revenue but excludes revenue from government enterprises such as utilities and liquor stores, as well as insurance trust revenue. D.C. is included only in combined state and local data. See Table 42 for people per household by state. ",
     "source": "Sources: US Census Bureau, \"Annual Survey of State Government Finances\"; Tax Foundation calculations.",
     "footnotes": null
   },
@@ -3150,7 +3150,7 @@
     },
     "title": "Federal Aid as a Percentage of State General Revenue",
     "date": "Fiscal Year 2022",
-    "notes": "Note: Figures are calculated by dividing each state's \"Intergovernmental Revenue\" by its \"General Revenue.\" \" Intergovernmental Revenue\" includes money transferred from the federal government to states. It also includes an extremely modest amount of revenue transferred from local to state governments, which can be disentangled by using older data. Given the significant increases associated with the COVID-19 pandemic response, the newer data were chosen. \"General Revenue\" includes all tax revenue but excludes utility revenue, liquor store revenue, and investment income from state pension funds. D.C. is designated as a local entity by the US Census Bureau and is thus not included here.",
+    "notes": "Note: Figures are calculated by dividing each state's \"Intergovernmental Revenue\" by its \"General Revenue.\" \"Intergovernmental Revenue\" includes money transferred from the federal government to states. It also includes an extremely modest amount of revenue transferred from local to state governments, which can be disentangled by using older data. Given the significant increases associated with the COVID-19 pandemic response, the newer data were chosen. \"General Revenue\" includes all tax revenue but excludes utility revenue, liquor store revenue, and investment income from state pension funds. D.C. is designated as a local entity by the US Census Bureau and is thus not included here.",
     "source": "Sources: US Census Bureau, \"Annual Survey of State Government Finances\"; Tax Foundation calculations.",
     "footnotes": null
   },
@@ -6589,8 +6589,8 @@
           "order": 1
         },
         {
-          "name": "Rank",
-          "id": "rank",
+          "name": "State Rank",
+          "id": "state-rank",
           "order": 2
         },
         {
@@ -6604,8 +6604,8 @@
           "order": 4
         },
         {
-          "name": "Rank",
-          "id": "rank",
+          "name": "Combined Rank",
+          "id": "combined-rank",
           "order": 5
         }
       ],
@@ -6614,33 +6614,37 @@
           "fips": 1,
           "state": "Alabama",
           "state-tax-rate": "4.00%",
-          "rank": "5",
+          "state-rank": "40",
           "avg-local-tax-rate-a": "5.43%",
-          "combined-rate": "9.43%"
+          "combined-rate": "9.43%",
+          "combined-rank": "5"
         },
         {
           "fips": 2,
           "state": "Alaska",
           "state-tax-rate": "--",
-          "rank": "46",
+          "state-rank": "46",
           "avg-local-tax-rate-a": "1.82%",
-          "combined-rate": "1.82%"
+          "combined-rate": "1.82%",
+          "combined-rank": "46"
         },
         {
           "fips": 4,
           "state": "Arizona",
           "state-tax-rate": "5.60%",
-          "rank": "11",
+          "state-rank": "28",
           "avg-local-tax-rate-a": "2.81%",
-          "combined-rate": "8.41%"
+          "combined-rate": "8.41%",
+          "combined-rank": "11"
         },
         {
           "fips": 5,
           "state": "Arkansas",
           "state-tax-rate": "6.50%",
-          "rank": "3",
+          "state-rank": "9",
           "avg-local-tax-rate-a": "2.96%",
-          "combined-rate": "9.46%"
+          "combined-rate": "9.46%",
+          "combined-rank": "3"
         },
         {
           "footnotes": [
@@ -6649,49 +6653,55 @@
           "fips": 6,
           "state": "California",
           "state-tax-rate": "7.25%",
-          "rank": "8",
+          "state-rank": "1",
           "avg-local-tax-rate-a": "1.55%",
-          "combined-rate": "8.80%"
+          "combined-rate": "8.80%",
+          "combined-rank": "8"
         },
         {
           "fips": 8,
           "state": "Colorado",
           "state-tax-rate": "2.90%",
-          "rank": "16",
+          "state-rank": "45",
           "avg-local-tax-rate-a": "4.96%",
-          "combined-rate": "7.86%"
+          "combined-rate": "7.86%",
+          "combined-rank": "16"
         },
         {
           "fips": 9,
           "state": "Connecticut",
           "state-tax-rate": "6.35%",
-          "rank": "33",
+          "state-rank": "12",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "6.35%"
+          "combined-rate": "6.35%",
+          "combined-rank": "33"
         },
         {
           "fips": 10,
           "state": "Delaware",
           "state-tax-rate": "--",
-          "rank": "47",
+          "state-rank": "46",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "--"
+          "combined-rate": "--",
+          "combined-rank": "47"
         },
         {
           "fips": 12,
           "state": "Florida",
           "state-tax-rate": "6.00%",
-          "rank": "28",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "0.95%",
-          "combined-rate": "6.95%"
+          "combined-rate": "6.95%",
+          "combined-rank": "28"
         },
         {
           "fips": 13,
           "state": "Georgia",
           "state-tax-rate": "4.00%",
-          "rank": "19",
+          "state-rank": "40",
           "avg-local-tax-rate-a": "3.42%",
-          "combined-rate": "7.42%"
+          "combined-rate": "7.42%",
+          "combined-rank": "19"
         },
         {
           "footnotes": [
@@ -6700,121 +6710,136 @@
           "fips": 15,
           "state": "Hawaii",
           "state-tax-rate": "4.00%",
-          "rank": "45",
+          "state-rank": "40",
           "avg-local-tax-rate-a": "0.50%",
-          "combined-rate": "4.50%"
+          "combined-rate": "4.50%",
+          "combined-rank": "45"
         },
         {
           "fips": 16,
           "state": " Idaho",
           "state-tax-rate": "6.00%",
-          "rank": "37",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "0.03%",
-          "combined-rate": "6.03%"
+          "combined-rate": "6.03%",
+          "combined-rank": "37"
         },
         {
           "fips": 17,
           "state": "Illinois",
           "state-tax-rate": "6.25%",
-          "rank": "7",
+          "state-rank": "13",
           "avg-local-tax-rate-a": "2.64%",
-          "combined-rate": "8.89%"
+          "combined-rate": "8.89%",
+          "combined-rank": "7"
         },
         {
           "fips": 18,
           "state": "Indiana",
           "state-tax-rate": "7.00%",
-          "rank": "24",
+          "state-rank": "2",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "7.00%"
+          "combined-rate": "7.00%",
+          "combined-rank": "24"
         },
         {
           "fips": 19,
           "state": "Iowa",
           "state-tax-rate": "6.00%",
-          "rank": "29",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "0.94%",
-          "combined-rate": "6.94%"
+          "combined-rate": "6.94%",
+          "combined-rank": "29"
         },
         {
           "fips": 20,
           "state": "Kansas",
           "state-tax-rate": "6.50%",
-          "rank": "9",
+          "state-rank": "9",
           "avg-local-tax-rate-a": "2.27%",
-          "combined-rate": "8.77%"
+          "combined-rate": "8.77%",
+          "combined-rank": "9"
         },
         {
           "fips": 21,
           "state": "Kentucky",
           "state-tax-rate": "6.00%",
-          "rank": "38",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "6.00%"
+          "combined-rate": "6.00%",
+          "combined-rank": "38"
         },
         {
           "fips": 22,
           "state": "Louisiana",
           "state-tax-rate": "5.00%",
-          "rank": "1",
+          "state-rank": "32",
           "avg-local-tax-rate-a": "5.12%",
-          "combined-rate": "10.12%"
+          "combined-rate": "10.12%",
+          "combined-rank": "1"
         },
         {
           "fips": 23,
           "state": "Maine",
           "state-tax-rate": "5.50%",
-          "rank": "43",
+          "state-rank": "29",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "5.50%"
+          "combined-rate": "5.50%",
+          "combined-rank": "43"
         },
         {
           "fips": 24,
           "state": " Maryland",
           "state-tax-rate": "6.00%",
-          "rank": "38",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "6.00%"
+          "combined-rate": "6.00%",
+          "combined-rank": "38"
         },
         {
           "fips": 25,
           "state": " Massachusetts",
           "state-tax-rate": "6.25%",
-          "rank": "35",
+          "state-rank": "13",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "6.25%"
+          "combined-rate": "6.25%",
+          "combined-rank": "35"
         },
         {
           "fips": 26,
           "state": " Michigan",
           "state-tax-rate": "6.00%",
-          "rank": "38",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "6.00%"
+          "combined-rate": "6.00%",
+          "combined-rank": "38"
         },
         {
           "fips": 27,
           "state": "Minnesota",
           "state-tax-rate": "6.875%",
-          "rank": "15",
+          "state-rank": "6",
           "avg-local-tax-rate-a": "1.25%",
-          "combined-rate": "8.12%"
+          "combined-rate": "8.12%",
+          "combined-rank": "15"
         },
         {
           "fips": 28,
           "state": "Mississippi",
           "state-tax-rate": "7.00%",
-          "rank": "22",
+          "state-rank": "2",
           "avg-local-tax-rate-a": "0.06%",
-          "combined-rate": "7.06%"
+          "combined-rate": "7.06%",
+          "combined-rank": "22"
         },
         {
           "fips": 29,
           "state": "Missouri",
           "state-tax-rate": "4.225%",
-          "rank": "12",
+          "state-rank": "38",
           "avg-local-tax-rate-a": "4.19%",
-          "combined-rate": "8.41%"
+          "combined-rate": "8.41%",
+          "combined-rank": "12"
         },
         {
           "footnotes": [
@@ -6823,33 +6848,37 @@
           "fips": 30,
           "state": "Montana",
           "state-tax-rate": "--",
-          "rank": "47",
+          "state-rank": "46",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "--"
+          "combined-rate": "--",
+          "combined-rank": "47"
         },
         {
           "fips": 31,
           "state": "Nebraska",
           "state-tax-rate": "5.50%",
-          "rank": "27",
+          "state-rank": "29",
           "avg-local-tax-rate-a": "1.47%",
-          "combined-rate": "6.97%"
+          "combined-rate": "6.97%",
+          "combined-rank": "27"
         },
         {
           "fips": 32,
           "state": "Nevada",
           "state-tax-rate": "6.85%",
-          "rank": "13",
+          "state-rank": "7",
           "avg-local-tax-rate-a": "1.39%",
-          "combined-rate": "8.24%"
+          "combined-rate": "8.24%",
+          "combined-rank": "13"
         },
         {
           "fips": 33,
           "state": "New Hampshire",
           "state-tax-rate": "--",
-          "rank": "47",
+          "state-rank": "46",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "--"
+          "combined-rate": "--",
+          "combined-rank": "47"
         },
         {
           "footnotes": [
@@ -6858,9 +6887,10 @@
           "fips": 34,
           "state": "New Jersey",
           "state-tax-rate": "6.625%",
-          "rank": "30",
+          "state-rank": "8",
           "avg-local-tax-rate-a": "-0.02%",
-          "combined-rate": "6.60%"
+          "combined-rate": "6.60%",
+          "combined-rank": "30"
         },
         {
           "footnotes": [
@@ -6869,25 +6899,28 @@
           "fips": 35,
           "state": "New Mexico",
           "state-tax-rate": "4.88%",
-          "rank": "17",
+          "state-rank": "35",
           "avg-local-tax-rate-a": "2.75%",
-          "combined-rate": "7.63%"
+          "combined-rate": "7.63%",
+          "combined-rank": "17"
         },
         {
           "fips": 36,
           "state": "New York",
           "state-tax-rate": "4.00%",
-          "rank": "10",
+          "state-rank": "40",
           "avg-local-tax-rate-a": "4.53%",
-          "combined-rate": "8.53%"
+          "combined-rate": "8.53%",
+          "combined-rank": "10"
         },
         {
           "fips": 37,
           "state": "North Carolina",
           "state-tax-rate": "4.75%",
-          "rank": "26",
+          "state-rank": "36",
           "avg-local-tax-rate-a": "2.25%",
-          "combined-rate": "7.00%"
+          "combined-rate": "7.00%",
+          "combined-rank": "26"
         },
         {
           "footnotes": [
@@ -6896,57 +6929,64 @@
           "fips": 38,
           "state": "North Dakota",
           "state-tax-rate": "5.00%",
-          "rank": "23",
+          "state-rank": "32",
           "avg-local-tax-rate-a": "2.05%",
-          "combined-rate": "7.05%"
+          "combined-rate": "7.05%",
+          "combined-rank": "23"
         },
         {
           "fips": 39,
           "state": "Ohio",
           "state-tax-rate": "5.75%",
-          "rank": "21",
+          "state-rank": "27",
           "avg-local-tax-rate-a": "1.48%",
-          "combined-rate": "7.23%"
+          "combined-rate": "7.23%",
+          "combined-rank": "21"
         },
         {
           "fips": 40,
           "state": "Oklahoma",
           "state-tax-rate": "4.50%",
-          "rank": "6",
+          "state-rank": "37",
           "avg-local-tax-rate-a": "4.50%",
-          "combined-rate": "9.00%"
+          "combined-rate": "9.00%",
+          "combined-rank": "6"
         },
         {
           "fips": 41,
           "state": "Oregon",
           "state-tax-rate": "--",
-          "rank": "47",
+          "state-rank": "46",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "--"
+          "combined-rate": "--",
+          "combined-rank": "47"
         },
         {
           "fips": 42,
           "state": " Pennsylvania",
           "state-tax-rate": "6.00%",
-          "rank": "34",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "0.34%",
-          "combined-rate": "6.34%"
+          "combined-rate": "6.34%",
+          "combined-rank": "34"
         },
         {
           "fips": 44,
           "state": "Rhode Island",
           "state-tax-rate": "7.00%",
-          "rank": "24",
+          "state-rank": "2",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "7.00%"
+          "combined-rate": "7.00%",
+          "combined-rank": "24"
         },
         {
           "fips": 45,
           "state": "South Carolina",
           "state-tax-rate": "6.00%",
-          "rank": "18",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "1.50%",
-          "combined-rate": "7.50%"
+          "combined-rate": "7.50%",
+          "combined-rank": "18"
         },
         {
           "footnotes": [
@@ -6955,25 +6995,28 @@
           "fips": 46,
           "state": "South Dakota",
           "state-tax-rate": "4.20%",
-          "rank": "36",
+          "state-rank": "39",
           "avg-local-tax-rate-a": "1.91%",
-          "combined-rate": "6.11%"
+          "combined-rate": "6.11%",
+          "combined-rank": "36"
         },
         {
           "fips": 47,
           "state": "Tennessee",
           "state-tax-rate": "7.00%",
-          "rank": "2",
+          "state-rank": "2",
           "avg-local-tax-rate-a": "2.56%",
-          "combined-rate": "9.56%"
+          "combined-rate": "9.56%",
+          "combined-rank": "2"
         },
         {
           "fips": 48,
           "state": "Texas",
           "state-tax-rate": "6.25%",
-          "rank": "14",
+          "state-rank": "13",
           "avg-local-tax-rate-a": "1.95%",
-          "combined-rate": "8.20%"
+          "combined-rate": "8.20%",
+          "combined-rank": "14"
         },
         {
           "footnotes": [
@@ -6982,17 +7025,19 @@
           "fips": 49,
           "state": "Utah",
           "state-tax-rate": "6.10%",
-          "rank": "20",
+          "state-rank": "16",
           "avg-local-tax-rate-a": "1.22%",
-          "combined-rate": "7.32%"
+          "combined-rate": "7.32%",
+          "combined-rank": "20"
         },
         {
           "fips": 50,
           "state": "Vermont",
           "state-tax-rate": "6.00%",
-          "rank": "32",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "0.37%",
-          "combined-rate": "6.37%"
+          "combined-rate": "6.37%",
+          "combined-rank": "32"
         },
         {
           "footnotes": [
@@ -7001,49 +7046,55 @@
           "fips": 51,
           "state": "Virginia",
           "state-tax-rate": "5.30%",
-          "rank": "41",
+          "state-rank": "31",
           "avg-local-tax-rate-a": "0.47%",
-          "combined-rate": "5.77%"
+          "combined-rate": "5.77%",
+          "combined-rank": "41"
         },
         {
           "fips": 53,
           "state": "Washington",
           "state-tax-rate": "6.50%",
-          "rank": "4",
+          "state-rank": "9",
           "avg-local-tax-rate-a": "2.93%",
-          "combined-rate": "9.43%"
+          "combined-rate": "9.43%",
+          "combined-rank": "4"
         },
         {
           "fips": 54,
           "state": "West Virginia",
           "state-tax-rate": "6.00%",
-          "rank": "31",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "0.57%",
-          "combined-rate": "6.57%"
+          "combined-rate": "6.57%",
+          "combined-rank": "31"
         },
         {
           "fips": 55,
           "state": "Wisconsin",
           "state-tax-rate": "5.00%",
-          "rank": "42",
+          "state-rank": "32",
           "avg-local-tax-rate-a": "0.70%",
-          "combined-rate": "5.70%"
+          "combined-rate": "5.70%",
+          "combined-rank": "42"
         },
         {
           "fips": 56,
           "state": "Wyoming",
           "state-tax-rate": "4.00%",
-          "rank": "44",
+          "state-rank": "40",
           "avg-local-tax-rate-a": "1.44%",
-          "combined-rate": "5.44%"
+          "combined-rate": "5.44%",
+          "combined-rank": "44"
         },
         {
           "fips": 11,
           "state": "District of Columbia",
           "state-tax-rate": "6.00%",
-          "rank": null,
+          "state-rank": "17",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "6.00%"
+          "combined-rate": "6.00%",
+          "combined-rank": null
         }
       ]
     },
