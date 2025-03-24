@@ -720,7 +720,7 @@
           "fips": 11,
           "state": "District of Columbia",
           "state-local-tax-burden-as-a-share-of-state-income": "12.0%",
-          "rank": "39",
+          "rank": "(39)",
           "total-tax-burden-per-capita": "$11,654"
         }
       ]
@@ -8231,14 +8231,14 @@
           "fips": 1,
           "state": "Alabama",
           "excise-tax": "$0.29",
-          "other-taxes-and-fees": "$0.0120",
-          "total": "$0.3020",
-          "rank": "23"
+          "other-taxes-and-fees": "$0.012",
+          "total": "$0.302",
+          "rank": "25"
         },
         {
           "fips": 2,
           "state": "Alaska",
-          "excise-tax": "$0.0800",
+          "excise-tax": "$0.08",
           "other-taxes-and-fees": "$0.0095",
           "total": "$0.0895",
           "rank": "50"
@@ -8256,7 +8256,7 @@
           "state": "Arkansas",
           "excise-tax": "$0.247",
           "other-taxes-and-fees": "$0.003",
-          "total": "$0.250",
+          "total": "$0.25",
           "rank": "35"
         },
         {
@@ -8265,18 +8265,18 @@
           ],
           "fips": 6,
           "state": "California",
-          "excise-tax": "$0.579",
-          "other-taxes-and-fees": "$0.1020",
-          "total": "$0.6810",
+          "excise-tax": "$0.596",
+          "other-taxes-and-fees": "$0.1022",
+          "total": "$0.6982",
           "rank": "1"
         },
         {
           "fips": 8,
           "state": "Colorado",
           "excise-tax": "$0.22",
-          "other-taxes-and-fees": "$0.07",
-          "total": "$0.29",
-          "rank": "28"
+          "other-taxes-and-fees": "$0.0618",
+          "total": "$0.2818",
+          "rank": "29"
         },
         {
           "footnotes": [
@@ -8285,8 +8285,8 @@
           "fips": 9,
           "state": "Connecticut",
           "excise-tax": "$0.25",
-          "other-taxes-and-fees": "$0.2835",
-          "total": "$0.2500",
+          "other-taxes-and-fees": "$0.00",
+          "total": "$0.25",
           "rank": "35"
         },
         {
@@ -8300,25 +8300,25 @@
         {
           "fips": 12,
           "state": "Florida",
-          "excise-tax": "$0.04",
-          "other-taxes-and-fees": "$0.3460",
-          "total": "$0.3860",
+          "excise-tax": "$0.215",
+          "other-taxes-and-fees": "$0.1790",
+          "total": "$0.394",
           "rank": "12"
         },
         {
           "fips": 13,
           "state": "Georgia",
-          "excise-tax": "$0.323",
+          "excise-tax": "$0.331",
           "other-taxes-and-fees": "$0.0075",
-          "total": "$0.3305",
-          "rank": "18"
+          "total": "$0.3385",
+          "rank": "17"
         },
         {
           "fips": 15,
           "state": "Hawaii",
           "excise-tax": "$0.16",
-          "other-taxes-and-fees": "$0.0250",
-          "total": "$0.1850",
+          "other-taxes-and-fees": "$0.025",
+          "total": "$0.185",
           "rank": "48"
         },
         {
@@ -8335,41 +8335,42 @@
           ],
           "fips": 17,
           "state": "Illinois",
-          "excise-tax": "$0.454",
-          "other-taxes-and-fees": "$0.211",
-          "total": "$0.6650",
+          "excise-tax": "$0.47",
+          "other-taxes-and-fees": "$0.191",
+          "total": "$0.661",
           "rank": "2"
         },
         {
           "fips": 18,
           "state": "Indiana",
-          "excise-tax": "$0.34",
-          "other-taxes-and-fees": "$0.1770",
-          "total": "$0.5170",
+          "excise-tax": "$0.35",
+          "other-taxes-and-fees": "$0.175",
+          "total": "$0.525",
           "rank": "5"
         },
         {
           "fips": 19,
           "state": "Iowa",
-          "excise-tax": "$0.300",
-          "total": "$0.300",
-          "rank": "25"
+          "excise-tax": "$0.30",
+          "other-taxes-and-fees": "$0.00",
+          "total": "$0.30",
+          "rank": "27"
         },
         {
           "fips": 20,
           "state": "Kansas",
           "excise-tax": "$0.24",
-          "other-taxes-and-fees": "$0.01030",
-          "total": "$0.25030",
+          "other-taxes-and-fees": "$0.0104",
+          "total": "$0.2504",
           "rank": "34"
         },
         {
           "fips": 21,
           "state": "Kentucky",
-          "excise-tax": "$0.287",
+          "excise-tax": "$0.264",
           "other-taxes-and-fees": "$0.014",
-          "total": "$0.30",
-          "rank": "24"
+          "total": "$0.278",
+          "rank": "30"
         },
         {
           "fips": 22,
@@ -8383,73 +8384,73 @@
           "fips": 23,
           "state": "Maine",
           "excise-tax": "$0.30",
-          "other-taxes-and-fees": "$0.0140",
-          "total": "$0.3140",
-          "rank": "22"
+          "other-taxes-and-fees": "$0.014",
+          "total": "$0.3141",
+          "rank": "23"
         },
         {
           "fips": 24,
           "state": " Maryland",
-          "excise-tax": "$0.310",
-          "other-taxes-and-fees": "$0.162",
-          "total": "$0.472",
+          "excise-tax": "$0.321",
+          "other-taxes-and-fees": "$0.1419",
+          "total": "$0.4629",
           "rank": "7"
         },
         {
           "fips": 25,
           "state": " Massachusetts",
           "excise-tax": "$0.24",
-          "other-taxes-and-fees": "$0.0337",
-          "total": "$0.2737",
+          "other-taxes-and-fees": "$0.0347",
+          "total": "$0.2747",
           "rank": "32"
         },
         {
           "fips": 26,
           "state": " Michigan",
-          "excise-tax": "$0.300",
-          "other-taxes-and-fees": "$0.1800",
-          "total": "$0.4800",
+          "excise-tax": "$0.31",
+          "other-taxes-and-fees": "$0.168",
+          "total": "$0.478",
           "rank": "6"
         },
         {
           "fips": 27,
           "state": "Minnesota",
-          "excise-tax": "$0.285",
+          "excise-tax": "$0.318",
           "other-taxes-and-fees": "$0.001",
-          "total": "$0.286",
-          "rank": "30"
+          "total": "$0.319",
+          "rank": "21"
         },
         {
           "fips": 28,
           "state": "Mississippi",
           "excise-tax": "$0.18",
-          "other-taxes-and-fees": "$0.0040",
-          "total": "$0.1840",
+          "other-taxes-and-fees": "$0.004",
+          "total": "$0.184",
           "rank": "49"
         },
         {
           "fips": 29,
           "state": "Missouri",
-          "excise-tax": "$0.245",
-          "other-taxes-and-fees": "$0.0047",
-          "total": "$0.2497",
-          "rank": "37"
+          "excise-tax": "$0.27",
+          "other-taxes-and-fees": "$0.0049",
+          "total": "$0.2749",
+          "rank": "31"
         },
         {
           "fips": 30,
           "state": "Montana",
-          "excise-tax": "$0.330",
+          "excise-tax": "$0.33",
           "other-taxes-and-fees": "$0.0075",
           "total": "$0.3375",
-          "rank": "17"
+          "rank": "18"
         },
         {
           "fips": 31,
           "state": "Nebraska",
-          "excise-tax": "$0.291",
+          "excise-tax": "$0.304",
           "other-taxes-and-fees": "$0.009",
-          "total": "$0.300",
-          "rank": "25"
+          "total": "$0.313",
+          "rank": "24"
         },
         {
           "fips": 32,
@@ -8471,8 +8472,8 @@
           "fips": 34,
           "state": "New Jersey",
           "excise-tax": "$0.105",
-          "other-taxes-and-fees": "$0.319",
-          "total": "$0.424",
+          "other-taxes-and-fees": "$0.3445",
+          "total": "$0.4495",
           "rank": "8"
         },
         {
@@ -8486,33 +8487,34 @@
         {
           "fips": 36,
           "state": "New York",
-          "excise-tax": "$0.0800",
-          "other-taxes-and-fees": "$0.1768",
-          "total": "$0.2568",
-          "rank": "33"
+          "excise-tax": "$0.08",
+          "other-taxes-and-fees": "$0.1687",
+          "total": "$0.2487",
+          "rank": "37"
         },
         {
           "fips": 37,
           "state": "North Carolina",
-          "excise-tax": "$0.404",
+          "excise-tax": "$0.403",
           "other-taxes-and-fees": "$0.0025",
-          "total": "$0.4065",
+          "total": "$0.4055",
           "rank": "9"
         },
         {
           "fips": 38,
           "state": "North Dakota",
           "excise-tax": "$0.23",
-          "other-taxes-and-fees": "$0.00",
-          "total": "$0.23",
+          "other-taxes-and-fees": "$0.0003",
+          "total": "$0.2303",
           "rank": "41"
         },
         {
           "fips": 39,
           "state": "Ohio",
           "excise-tax": "$0.385",
-          "total": "$0.3850",
-          "rank": "13"
+          "other-taxes-and-fees": "$0.00",
+          "total": "$0.385",
+          "rank": "14"
         },
         {
           "fips": 40,
@@ -8526,13 +8528,14 @@
           "fips": 41,
           "state": "Oregon",
           "excise-tax": "$0.40",
-          "total": "$0.4000",
-          "rank": "10"
+          "other-taxes-and-fees": "$0.00",
+          "total": "$0.40",
+          "rank": "11"
         },
         {
           "fips": 42,
           "state": " Pennsylvania",
-          "excise-tax": "$0.58",
+          "excise-tax": "$0.576",
           "other-taxes-and-fees": "$0.011",
           "total": "$0.587",
           "rank": "3"
@@ -8541,9 +8544,9 @@
           "fips": 44,
           "state": "Rhode Island",
           "excise-tax": "$0.37",
-          "other-taxes-and-fees": "$0.01",
-          "total": "$0.38",
-          "rank": "14"
+          "other-taxes-and-fees": "$0.0112",
+          "total": "$0.3812",
+          "rank": "15"
         },
         {
           "fips": 45,
@@ -8551,7 +8554,7 @@
           "excise-tax": "$0.28",
           "other-taxes-and-fees": "$0.0075",
           "total": "$0.2875",
-          "rank": "29"
+          "rank": "28"
         },
         {
           "fips": 46,
@@ -8559,7 +8562,7 @@
           "excise-tax": "$0.28",
           "other-taxes-and-fees": "$0.02",
           "total": "$0.30",
-          "rank": "25"
+          "rank": "26"
         },
         {
           "fips": 47,
@@ -8567,45 +8570,46 @@
           "excise-tax": "$0.26",
           "other-taxes-and-fees": "$0.014",
           "total": "$0.274",
-          "rank": "31"
+          "rank": "33"
         },
         {
           "fips": 48,
           "state": "Texas",
           "excise-tax": "$0.20",
+          "other-taxes-and-fees": "$0.00",
           "total": "$0.20",
           "rank": "44"
         },
         {
           "fips": 49,
           "state": "Utah",
-          "excise-tax": "$0.365",
+          "excise-tax": "$0.385",
           "other-taxes-and-fees": "$0.0065",
-          "total": "$0.3715",
-          "rank": "15"
+          "total": "$0.3915",
+          "rank": "13"
         },
         {
           "fips": 50,
           "state": "Vermont",
           "excise-tax": "$0.121",
-          "other-taxes-and-fees": "$0.2051",
-          "total": "$0.3261",
-          "rank": "21"
+          "other-taxes-and-fees": "$0.1958",
+          "total": "$0.3168",
+          "rank": "22"
         },
         {
           "fips": 51,
           "state": "Virginia",
-          "excise-tax": "$0.298",
-          "other-taxes-and-fees": "$0.0930",
-          "total": "$0.3910",
-          "rank": "11"
+          "excise-tax": "$0.308",
+          "other-taxes-and-fees": "$0.096",
+          "total": "$0.404",
+          "rank": "10"
         },
         {
           "fips": 53,
           "state": "Washington",
           "excise-tax": "$0.494",
-          "other-taxes-and-fees": "$0.03",
-          "total": "$0.528",
+          "other-taxes-and-fees": "$0.0342",
+          "total": "$0.5282",
           "rank": "4"
         },
         {
@@ -8636,8 +8640,8 @@
           "fips": 11,
           "state": "District of Columbia",
           "excise-tax": "$0.235",
-          "other-taxes-and-fees": "$0.114",
-          "total": "$0.349",
+          "other-taxes-and-fees": "$0.118",
+          "total": "$0.353",
           "rank": "17"
         }
       ]
@@ -9516,7 +9520,7 @@
     "title": "State Cigarette Excise Tax Rates ",
     "subtitle": "(Dollars per 20-Pack)",
     "date": "As of January 1, 2025",
-    "notes": "(b) New York City levies an additional $1.50 local excise.",
+    "notes": "Note: Local taxes are not included and can be substantial. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
     "source": "Sources: Bloomberg Tax; state revenue departments; Tax Foundation.",
     "footnotes": [
       [
@@ -9616,7 +9620,7 @@
       ],
       [
         "N.Y.",
-        "Open: 12.5% of wholesale; Closed: $0.50 per cartridge"
+        "20% of retail"
       ],
       [
         "N.C.",
@@ -9676,7 +9680,9 @@
     "notes": "Note: Several states (Alaska, Illinois, and Maryland) impose local taxes as well as general sales taxes on vapor products. Those are not included here. Manufacturing value generally refers to the value paid by wholesale. Wholesale value refers to either the price paid by the wholesaler or the price paid by retail to wholesale.",
     "source": "Sources: State statutes; Bloomberg Tax.",
     "footnotes": [
-      []
+      [
+        "(a) Tax is on the wholesale cost of any product containing or derived from tobacco. The tax on an e-cigarette starter kit is calculated on the total cost unless the nicotine cartridges are sold separately and then the tax is levied only on the value of the nicotine cartridge. "
+      ]
     ]
   },
   "26": {
@@ -9773,6 +9779,10 @@
       [
         "Vt. ",
         "14% excise tax (retail price)"
+      ],
+      [
+        "Wash.",
+        "37% excise tax (retail price)"
       ]
     ],
     "title": "State Recreational Marijuana Excise Tax Rates",

@@ -227,7 +227,7 @@
     "subtitle": "A3",
     "date": "A4",
     "data": "B6:D58",
-    "notes": "A61",
+    "notes": "A62",
     "footnotes": "A60:A61",
     "source": "A64"
   },
@@ -239,14 +239,14 @@
     "data": "B5:C39",
     "notes": "A44",
     "source": "A46",
-    "footnotes": "A42"
+    "footnotes": "A41"
   },
   {
     "sheetName": "26",
     "type": "table",
     "title": "A2",
     "date": "B3",
-    "data": "B5:C27",
+    "data": "B5:C28",
     "notes": "A32",
     "source": "A42",
     "footnotes": "A30"
