@@ -1,6 +1,4 @@
-import { type Config } from "prettier";
-
-const config: Config = {
+const config = {
 	plugins: ['@trivago/prettier-plugin-sort-imports'],
 	arrowParens: 'avoid',
 	printWidth: 80,
