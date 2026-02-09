@@ -1,4 +1,4 @@
-const config = {
+export default {
 	plugins: ['@trivago/prettier-plugin-sort-imports'],
 	arrowParens: 'avoid',
 	printWidth: 80,
@@ -9,6 +9,4 @@ const config = {
 	importOrderSeparation: true,
 	importOrderSortSpecifiers: true,
 	importOrderCaseInsensitive: true,
-}
-
-export default config;
+};

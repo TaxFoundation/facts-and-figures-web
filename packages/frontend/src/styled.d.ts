@@ -7,7 +7,7 @@ declare module 'styled-components' {
 		fontFamilies: {
 			RobotoFlex: string;
 			RobotoMono: string;
-		},
+		};
 		fontSize: string;
 		printSize: string;
 		fontWeight: string;

@@ -1,22 +1,22 @@
 import styled from 'styled-components';
 
 export const StyledTableRow = styled.tr`
-  border-bottom: 1px solid ${props => props.theme.borderColor};
-  border-top: 1px solid ${props => props.theme.borderColor};
-  font-family: ${props => props.theme.RobotoMono};
+	border-bottom: 1px solid ${props => props.theme.borderColor};
+	border-top: 1px solid ${props => props.theme.borderColor};
+	font-family: ${props => props.theme.RobotoMono};
 
-  td {
-    padding: 0.25rem;
-    text-align: center;
-  }
+	td {
+		padding: 0.25rem;
+		text-align: center;
+	}
 `;
 
-const TableRow = ({ row }: {row: string[]}) => (
-  <StyledTableRow>
-    {row.map(cell => (
-      <td key={`cell-${cell}`}>{cell}</td>
-    ))}
-  </StyledTableRow>
+const TableRow = ({ row }: { row: string[] }) => (
+	<StyledTableRow>
+		{row.map(cell => (
+			<td key={`cell-${cell}`}>{cell}</td>
+		))}
+	</StyledTableRow>
 );
 
 export default TableRow;
