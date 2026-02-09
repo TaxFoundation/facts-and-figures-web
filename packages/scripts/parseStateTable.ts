@@ -1,6 +1,6 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const states = require('../frontend/src/data/states.json');
+import states from '../../data/states.json';
 
 module.exports = function(table) {
   /*

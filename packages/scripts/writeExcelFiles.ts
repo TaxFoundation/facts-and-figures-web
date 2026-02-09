@@ -1,6 +1,6 @@
-const XLSX = require('xlsx');
-const path = require('path');
-const fs = require('fs');
+import XLSX from 'xlsx';
+import path from 'path';
+import fs from 'fs';
 
 function maxLength(arrays) {
   let length = 0;
