@@ -2,7 +2,9 @@ import XLSX from 'xlsx';
 import path from 'path';
 import fs from 'fs';
 
-function maxLength(arrays) {
+import type { CompiledData, StateData } from './types';
+
+function maxLength(arrays: unknown[][]): number {
   let length = 0;
   arrays.forEach(array => {
     length = Math.max(length, array.length);
@@ -11,43 +13,54 @@ function maxLength(arrays) {
   return length;
 }
 
-function writeWorkbook(key, data, destination) {
+function writeWorkbook(key: string, data: CompiledData, destination: string): XLSX.WorkSheet {
   const wb = XLSX.utils.book_new();
-  const ws_data = [];
-  const top = ['title', 'subtitle', 'date'];
-  const bottom = ['notes', 'source'];
-  const length = Array.isArray(data[key].data)
-    ? maxLength(data[key].data)
-    : data[key].data.headers.length;
+  const ws_data: unknown[][] = [];
+  const top = ['title', 'subtitle', 'date'] as const;
+  const bottom = ['notes', 'source'] as const;
+
+  const entry = data[key];
+  if (!entry) {
+    throw new Error(`No data found for key: ${key}`);
+  }
+
+  const length = Array.isArray(entry.data)
+    ? maxLength(entry.data as unknown[][])
+    : (entry.data as StateData).headers.length;
 
   top.forEach(item => {
-    if (data[key][item]) {
-      const itemArray = new Array(length);
-      itemArray[0] = data[key][item].trim();
+    const value = entry[item];
+    if (value && typeof value === 'string') {
+      const itemArray: (string | undefined)[] = new Array(length);
+      itemArray[0] = value.trim();
       ws_data.push(itemArray);
     }
   });
 
-  if (data[key].type !== 'states') {
+  if (entry.type !== 'states') {
     ws_data.push(new Array(length));
-    ws_data.push(...data[key].data);
+    ws_data.push(...(entry.data as unknown[][]));
     ws_data.push(new Array(length));
   } else {
     ws_data.push(new Array(length));
     // create array for header row
-    let theHeaders = [];
-    data[key].data.headers.forEach(header => {
+    const theHeaders: string[] = [];
+    const stateData = entry.data as StateData;
+    stateData.headers.forEach(header => {
       theHeaders.push(header.name);
     });
     ws_data.push(theHeaders);
     // create arrays for each row of data
-    data[key].data.values.forEach(row => {
-      let theRow = [];
-      data[key].data.headers.forEach(header => {
+    stateData.values.forEach(row => {
+      const theRow: (string | null)[] = [];
+      stateData.headers.forEach(header => {
+        const cellValue = row[header.id];
         if (header.id === 'state' && row.footnotes) {
-          theRow.push(`${row[header.id].trim()} (${row.footnotes.join(', ')})`);
-        } else if (row[header.id]) {
-          theRow.push(row[header.id].trim());
+          const stateStr = String(cellValue || '');
+          theRow.push(`${stateStr.trim()} (${row.footnotes.join(', ')})`);
+        } else if (cellValue !== undefined && cellValue !== null) {
+          const valueStr = String(cellValue);
+          theRow.push(valueStr.trim());
         } else {
           theRow.push(null);
         }
@@ -57,32 +70,34 @@ function writeWorkbook(key, data, destination) {
     ws_data.push(new Array(length));
   }
 
-  if (data[key].footnotes) {
-    data[key].footnotes.forEach(footnote => {
-      const fnArray = new Array(length);
-      if (footnote[0]) {
-        fnArray[0] = footnote[0].trim();
+  if (entry.footnotes) {
+    entry.footnotes.forEach(footnote => {
+      const fnArray: (string | undefined)[] = new Array(length);
+      const firstCell = footnote[0];
+      if (firstCell && typeof firstCell === 'string') {
+        fnArray[0] = firstCell.trim();
         ws_data.push(fnArray);
       }
     });
   }
 
   bottom.forEach(item => {
-    if (data[key][item]) {
-      const itemArray = new Array(length);
-      itemArray[0] = data[key][item].trim();
+    const value = entry[item];
+    if (value && typeof value === 'string') {
+      const itemArray: (string | undefined)[] = new Array(length);
+      itemArray[0] = value.trim();
       ws_data.push(itemArray);
     }
   });
 
   const ws = XLSX.utils.aoa_to_sheet(ws_data);
   XLSX.utils.book_append_sheet(wb, ws, `Facts and Figures Table ${key}`);
-  XLSX.writeFileSync(wb, destination);
+  XLSX.writeFile(wb, destination);
 
   return ws;
 }
 
-module.exports = data => {
+export default function writeExcelFiles(data: CompiledData): void {
   const keys = Object.keys(data);
   const outputDirectory = path.resolve(__dirname, '../../public/data');
 
@@ -94,22 +109,20 @@ module.exports = data => {
     if (err) throw err;
 
     for (const file of files) {
-      fs.unlinkSync(path.join(outputDirectory, file), err => {
-        if (err) throw err;
-      });
+      fs.unlinkSync(path.join(outputDirectory, file));
     }
     console.log(`Old Excel files deleted.`);
 
-    let wb = XLSX.utils.book_new();
+    const wb = XLSX.utils.book_new();
     keys.forEach(key => {
       const destination = path.join(outputDirectory, `table-${key}.xlsx`);
-      let sheet = writeWorkbook(key, data, destination);
+      const sheet = writeWorkbook(key, data, destination);
       XLSX.utils.book_append_sheet(wb, sheet, key);
     });
-    XLSX.writeFileSync(
+    XLSX.writeFile(
       wb,
       path.join(outputDirectory, 'facts-and-figures.xlsx')
     );
   });
   console.log('New Excel files written.');
-};
+}

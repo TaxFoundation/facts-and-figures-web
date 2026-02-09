@@ -2,11 +2,12 @@ import XLSX from 'xlsx';
 import path from 'path';
 import fs from 'fs';
 
-const mappings = require('../frontend/src/data/mappings.json');
-const parseStateTable = require('./parseStateTable');
-const writeExcelFiles = require('./writeExcelFiles');
+import mappings from '../../data/mappings.json';
+import parseStateTable from './parseStateTable';
+import writeExcelFiles from './writeExcelFiles';
+import type { CompiledData, Mapping } from './types';
 
-function maxLength(arrays) {
+function maxLength(arrays: unknown[][]): number {
   let length = 0;
   arrays.forEach(array => {
     length = Math.max(length, array.length);
@@ -15,83 +16,94 @@ function maxLength(arrays) {
   return length;
 }
 
-let data = {};
+const data: CompiledData = {};
 
-const source = path.resolve(__dirname, 'data/facts-and-figures.xlsx');
-const destination = path.resolve(__dirname, 'data/data.json');
+const source = path.resolve(__dirname, '../../data/facts-and-figures.xlsx');
+const destination = path.resolve(__dirname, '../../data/data.json');
 const wb = XLSX.readFile(source);
 
-const concatRange = (range, sheet) => {
+const concatRange = (range: string, sheet: XLSX.WorkSheet): string => {
   const cells = XLSX.utils.sheet_to_json(sheet, {
     header: 1,
     range,
     raw: false
-  });
-  let values = [];
+  }) as unknown[][];
+  const values: unknown[] = [];
   cells.forEach(row => {
-    row.forEach(cell => values.push(cell));
+    (row as unknown[]).forEach(cell => values.push(cell));
   });
 
-  const concatenation = values.reduce((prev, curr) => {
-    return `${prev} ${curr.trim()}`;
+  const concatenation = values.reduce<string>((prev, curr) => {
+    const currStr = String(curr || '');
+    return `${prev} ${currStr.trim()}`;
   }, '');
 
   return concatenation;
 };
 
-const mapValues = (table, sheet) => {
+const mapValues = (table: Mapping, sheet: XLSX.WorkSheet): void => {
   data[table.sheetName] = {
-    type: table.type
+    type: table.type,
+    data: []
   };
-  const metadata = ['title', 'subtitle', 'date', 'notes', 'source'];
+  const metadata: (keyof Mapping)[] = ['title', 'subtitle', 'date', 'notes', 'source'];
 
   const rawData = XLSX.utils.sheet_to_json(sheet, {
     header: 1,
     range: table.data,
     raw: false
-  });
+  }) as unknown[][];
 
   const columns = maxLength(rawData);
   rawData.forEach(row => {
-    while (row.length < columns) {
-      row.push(null);
+    const typedRow = row as unknown[];
+    while (typedRow.length < columns) {
+      typedRow.push(null);
     }
   });
 
-  data[table.sheetName].data =
-    table.type === 'states' ? parseStateTable(rawData) : rawData;
+  const tableEntry = data[table.sheetName];
+  if (!tableEntry) return;
+
+  tableEntry.data = table.type === 'states' ? parseStateTable(rawData) : rawData;
 
   metadata.forEach(term => {
-    if (table[term]) {
-      data[table.sheetName][term] =
-        table[term].indexOf(':') === -1
-          ? sheet[table[term]].v
-          : concatRange(table[term], sheet);
+    const value = table[term];
+    if (value && typeof value === 'string') {
+      const cellRef = value;
+      const metadataValue = cellRef.indexOf(':') === -1
+        ? sheet[cellRef]?.v
+        : concatRange(cellRef, sheet);
+
+      if (metadataValue !== undefined) {
+        (tableEntry as Record<string, unknown>)[term] = metadataValue;
+      }
     }
   });
-  data[table.sheetName].footnotes = table.footnotes
+
+  tableEntry.footnotes = table.footnotes
     ? XLSX.utils.sheet_to_json(sheet, {
         header: 1,
         range: table.footnotes,
         raw: false
-      })
+      }) as unknown[][]
     : null;
 };
 
-const buildData = () => {
+const buildData = (): void => {
   fs.access(source, err => {
     if (err) throw err;
   });
-  mappings.forEach(table => {
+  (mappings as Mapping[]).forEach(table => {
     const sheet = wb.Sheets[table.sheetName];
-    if (table.data) {
+    if (table.data && sheet) {
       console.log(`Mapping ${table.sheetName}`);
       mapValues(table, sheet);
     }
   });
 };
 
-const writeData = () => {
+const writeData = (): void => {
   buildData();
   try {
     console.log('Writing new data to file...');
