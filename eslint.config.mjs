@@ -10,7 +10,9 @@ export default defineConfig(
   {
     languageOptions: {
       parserOptions: {
-        projectService: true,
+        projectService: {
+          allowDefaultProject: ['*.config.mjs'],
+        },
         tsconfigRootDir: import.meta.dirname,
       },
     },
@@ -37,6 +39,6 @@ export default defineConfig(
 		},
 	},
   {
-    ignores: ['dist/', 'node_modules/', '*.config.js', '*.config.mjs', '**/*.test.ts', '**/*.test.tsx'],
+    ignores: ['dist/', 'node_modules/', '*.config.js', '**/*.test.ts', '**/*.test.tsx'],
   }
 );
