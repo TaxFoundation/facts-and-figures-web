@@ -2,9 +2,9 @@ const XLSX = require('xlsx');
 const path = require('path');
 const fs = require('fs');
 
-const mappings = require('./data/mappings.json');
-const parseStateTable = require('./data/parseStateTable');
-const writeExcelFiles = require('./data/writeExcelFiles');
+const mappings = require('../frontend/src/data/mappings.json');
+const parseStateTable = require('./parseStateTable');
+const writeExcelFiles = require('../frontend/src/data/writeExcelFiles');
 
 function maxLength(arrays) {
   let length = 0;
