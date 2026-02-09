@@ -1,5 +1,3 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 export const StyledTableHeader = styled.tr`
@@ -10,16 +8,12 @@ export const StyledTableHeader = styled.tr`
   }
 `;
 
-const TableHeader = ({ headings }) => (
+const TableHeader = ({ headings }: {headings: string[]}) => (
   <StyledTableHeader>
     {headings.map(heading => (
       <th key={`cell-${heading}`}>{heading}</th>
     ))}
   </StyledTableHeader>
 );
-
-TableHeader.propTypes = {
-  headings: PropTypes.array
-};
 
 export default TableHeader;

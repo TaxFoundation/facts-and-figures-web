@@ -1,4 +1,6 @@
-const Theme = {
+import {type DefaultTheme} from 'styled-components';
+
+const Theme: DefaultTheme = {
   borderColor: '#bbb',
   color: 'hsl(0, 0%, 7%)',
   fontFamilies: {
