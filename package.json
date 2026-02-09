@@ -1,7 +1,12 @@
 {
   "name": "facts-and-figures-web",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
+  "scripts": {
+    "start": "npm run build-data && react-scripts start",
+    "build": "npm run build-data && react-scripts build",
+    "build-data": "node ./src/compileData.js"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
@@ -15,13 +20,17 @@
     "styled-components": "^6.3.9",
     "xlsx": "^0.18.5"
   },
-  "scripts": {
-    "start": "npm run build-data && react-scripts start",
-    "build": "npm run build-data && react-scripts build",
-    "build-data": "node ./src/compileData.js"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@trivago/prettier-plugin-sort-imports": "^6.0.2",
+    "@types/node": "^25.0.3",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.39.2",
+    "eslint-plugin-prettier": "^5.5.5",
+    "prettier": "^3.8.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.54.0"
   },
   "browserslist": {
     "production": [
@@ -34,17 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.39.2",
-    "@trivago/prettier-plugin-sort-imports": "^6.0.2",
-    "@types/node": "^25.0.3",
-    "concurrently": "^9.2.1",
-    "eslint": "^9.39.2",
-    "eslint-plugin-prettier": "^5.5.5",
-		"prettier": "^3.8.1",
-    "tsx": "^4.21.0",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.54.0"
   }
 }
