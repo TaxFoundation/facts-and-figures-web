@@ -5,7 +5,8 @@
   "scripts": {
     "start": "npm run dev --workspace=frontend",
     "build": "npm run build-data && npm run build --workspace=frontend",
-    "build-data": "node .packages/scripts/compileData.js"
+    "build-data": "node .packages/scripts/compileData.js",
+    "lint": "eslint ."
   },
   "dependencies": {
     "xlsx": "^0.18.5"
