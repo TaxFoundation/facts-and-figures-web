@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 
 import StatesTable from './components/StatesTable';
@@ -43,7 +43,7 @@ const GlobalStyle = createGlobalStyle`
   p {
     font-family: ${props => props.theme.fontFamilies.RobotoMono};
     font-size: .7rem;
-  } 
+  }
   div,
   h1,
   h2,
@@ -67,7 +67,12 @@ function App() {
 			<GlobalStyle />
 			<AppWrapper>
 				<div style={{ marginBottom: '1rem' }}>
-					<Select value={table} onChange={e => setTable(e.target.value)}>
+					<Select
+						value={table}
+						onChange={e => {
+							setTable(e.target.value);
+						}}
+					>
 						{keys.map(key => (
 							<option
 								key={`table-option-${key}`}
