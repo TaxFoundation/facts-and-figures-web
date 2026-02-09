@@ -27,5 +27,5 @@ window.addEventListener(
 			contentHeight = message.height;
 		}
 	},
-	false
+	false,
 );
