@@ -7,6 +7,15 @@ import parseStateTable from './parseStateTable';
 import type { CompiledData, Mapping } from './types';
 import writeExcelFiles from './writeExcelFiles';
 
+/**
+ * Finds the maximum length among an array of arrays.
+ *
+ * Used to determine the number of columns needed when normalizing
+ * rows of varying lengths to have consistent column counts.
+ *
+ * @param arrays - An array of arrays to measure
+ * @returns The length of the longest inner array
+ */
 function maxLength(arrays: unknown[][]): number {
 	let length = 0;
 	arrays.forEach(array => {
@@ -22,7 +31,18 @@ const source = path.resolve(__dirname, '../../data/facts-and-figures.xlsx');
 const destination = path.resolve(__dirname, '../frontend/src/data/data.json');
 const wb = XLSX.readFile(source);
 
-const concatRange = (range: string, sheet: XLSX.WorkSheet): string => {
+/**
+ * Concatenates all cell values within a given Excel range into a single string.
+ *
+ * Extracts all cells from the specified range, flattens them, and joins their
+ * values with spaces. This is useful for metadata fields like notes or sources
+ * that may span multiple cells in the source spreadsheet.
+ *
+ * @param range - An Excel range string (e.g., "A1:C3") specifying cells to concatenate
+ * @param sheet - The XLSX worksheet to read from
+ * @returns A space-separated string of all non-null cell values in the range
+ */
+function concatRange(range: string, sheet: XLSX.WorkSheet): string {
 	const cells = XLSX.utils.sheet_to_json(sheet, {
 		header: 1,
 		range,
@@ -45,9 +65,22 @@ const concatRange = (range: string, sheet: XLSX.WorkSheet): string => {
 	}, '');
 
 	return concatenation;
-};
+}
 
-const mapValues = (table: Mapping, sheet: XLSX.WorkSheet): void => {
+/**
+ * Extracts and transforms data from an Excel sheet based on a mapping configuration.
+ *
+ * This function reads raw data from the specified range in the worksheet, normalizes
+ * row lengths, and stores the result in the global `data` object. For state-type tables,
+ * the data is further processed through `parseStateTable` to structure it with headers
+ * and state-keyed values. Metadata fields (title, subtitle, date, notes, source) are
+ * extracted from their configured cell references, with multi-cell ranges concatenated.
+ * Footnotes are also extracted if specified in the mapping.
+ *
+ * @param table - The mapping configuration specifying sheet name, data range, type, and metadata locations
+ * @param sheet - The XLSX worksheet to extract data from
+ */
+function mapValues(table: Mapping, sheet: XLSX.WorkSheet): void {
 	data[table.sheetName] = {
 		type: table.type,
 		data: [],
@@ -104,9 +137,17 @@ const mapValues = (table: Mapping, sheet: XLSX.WorkSheet): void => {
 	} else {
 		tableEntry.footnotes = null;
 	}
-};
+}
 
-const buildData = (): void => {
+/**
+ * Iterates through all table mappings and extracts data from the source workbook.
+ *
+ * Verifies the source file exists, then processes each mapping configuration
+ * by finding the corresponding sheet in the workbook and calling `mapValues`
+ * to extract and transform the data. Progress is logged to the console for
+ * each sheet processed.
+ */
+function buildData(): void {
 	fs.access(source, err => {
 		if (err) throw err;
 	});
@@ -117,16 +158,23 @@ const buildData = (): void => {
 			mapValues(table, sheet);
 		}
 	});
-};
+}
 
-const writeData = (): void => {
+/**
+ * Orchestrates the full data compilation and output process.
+ *
+ * Calls `buildData` to extract all table data from the source workbook,
+ * writes the compiled data to a JSON file for the frontend application,
+ * and generates individual Excel files for each table via `writeExcelFiles`.
+ */
+function writeData(): void {
 	buildData();
 	console.log('Writing new data to file...');
 	fs.writeFileSync(destination, JSON.stringify(data, null, 2));
 	console.log('New data created.');
 	console.log('Writing individual Excel files...');
 	writeExcelFiles(data);
-};
+}
 
 fs.access(destination, err => {
 	console.log('Deleting old data...');
