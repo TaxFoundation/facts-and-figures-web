@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="How do taxes in your state compare nationally? Facts and Figures, a resource we've provided to U.S. taxpayers and legislators since 1941, compares the 50 states on over 40 measures of taxing and spending."
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/favicons/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/favicons/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/favicons/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/favicons/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/favicons/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/favicons/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/favicons/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/favicons/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicons/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/favicons/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/favicons/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/favicons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/favicons/favicon.ico"
+    />
+    <meta name="msapplication-TileColor" content="#0094ff" />
+    <meta
+      name="msapplication-TileImage"
+      content="/favicons/mstile-144x144.png"
+    />
+    <meta name="theme-color" content="#0094ff" />
+    <link
+      rel="publisher"
+      href="https://plus.google.com/u/1/b/102039490248800789795/+taxfoundation"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <title>Facts and Figures</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Flex:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+    <script type="text/javascript" src="/pym.js"></script>
+    <script>
+      window.addEventListener("load", function () {
+        var pymChild = new pym.Child({
+          polling: 25,
+        });
+        pymChild.sendHeight();
+      });
+    </script>
+  </body>
+</html>
