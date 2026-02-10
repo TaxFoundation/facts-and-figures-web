@@ -113,7 +113,7 @@ function writeWorkbook(
 
 export default function writeExcelFiles(data: CompiledData): void {
 	const keys = Object.keys(data);
-	const outputDirectory = path.resolve(__dirname, '../../public/data');
+	const outputDirectory = path.resolve(__dirname, '../frontend/public/data');
 
 	if (!fs.existsSync(outputDirectory)) {
 		fs.mkdirSync(outputDirectory);

@@ -19,7 +19,7 @@ function maxLength(arrays: unknown[][]): number {
 const data: CompiledData = {};
 
 const source = path.resolve(__dirname, '../../data/facts-and-figures.xlsx');
-const destination = path.resolve(__dirname, '../../data/data.json');
+const destination = path.resolve(__dirname, '../frontend/src/data/data.json');
 const wb = XLSX.readFile(source);
 
 const concatRange = (range: string, sheet: XLSX.WorkSheet): string => {
