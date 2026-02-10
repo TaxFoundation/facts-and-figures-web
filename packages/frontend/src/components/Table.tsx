@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import styled from 'styled-components';
 
 const StyledTable = styled.table`
@@ -22,7 +23,7 @@ const StyledTable = styled.table`
 		}
 
 		tr {
-			font-family: ${props => props.theme.RobotoMono};
+			font-family: ${props => props.theme.fontFamilies.RobotoMono};
 		}
 	}
 `;
@@ -33,7 +34,11 @@ export const AlternateRowTable = styled(StyledTable)`
 	}
 `;
 
-const Table = ({ children }) => {
+interface TableProps {
+	children: ReactNode;
+}
+
+const Table = ({ children }: TableProps) => {
 	return <StyledTable>{children}</StyledTable>;
 };
 

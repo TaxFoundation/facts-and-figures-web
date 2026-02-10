@@ -10,8 +10,8 @@ export const StyledTableHeader = styled.tr`
 
 const TableHeader = ({ headings }: { headings: string[] }) => (
 	<StyledTableHeader>
-		{headings.map(heading => (
-			<th key={`cell-${heading}`}>{heading}</th>
+		{headings.map((heading, i) => (
+			<th key={`cell-${heading}-${String(i)}`}>{heading}</th>
 		))}
 	</StyledTableHeader>
 );

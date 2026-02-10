@@ -29,13 +29,15 @@ function writeWorkbook(
 	}
 
 	const length = Array.isArray(entry.data)
-		? maxLength(entry.data as unknown[][])
-		: (entry.data as StateData).headers.length;
+		? maxLength(entry.data)
+		: entry.data.headers.length;
 
 	top.forEach(item => {
 		const value = entry[item];
-		if (value && typeof value === 'string') {
-			const itemArray: (string | undefined)[] = new Array(length);
+		if (value) {
+			const itemArray: (string | undefined)[] = new Array<string | undefined>(
+				length,
+			).fill(undefined);
 			itemArray[0] = value.trim();
 			ws_data.push(itemArray);
 		}
@@ -59,12 +61,16 @@ function writeWorkbook(
 			const theRow: (string | null)[] = [];
 			stateData.headers.forEach(header => {
 				const cellValue = row[header.id];
+				const cellStr =
+					typeof cellValue === 'string'
+						? cellValue
+						: typeof cellValue === 'number'
+							? String(cellValue)
+							: '';
 				if (header.id === 'state' && row.footnotes) {
-					const stateStr = String(cellValue || '');
-					theRow.push(`${stateStr.trim()} (${row.footnotes.join(', ')})`);
-				} else if (cellValue !== undefined && cellValue !== null) {
-					const valueStr = String(cellValue);
-					theRow.push(valueStr.trim());
+					theRow.push(`${cellStr.trim()} (${row.footnotes.join(', ')})`);
+				} else if (cellValue !== undefined) {
+					theRow.push(cellStr.trim());
 				} else {
 					theRow.push(null);
 				}
@@ -76,9 +82,11 @@ function writeWorkbook(
 
 	if (entry.footnotes) {
 		entry.footnotes.forEach(footnote => {
-			const fnArray: (string | undefined)[] = new Array(length);
+			const fnArray: (string | undefined)[] = new Array<string | undefined>(
+				length,
+			).fill(undefined);
 			const firstCell = footnote[0];
-			if (firstCell && typeof firstCell === 'string') {
+			if (typeof firstCell === 'string') {
 				fnArray[0] = firstCell.trim();
 				ws_data.push(fnArray);
 			}
@@ -87,8 +95,10 @@ function writeWorkbook(
 
 	bottom.forEach(item => {
 		const value = entry[item];
-		if (value && typeof value === 'string') {
-			const itemArray: (string | undefined)[] = new Array(length);
+		if (value) {
+			const itemArray: (string | undefined)[] = new Array<string | undefined>(
+				length,
+			).fill(undefined);
 			itemArray[0] = value.trim();
 			ws_data.push(itemArray);
 		}

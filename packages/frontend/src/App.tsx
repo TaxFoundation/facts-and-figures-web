@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { type ChangeEvent, useState } from 'react';
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 
 import StatesTable from './components/StatesTable';
@@ -9,6 +9,9 @@ import TableHeader from './components/ui/TableHeader';
 import TableRow from './components/ui/TableRow';
 import data from './data/data.json';
 import Theme from './Theme';
+import type { DataRecord } from './types';
+
+const typedData = data as DataRecord;
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -60,7 +63,10 @@ const AppWrapper = styled.div`
 
 function App() {
 	const [table, setTable] = useState('1');
-	const keys = Object.keys(data);
+	const keys = Object.keys(typedData);
+
+	const currentTable = typedData[table];
+	if (!currentTable) return null;
 
 	return (
 		<ThemeProvider theme={Theme}>
@@ -69,46 +75,52 @@ function App() {
 				<div style={{ marginBottom: '1rem' }}>
 					<Select
 						value={table}
-						onChange={e => {
+						onChange={(e: ChangeEvent<HTMLSelectElement>) => {
 							setTable(e.target.value);
 						}}
 					>
-						{keys.map(key => (
-							<option
-								key={`table-option-${key}`}
-								value={key}
-							>{`Table ${key} - ${data[key].title}`}</option>
-						))}
+						{keys.map(key => {
+							const entry = typedData[key];
+							return (
+								<option
+									key={`table-option-${key}`}
+									value={key}
+								>{`Table ${key} - ${entry?.title ?? ''}`}</option>
+							);
+						})}
 					</Select>
 					<StyledButtonLink href={`data/table-${table}.xlsx`} download>
 						Download Table {table} as an Excel File
 					</StyledButtonLink>
 				</div>
-				{data[table].type === 'states' ? (
-					<StatesTable id={table} data={data[table]} />
+				{currentTable.type === 'states' ? (
+					<StatesTable id={table} data={currentTable} />
 				) : (
 					<Table>
 						<caption>
-							<h1>{data[table].title}</h1>
-							{data[table].subtitle ? <p>{data[table].subtitle}</p> : null}
-							<p>{data[table].date}</p>
+							<h1>{currentTable.title}</h1>
+							{currentTable.subtitle ? <p>{currentTable.subtitle}</p> : null}
+							<p>{currentTable.date}</p>
 						</caption>
-						{data[table].data.map((row, i) =>
+						{(currentTable.data as string[][]).map((row, i) =>
 							i === 0 ? (
-								<TableHeader key={`table-${table}-row-${i}`} headings={row} />
+								<TableHeader
+									key={`table-${table}-row-${String(i)}`}
+									headings={row}
+								/>
 							) : (
-								<TableRow key={`table-${table}-row-${i}`} row={row} />
+								<TableRow key={`table-${table}-row-${String(i)}`} row={row} />
 							),
 						)}
 					</Table>
 				)}
-				{data[table].footnotes
-					? data[table].footnotes.map((footnote, i) => (
-							<p key={`footnote-${table}-${i}`}>{footnote[0]}</p>
+				{currentTable.footnotes
+					? currentTable.footnotes.map((footnote, i) => (
+							<p key={`footnote-${table}-${String(i)}`}>{footnote[0]}</p>
 						))
 					: null}
-				{data[table].notes ? <p>{data[table].notes}</p> : null}
-				{data[table].source ? <p>{data[table].source}</p> : null}
+				{currentTable.notes ? <p>{currentTable.notes}</p> : null}
+				{currentTable.source ? <p>{currentTable.source}</p> : null}
 			</AppWrapper>
 		</ThemeProvider>
 	);

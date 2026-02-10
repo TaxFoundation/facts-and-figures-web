@@ -1,0 +1,7 @@
+{
+	"1": {
+		"type": "table",
+		"title": "Placeholder Table",
+		"data": [["Column 1", "Column 2"], ["Value 1", "Value 2"]]
+	}
+}

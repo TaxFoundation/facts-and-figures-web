@@ -35,9 +35,7 @@ export interface TableEntry {
 	[key: string]: unknown;
 }
 
-export interface CompiledData {
-	[key: string]: TableEntry;
-}
+export type CompiledData = Record<string, TableEntry | undefined>;
 
 export interface Mapping {
 	sheetName: string;

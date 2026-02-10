@@ -27,14 +27,20 @@ const concatRange = (range: string, sheet: XLSX.WorkSheet): string => {
 		header: 1,
 		range,
 		raw: false,
-	}) as unknown[][];
+	});
 	const values: unknown[] = [];
-	cells.forEach(row => {
-		(row as unknown[]).forEach(cell => values.push(cell));
+	(cells as unknown[][]).forEach(row => {
+		row.forEach(cell => values.push(cell));
 	});
 
 	const concatenation = values.reduce<string>((prev, curr) => {
-		const currStr = String(curr || '');
+		if (curr == null) return prev;
+		const currStr =
+			typeof curr === 'string'
+				? curr
+				: typeof curr === 'number'
+					? String(curr)
+					: '';
 		return `${prev} ${currStr.trim()}`;
 	}, '');
 
@@ -54,17 +60,16 @@ const mapValues = (table: Mapping, sheet: XLSX.WorkSheet): void => {
 		'source',
 	];
 
-	const rawData = XLSX.utils.sheet_to_json(sheet, {
+	const rawData: unknown[][] = XLSX.utils.sheet_to_json(sheet, {
 		header: 1,
 		range: table.data,
 		raw: false,
-	}) as unknown[][];
+	});
 
 	const columns = maxLength(rawData);
 	rawData.forEach(row => {
-		const typedRow = row as unknown[];
-		while (typedRow.length < columns) {
-			typedRow.push(null);
+		while (row.length < columns) {
+			row.push(null);
 		}
 	});
 
@@ -78,10 +83,10 @@ const mapValues = (table: Mapping, sheet: XLSX.WorkSheet): void => {
 		const value = table[term];
 		if (value && typeof value === 'string') {
 			const cellRef = value;
-			const metadataValue =
-				cellRef.indexOf(':') === -1
-					? sheet[cellRef]?.v
-					: concatRange(cellRef, sheet);
+			const cell = sheet[cellRef] as { v?: unknown } | undefined;
+			const metadataValue = !cellRef.includes(':')
+				? cell?.v
+				: concatRange(cellRef, sheet);
 
 			if (metadataValue !== undefined) {
 				(tableEntry as Record<string, unknown>)[term] = metadataValue;
@@ -89,13 +94,16 @@ const mapValues = (table: Mapping, sheet: XLSX.WorkSheet): void => {
 		}
 	});
 
-	tableEntry.footnotes = table.footnotes
-		? (XLSX.utils.sheet_to_json(sheet, {
-				header: 1,
-				range: table.footnotes,
-				raw: false,
-			}) as unknown[][])
-		: null;
+	if (table.footnotes) {
+		const footnotesData: unknown[][] = XLSX.utils.sheet_to_json(sheet, {
+			header: 1,
+			range: table.footnotes,
+			raw: false,
+		});
+		tableEntry.footnotes = footnotesData;
+	} else {
+		tableEntry.footnotes = null;
+	}
 };
 
 const buildData = (): void => {
@@ -113,15 +121,11 @@ const buildData = (): void => {
 
 const writeData = (): void => {
 	buildData();
-	try {
-		console.log('Writing new data to file...');
-		fs.writeFileSync(destination, JSON.stringify(data, null, 2));
-		console.log('New data created.');
-		console.log('Writing individual Excel files...');
-		writeExcelFiles(data);
-	} catch (err) {
-		throw err;
-	}
+	console.log('Writing new data to file...');
+	fs.writeFileSync(destination, JSON.stringify(data, null, 2));
+	console.log('New data created.');
+	console.log('Writing individual Excel files...');
+	writeExcelFiles(data);
 };
 
 fs.access(destination, err => {

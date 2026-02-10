@@ -1,5 +1,6 @@
 {
 	"extends": "../../tsconfig.json",
+	"files": ["src/styled.d.ts"],
 	"compilerOptions": {
 		"target": "ES2022",
 		"useDefineForClassFields": true,
@@ -15,6 +16,6 @@
 		"noEmit": true,
 		"jsx": "react-jsx"
 	},
-	"include": ["src/**/*.ts", "src/**/*.tsx"],
+	"include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.d.ts"],
 	"exclude": ["public/*.js"]
 }

@@ -1,42 +1,55 @@
 import { kebabCase } from 'lodash';
-import PropTypes from 'prop-types';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
+import type { StateData, TableEntry } from '../types';
 import { AlternateRowTable } from './Table';
 import SortedHeading from './ui/SortedHeading';
 import { StyledTableRow } from './ui/TableRow';
 
-function valueCleanup(value) {
+function valueCleanup(value: string): string {
 	return value.trim().replace(/[$%,-]/g, '');
 }
 
-function sortValues(a, b, sortAsc) {
-	if (isNaN(a) || isNaN(b)) {
-		const A = a ? valueCleanup(a) : 0;
-		const B = b ? valueCleanup(b) : 0;
-		if (!isNaN(A) && !isNaN(B)) {
-			return sortAsc ? +A - +B : +B - +A;
-		}
-	} else if (typeof +a === 'number' && typeof +b === 'number') {
-		return sortAsc ? a - b : b - a;
+function sortValues(
+	a: string | number | string[] | undefined,
+	b: string | number | string[] | undefined,
+	sortAsc: boolean,
+): number {
+	const aStr = typeof a === 'string' ? a : '';
+	const bStr = typeof b === 'string' ? b : '';
+	const aNum = typeof a === 'number' ? a : NaN;
+	const bNum = typeof b === 'number' ? b : NaN;
+
+	if (!isNaN(aNum) && !isNaN(bNum)) {
+		return sortAsc ? aNum - bNum : bNum - aNum;
 	}
+
+	const A = aStr ? Number(valueCleanup(aStr)) : 0;
+	const B = bStr ? Number(valueCleanup(bStr)) : 0;
+
+	if (!isNaN(A) && !isNaN(B)) {
+		return sortAsc ? A - B : B - A;
+	}
+
+	return 0;
 }
 
-const StatesTable = ({ id, data }) => {
-	const [table, setTable] = useState(id);
+interface StatesTableProps {
+	id: string;
+	data: TableEntry;
+}
+
+const StatesTable = ({ id, data }: StatesTableProps) => {
 	const [sortBy, setSortBy] = useState('fips');
 	const [sortAsc, setSortAsc] = useState(true);
 
+	// Reset sort when table changes
 	useEffect(() => {
-		if (id !== table) {
-			setTable(id);
-		}
-		return () => {
-			setSortBy('fips');
-			setSortAsc(true);
-		};
-		// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, [id, table]);
+		setSortBy('fips');
+		setSortAsc(true);
+	}, [id]);
+
+	const stateData = data.data as StateData;
 
 	return (
 		<AlternateRowTable>
@@ -47,20 +60,26 @@ const StatesTable = ({ id, data }) => {
 			</caption>
 			<thead>
 				<tr>
-					{data.data.headers.map((header, i) => (
+					{stateData.headers.map((header, i) => (
 						<SortedHeading
-							key={`table-${id}-header-${header.id}-${i}`}
+							key={`table-${id}-header-${header.id}-${String(i)}`}
 							ascending={sortAsc}
 							orderedBy={sortBy}
 							id={header.id === 'state' ? 'fips' : header.id}
 							onClick={() => {
-								header.id === sortBy ||
-								(header.id === 'state' && sortBy === 'fips')
-									? setSortAsc(!sortAsc)
-									: setSortAsc(true);
-								header.id === 'state'
-									? setSortBy('fips')
-									: setSortBy(header.id);
+								if (
+									header.id === sortBy ||
+									(header.id === 'state' && sortBy === 'fips')
+								) {
+									setSortAsc(!sortAsc);
+								} else {
+									setSortAsc(true);
+								}
+								if (header.id === 'state') {
+									setSortBy('fips');
+								} else {
+									setSortBy(header.id);
+								}
 							}}
 						>
 							<div>{header.name}</div>
@@ -69,30 +88,31 @@ const StatesTable = ({ id, data }) => {
 				</tr>
 			</thead>
 			<tbody>
-				{id === table &&
-					data.data.values
-						.sort((a, b) => sortValues(a[sortBy], b[sortBy], sortAsc))
-						.map((row, i) => (
-							<StyledTableRow key={`table-${id}-row-${kebabCase(row.state)}`}>
-								{data.data.headers.map((header, i) => {
-									return (
-										<td key={`table-${id}-row-${kebabCase(row.state)}-${i}`}>
-											{i === 0 && row.footnotes
-												? `${row[header.id]} (${row.footnotes.join(', ')})`
-												: row[header.id]}
-										</td>
-									);
-								})}
-							</StyledTableRow>
-						))}
+				{[...stateData.values]
+					.sort((a, b) => sortValues(a[sortBy], b[sortBy], sortAsc))
+					.map(row => (
+						<StyledTableRow key={`table-${id}-row-${kebabCase(row.state)}`}>
+							{stateData.headers.map((header, i) => {
+								const cellValue = row[header.id];
+								const displayValue =
+									typeof cellValue === 'string' || typeof cellValue === 'number'
+										? cellValue
+										: '';
+								return (
+									<td
+										key={`table-${id}-row-${kebabCase(row.state)}-${String(i)}`}
+									>
+										{i === 0 && row.footnotes
+											? `${String(displayValue)} (${row.footnotes.join(', ')})`
+											: displayValue}
+									</td>
+								);
+							})}
+						</StyledTableRow>
+					))}
 			</tbody>
 		</AlternateRowTable>
 	);
-};
-
-StatesTable.propTypes = {
-	id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-	data: PropTypes.object,
 };
 
 export default StatesTable;

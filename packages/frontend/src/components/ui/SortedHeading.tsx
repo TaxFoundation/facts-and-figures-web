@@ -1,6 +1,12 @@
 import styled from 'styled-components';
 
-const SortedHeading = styled.th`
+interface SortedHeadingProps {
+	ascending: boolean;
+	orderedBy: string;
+	id: string;
+}
+
+const SortedHeading = styled.th<SortedHeadingProps>`
 	background-color: ${props => props.theme.white};
 	border-bottom: 2px solid ${props => props.theme.tfBlue};
 	cursor: pointer;

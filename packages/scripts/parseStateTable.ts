@@ -67,8 +67,14 @@ export default function parseStateTable(table: unknown[][]): ParsedStateTable {
 			// Does it have footnotes?
 			const footnotesCheck = /\((.*)\)/;
 
-			const rowState = String(row[0]);
-			const theAbbr = rowState.match(stateAbbr);
+			const firstCell = row[0];
+			const rowState =
+				typeof firstCell === 'string'
+					? firstCell
+					: typeof firstCell === 'number'
+						? String(firstCell)
+						: '';
+			const theAbbr = stateAbbr.exec(rowState);
 
 			if (!theAbbr) {
 				return null;
@@ -87,17 +93,17 @@ export default function parseStateTable(table: unknown[][]): ParsedStateTable {
 				return null;
 			}
 
-			if (rowState.match(footnotesCheck)) {
-				const match = rowState.match(footnotesCheck);
-				if (match && match[1]) {
+			if (footnotesCheck.exec(rowState)) {
+				const match = footnotesCheck.exec(rowState);
+				if (match?.[1]) {
 					const theNotes = match[1].replace(/\s/g, '').split(',');
-					value['footnotes'] = theNotes;
+					value.footnotes = theNotes;
 				}
 			}
 
 			// Name for display, fips for easy sort
-			value['fips'] = theState.id;
-			value['state'] = theState.name;
+			value.fips = theState.id;
+			value.state = theState.name;
 
 			// Assuming first column is state,
 			// set the row values for each header ID
@@ -106,13 +112,18 @@ export default function parseStateTable(table: unknown[][]): ParsedStateTable {
 				if (!header) return;
 
 				const DC = /\((\d+)\)/;
-				const cellStr = String(cell || '');
-				const dcMatch = cellStr.match(DC);
+				const cellStr =
+					typeof cell === 'string'
+						? cell
+						: typeof cell === 'number'
+							? String(cell)
+							: '';
+				const dcMatch = DC.exec(cellStr);
 
-				if (cell && dcMatch) {
+				if (dcMatch) {
 					value[header.id] = dcMatch[1];
 				} else {
-					value[header.id] = cell as string;
+					value[header.id] = cellStr;
 				}
 			});
 

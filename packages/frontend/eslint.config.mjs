@@ -6,6 +6,20 @@ import baseConfig from '../../eslint.config.mjs';
 export default [
 	...baseConfig,
 	{
+		files: ['**/*.{ts,tsx}'],
+		languageOptions: {
+			parserOptions: {
+				projectService: {
+					allowDefaultProject: [
+						'eslint.config.mjs',
+						'vite.config.ts',
+					],
+				},
+				tsconfigRootDir: import.meta.dirname,
+			},
+		},
+	},
+	{
 		files: ['**/*.{jsx,tsx}'],
 		plugins: {
 			react,
