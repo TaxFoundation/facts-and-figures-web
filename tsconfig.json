@@ -19,6 +19,6 @@
 		"lib": ["es2022"],
 		"composite": true
 	},
-	"include": ["packages/**/*.ts"],
+	"include": ["packages/**/*.ts", "packages/**/*.tsx"],
 	"exclude": ["node_modules"]
 }

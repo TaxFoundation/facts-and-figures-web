@@ -11,7 +11,11 @@ export default defineConfig(
 		languageOptions: {
 			parserOptions: {
 				projectService: {
-					allowDefaultProject: ['*.config.mjs', '**/*.config.mjs'],
+					allowDefaultProject: [
+						'*.config.mjs',
+						'packages/frontend/eslint.config.mjs',
+						'packages/frontend/vite.config.ts',
+					],
 				},
 				tsconfigRootDir: import.meta.dirname,
 			},
