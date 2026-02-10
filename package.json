@@ -6,6 +6,7 @@
     "start": "npm run dev --workspace=frontend",
     "build": "npm run build-data && npm run build --workspace=frontend",
     "build-data": "tsx packages/scripts/compileData.ts",
+    "update-mappings": "tsx packages/scripts/updateMappings.ts",
     "lint": "eslint ."
   },
   "dependencies": {
