@@ -2813,7 +2813,7 @@
         }
       ]
     },
-    "title": "Percentage of Total from Each Source",
+    "title": "Sources of State & Local Tax Collections, Percentage of Total from Each Source",
     "date": "Fiscal Year 2023",
     "notes": "Note: \"Other Taxes\" include excise taxes (such as those on alcohol, tobacco, motor vehicles, utilities, and licenses), severance taxes, stock transfer taxes, estate and gift taxes, and other miscellaneous taxes.",
     "source": "Source: US Census Bureau, \"Annual Survey of State and Local Government Finances\"; Tax Foundation calculations.",
@@ -8607,7 +8607,7 @@
         }
       ]
     },
-    "title": "State Gasoline Tax Rates",
+    "title": "State Gasoline Tax Rates (Cents per Gallon)",
     "date": "as of January 1, 2026",
     "notes": " Note: Excise taxes are special taxes on specific goods or activities—such as gasoline, tobacco, or gambling—rather than general tax bases such as income or consumption. Excise taxes are often included in the final price of products and services, and are hidden to consumers. In order to determine the average tax rate on a gallon of fuel, rates may include any of the following: excise taxes, environmental fees, storage tank taxes, other fees or taxes, and general sales tax. In states where gasoline is subject to the general sales tax, or where the fuel tax is based on the average sale price, the average rate is sensitive to changes in the price of gasoline. States that fully or partially apply general sales taxes to gasoline are California, Connecticut, Illinois, Indiana, and New York. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
     "source": "Source: US Energy Information Agency; state statutes; Tax Foundation calculations.",
@@ -9077,7 +9077,7 @@
         }
       ]
     },
-    "title": "Share of State & Local Road Spending Covered by State",
+    "title": "Share of State & Local Road Spending Covered by State  & Local Tolls, User Fees, & User Taxes",
     "date": "Fiscal Year 2023",
     "notes": "Note: D.C.’s ranks do not affect states’ ranks, but the figures in parentheses indicate where it would rank if included.",
     "source": "Source: Tax Foundation calculations from the US Census Bureau, \"Annual Survey of State and Local Government Finances.\"",
@@ -9427,7 +9427,7 @@
         }
       ]
     },
-    "title": "State Cigarette Excise Tax Rates ",
+    "title": "State Cigarette Excise Tax Rates (Dollars per 20-Pack)",
     "date": "As of January 1, 2026",
     "notes": "Note: Local taxes are not included and can be substantial. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
     "source": "Source: State statutes; Tax Foundation.",
@@ -10171,7 +10171,7 @@
         }
       ]
     },
-    "title": "State Spirits Excise Tax Rates",
+    "title": "State Spirits Excise Tax Rates  (Dollars per Gallon)",
     "date": " As of January 1, 2026",
     "notes": "Note: Rates are those applicable to off-premise sales of 40% alcohol by volume (a.b.v.) distilled spirits in 750ml containers. At the federal level, spirits are subject to a tiered tax system. Federal rates are $2.70 per proof gallon on the first 100,000 gallons per calendar year, $13.34/proof gallon for more than 100,000 gallons but less than 22.23 million and $13.50/proof gallon for more than 22.23 million gallons. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. The alcohol excise tax provisions of the Tax Cuts and Jobs Act were made permanent as of Dec. 27, 2020.",
     "source": "Source: Distilled Spirits Council of the United States; Alcohol and Tobacco Tax and Trade Bureau.",
@@ -10675,7 +10675,7 @@
         }
       ]
     },
-    "title": "State Wine Excise Tax Rates",
+    "title": "State Wine Excise Tax Rates (Dollars per Gallon)",
     "date": "As of January 1, 2026",
     "notes": "Note: Rates are those applicable to off-premise sales of 11% alcohol by volume (a.b.v.) non-carbonated wine in 750ml containers. Federal rates vary by alcohol content and type of wine, ranging up to $3.15 for 21-24% alcohol and $3.40 for sparkling wine. Federal rates also vary based on number of gallons sold. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
     "source": "Source: Distilled Spirits Council of the United States; Alcohol Tax and Trade Bureau.",
@@ -11104,7 +11104,7 @@
         }
       ]
     },
-    "title": "State Beer Excise Tax Rates",
+    "title": "State Beer Excise Tax Rates (Dollars per Gallon)",
     "date": "As of January 1, 2026",
     "notes": "Note: Rates are those applicable to off-premise sales of 4.7% alcohol by volume (a.b.v.) beer in 12-ounce containers which have been imported from outside the state. At the federal level, beer is subject to differing tax rates. Small domestic brewers are taxed between $0.11/gallon and $0.516/gallon. All other brewers are taxed at rates between $0.516/gallon and $0.58/gallon. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
     "source": "Source: Distilled Spirits Council of the United States; Alcohol and Tobacco Tax and Trade Bureau; state revenue departments.",
@@ -12274,7 +12274,7 @@
         }
       ]
     },
-    "title": "State & Local Excise Tax",
+    "title": "State & Local Excise Tax  Collections per Capita",
     "date": "Fiscal Year 2023",
     "notes": "Note: Excise taxes are sales and other special taxes imposed on select items, such as tobacco products, alcoholic beverages, and motor fuels. This table also includes excise taxes, or selective sales taxes, on amusements, insurance premiums, parimutuels, and public utilities. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See Table 42 for people per household by state.",
     "source": "Source: US Census Bureau, \"Annual Survey of State and Local Government Finances\"; Tax Foundation calculations.",
@@ -12615,7 +12615,7 @@
         }
       ]
     },
-    "title": "Property Taxes Paid as a Percentage of",
+    "title": "Property Taxes Paid as a Percentage of Owner-Occupied Housing Value",
     "date": "Calendar Year 2024",
     "notes": "Note: The figures in this table are mean effective property tax rates on owner-occupied housing (total real taxes paid/total home value). As a result, the data exclude property taxes paid by businesses, renters, and others. D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included.",
     "source": "Source: US Census Bureau, \"American Community Survey\"; Tax Foundation calculations.",
@@ -12956,7 +12956,7 @@
         }
       ]
     },
-    "title": "State & Local Property Tax Collections per ",
+    "title": "State & Local Property Tax Collections per Capita",
     "date": "Fiscal Year 2023",
     "notes": "Note: D.C.’s rank does not affect states’ ranks, but the figure in parentheses indicates where it would rank if included. See Table 42 for people per household by state.",
     "source": "Source: US Census Bureau, \"Annual Survey of State and Local Government Finances\"; Tax Foundation calculations.",
