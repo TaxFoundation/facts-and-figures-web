@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 interface SortedHeadingProps {
-	ascending: boolean;
-	orderedBy: string;
-	id: string;
+	$ascending: boolean;
+	$orderedBy: string;
+	$headingId: string;
 }
 
 const SortedHeading = styled.th<SortedHeadingProps>`
@@ -36,7 +36,7 @@ const SortedHeading = styled.th<SortedHeadingProps>`
 
 			&::before {
 				border-bottom-color: ${props =>
-					props.ascending && props.orderedBy === props.id
+					props.$ascending && props.$orderedBy === props.$headingId
 						? props.theme.color
 						: props.theme.borderColor};
 				margin-top: -9px;
@@ -44,7 +44,7 @@ const SortedHeading = styled.th<SortedHeadingProps>`
 
 			&::after {
 				border-top-color: ${props =>
-					!props.ascending && props.orderedBy === props.id
+					!props.$ascending && props.$orderedBy === props.$headingId
 						? props.theme.color
 						: props.theme.borderColor};
 				margin-top: 1px;

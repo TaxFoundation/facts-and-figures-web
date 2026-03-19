@@ -68,6 +68,8 @@ function App() {
 	const currentTable = typedData[table];
 	if (!currentTable) return null;
 
+	const tableData = currentTable.data as string[][];
+
 	return (
 		<ThemeProvider theme={Theme}>
 			<GlobalStyle />
@@ -102,16 +104,19 @@ function App() {
 							{currentTable.subtitle ? <p>{currentTable.subtitle}</p> : null}
 							<p>{currentTable.date}</p>
 						</caption>
-						{(currentTable.data as string[][]).map((row, i) =>
-							i === 0 ? (
-								<TableHeader
-									key={`table-${table}-row-${String(i)}`}
-									headings={row}
+						{tableData[0] ? (
+							<thead>
+								<TableHeader headings={tableData[0]} />
+							</thead>
+						) : null}
+						<tbody>
+							{tableData.slice(1).map((row, i) => (
+								<TableRow
+									key={`table-${table}-row-${String(i + 1)}`}
+									row={row}
 								/>
-							) : (
-								<TableRow key={`table-${table}-row-${String(i)}`} row={row} />
-							),
-						)}
+							))}
+						</tbody>
 					</Table>
 				)}
 				{currentTable.footnotes

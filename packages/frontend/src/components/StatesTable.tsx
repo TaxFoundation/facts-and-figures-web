@@ -63,9 +63,9 @@ const StatesTable = ({ id, data }: StatesTableProps) => {
 					{stateData.headers.map((header, i) => (
 						<SortedHeading
 							key={`table-${id}-header-${header.id}-${String(i)}`}
-							ascending={sortAsc}
-							orderedBy={sortBy}
-							id={header.id === 'state' ? 'fips' : header.id}
+							$ascending={sortAsc}
+							$orderedBy={sortBy}
+							$headingId={header.id === 'state' ? 'fips' : header.id}
 							onClick={() => {
 								if (
 									header.id === sortBy ||
