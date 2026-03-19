@@ -6595,8 +6595,8 @@
           "order": 1
         },
         {
-          "name": "Rank",
-          "id": "rank",
+          "name": "State Rank",
+          "id": "state-rank",
           "order": 2
         },
         {
@@ -6610,8 +6610,8 @@
           "order": 4
         },
         {
-          "name": "Rank",
-          "id": "rank",
+          "name": "Combined Rank",
+          "id": "combined-rank",
           "order": 5
         }
       ],
@@ -6620,33 +6620,37 @@
           "state": "Alabama",
           "fips": 1,
           "state-tax-rate": "4.00%",
-          "rank": "5",
+          "state-rank": "40",
           "avg-local-tax-rate-a": "5.46%",
-          "combined-rate": "9.46%"
+          "combined-rate": "9.46%",
+          "combined-rank": "5"
         },
         {
           "state": "Alaska",
           "fips": 2,
           "state-tax-rate": "--",
-          "rank": "46",
+          "state-rank": "46",
           "avg-local-tax-rate-a": "1.82%",
-          "combined-rate": "1.82%"
+          "combined-rate": "1.82%",
+          "combined-rank": "46"
         },
         {
           "state": "Arizona",
           "fips": 4,
           "state-tax-rate": "5.60%",
-          "rank": "11",
+          "state-rank": "28",
           "avg-local-tax-rate-a": "2.92%",
-          "combined-rate": "8.52%"
+          "combined-rate": "8.52%",
+          "combined-rank": "11"
         },
         {
           "state": "Arkansas",
           "fips": 5,
           "state-tax-rate": "6.50%",
-          "rank": "4",
+          "state-rank": "9",
           "avg-local-tax-rate-a": "2.96%",
-          "combined-rate": "9.46%"
+          "combined-rate": "9.46%",
+          "combined-rank": "4"
         },
         {
           "state": "California",
@@ -6655,49 +6659,55 @@
             "b"
           ],
           "state-tax-rate": "7.25%",
-          "rank": "7",
+          "state-rank": "1",
           "avg-local-tax-rate-a": "1.74%",
-          "combined-rate": "8.99%"
+          "combined-rate": "8.99%",
+          "combined-rank": "7"
         },
         {
           "state": "Colorado",
           "fips": 8,
           "state-tax-rate": "2.90%",
-          "rank": "16",
+          "state-rank": "45",
           "avg-local-tax-rate-a": "4.99%",
-          "combined-rate": "7.89%"
+          "combined-rate": "7.89%",
+          "combined-rank": "16"
         },
         {
           "state": "Connecticut",
           "fips": 9,
           "state-tax-rate": "6.35%",
-          "rank": "33",
+          "state-rank": "12",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "6.35%"
+          "combined-rate": "6.35%",
+          "combined-rank": "33"
         },
         {
           "state": "Delaware",
           "fips": 10,
           "state-tax-rate": "--",
-          "rank": "47",
+          "state-rank": "46",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "--"
+          "combined-rate": "--",
+          "combined-rank": "47"
         },
         {
           "state": "Florida",
           "fips": 12,
           "state-tax-rate": "6.00%",
-          "rank": "28",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "0.98%",
-          "combined-rate": "6.98%"
+          "combined-rate": "6.98%",
+          "combined-rank": "28"
         },
         {
           "state": "Georgia",
           "fips": 13,
           "state-tax-rate": "4.00%",
-          "rank": "18",
+          "state-rank": "40",
           "avg-local-tax-rate-a": "3.49%",
-          "combined-rate": "7.49%"
+          "combined-rate": "7.49%",
+          "combined-rank": "18"
         },
         {
           "state": "Hawaii",
@@ -6706,121 +6716,136 @@
             "c"
           ],
           "state-tax-rate": "4.00%",
-          "rank": "45",
+          "state-rank": "40",
           "avg-local-tax-rate-a": "0.50%",
-          "combined-rate": "4.50%"
+          "combined-rate": "4.50%",
+          "combined-rank": "45"
         },
         {
           "state": " Idaho",
           "fips": 16,
           "state-tax-rate": "6.00%",
-          "rank": "37",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "0.03%",
-          "combined-rate": "6.03%"
+          "combined-rate": "6.03%",
+          "combined-rank": "37"
         },
         {
           "state": "Illinois",
           "fips": 17,
           "state-tax-rate": "6.25%",
-          "rank": "8",
+          "state-rank": "13",
           "avg-local-tax-rate-a": "2.71%",
-          "combined-rate": "8.96%"
+          "combined-rate": "8.96%",
+          "combined-rank": "8"
         },
         {
           "state": "Indiana",
           "fips": 18,
           "state-tax-rate": "7.00%",
-          "rank": "24",
+          "state-rank": "2",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "7.00%"
+          "combined-rate": "7.00%",
+          "combined-rank": "24"
         },
         {
           "state": "Iowa",
           "fips": 19,
           "state-tax-rate": "6.00%",
-          "rank": "29",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "0.94%",
-          "combined-rate": "6.94%"
+          "combined-rate": "6.94%",
+          "combined-rank": "29"
         },
         {
           "state": "Kansas",
           "fips": 20,
           "state-tax-rate": "6.50%",
-          "rank": "9",
+          "state-rank": "9",
           "avg-local-tax-rate-a": "2.19%",
-          "combined-rate": "8.69%"
+          "combined-rate": "8.69%",
+          "combined-rank": "9"
         },
         {
           "state": "Kentucky",
           "fips": 21,
           "state-tax-rate": "6.00%",
-          "rank": "38",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "6.00%"
+          "combined-rate": "6.00%",
+          "combined-rank": "38"
         },
         {
           "state": "Louisiana",
           "fips": 22,
           "state-tax-rate": "5.00%",
-          "rank": "1",
+          "state-rank": "32",
           "avg-local-tax-rate-a": "5.11%",
-          "combined-rate": "10.11%"
+          "combined-rate": "10.11%",
+          "combined-rank": "1"
         },
         {
           "state": "Maine",
           "fips": 23,
           "state-tax-rate": "5.50%",
-          "rank": "44",
+          "state-rank": "29",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "5.50%"
+          "combined-rate": "5.50%",
+          "combined-rank": "44"
         },
         {
           "state": " Maryland",
           "fips": 24,
           "state-tax-rate": "6.00%",
-          "rank": "38",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "6.00%"
+          "combined-rate": "6.00%",
+          "combined-rank": "38"
         },
         {
           "state": " Massachusetts",
           "fips": 25,
           "state-tax-rate": "6.25%",
-          "rank": "35",
+          "state-rank": "13",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "6.25%"
+          "combined-rate": "6.25%",
+          "combined-rank": "35"
         },
         {
           "state": " Michigan",
           "fips": 26,
           "state-tax-rate": "6.00%",
-          "rank": "38",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "6.00%"
+          "combined-rate": "6.00%",
+          "combined-rank": "38"
         },
         {
           "state": "Minnesota",
           "fips": 27,
           "state-tax-rate": "6.875%",
-          "rank": "15",
+          "state-rank": "6",
           "avg-local-tax-rate-a": "1.26%",
-          "combined-rate": "8.14%"
+          "combined-rate": "8.14%",
+          "combined-rank": "15"
         },
         {
           "state": "Mississippi",
           "fips": 28,
           "state-tax-rate": "7.00%",
-          "rank": "23",
+          "state-rank": "2",
           "avg-local-tax-rate-a": "0.06%",
-          "combined-rate": "7.06%"
+          "combined-rate": "7.06%",
+          "combined-rank": "23"
         },
         {
           "state": "Missouri",
           "fips": 29,
           "state-tax-rate": "4.225%",
-          "rank": "12",
+          "state-rank": "38",
           "avg-local-tax-rate-a": "4.22%",
-          "combined-rate": "8.44%"
+          "combined-rate": "8.44%",
+          "combined-rank": "12"
         },
         {
           "state": "Montana",
@@ -6829,33 +6854,37 @@
             "d"
           ],
           "state-tax-rate": "--",
-          "rank": "47",
+          "state-rank": "46",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "--"
+          "combined-rate": "--",
+          "combined-rank": "47"
         },
         {
           "state": "Nebraska",
           "fips": 31,
           "state-tax-rate": "5.50%",
-          "rank": "27",
+          "state-rank": "29",
           "avg-local-tax-rate-a": "1.48%",
-          "combined-rate": "6.98%"
+          "combined-rate": "6.98%",
+          "combined-rank": "27"
         },
         {
           "state": "Nevada",
           "fips": 32,
           "state-tax-rate": "6.85%",
-          "rank": "13",
+          "state-rank": "7",
           "avg-local-tax-rate-a": "1.39%",
-          "combined-rate": "8.24%"
+          "combined-rate": "8.24%",
+          "combined-rank": "13"
         },
         {
           "state": "New Hampshire",
           "fips": 33,
           "state-tax-rate": "--",
-          "rank": "47",
+          "state-rank": "46",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "--"
+          "combined-rate": "--",
+          "combined-rank": "47"
         },
         {
           "state": "New Jersey",
@@ -6864,9 +6893,10 @@
             "e"
           ],
           "state-tax-rate": "6.625%",
-          "rank": "30",
+          "state-rank": "8",
           "avg-local-tax-rate-a": "-0.02%",
-          "combined-rate": "6.60%"
+          "combined-rate": "6.60%",
+          "combined-rank": "30"
         },
         {
           "state": "New Mexico",
@@ -6875,25 +6905,28 @@
             "c"
           ],
           "state-tax-rate": "4.88%",
-          "rank": "17",
+          "state-rank": "35",
           "avg-local-tax-rate-a": "2.79%",
-          "combined-rate": "7.67%"
+          "combined-rate": "7.67%",
+          "combined-rank": "17"
         },
         {
           "state": "New York",
           "fips": 36,
           "state-tax-rate": "4.00%",
-          "rank": "10",
+          "state-rank": "40",
           "avg-local-tax-rate-a": "4.54%",
-          "combined-rate": "8.54%"
+          "combined-rate": "8.54%",
+          "combined-rank": "10"
         },
         {
           "state": "North Carolina",
           "fips": 37,
           "state-tax-rate": "4.75%",
-          "rank": "26",
+          "state-rank": "36",
           "avg-local-tax-rate-a": "2.25%",
-          "combined-rate": "7.00%"
+          "combined-rate": "7.00%",
+          "combined-rank": "26"
         },
         {
           "state": "North Dakota",
@@ -6902,57 +6935,64 @@
             "c"
           ],
           "state-tax-rate": "5.00%",
-          "rank": "22",
+          "state-rank": "32",
           "avg-local-tax-rate-a": "2.09%",
-          "combined-rate": "7.09%"
+          "combined-rate": "7.09%",
+          "combined-rank": "22"
         },
         {
           "state": "Ohio",
           "fips": 39,
           "state-tax-rate": "5.75%",
-          "rank": "21",
+          "state-rank": "27",
           "avg-local-tax-rate-a": "1.54%",
-          "combined-rate": "7.29%"
+          "combined-rate": "7.29%",
+          "combined-rank": "21"
         },
         {
           "state": "Oklahoma",
           "fips": 40,
           "state-tax-rate": "4.50%",
-          "rank": "6",
+          "state-rank": "37",
           "avg-local-tax-rate-a": "4.56%",
-          "combined-rate": "9.06%"
+          "combined-rate": "9.06%",
+          "combined-rank": "6"
         },
         {
           "state": "Oregon",
           "fips": 41,
           "state-tax-rate": "--",
-          "rank": "47",
+          "state-rank": "46",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "--"
+          "combined-rate": "--",
+          "combined-rank": "47"
         },
         {
           "state": " Pennsylvania",
           "fips": 42,
           "state-tax-rate": "6.00%",
-          "rank": "34",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "0.34%",
-          "combined-rate": "6.34%"
+          "combined-rate": "6.34%",
+          "combined-rank": "34"
         },
         {
           "state": "Rhode Island",
           "fips": 44,
           "state-tax-rate": "7.00%",
-          "rank": "24",
+          "state-rank": "2",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "7.00%"
+          "combined-rate": "7.00%",
+          "combined-rank": "24"
         },
         {
           "state": "South Carolina",
           "fips": 45,
           "state-tax-rate": "6.00%",
-          "rank": "19",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "1.49%",
-          "combined-rate": "7.49%"
+          "combined-rate": "7.49%",
+          "combined-rank": "19"
         },
         {
           "state": "South Dakota",
@@ -6961,25 +7001,28 @@
             "c"
           ],
           "state-tax-rate": "4.20%",
-          "rank": "36",
+          "state-rank": "39",
           "avg-local-tax-rate-a": "1.91%",
-          "combined-rate": "6.11%"
+          "combined-rate": "6.11%",
+          "combined-rank": "36"
         },
         {
           "state": "Tennessee",
           "fips": 47,
           "state-tax-rate": "7.00%",
-          "rank": "2",
+          "state-rank": "2",
           "avg-local-tax-rate-a": "2.61%",
-          "combined-rate": "9.61%"
+          "combined-rate": "9.61%",
+          "combined-rank": "2"
         },
         {
           "state": "Texas",
           "fips": 48,
           "state-tax-rate": "6.25%",
-          "rank": "14",
+          "state-rank": "13",
           "avg-local-tax-rate-a": "1.95%",
-          "combined-rate": "8.20%"
+          "combined-rate": "8.20%",
+          "combined-rank": "14"
         },
         {
           "state": "Utah",
@@ -6988,17 +7031,19 @@
             "b"
           ],
           "state-tax-rate": "6.10%",
-          "rank": "20",
+          "state-rank": "16",
           "avg-local-tax-rate-a": "1.32%",
-          "combined-rate": "7.42%"
+          "combined-rate": "7.42%",
+          "combined-rank": "20"
         },
         {
           "state": "Vermont",
           "fips": 50,
           "state-tax-rate": "6.00%",
-          "rank": "32",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "0.39%",
-          "combined-rate": "6.39%"
+          "combined-rate": "6.39%",
+          "combined-rank": "32"
         },
         {
           "state": "Virginia",
@@ -7007,49 +7052,55 @@
             "b"
           ],
           "state-tax-rate": "5.30%",
-          "rank": "41",
+          "state-rank": "31",
           "avg-local-tax-rate-a": "0.47%",
-          "combined-rate": "5.77%"
+          "combined-rate": "5.77%",
+          "combined-rank": "41"
         },
         {
           "state": "Washington",
           "fips": 53,
           "state-tax-rate": "6.50%",
-          "rank": "3",
+          "state-rank": "9",
           "avg-local-tax-rate-a": "3.01%",
-          "combined-rate": "9.51%"
+          "combined-rate": "9.51%",
+          "combined-rank": "3"
         },
         {
           "state": "West Virginia",
           "fips": 54,
           "state-tax-rate": "6.00%",
-          "rank": "31",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "0.59%",
-          "combined-rate": "6.59%"
+          "combined-rate": "6.59%",
+          "combined-rank": "31"
         },
         {
           "state": "Wisconsin",
           "fips": 55,
           "state-tax-rate": "5.00%",
-          "rank": "42",
+          "state-rank": "32",
           "avg-local-tax-rate-a": "0.72%",
-          "combined-rate": "5.72%"
+          "combined-rate": "5.72%",
+          "combined-rank": "42"
         },
         {
           "state": "Wyoming",
           "fips": 56,
           "state-tax-rate": "4.00%",
-          "rank": "43",
+          "state-rank": "40",
           "avg-local-tax-rate-a": "1.56%",
-          "combined-rate": "5.56%"
+          "combined-rate": "5.56%",
+          "combined-rank": "43"
         },
         {
           "state": "District of Columbia",
           "fips": 11,
           "state-tax-rate": "6.00%",
-          "rank": "38",
+          "state-rank": "17",
           "avg-local-tax-rate-a": "--",
-          "combined-rate": "6.00%"
+          "combined-rate": "6.00%",
+          "combined-rank": "38"
         }
       ]
     },
@@ -8638,8 +8689,8 @@
           "order": 1
         },
         {
-          "name": "Rank",
-          "id": "rank",
+          "name": "Fuel & License Taxes Rank",
+          "id": "fuel-license-taxes-rank",
           "order": 2
         },
         {
@@ -8653,8 +8704,8 @@
           "order": 4
         },
         {
-          "name": "Rank",
-          "id": "rank",
+          "name": "Tolls and User Fees and Taxes Rank",
+          "id": "tolls-and-user-fees-and-taxes-rank",
           "order": 5
         }
       ],
@@ -8665,415 +8716,466 @@
           "fuel-license-taxes": "40.7%",
           "tolls-user-fees": "10.7%",
           "total-tolls-user-fees-user-taxes": "51.4%",
-          "rank": ""
+          "tolls-and-user-fees-and-taxes-rank": ""
         },
         {
           "state": "Alabama",
           "fips": 1,
           "fuel-license-taxes": "51.9%",
-          "rank": "17",
+          "fuel-license-taxes-rank": "7",
           "tolls-user-fees": "0.5%",
-          "total-tolls-user-fees-user-taxes": "52.4%"
+          "total-tolls-user-fees-user-taxes": "52.4%",
+          "tolls-and-user-fees-and-taxes-rank": "17"
         },
         {
           "state": "Alaska",
           "fips": 2,
           "fuel-license-taxes": "6.7%",
-          "rank": "50",
+          "fuel-license-taxes-rank": "50",
           "tolls-user-fees": "4.0%",
-          "total-tolls-user-fees-user-taxes": "10.7%"
+          "total-tolls-user-fees-user-taxes": "10.7%",
+          "tolls-and-user-fees-and-taxes-rank": "50"
         },
         {
           "state": "Arizona",
           "fips": 4,
           "fuel-license-taxes": "38.2%",
-          "rank": "31",
+          "fuel-license-taxes-rank": "22",
           "tolls-user-fees": "1.2%",
-          "total-tolls-user-fees-user-taxes": "39.3%"
+          "total-tolls-user-fees-user-taxes": "39.3%",
+          "tolls-and-user-fees-and-taxes-rank": "31"
         },
         {
           "state": "Arkansas",
           "fips": 5,
           "fuel-license-taxes": "33.8%",
-          "rank": "39",
+          "fuel-license-taxes-rank": "25",
           "tolls-user-fees": "0.3%",
-          "total-tolls-user-fees-user-taxes": "34.2%"
+          "total-tolls-user-fees-user-taxes": "34.2%",
+          "tolls-and-user-fees-and-taxes-rank": "39"
         },
         {
           "state": "California",
           "fips": 6,
           "fuel-license-taxes": "62.2%",
-          "rank": "7",
+          "fuel-license-taxes-rank": "2",
           "tolls-user-fees": "4.0%",
-          "total-tolls-user-fees-user-taxes": "66.2%"
+          "total-tolls-user-fees-user-taxes": "66.2%",
+          "tolls-and-user-fees-and-taxes-rank": "7"
         },
         {
           "state": "Colorado",
           "fips": 8,
           "fuel-license-taxes": "31.3%",
-          "rank": "28",
+          "fuel-license-taxes-rank": "32",
           "tolls-user-fees": "8.8%",
-          "total-tolls-user-fees-user-taxes": "40.0%"
+          "total-tolls-user-fees-user-taxes": "40.0%",
+          "tolls-and-user-fees-and-taxes-rank": "28"
         },
         {
           "state": "Connecticut",
           "fips": 9,
           "fuel-license-taxes": "24.9%",
-          "rank": "48",
+          "fuel-license-taxes-rank": "45",
           "tolls-user-fees": "0.6%",
-          "total-tolls-user-fees-user-taxes": "25.6%"
+          "total-tolls-user-fees-user-taxes": "25.6%",
+          "tolls-and-user-fees-and-taxes-rank": "48"
         },
         {
           "state": "Delaware",
           "fips": 10,
           "fuel-license-taxes": "23.7%",
-          "rank": "6",
+          "fuel-license-taxes-rank": "46",
           "tolls-user-fees": "43.9%",
-          "total-tolls-user-fees-user-taxes": "67.6%"
+          "total-tolls-user-fees-user-taxes": "67.6%",
+          "tolls-and-user-fees-and-taxes-rank": "6"
         },
         {
           "state": "Florida",
           "fips": 12,
           "fuel-license-taxes": "42.4%",
-          "rank": "10",
+          "fuel-license-taxes-rank": "17",
           "tolls-user-fees": "18.2%",
-          "total-tolls-user-fees-user-taxes": "60.6%"
+          "total-tolls-user-fees-user-taxes": "60.6%",
+          "tolls-and-user-fees-and-taxes-rank": "10"
         },
         {
           "state": "Georgia",
           "fips": 13,
           "fuel-license-taxes": "25.1%",
-          "rank": "43",
+          "fuel-license-taxes-rank": "44",
           "tolls-user-fees": "3.2%",
-          "total-tolls-user-fees-user-taxes": "28.3%"
+          "total-tolls-user-fees-user-taxes": "28.3%",
+          "tolls-and-user-fees-and-taxes-rank": "43"
         },
         {
           "state": "Hawaii",
           "fips": 15,
           "fuel-license-taxes": "73.3%",
-          "rank": "3",
+          "fuel-license-taxes-rank": "1",
           "tolls-user-fees": "0.5%",
-          "total-tolls-user-fees-user-taxes": "73.8%"
+          "total-tolls-user-fees-user-taxes": "73.8%",
+          "tolls-and-user-fees-and-taxes-rank": "3"
         },
         {
           "state": " Idaho",
           "fips": 16,
           "fuel-license-taxes": "32.2%",
-          "rank": "37",
+          "fuel-license-taxes-rank": "30",
           "tolls-user-fees": "2.9%",
-          "total-tolls-user-fees-user-taxes": "35.0%"
+          "total-tolls-user-fees-user-taxes": "35.0%",
+          "tolls-and-user-fees-and-taxes-rank": "37"
         },
         {
           "state": "Illinois",
           "fips": 17,
           "fuel-license-taxes": "53.9%",
-          "rank": "5",
+          "fuel-license-taxes-rank": "6",
           "tolls-user-fees": "16.0%",
-          "total-tolls-user-fees-user-taxes": "69.8%"
+          "total-tolls-user-fees-user-taxes": "69.8%",
+          "tolls-and-user-fees-and-taxes-rank": "5"
         },
         {
           "state": "Indiana",
           "fips": 18,
           "fuel-license-taxes": "55.8%",
-          "rank": "12",
+          "fuel-license-taxes-rank": "5",
           "tolls-user-fees": "0.3%",
-          "total-tolls-user-fees-user-taxes": "56.1%"
+          "total-tolls-user-fees-user-taxes": "56.1%",
+          "tolls-and-user-fees-and-taxes-rank": "12"
         },
         {
           "state": "Iowa",
           "fips": 19,
           "fuel-license-taxes": "42.7%",
-          "rank": "26",
+          "fuel-license-taxes-rank": "16",
           "tolls-user-fees": "0.3%",
-          "total-tolls-user-fees-user-taxes": "43.0%"
+          "total-tolls-user-fees-user-taxes": "43.0%",
+          "tolls-and-user-fees-and-taxes-rank": "26"
         },
         {
           "state": "Kansas",
           "fips": 20,
           "fuel-license-taxes": "29.2%",
-          "rank": "33",
+          "fuel-license-taxes-rank": "37",
           "tolls-user-fees": "8.0%",
-          "total-tolls-user-fees-user-taxes": "37.2%"
+          "total-tolls-user-fees-user-taxes": "37.2%",
+          "tolls-and-user-fees-and-taxes-rank": "33"
         },
         {
           "state": "Kentucky",
           "fips": 21,
           "fuel-license-taxes": "32.8%",
-          "rank": "35",
+          "fuel-license-taxes-rank": "28",
           "tolls-user-fees": "3.4%",
-          "total-tolls-user-fees-user-taxes": "36.1%"
+          "total-tolls-user-fees-user-taxes": "36.1%",
+          "tolls-and-user-fees-and-taxes-rank": "35"
         },
         {
           "state": "Louisiana",
           "fips": 22,
           "fuel-license-taxes": "25.9%",
-          "rank": "46",
+          "fuel-license-taxes-rank": "40",
           "tolls-user-fees": "1.0%",
-          "total-tolls-user-fees-user-taxes": "26.9%"
+          "total-tolls-user-fees-user-taxes": "26.9%",
+          "tolls-and-user-fees-and-taxes-rank": "46"
         },
         {
           "state": "Maine",
           "fips": 23,
           "fuel-license-taxes": "29.4%",
-          "rank": "24",
+          "fuel-license-taxes-rank": "36",
           "tolls-user-fees": "14.4%",
-          "total-tolls-user-fees-user-taxes": "43.8%"
+          "total-tolls-user-fees-user-taxes": "43.8%",
+          "tolls-and-user-fees-and-taxes-rank": "24"
         },
         {
           "state": " Maryland",
           "fips": 24,
           "fuel-license-taxes": "56.5%",
-          "rank": "1",
+          "fuel-license-taxes-rank": "4",
           "tolls-user-fees": "25.6%",
-          "total-tolls-user-fees-user-taxes": "82.1%"
+          "total-tolls-user-fees-user-taxes": "82.1%",
+          "tolls-and-user-fees-and-taxes-rank": "1"
         },
         {
           "state": " Massachusetts",
           "fips": 25,
           "fuel-license-taxes": "32.3%",
-          "rank": "9",
+          "fuel-license-taxes-rank": "29",
           "tolls-user-fees": "28.5%",
-          "total-tolls-user-fees-user-taxes": "60.8%"
+          "total-tolls-user-fees-user-taxes": "60.8%",
+          "tolls-and-user-fees-and-taxes-rank": "9"
         },
         {
           "state": " Michigan",
           "fips": 26,
           "fuel-license-taxes": "45.1%",
-          "rank": "22",
+          "fuel-license-taxes-rank": "13",
           "tolls-user-fees": "2.5%",
-          "total-tolls-user-fees-user-taxes": "47.6%"
+          "total-tolls-user-fees-user-taxes": "47.6%",
+          "tolls-and-user-fees-and-taxes-rank": "22"
         },
         {
           "state": "Minnesota",
           "fips": 27,
           "fuel-license-taxes": "31.0%",
-          "rank": "36",
+          "fuel-license-taxes-rank": "34",
           "tolls-user-fees": "4.1%",
-          "total-tolls-user-fees-user-taxes": "35.1%"
+          "total-tolls-user-fees-user-taxes": "35.1%",
+          "tolls-and-user-fees-and-taxes-rank": "36"
         },
         {
           "state": "Mississippi",
           "fips": 28,
           "fuel-license-taxes": "30.3%",
-          "rank": "41",
+          "fuel-license-taxes-rank": "35",
           "tolls-user-fees": "0.3%",
-          "total-tolls-user-fees-user-taxes": "30.6%"
+          "total-tolls-user-fees-user-taxes": "30.6%",
+          "tolls-and-user-fees-and-taxes-rank": "41"
         },
         {
           "state": "Missouri",
           "fips": 29,
           "fuel-license-taxes": "33.1%",
-          "rank": "38",
+          "fuel-license-taxes-rank": "26",
           "tolls-user-fees": "1.2%",
-          "total-tolls-user-fees-user-taxes": "34.3%"
+          "total-tolls-user-fees-user-taxes": "34.3%",
+          "tolls-and-user-fees-and-taxes-rank": "38"
         },
         {
           "state": "Montana",
           "fips": 30,
           "fuel-license-taxes": "43.1%",
-          "rank": "23",
+          "fuel-license-taxes-rank": "15",
           "tolls-user-fees": "2.7%",
-          "total-tolls-user-fees-user-taxes": "45.8%"
+          "total-tolls-user-fees-user-taxes": "45.8%",
+          "tolls-and-user-fees-and-taxes-rank": "23"
         },
         {
           "state": "Nebraska",
           "fips": 31,
           "fuel-license-taxes": "27.8%",
-          "rank": "42",
+          "fuel-license-taxes-rank": "38",
           "tolls-user-fees": "1.6%",
-          "total-tolls-user-fees-user-taxes": "29.4%"
+          "total-tolls-user-fees-user-taxes": "29.4%",
+          "tolls-and-user-fees-and-taxes-rank": "42"
         },
         {
           "state": "Nevada",
           "fips": 32,
           "fuel-license-taxes": "38.2%",
-          "rank": "30",
+          "fuel-license-taxes-rank": "21",
           "tolls-user-fees": "1.1%",
-          "total-tolls-user-fees-user-taxes": "39.3%"
+          "total-tolls-user-fees-user-taxes": "39.3%",
+          "tolls-and-user-fees-and-taxes-rank": "30"
         },
         {
           "state": "New Hampshire",
           "fips": 33,
           "fuel-license-taxes": "34.9%",
-          "rank": "16",
+          "fuel-license-taxes-rank": "23",
           "tolls-user-fees": "17.6%",
-          "total-tolls-user-fees-user-taxes": "52.4%"
+          "total-tolls-user-fees-user-taxes": "52.4%",
+          "tolls-and-user-fees-and-taxes-rank": "16"
         },
         {
           "state": "New Jersey",
           "fips": 34,
           "fuel-license-taxes": "21.9%",
-          "rank": "2",
+          "fuel-license-taxes-rank": "48",
           "tolls-user-fees": "54.6%",
-          "total-tolls-user-fees-user-taxes": "76.5%"
+          "total-tolls-user-fees-user-taxes": "76.5%",
+          "tolls-and-user-fees-and-taxes-rank": "2"
         },
         {
           "state": "New Mexico",
           "fips": 35,
           "fuel-license-taxes": "38.9%",
-          "rank": "29",
+          "fuel-license-taxes-rank": "20",
           "tolls-user-fees": "1.0%",
-          "total-tolls-user-fees-user-taxes": "39.9%"
+          "total-tolls-user-fees-user-taxes": "39.9%",
+          "tolls-and-user-fees-and-taxes-rank": "29"
         },
         {
           "state": "New York",
           "fips": 36,
           "fuel-license-taxes": "25.8%",
-          "rank": "4",
+          "fuel-license-taxes-rank": "41",
           "tolls-user-fees": "45.5%",
-          "total-tolls-user-fees-user-taxes": "71.4%"
+          "total-tolls-user-fees-user-taxes": "71.4%",
+          "tolls-and-user-fees-and-taxes-rank": "4"
         },
         {
           "state": "North Carolina",
           "fips": 37,
           "fuel-license-taxes": "48.9%",
-          "rank": "19",
+          "fuel-license-taxes-rank": "11",
           "tolls-user-fees": "3.1%",
-          "total-tolls-user-fees-user-taxes": "52.0%"
+          "total-tolls-user-fees-user-taxes": "52.0%",
+          "tolls-and-user-fees-and-taxes-rank": "19"
         },
         {
           "state": "North Dakota",
           "fips": 38,
           "fuel-license-taxes": "19.8%",
-          "rank": "49",
+          "fuel-license-taxes-rank": "49",
           "tolls-user-fees": "1.3%",
-          "total-tolls-user-fees-user-taxes": "21.1%"
+          "total-tolls-user-fees-user-taxes": "21.1%",
+          "tolls-and-user-fees-and-taxes-rank": "49"
         },
         {
           "state": "Ohio",
           "fips": 39,
           "fuel-license-taxes": "58.0%",
-          "rank": "8",
+          "fuel-license-taxes-rank": "3",
           "tolls-user-fees": "8.0%",
-          "total-tolls-user-fees-user-taxes": "66.0%"
+          "total-tolls-user-fees-user-taxes": "66.0%",
+          "tolls-and-user-fees-and-taxes-rank": "8"
         },
         {
           "state": "Oklahoma",
           "fips": 40,
           "fuel-license-taxes": "41.2%",
-          "rank": "18",
+          "fuel-license-taxes-rank": "18",
           "tolls-user-fees": "11.1%",
-          "total-tolls-user-fees-user-taxes": "52.3%"
+          "total-tolls-user-fees-user-taxes": "52.3%",
+          "tolls-and-user-fees-and-taxes-rank": "18"
         },
         {
           "state": "Oregon",
           "fips": 41,
           "fuel-license-taxes": "51.6%",
-          "rank": "15",
+          "fuel-license-taxes-rank": "9",
           "tolls-user-fees": "3.6%",
-          "total-tolls-user-fees-user-taxes": "55.2%"
+          "total-tolls-user-fees-user-taxes": "55.2%",
+          "tolls-and-user-fees-and-taxes-rank": "15"
         },
         {
           "state": " Pennsylvania",
           "fips": 42,
           "fuel-license-taxes": "39.9%",
-          "rank": "14",
+          "fuel-license-taxes-rank": "19",
           "tolls-user-fees": "15.3%",
-          "total-tolls-user-fees-user-taxes": "55.2%"
+          "total-tolls-user-fees-user-taxes": "55.2%",
+          "tolls-and-user-fees-and-taxes-rank": "14"
         },
         {
           "state": "Rhode Island",
           "fips": 44,
           "fuel-license-taxes": "22.6%",
-          "rank": "40",
+          "fuel-license-taxes-rank": "47",
           "tolls-user-fees": "9.3%",
-          "total-tolls-user-fees-user-taxes": "31.9%"
+          "total-tolls-user-fees-user-taxes": "31.9%",
+          "tolls-and-user-fees-and-taxes-rank": "40"
         },
         {
           "state": "South Carolina",
           "fips": 45,
           "fuel-license-taxes": "50.4%",
-          "rank": "13",
+          "fuel-license-taxes-rank": "10",
           "tolls-user-fees": "5.0%",
-          "total-tolls-user-fees-user-taxes": "55.4%"
+          "total-tolls-user-fees-user-taxes": "55.4%",
+          "tolls-and-user-fees-and-taxes-rank": "13"
         },
         {
           "state": "South Dakota",
           "fips": 46,
           "fuel-license-taxes": "25.7%",
-          "rank": "47",
+          "fuel-license-taxes-rank": "43",
           "tolls-user-fees": "0.8%",
-          "total-tolls-user-fees-user-taxes": "26.5%"
+          "total-tolls-user-fees-user-taxes": "26.5%",
+          "tolls-and-user-fees-and-taxes-rank": "47"
         },
         {
           "state": "Tennessee",
           "fips": 47,
           "fuel-license-taxes": "51.6%",
-          "rank": "20",
+          "fuel-license-taxes-rank": "8",
           "tolls-user-fees": "0.2%",
-          "total-tolls-user-fees-user-taxes": "51.8%"
+          "total-tolls-user-fees-user-taxes": "51.8%",
+          "tolls-and-user-fees-and-taxes-rank": "20"
         },
         {
           "state": "Texas",
           "fips": 48,
           "fuel-license-taxes": "31.2%",
-          "rank": "25",
+          "fuel-license-taxes-rank": "33",
           "tolls-user-fees": "12.3%",
-          "total-tolls-user-fees-user-taxes": "43.5%"
+          "total-tolls-user-fees-user-taxes": "43.5%",
+          "tolls-and-user-fees-and-taxes-rank": "25"
         },
         {
           "state": "Utah",
           "fips": 49,
           "fuel-license-taxes": "34.8%",
-          "rank": "34",
+          "fuel-license-taxes-rank": "24",
           "tolls-user-fees": "1.5%",
-          "total-tolls-user-fees-user-taxes": "36.3%"
+          "total-tolls-user-fees-user-taxes": "36.3%",
+          "tolls-and-user-fees-and-taxes-rank": "34"
         },
         {
           "state": "Vermont",
           "fips": 50,
           "fuel-license-taxes": "25.8%",
-          "rank": "44",
+          "fuel-license-taxes-rank": "42",
           "tolls-user-fees": "2.3%",
-          "total-tolls-user-fees-user-taxes": "28.2%"
+          "total-tolls-user-fees-user-taxes": "28.2%",
+          "tolls-and-user-fees-and-taxes-rank": "44"
         },
         {
           "state": "Virginia",
           "fips": 51,
           "fuel-license-taxes": "32.8%",
-          "rank": "32",
+          "fuel-license-taxes-rank": "27",
           "tolls-user-fees": "5.7%",
-          "total-tolls-user-fees-user-taxes": "38.5%"
+          "total-tolls-user-fees-user-taxes": "38.5%",
+          "tolls-and-user-fees-and-taxes-rank": "32"
         },
         {
           "state": "Washington",
           "fips": 53,
           "fuel-license-taxes": "48.2%",
-          "rank": "11",
+          "fuel-license-taxes-rank": "12",
           "tolls-user-fees": "10.4%",
-          "total-tolls-user-fees-user-taxes": "58.6%"
+          "total-tolls-user-fees-user-taxes": "58.6%",
+          "tolls-and-user-fees-and-taxes-rank": "11"
         },
         {
           "state": "West Virginia",
           "fips": 54,
           "fuel-license-taxes": "31.5%",
-          "rank": "27",
+          "fuel-license-taxes-rank": "31",
           "tolls-user-fees": "10.1%",
-          "total-tolls-user-fees-user-taxes": "41.6%"
+          "total-tolls-user-fees-user-taxes": "41.6%",
+          "tolls-and-user-fees-and-taxes-rank": "27"
         },
         {
           "state": "Wisconsin",
           "fips": 55,
           "fuel-license-taxes": "44.5%",
-          "rank": "21",
+          "fuel-license-taxes-rank": "14",
           "tolls-user-fees": "6.2%",
-          "total-tolls-user-fees-user-taxes": "50.7%"
+          "total-tolls-user-fees-user-taxes": "50.7%",
+          "tolls-and-user-fees-and-taxes-rank": "21"
         },
         {
           "state": "Wyoming",
           "fips": 56,
           "fuel-license-taxes": "27.1%",
-          "rank": "45",
+          "fuel-license-taxes-rank": "39",
           "tolls-user-fees": "0.9%",
-          "total-tolls-user-fees-user-taxes": "28.1%"
+          "total-tolls-user-fees-user-taxes": "28.1%",
+          "tolls-and-user-fees-and-taxes-rank": "45"
         },
         {
           "state": "District of Columbia",
           "fips": 11,
           "fuel-license-taxes": "17.8%",
-          "rank": "50",
+          "fuel-license-taxes-rank": "50",
           "tolls-user-fees": "0.3%",
-          "total-tolls-user-fees-user-taxes": "18.1%"
+          "total-tolls-user-fees-user-taxes": "18.1%",
+          "tolls-and-user-fees-and-taxes-rank": "50"
         }
       ]
     },
