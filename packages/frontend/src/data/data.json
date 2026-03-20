@@ -93,7 +93,7 @@
           "rank": "2"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "collections-per-capita": "$4,193",
           "rank": "23"
@@ -141,19 +141,19 @@
           "rank": "16"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "collections-per-capita": "$4,935",
           "rank": "13"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "collections-per-capita": "$6,049",
           "rank": "9"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "collections-per-capita": "$3,714",
           "rank": "33"
@@ -249,7 +249,7 @@
           "rank": "27"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "collections-per-capita": "$4,216",
           "rank": "22"
@@ -444,7 +444,7 @@
           "total-tax-burden-per-capita": "$8,410"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "state-local-tax-burden-as-a-share-of-state-income": "10.7%",
           "rank": "29",
@@ -500,21 +500,21 @@
           "total-tax-burden-per-capita": "$6,906"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "state-local-tax-burden-as-a-share-of-state-income": "11.3%",
           "rank": "35",
           "total-tax-burden-per-capita": "$7,680"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "state-local-tax-burden-as-a-share-of-state-income": "11.5%",
           "rank": "37",
           "total-tax-burden-per-capita": "$7,565"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "state-local-tax-burden-as-a-share-of-state-income": "8.6%",
           "rank": "5",
@@ -626,7 +626,7 @@
           "total-tax-burden-per-capita": "$6,572"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "state-local-tax-burden-as-a-share-of-state-income": "10.6%",
           "rank": "28",
@@ -883,7 +883,7 @@
           "unemp-ins-tax": "43"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "overall-index-rank": "9",
           "corp-tax": "21",
@@ -963,7 +963,7 @@
           "unemp-ins-tax": "21"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "overall-index-rank": "46",
           "corp-tax": "36",
@@ -973,7 +973,7 @@
           "unemp-ins-tax": "18"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "overall-index-rank": "43",
           "corp-tax": "33",
@@ -983,7 +983,7 @@
           "unemp-ins-tax": "45"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "overall-index-rank": "16",
           "corp-tax": "22",
@@ -1143,7 +1143,7 @@
           "unemp-ins-tax": "41"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "overall-index-rank": "36",
           "corp-tax": "34",
@@ -1384,7 +1384,7 @@
           "rank": "5"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "revenue-per-capita": "$7,898",
           "rank": "40"
@@ -1432,19 +1432,19 @@
           "rank": "19"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "revenue-per-capita": "$9,683",
           "rank": "20"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "revenue-per-capita": "$11,648",
           "rank": "10"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "revenue-per-capita": "$8,782",
           "rank": "30"
@@ -1540,7 +1540,7 @@
           "rank": "11"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "revenue-per-capita": "$9,220",
           "rank": "24"
@@ -1719,7 +1719,7 @@
           "rank": "3"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "collections-per-capita": "$5,012",
           "rank": "45"
@@ -1767,19 +1767,19 @@
           "rank": "18"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "collections-per-capita": "$8,139",
           "rank": "11"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "collections-per-capita": "$9,076",
           "rank": "6"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "collections-per-capita": "$5,413",
           "rank": "37"
@@ -1875,7 +1875,7 @@
           "rank": "16"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "collections-per-capita": "$6,869",
           "rank": "20"
@@ -2060,7 +2060,7 @@
           "rank": "7"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "revenue-per-capita": "$10,049",
           "rank": "49"
@@ -2108,19 +2108,19 @@
           "rank": "26"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "revenue-per-capita": "$14,072",
           "rank": "19"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "revenue-per-capita": "$15,782",
           "rank": "10"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "revenue-per-capita": "$12,090",
           "rank": "36"
@@ -2216,7 +2216,7 @@
           "rank": "8"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "revenue-per-capita": "$13,650",
           "rank": "21"
@@ -2452,7 +2452,7 @@
           "other-taxes": "20.0%"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "property": "22.8%",
           "general-sales": "31.5%",
@@ -2524,7 +2524,7 @@
           "other-taxes": "12.5%"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "property": "23.6%",
           "general-sales": "13.5%",
@@ -2533,7 +2533,7 @@
           "other-taxes": "19.1%"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "property": "33.1%",
           "general-sales": "14.6%",
@@ -2542,7 +2542,7 @@
           "other-taxes": "10.8%"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "property": "33.8%",
           "general-sales": "23.7%",
@@ -2686,7 +2686,7 @@
           "other-taxes": "21.3%"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "property": "25.7%",
           "general-sales": "18.4%",
@@ -2913,7 +2913,7 @@
           "rank": "50"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "fed-aid-as-percentage-of-general-revenue": "31.4%",
           "rank": "42"
@@ -2961,19 +2961,19 @@
           "rank": "20"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "fed-aid-as-percentage-of-general-revenue": "35.9%",
           "rank": "30"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "fed-aid-as-percentage-of-general-revenue": "31.8%",
           "rank": "41"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "fed-aid-as-percentage-of-general-revenue": "37.3%",
           "rank": "27"
@@ -3069,7 +3069,7 @@
           "rank": "32"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "fed-aid-as-percentage-of-general-revenue": "39.2%",
           "rank": "21"
@@ -3751,7 +3751,7 @@
         "$325,000 "
       ],
       [
-        " Idaho (c, e)",
+        "Idaho (c, e)",
         "5.3%",
         ">",
         "$4,811 "
@@ -3817,7 +3817,7 @@
         "$64,849 "
       ],
       [
-        " Maryland (b, h)",
+        "Maryland (b, h)",
         "2.00%",
         ">",
         "$0 "
@@ -3877,7 +3877,7 @@
         "$1,000,000 "
       ],
       [
-        " Massachusetts (c, e, h)",
+        "Massachusetts (c, e, h)",
         "5%",
         ">",
         "$0 "
@@ -3889,7 +3889,7 @@
         "$1,083,150 "
       ],
       [
-        " Michigan (b)",
+        "Michigan (b)",
         "4.25%",
         ">",
         "$0 "
@@ -4213,7 +4213,7 @@
         "$125,000 "
       ],
       [
-        " Pennsylvania (b)",
+        "Pennsylvania (b)",
         "3.07%",
         ">",
         "$0 "
@@ -4261,7 +4261,7 @@
         null
       ],
       [
-        "Tennessee ",
+        "Tennessee",
         null,
         "None",
         null
@@ -4581,7 +4581,7 @@
           "rank": "7"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "collections-per-capita": "$1,453",
           "rank": "20"
@@ -4629,19 +4629,19 @@
           "rank": "14"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "collections-per-capita": "$1,706",
           "rank": "15"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "collections-per-capita": "$3,117",
           "rank": "2"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "collections-per-capita": "$1,124",
           "rank": "32"
@@ -4743,7 +4743,7 @@
           "rank": "8"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "collections-per-capita": "$1,309",
           "rank": "23"
@@ -4953,7 +4953,7 @@
           "rank": "9"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "collections-per-capita": "$1,094",
           "rank": "34"
@@ -5001,19 +5001,19 @@
           "rank": "17"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "collections-per-capita": "$3,235",
           "rank": "2"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "collections-per-capita": "$3,110",
           "rank": "4"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "collections-per-capita": "$1,227",
           "rank": "31"
@@ -5115,7 +5115,7 @@
           "rank": "3"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "collections-per-capita": "$1,809",
           "rank": "16"
@@ -5337,7 +5337,7 @@
         "$11,000"
       ],
       [
-        "California ",
+        "California",
         "8.84%",
         ">",
         "$0"
@@ -5397,7 +5397,7 @@
         "$100,000 "
       ],
       [
-        " Idaho",
+        "Idaho",
         "5.3%",
         ">",
         "$0 "
@@ -5475,19 +5475,19 @@
         "$3,500,000 "
       ],
       [
-        " Maryland",
+        "Maryland",
         "8.25%",
         ">",
         "$0 "
       ],
       [
-        " Massachusetts",
+        "Massachusetts",
         "8%",
         ">",
         "$0 "
       ],
       [
-        " Michigan",
+        "Michigan",
         "6%",
         ">",
         "$0 "
@@ -5631,7 +5631,7 @@
         "$1,000,000"
       ],
       [
-        " Pennsylvania",
+        "Pennsylvania",
         "7.49%",
         ">",
         "$0"
@@ -5697,7 +5697,7 @@
         "$0"
       ],
       [
-        "Washington ",
+        "Washington",
         null,
         "(c)",
         null
@@ -5850,7 +5850,7 @@
           "rank": "27"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "collections-per-capita": "$589",
           "rank": "11"
@@ -5898,19 +5898,19 @@
           "rank": "28"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "collections-per-capita": "$777",
           "rank": "10"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "collections-per-capita": "$886",
           "rank": "6"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "collections-per-capita": "$278",
           "rank": "32"
@@ -6017,7 +6017,7 @@
           "rank": "24"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "collections-per-capita": "$380",
           "rank": "26"
@@ -6227,7 +6227,7 @@
           "rank": "34"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "collections-per-capita": "$521 ",
           "rank": "12"
@@ -6275,19 +6275,19 @@
           "rank": "25"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "collections-per-capita": "$327 ",
           "rank": "22"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "collections-per-capita": "$644 ",
           "rank": "8"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "collections-per-capita": "$203 ",
           "rank": "40"
@@ -6394,7 +6394,7 @@
           "rank": "16"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "footnotes": [
             "b"
@@ -6722,7 +6722,7 @@
           "combined-rank": "45"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "state-tax-rate": "6.00%",
           "state-rank": "17",
@@ -6794,7 +6794,7 @@
           "combined-rank": "44"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "state-tax-rate": "6.00%",
           "state-rank": "17",
@@ -6803,7 +6803,7 @@
           "combined-rank": "38"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "state-tax-rate": "6.25%",
           "state-rank": "13",
@@ -6812,7 +6812,7 @@
           "combined-rank": "35"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "state-tax-rate": "6.00%",
           "state-rank": "17",
@@ -6968,7 +6968,7 @@
           "combined-rank": "47"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "state-tax-rate": "6.00%",
           "state-rank": "17",
@@ -7229,7 +7229,7 @@
           "rank": "1"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "collections-per-capita": "$1,556",
           "rank": "18"
@@ -7277,19 +7277,19 @@
           "rank": "13"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "collections-per-capita": "$1,098",
           "rank": "35"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "collections-per-capita": "$1,323",
           "rank": "27"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "collections-per-capita": "$1,256",
           "rank": "31"
@@ -7400,7 +7400,7 @@
           "rank": "--"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "collections-per-capita": "$1,196",
           "rank": "32"
@@ -7592,7 +7592,7 @@
           "rank": "1"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "collections-per-capita": "$1,579",
           "rank": "28"
@@ -7640,19 +7640,19 @@
           "rank": "23"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "collections-per-capita": "$1,099",
           "rank": "42"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "collections-per-capita": "$1,328",
           "rank": "37"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "collections-per-capita": "$1,281",
           "rank": "38"
@@ -7748,7 +7748,7 @@
           "rank": "47"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "collections-per-capita": "$1,267",
           "rank": "39"
@@ -7934,7 +7934,7 @@
           "rank": "1"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "sales-tax-breadth": "41%",
           "rank": "12"
@@ -7982,19 +7982,19 @@
           "rank": "9"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "sales-tax-breadth": "28%",
           "rank": "40"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "sales-tax-breadth": "23%",
           "rank": "43"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "sales-tax-breadth": "33%",
           "rank": "28"
@@ -8096,7 +8096,7 @@
           "rank": "--"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "sales-tax-breadth": "28%",
           "rank": "37"
@@ -8329,7 +8329,7 @@
           "rank": "49"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "excise-tax": "$0.32",
           "other-taxes-and-fees": "$0.01",
@@ -8395,7 +8395,7 @@
           "rank": "24"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "excise-tax": "$0.33",
           "other-taxes-and-fees": "$0.1321",
@@ -8403,7 +8403,7 @@
           "rank": "7"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "excise-tax": "$0.24",
           "other-taxes-and-fees": "$0.0356",
@@ -8411,7 +8411,7 @@
           "rank": "31"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "excise-tax": "$0.524",
           "other-taxes-and-fees": "$0.01",
@@ -8543,7 +8543,7 @@
           "rank": "13"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "excise-tax": "$0.576",
           "other-taxes-and-fees": "$0.011",
@@ -8818,7 +8818,7 @@
           "tolls-and-user-fees-and-taxes-rank": "3"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "fuel-license-taxes": "32.2%",
           "fuel-license-taxes-rank": "30",
@@ -8890,7 +8890,7 @@
           "tolls-and-user-fees-and-taxes-rank": "24"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "fuel-license-taxes": "56.5%",
           "fuel-license-taxes-rank": "4",
@@ -8899,7 +8899,7 @@
           "tolls-and-user-fees-and-taxes-rank": "1"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "fuel-license-taxes": "32.3%",
           "fuel-license-taxes-rank": "29",
@@ -8908,7 +8908,7 @@
           "tolls-and-user-fees-and-taxes-rank": "9"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "fuel-license-taxes": "45.1%",
           "fuel-license-taxes-rank": "13",
@@ -9052,7 +9052,7 @@
           "tolls-and-user-fees-and-taxes-rank": "15"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "fuel-license-taxes": "39.9%",
           "fuel-license-taxes-rank": "19",
@@ -9279,7 +9279,7 @@
           "rank": "6"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "tax-rate": "$0.57",
           "rank": "45"
@@ -9330,19 +9330,19 @@
           "rank": "20"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "tax-rate": "$5.00",
           "rank": "2"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "tax-rate": "$3.51",
           "rank": "7"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "tax-rate": "$2.00",
           "rank": "20"
@@ -9441,7 +9441,7 @@
           "rank": "8"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "tax-rate": "$2.60",
           "rank": "15"
@@ -9574,7 +9574,7 @@
         "70% of wholesale"
       ],
       [
-        "Illinois ",
+        "Illinois",
         "45% of wholesale"
       ],
       [
@@ -9598,11 +9598,11 @@
         "75% of wholesale"
       ],
       [
-        " Maryland",
+        "Maryland",
         "20% of retail if >5 mL; \r\n60% of retail if ≤5 mL"
       ],
       [
-        " Massachusetts",
+        "Massachusetts",
         "75% of wholesale"
       ],
       [
@@ -9646,7 +9646,7 @@
         "65% of wholesale"
       ],
       [
-        " Pennsylvania",
+        "Pennsylvania",
         "40% of wholesale"
       ],
       [
@@ -9711,7 +9711,7 @@
         "Tax Rate"
       ],
       [
-        "Alaska ",
+        "Alaska",
         "$50/oz. mature flowers;\r\n$25/oz. immature flowers;\r\n$15/oz. trim, $1 per clone"
       ],
       [
@@ -9743,15 +9743,15 @@
         "14% excise tax (retail price); $223/lb. flower;\r\n$63/lb. trim; $23 per mature plant; \r\n$1 per immature plant or seedling;\r\n$0.20 per seed"
       ],
       [
-        " Maryland",
+        "Maryland",
         "12% excise tax (retail price)"
       ],
       [
-        " Massachusetts",
+        "Massachusetts",
         "10.75% excise tax (retail price)"
       ],
       [
-        " Michigan",
+        "Michigan",
         "24% excise tax (fair market value at wholesale);\r\n10% excise tax (retail price)"
       ],
       [
@@ -9759,7 +9759,7 @@
         "15% excise tax (retail gross receipts)"
       ],
       [
-        "Missouri ",
+        "Missouri",
         "6% excise tax (retail price)"
       ],
       [
@@ -9779,7 +9779,7 @@
         "13% excise tax (retail price)"
       ],
       [
-        "New York ",
+        "New York",
         "9% excise tax (wholesale price); 13% excise tax (retail price)"
       ],
       [
@@ -9795,7 +9795,7 @@
         "13% excise tax (retail price)"
       ],
       [
-        "Vermont ",
+        "Vermont",
         "14% excise tax (retail price)"
       ],
       [
@@ -9928,7 +9928,7 @@
           "rank": "25"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "footnotes": [
             "a"
@@ -9997,7 +9997,7 @@
           "rank": "12"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "footnotes": [
             "b",
@@ -10007,7 +10007,7 @@
           "rank": "29"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "footnotes": [
             "b"
@@ -10016,7 +10016,7 @@
           "rank": "36"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "footnotes": [
             "a"
@@ -10147,7 +10147,7 @@
           "rank": "2"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "footnotes": [
             "a"
@@ -10420,7 +10420,7 @@
           "rank": "15"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "footnotes": [
             "a"
@@ -10492,7 +10492,7 @@
           "rank": "32"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "footnotes": [
             "c"
@@ -10501,7 +10501,7 @@
           "rank": "7"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "footnotes": [
             "a"
@@ -10510,7 +10510,7 @@
           "rank": "33"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "footnotes": [
             "a"
@@ -10648,7 +10648,7 @@
           "rank": "31"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "footnotes": [
             "e"
@@ -10910,7 +10910,7 @@
           "rank": "3"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "footnotes": [
             "d"
@@ -10970,7 +10970,7 @@
           "rank": "19"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "footnotes": [
             "b"
@@ -10979,13 +10979,13 @@
           "rank": "7"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "tax-rate": "$0.11",
           "rank": "44"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "tax-rate": "$0.20",
           "rank": "28"
@@ -11097,7 +11097,7 @@
           "rank": "45"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "tax-rate": "$0.08",
           "rank": "46"
@@ -11325,7 +11325,7 @@
           "rank": "46"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "average-state-local-tax-rate": "3.46%",
           "rank": "50"
@@ -11373,19 +11373,19 @@
           "rank": "38"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "average-state-local-tax-rate": "17.14%",
           "rank": "12"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "average-state-local-tax-rate": "10.75%",
           "rank": "32"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "average-state-local-tax-rate": "10.08%",
           "rank": "34"
@@ -11481,7 +11481,7 @@
           "rank": "41"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "average-state-local-tax-rate": "17.85%",
           "rank": "9"
@@ -11699,7 +11699,7 @@
           "soda-treated-as-groceries": "Yes"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "state-general-sales-tax": "6.00%",
           "grocery-treatment": "Included in Base",
@@ -11763,7 +11763,7 @@
           "soda-treated-as-groceries": "No"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "state-general-sales-tax": "6.00%",
           "grocery-treatment": "Exempt",
@@ -11771,7 +11771,7 @@
           "soda-treated-as-groceries": "No"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "state-general-sales-tax": "6.25%",
           "grocery-treatment": "Exempt",
@@ -11779,7 +11779,7 @@
           "soda-treated-as-groceries": "Yes"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "state-general-sales-tax": "6.00%",
           "grocery-treatment": "Exempt",
@@ -11907,7 +11907,7 @@
           "soda-treated-as-groceries": "--"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "state-general-sales-tax": "6.00%",
           "grocery-treatment": "Exempt",
@@ -12135,7 +12135,7 @@
           "rank": "2"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "collections-per-capita": "$384",
           "rank": "47"
@@ -12183,19 +12183,19 @@
           "rank": "36"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "collections-per-capita": "$1,076",
           "rank": "5"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "collections-per-capita": "$516",
           "rank": "43"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "collections-per-capita": "$554",
           "rank": "39"
@@ -12291,7 +12291,7 @@
           "rank": "13"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "collections-per-capita": "$937",
           "rank": "10"
@@ -12476,7 +12476,7 @@
           "rank": "50"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "effective-tax-rate": "0.43%",
           "rank": "47"
@@ -12524,19 +12524,19 @@
           "rank": "20"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "effective-tax-rate": "0.90%",
           "rank": "21"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "effective-tax-rate": "0.95%",
           "rank": "18"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "effective-tax-rate": "1.13%",
           "rank": "14"
@@ -12632,7 +12632,7 @@
           "rank": "24"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "effective-tax-rate": "1.14%",
           "rank": "13"
@@ -12817,7 +12817,7 @@
           "rank": "28"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "collections-per-capita": "$1,142",
           "rank": "42"
@@ -12865,19 +12865,19 @@
           "rank": "9"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "collections-per-capita": "$1,924",
           "rank": "21"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "collections-per-capita": "$3,005",
           "rank": "6"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "collections-per-capita": "$1,831",
           "rank": "24"
@@ -12973,7 +12973,7 @@
           "rank": "20"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "collections-per-capita": "$1,763",
           "rank": "27"
@@ -13103,7 +13103,7 @@
         "$2,000,000"
       ],
       [
-        " Massachusetts",
+        "Massachusetts",
         "0.26%",
         "Unlimited"
       ],
@@ -13123,7 +13123,7 @@
         "$5,000,000"
       ],
       [
-        "North Carolina ",
+        "North Carolina",
         "0.15%",
         "Unlimited"
       ],
@@ -13217,7 +13217,7 @@
           "rate-min-to-max": "8.0% - 12.0%"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "footnotes": [
             "b"
@@ -13226,7 +13226,7 @@
           "rate-min-to-max": "0.8% - 16.0%"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "exemption": "$2,000,000",
           "rate-min-to-max": "0.8% - 16.0%"
@@ -13321,7 +13321,7 @@
         "6% - 16%"
       ],
       [
-        " Maryland (b)",
+        "Maryland (b)",
         "Spouse/Lineal Heirs",
         "100% exempt",
         "0%"
@@ -13381,7 +13381,7 @@
         "15% - 16%"
       ],
       [
-        " Pennsylvania (d) ",
+        "Pennsylvania (d)",
         "Spouses and Children < 21 years",
         "100% exempt",
         "0%"
@@ -13518,7 +13518,7 @@
           "rank": "5"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "debt-per-capita": "$368",
           "rank": "50"
@@ -13566,19 +13566,19 @@
           "rank": "21"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "debt-per-capita": "$4,088",
           "rank": "13"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "debt-per-capita": "$9,700",
           "rank": "2"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "debt-per-capita": "$2,655",
           "rank": "28"
@@ -13674,7 +13674,7 @@
           "rank": "19"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "debt-per-capita": "$3,667",
           "rank": "20"
@@ -13853,7 +13853,7 @@
           "rank": "3"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "debt-per-capita": "$1,815",
           "rank": "50"
@@ -13901,19 +13901,19 @@
           "rank": "34"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "debt-per-capita": "$9,884",
           "rank": "15"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "debt-per-capita": "$13,400",
           "rank": "5"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "debt-per-capita": "$7,460",
           "rank": "23"
@@ -14009,7 +14009,7 @@
           "rank": "13"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "debt-per-capita": "$8,713",
           "rank": "20"
@@ -14188,7 +14188,7 @@
           "rank": "46"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "funded-ratio": "91%",
           "rank": "15"
@@ -14236,19 +14236,19 @@
           "rank": "16"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "funded-ratio": "75%",
           "rank": "37"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "funded-ratio": "76%",
           "rank": "36"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "funded-ratio": "82%",
           "rank": "30"
@@ -14344,7 +14344,7 @@
           "rank": "20"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "funded-ratio": "70%",
           "rank": "42"
@@ -14529,7 +14529,7 @@
           "rank": "20"
         },
         {
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16,
           "income-per-capita": "$62,323",
           "rank": "42"
@@ -14577,19 +14577,19 @@
           "rank": "27"
         },
         {
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24,
           "income-per-capita": "$79,259",
           "rank": "10"
         },
         {
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25,
           "income-per-capita": "$93,607",
           "rank": "2"
         },
         {
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26,
           "income-per-capita": "$63,690",
           "rank": "40"
@@ -14685,7 +14685,7 @@
           "rank": "21"
         },
         {
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42,
           "income-per-capita": "$70,678",
           "rank": "22"
@@ -14872,7 +14872,7 @@
         {
           "2023": "2.66",
           "2024": "2.60",
-          "state": " Idaho",
+          "state": "Idaho",
           "fips": 16
         },
         {
@@ -14920,19 +14920,19 @@
         {
           "2023": "2.58",
           "2024": "2.55",
-          "state": " Maryland",
+          "state": "Maryland",
           "fips": 24
         },
         {
           "2023": "2.45",
           "2024": "2.43",
-          "state": " Massachusetts",
+          "state": "Massachusetts",
           "fips": 25
         },
         {
           "2023": "2.43",
           "2024": "2.40",
-          "state": " Michigan",
+          "state": "Michigan",
           "fips": 26
         },
         {
@@ -15028,7 +15028,7 @@
         {
           "2023": "2.40",
           "2024": "2.36",
-          "state": " Pennsylvania",
+          "state": "Pennsylvania",
           "fips": 42
         },
         {

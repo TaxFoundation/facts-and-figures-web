@@ -3,12 +3,13 @@ import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 
 import BracketsTable from './components/BracketsTable';
 import StatesTable from './components/StatesTable';
-import Table from './components/Table';
+import Table, { AlternateRowTable } from './components/Table';
 import { StyledButtonLink } from './components/ui/Button';
 import Select from './components/ui/Select';
 import TableHeader from './components/ui/TableHeader';
 import TableRow from './components/ui/TableRow';
 import data from './data/data.json';
+import stateNames from './stateNames';
 import Theme from './Theme';
 import type { DataRecord } from './types';
 
@@ -70,6 +71,15 @@ function App() {
 	if (!currentTable) return null;
 
 	const tableData = currentTable.data as string[][];
+	const isStateRowTable =
+		currentTable.type === 'table' &&
+		tableData.length > 1 &&
+		tableData
+			.slice(1)
+			.every(row =>
+				stateNames.has((row[0] ?? '').replace(/\s*\(.*\)\s*$/, '').trim()),
+			);
+	const GenericTable = isStateRowTable ? AlternateRowTable : Table;
 
 	return (
 		<ThemeProvider theme={Theme}>
@@ -101,7 +111,7 @@ function App() {
 				) : currentTable.type === 'brackets' ? (
 					<BracketsTable id={table} data={currentTable} />
 				) : (
-					<Table>
+					<GenericTable>
 						<caption>
 							<h1>{currentTable.title}</h1>
 							{currentTable.subtitle ? <p>{currentTable.subtitle}</p> : null}
@@ -120,7 +130,7 @@ function App() {
 								/>
 							))}
 						</tbody>
-					</Table>
+					</GenericTable>
 				)}
 				{currentTable.footnotes
 					? currentTable.footnotes.map((footnote, i) => (

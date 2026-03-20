@@ -29,7 +29,7 @@ export default function parseBracketTable(table: unknown[][]): unknown[][] {
 		if (!state) return row;
 
 		const newRow = [...row];
-		newRow[0] = cellStr.replace(abbrMatch[1], state.name);
+		newRow[0] = cellStr.replace(abbrMatch[1], state.name).trim();
 		return newRow;
 	});
 }
