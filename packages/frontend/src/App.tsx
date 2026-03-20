@@ -1,6 +1,7 @@
 import { type ChangeEvent, useState } from 'react';
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 
+import BracketsTable from './components/BracketsTable';
 import StatesTable from './components/StatesTable';
 import Table from './components/Table';
 import { StyledButtonLink } from './components/ui/Button';
@@ -97,6 +98,8 @@ function App() {
 				</div>
 				{currentTable.type === 'states' ? (
 					<StatesTable id={table} data={currentTable} />
+				) : currentTable.type === 'brackets' ? (
+					<BracketsTable id={table} data={currentTable} />
 				) : (
 					<Table>
 						<caption>

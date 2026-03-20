@@ -21,7 +21,7 @@ const DC_VALUE_PATTERN = /\((\d+)\)/;
  * @param cell - The cell value to convert
  * @returns The string representation of the cell value
  */
-function cellToString(cell: unknown): string {
+export function cellToString(cell: unknown): string {
 	if (typeof cell === 'string') return cell;
 	if (typeof cell === 'number') return String(cell);
 	return '';
@@ -38,7 +38,7 @@ function cellToString(cell: unknown): string {
  * @param abbr - The state abbreviation or name to search for
  * @returns The matching State object, or undefined if not found
  */
-function findState(abbr: string): State | undefined {
+export function findState(abbr: string): State | undefined {
 	return (states as State[]).find(
 		state =>
 			state.abbr === abbr || state.postal === abbr || state.name === abbr,

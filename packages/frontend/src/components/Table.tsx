@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 import styled from 'styled-components';
 
-const StyledTable = styled.table`
+export const StyledTable = styled.table`
 	border-collapse: collapse;
 	width: 100%;
 

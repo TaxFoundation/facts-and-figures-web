@@ -3,6 +3,7 @@ import path from 'path';
 import XLSX from 'xlsx';
 
 import mappings from '../../data/mappings.json';
+import parseBracketTable from './parseBracketTable';
 import parseStateTable from './parseStateTable';
 import type { CompiledData, Mapping } from './types';
 import writeExcelFiles from './writeExcelFiles';
@@ -109,8 +110,13 @@ function mapValues(table: Mapping, sheet: XLSX.WorkSheet): void {
 	const tableEntry = data[table.sheetName];
 	if (!tableEntry) return;
 
-	tableEntry.data =
-		table.type === 'states' ? parseStateTable(rawData) : rawData;
+	if (table.type === 'states') {
+		tableEntry.data = parseStateTable(rawData);
+	} else if (table.type === 'brackets') {
+		tableEntry.data = parseBracketTable(rawData);
+	} else {
+		tableEntry.data = rawData;
+	}
 
 	metadata.forEach(term => {
 		const value = table[term];
