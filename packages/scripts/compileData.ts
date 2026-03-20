@@ -112,10 +112,8 @@ function mapValues(table: Mapping, sheet: XLSX.WorkSheet): void {
 
 	if (table.type === 'states') {
 		tableEntry.data = parseStateTable(rawData);
-	} else if (table.type === 'brackets') {
-		tableEntry.data = parseBracketTable(rawData);
 	} else {
-		tableEntry.data = rawData;
+		tableEntry.data = parseBracketTable(rawData);
 	}
 
 	metadata.forEach(term => {
