@@ -2,6 +2,7 @@ import { type ChangeEvent, useState } from 'react';
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 
 import BracketsTable from './components/BracketsTable';
+import ErrorBoundary from './components/ErrorBoundary';
 import SectionedTable from './components/SectionedTable';
 import StatesTable from './components/StatesTable';
 import Table, { AlternateRowTable } from './components/Table';
@@ -10,7 +11,6 @@ import Select from './components/ui/Select';
 import TableHeader from './components/ui/TableHeader';
 import TableRow from './components/ui/TableRow';
 import data from './data/data.json';
-import stateNames from './stateNames';
 import Theme from './Theme';
 import type { DataRecord } from './types';
 
@@ -72,15 +72,7 @@ function App() {
 	if (!currentTable) return null;
 
 	const tableData = currentTable.data as string[][];
-	const isStateRowTable =
-		currentTable.type === 'table' &&
-		tableData.length > 1 &&
-		tableData
-			.slice(1)
-			.every(row =>
-				stateNames.has((row[0] ?? '').replace(/\s*\(.*\)\s*$/, '').trim()),
-			);
-	const GenericTable = isStateRowTable ? AlternateRowTable : Table;
+	const GenericTable = currentTable.alternateRows ? AlternateRowTable : Table;
 
 	return (
 		<ThemeProvider theme={Theme}>
@@ -107,34 +99,36 @@ function App() {
 						Download Table {table} as an Excel File
 					</StyledButtonLink>
 				</div>
-				{currentTable.type === 'states' ? (
-					<StatesTable id={table} data={currentTable} />
-				) : currentTable.type === 'brackets' ? (
-					<BracketsTable id={table} data={currentTable} />
-				) : currentTable.type === 'sectioned' ? (
-					<SectionedTable id={table} data={currentTable} />
-				) : (
-					<GenericTable>
-						<caption>
-							<h1>{currentTable.title}</h1>
-							{currentTable.subtitle ? <p>{currentTable.subtitle}</p> : null}
-							<p>{currentTable.date}</p>
-						</caption>
-						{tableData[0] ? (
-							<thead>
-								<TableHeader headings={tableData[0]} />
-							</thead>
-						) : null}
-						<tbody>
-							{tableData.slice(1).map((row, i) => (
-								<TableRow
-									key={`table-${table}-row-${String(i + 1)}`}
-									row={row}
-								/>
-							))}
-						</tbody>
-					</GenericTable>
-				)}
+				<ErrorBoundary key={table}>
+					{currentTable.type === 'states' ? (
+						<StatesTable id={table} data={currentTable} />
+					) : currentTable.type === 'brackets' ? (
+						<BracketsTable id={table} data={currentTable} />
+					) : currentTable.type === 'sectioned' ? (
+						<SectionedTable id={table} data={currentTable} />
+					) : (
+						<GenericTable>
+							<caption>
+								<h1>{currentTable.title}</h1>
+								{currentTable.subtitle ? <p>{currentTable.subtitle}</p> : null}
+								<p>{currentTable.date}</p>
+							</caption>
+							{tableData[0] ? (
+								<thead>
+									<TableHeader headings={tableData[0]} />
+								</thead>
+							) : null}
+							<tbody>
+								{tableData.slice(1).map((row, i) => (
+									<TableRow
+										key={`table-${table}-row-${String(i + 1)}`}
+										row={row}
+									/>
+								))}
+							</tbody>
+						</GenericTable>
+					)}
+				</ErrorBoundary>
 				{currentTable.footnotes
 					? currentTable.footnotes.map((footnote, i) => (
 							<p key={`footnote-${table}-${String(i)}`}>{footnote[0]}</p>

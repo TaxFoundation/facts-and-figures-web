@@ -23,8 +23,10 @@ export interface StateData {
 	values: StateValue[];
 }
 
+export type TableType = 'states' | 'brackets' | 'table' | 'sectioned';
+
 export interface TableEntry {
-	type: string;
+	type: TableType;
 	title?: string;
 	subtitle?: string;
 	date?: string;
@@ -32,6 +34,7 @@ export interface TableEntry {
 	source?: string;
 	data: unknown[][] | StateData | SectionedData;
 	footnotes?: unknown[][] | null;
+	alternateRows?: boolean;
 	[key: string]: unknown;
 }
 
@@ -39,7 +42,7 @@ export type CompiledData = Record<string, TableEntry | undefined>;
 
 export interface Mapping {
 	sheetName: string;
-	type: string;
+	type: TableType;
 	title?: string;
 	subtitle?: string;
 	date?: string;

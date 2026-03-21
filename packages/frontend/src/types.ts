@@ -16,8 +16,10 @@ export interface StateData {
 	values: StateValue[];
 }
 
+export type TableType = 'states' | 'brackets' | 'table' | 'sectioned';
+
 export interface TableEntry {
-	type: string;
+	type: TableType;
 	title?: string;
 	subtitle?: string;
 	date?: string;
@@ -25,6 +27,7 @@ export interface TableEntry {
 	source?: string;
 	data: string[][] | StateData | SectionedData;
 	footnotes?: string[][] | null;
+	alternateRows?: boolean;
 }
 
 export type SectionedRowType =

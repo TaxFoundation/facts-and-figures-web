@@ -1,7 +1,6 @@
-import { kebabCase } from 'lodash';
-
 import states from '../../data/states.json';
 import type { Header, ParsedStateTable, State, StateValue } from './types';
+import { kebabCase } from './utils';
 
 /** Regex to extract state abbreviation from a cell value */
 const STATE_ABBR_PATTERN = /([a-z]+\.?[a-z]+\.?)/i;
@@ -82,7 +81,7 @@ function parseRow(row: unknown[], headers: Header[]): StateValue | null {
 	const rowState = cellToString(row[0]);
 	const abbrMatch = STATE_ABBR_PATTERN.exec(rowState);
 
-	if (!abbrMatch || !abbrMatch[1]) {
+	if (!abbrMatch?.[1]) {
 		return null;
 	}
 

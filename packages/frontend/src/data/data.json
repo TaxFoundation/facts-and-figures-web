@@ -6713,6 +6713,7 @@
         "0.138% - 3.3%"
       ]
     ],
+    "alternateRows": true,
     "title": "State Gross Receipts Taxes",
     "date": "As of January 1, 2026",
     "notes": "Note: Gross receipts taxes are complex business taxes imposed at a low rate but on a wide base of transactions, resulting in high effective tax rates that can vary by industry. These taxes also often have minimum taxes that can result in much higher effective rates for some small businesses.",
@@ -9833,6 +9834,7 @@
         "64% of wholesale"
       ]
     ],
+    "alternateRows": true,
     "title": "State Vapor Excise Tax Rates",
     "date": "As of January 1, 2026",
     "notes": "Note: Several states (Alaska, Illinois, and Maryland) impose local taxes as well as general sales taxes on vapor products. Those are not included here. Manufacturing value generally refers to the value paid by wholesale. Wholesale value refers to either the price paid by the wholesaler or the price paid by retail to wholesale.",
@@ -9946,6 +9948,7 @@
         "37% excise tax (retail price)"
       ]
     ],
+    "alternateRows": true,
     "title": "State Recreational Marijuana Excise Tax Rates",
     "date": "As of January 1, 2026",
     "notes": "Note: District of Columbia voters approved legalization and purchase of marijuana in 2014 but federal law prohibits any action to implement it. In 2018, the New Hampshire legislature voted to legalize the possession and growing of marijuana, but sales are not yet permitted. Many states impose a controlled substance tax on the purchase of illegal products. Several states impose local taxes as well as general sales taxes on marijuana products. Those are not included here.",
@@ -13286,6 +13289,7 @@
         "Unlimited"
       ]
     ],
+    "alternateRows": true,
     "title": "State Capital Stock Tax Rates",
     "date": "As of January 1, 2026",
     "notes": "Note: Capital stock taxes are levied on net assets of a company or its market capitalization.",

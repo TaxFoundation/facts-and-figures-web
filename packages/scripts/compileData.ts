@@ -5,7 +5,7 @@ import XLSX from 'xlsx';
 import mappings from '../../data/mappings.json';
 import parseBracketTable from './parseBracketTable';
 import parseSectionedTable from './parseSectionedTable';
-import parseStateTable from './parseStateTable';
+import parseStateTable, { findState } from './parseStateTable';
 import type { CompiledData, Mapping } from './types';
 import writeExcelFiles from './writeExcelFiles';
 
@@ -117,6 +117,22 @@ function mapValues(table: Mapping, sheet: XLSX.WorkSheet): void {
 		tableEntry.data = parseSectionedTable(rawData);
 	} else {
 		tableEntry.data = parseBracketTable(rawData);
+
+		// Detect if this table has state names in the first column
+		// so the frontend can apply alternating row styling
+		const parsed = tableEntry.data;
+		if (parsed.length > 1) {
+			const dataRows = parsed.slice(1);
+			const allStates = dataRows.every(row => {
+				const first = row[0];
+				if (first == null) return false;
+				const cell = typeof first === 'string' ? first : '';
+				return !!findState(cell.replace(/\s*\(.*\)\s*$/, '').trim());
+			});
+			if (allStates) {
+				tableEntry.alternateRows = true;
+			}
+		}
 	}
 
 	metadata.forEach(term => {

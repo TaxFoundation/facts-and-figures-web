@@ -1,7 +1,7 @@
-import { kebabCase } from 'lodash';
 import { useEffect, useState } from 'react';
 
 import type { StateData, TableEntry } from '../types';
+import { kebabCase } from '../utils';
 import { AlternateRowTable } from './Table';
 import SortedHeading from './ui/SortedHeading';
 import { StyledTableRow } from './ui/TableRow';
