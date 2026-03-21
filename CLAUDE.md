@@ -26,15 +26,14 @@ There is no test runner configured yet.
 ### `packages/frontend/` — React 19 + Vite + TypeScript
 
 - `src/App.tsx` — Main component; manages table selection state, renders metadata (title, date, footnotes, source), switches between `StatesTable` (sortable state-level data) and `Table` (generic/bracket tables)
-- `src/data/data.json` — **Generated file** (~366KB); all 43 tables compiled into one JSON blob, imported directly by App
+- `src/data/manifest.json` — **Generated file**; index of all tables with title and type, used for table selector
 - `src/components/StatesTable.tsx` — Client-side sorting by any column, parses FIPS codes from state data, handles footnote references
 - `src/components/ui/` — Small presentational components (Select, Button, SortedHeading, TableHeader, TableRow)
-- `src/Theme.ts` — Styled-components theme with Tax Foundation brand colors and fonts (Roboto Flex/Mono)
-- Styling uses **styled-components** with transient props (`$`-prefixed) to avoid DOM warnings
+- Styling uses **CSS Modules**
 
 ### `packages/scripts/` — Data compilation pipeline (runs via tsx)
 
-- `compileData.ts` — Reads `data/facts-and-figures.xlsx` + `data/mappings.json`, produces `data.json` and per-table `.xlsx` files in `public/data/`
+- `compileData.ts` — Reads `data/facts-and-figures.xlsx` + `data/mappings.json`, produces per-table JSON + `.xlsx` files in `public/data/` and `src/data/manifest.json`
 - `parseStateTable.ts` — Transforms Excel rows into structured `{ headers, values }` with FIPS codes from `data/states.json`
 - `writeExcelFiles.ts` — Generates individual downloadable Excel files per table
 - `updateMappings.ts` — Updates mappings.json to match new Excel structure
@@ -50,7 +49,8 @@ There is no test runner configured yet.
 ```
 data/facts-and-figures.xlsx + data/mappings.json
   → packages/scripts/compileData.ts
-  → packages/frontend/src/data/data.json (imported by App.tsx)
+  → packages/frontend/src/data/manifest.json (table index for selector)
+  → packages/frontend/public/data/table-{1..43}.json (lazy-loaded per table)
   → packages/frontend/public/data/table-{1..43}.xlsx (downloadable)
 ```
 

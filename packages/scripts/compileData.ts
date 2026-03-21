@@ -30,7 +30,6 @@ function maxLength(arrays: unknown[][]): number {
 const data: CompiledData = {};
 
 const source = path.resolve(__dirname, '../../data/facts-and-figures.xlsx');
-const destination = path.resolve(__dirname, '../frontend/src/data/data.json');
 const wb = XLSX.readFile(source);
 
 /**
@@ -195,9 +194,6 @@ const jsonDataDir = path.resolve(__dirname, '../frontend/public/data');
  */
 function writeData(): void {
 	buildData();
-	console.log('Writing new data to file...');
-	fs.writeFileSync(destination, JSON.stringify(data, null, 2));
-	console.log('New data created.');
 
 	// Write per-table JSON files and manifest for lazy loading
 	console.log('Writing per-table JSON files...');
@@ -222,16 +218,4 @@ function writeData(): void {
 	writeExcelFiles(data);
 }
 
-fs.access(destination, err => {
-	console.log('Deleting old data...');
-	if (err) {
-		console.log('No data file found, creating from scratch.');
-		writeData();
-	} else {
-		fs.unlink(destination, err => {
-			if (err) throw err;
-			console.log('Old data deleted.');
-			writeData();
-		});
-	}
-});
+writeData();
