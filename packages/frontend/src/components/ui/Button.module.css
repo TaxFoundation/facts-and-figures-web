@@ -1,0 +1,29 @@
+.button {
+	background-color: var(--tf-yellow-cta);
+	border: 1px solid var(--tf-yellow-cta);
+	border-radius: 0px;
+	color: var(--tf-blue);
+	font-size: 0.75rem;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	padding: 0.5rem 1rem;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.button:hover {
+	background-color: var(--tf-yellow-cta-hover);
+	transition: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+
+.button:focus-visible {
+	outline: 2px solid var(--tf-blue);
+	outline-offset: 2px;
+}
+
+.link {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}

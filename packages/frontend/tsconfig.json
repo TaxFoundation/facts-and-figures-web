@@ -1,6 +1,5 @@
 {
 	"extends": "../../tsconfig.json",
-	"files": ["src/styled.d.ts"],
 	"compilerOptions": {
 		"target": "ES2022",
 		"useDefineForClassFields": true,

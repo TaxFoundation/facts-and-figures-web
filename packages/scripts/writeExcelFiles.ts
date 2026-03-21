@@ -261,7 +261,9 @@ export default function writeExcelFiles(data: CompiledData): void {
 		if (err) throw err;
 
 		for (const file of files) {
-			fs.unlinkSync(path.join(outputDirectory, file));
+			if (file.endsWith('.xlsx')) {
+				fs.unlinkSync(path.join(outputDirectory, file));
+			}
 		}
 		console.log(`Old Excel files deleted.`);
 

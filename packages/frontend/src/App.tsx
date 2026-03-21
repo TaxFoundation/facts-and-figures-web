@@ -1,143 +1,109 @@
-import { type ChangeEvent, useState } from 'react';
-import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
+import { type ChangeEvent, useMemo } from 'react';
 
+import styles from './App.module.css';
 import BracketsTable from './components/BracketsTable';
 import ErrorBoundary from './components/ErrorBoundary';
 import SectionedTable from './components/SectionedTable';
 import StatesTable from './components/StatesTable';
-import Table, { AlternateRowTable } from './components/Table';
-import { StyledButtonLink } from './components/ui/Button';
+import Table from './components/Table';
+import { ButtonLink } from './components/ui/Button';
 import Select from './components/ui/Select';
 import TableHeader from './components/ui/TableHeader';
 import TableRow from './components/ui/TableRow';
-import data from './data/data.json';
-import Theme from './Theme';
-import type { DataRecord } from './types';
+import manifest from './data/manifest.json';
+import { useHashParam } from './hooks/useHashParam';
+import { useTableData } from './hooks/useTableData';
+import type { Manifest } from './types';
 
-const typedData = data as DataRecord;
-
-const GlobalStyle = createGlobalStyle`
-  * {
-    box-sizing: border-box;
-  }
-  html,
-  body {
-    font-weight: ${props => props.theme.fontWeight};
-    line-height: 1.6;
-    padding: 0 0 1px;
-    @media screen {
-      font-size: ${props => props.theme.fontSize};
-    }
-    @media print {
-      font-size: ${props => props.theme.printSize};
-    }
-  }
-  thead,
-  caption,
-  a,
-  caption p,
-  th {
-    font-family: ${props => props.theme.fontFamilies.RobotoFlex};
-  }
-  tbody,
-  td,
-  tfoot,
-  td p {
-    font-family: ${props => props.theme.fontFamilies.RobotoMono};
-    font-size: .9rem;
-  }
-  p {
-    font-family: ${props => props.theme.fontFamilies.RobotoMono};
-    font-size: .7rem;
-  }
-  div,
-  h1,
-  h2,
-  h3,
-  p {
-    page-break-inside: avoid;
-  }
-`;
-
-const AppWrapper = styled.div`
-	margin: 0 auto;
-	max-width: 800px;
-`;
+const typedManifest = manifest as Manifest;
+const keys = Object.keys(typedManifest);
+const validKeys = new Set(keys);
 
 function App() {
-	const [table, setTable] = useState('1');
-	const keys = Object.keys(typedData);
+	const [tableId, setTableId] = useHashParam('table', '1', validKeys);
+	const { table: currentTable, loading } = useTableData(tableId);
 
-	const currentTable = typedData[table];
-	if (!currentTable) return null;
-
-	const tableData = currentTable.data as string[][];
-	const GenericTable = currentTable.alternateRows ? AlternateRowTable : Table;
+	const tableData = useMemo(
+		() => (currentTable?.data as string[][] | undefined) ?? [],
+		[currentTable],
+	);
 
 	return (
-		<ThemeProvider theme={Theme}>
-			<GlobalStyle />
-			<AppWrapper>
-				<div style={{ marginBottom: '1rem' }}>
-					<Select
-						value={table}
-						onChange={(e: ChangeEvent<HTMLSelectElement>) => {
-							setTable(e.target.value);
-						}}
-					>
-						{keys.map(key => {
-							const entry = typedData[key];
-							return (
-								<option
-									key={`table-option-${key}`}
-									value={key}
-								>{`Table ${key} - ${entry?.title ?? ''}`}</option>
-							);
-						})}
-					</Select>
-					<StyledButtonLink href={`data/table-${table}.xlsx`} download>
-						Download Table {table} as an Excel File
-					</StyledButtonLink>
-				</div>
-				<ErrorBoundary key={table}>
-					{currentTable.type === 'states' ? (
-						<StatesTable id={table} data={currentTable} />
-					) : currentTable.type === 'brackets' ? (
-						<BracketsTable id={table} data={currentTable} />
-					) : currentTable.type === 'sectioned' ? (
-						<SectionedTable id={table} data={currentTable} />
-					) : (
-						<GenericTable>
-							<caption>
-								<h1>{currentTable.title}</h1>
-								{currentTable.subtitle ? <p>{currentTable.subtitle}</p> : null}
-								<p>{currentTable.date}</p>
-							</caption>
-							{tableData[0] ? (
-								<thead>
-									<TableHeader headings={tableData[0]} />
-								</thead>
-							) : null}
-							<tbody>
-								{tableData.slice(1).map((row, i) => (
-									<TableRow
-										key={`table-${table}-row-${String(i + 1)}`}
-										row={row}
-									/>
-								))}
-							</tbody>
-						</GenericTable>
-					)}
-				</ErrorBoundary>
-				{currentTable.footnotes
-					? currentTable.footnotes.map((footnote, i) => (
-							<p key={`footnote-${table}-${String(i)}`}>{footnote[0]}</p>
-						))
-					: null}
-				{currentTable.notes ? <p>{currentTable.notes}</p> : null}
-				{currentTable.source ? <p>{currentTable.source}</p> : null}
-			</AppWrapper>
-		</ThemeProvider>
+		<div className={styles.wrapper}>
+			<div style={{ marginBottom: '1rem' }}>
+				<Select
+					value={tableId}
+					onChange={(e: ChangeEvent<HTMLSelectElement>) => {
+						setTableId(e.target.value);
+					}}
+				>
+					{keys.map(key => {
+						const entry = typedManifest[key];
+						return (
+							<option
+								key={`table-option-${key}`}
+								value={key}
+							>{`Table ${key} - ${entry?.title ?? ''}`}</option>
+						);
+					})}
+				</Select>
+				<ButtonLink href={`data/table-${tableId}.xlsx`} download>
+					Download Table {tableId} as an Excel File
+				</ButtonLink>
+			</div>
+			<div aria-live="polite" className={styles.srOnly}>
+				{currentTable
+					? `Now showing Table ${tableId}: ${currentTable.title ?? ''}`
+					: ''}
+			</div>
+			{loading ? (
+				<p>Loading...</p>
+			) : !currentTable ? (
+				<p>Table not found.</p>
+			) : (
+				<>
+					<ErrorBoundary key={tableId}>
+						{currentTable.type === 'states' ? (
+							<StatesTable id={tableId} data={currentTable} />
+						) : currentTable.type === 'brackets' ? (
+							<BracketsTable id={tableId} data={currentTable} />
+						) : currentTable.type === 'sectioned' ? (
+							<SectionedTable id={tableId} data={currentTable} />
+						) : (
+							<Table alternateRows={currentTable.alternateRows}>
+								<caption>
+									<h1>{currentTable.title}</h1>
+									{currentTable.subtitle ? (
+										<p>{currentTable.subtitle}</p>
+									) : null}
+									<p>{currentTable.date}</p>
+								</caption>
+								{tableData[0] ? (
+									<thead>
+										<TableHeader headings={tableData[0]} />
+									</thead>
+								) : null}
+								<tbody>
+									{tableData.slice(1).map((row, i) => (
+										<TableRow
+											key={`table-${tableId}-row-${String(i + 1)}`}
+											row={row}
+										/>
+									))}
+								</tbody>
+							</Table>
+						)}
+					</ErrorBoundary>
+					{currentTable.footnotes
+						? (currentTable.footnotes as string[][]).map((footnote, i) => (
+								<p key={`footnote-${tableId}-${String(i)}`}>{footnote[0]}</p>
+							))
+						: null}
+					{currentTable.notes ? <p>{currentTable.notes}</p> : null}
+					{currentTable.source ? <p>{currentTable.source}</p> : null}
+				</>
+			)}
+		</div>
 	);
 }
 

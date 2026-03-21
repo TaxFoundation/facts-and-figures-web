@@ -1,32 +1,7 @@
-import styled from 'styled-components';
-
 import type { TableEntry } from '../types';
-import { StyledTable } from './Table';
+import styles from './BracketsTable.module.css';
+import Table from './Table';
 import TableHeader from './ui/TableHeader';
-
-const BracketRow = styled.tr<{
-	$highlighted: boolean;
-	$firstInGroup: boolean;
-}>`
-	font-family: ${props => props.theme.fontFamilies.RobotoMono};
-	background-color: ${props =>
-		props.$highlighted ? props.theme.tfBlueHighlight : 'transparent'};
-	border-top-width: ${props => (props.$firstInGroup ? '1px' : '0')};
-	border-top-style: solid;
-	border-top-color: ${props => props.theme.borderColor};
-
-	td {
-		padding: 0.25rem;
-		text-align: center;
-		border-top-width: ${props => (props.$firstInGroup ? '0' : '1px')};
-		border-top-style: solid;
-		border-top-color: ${props => props.theme.borderColor};
-	}
-
-	td:first-child {
-		border-top: none;
-	}
-`;
 
 interface BracketsTableProps {
 	id: string;
@@ -50,7 +25,7 @@ const BracketsTable = ({ id, data }: BracketsTableProps) => {
 	});
 
 	return (
-		<StyledTable>
+		<Table>
 			<caption>
 				<h1>{data.title}</h1>
 				{data.subtitle ? <p>{data.subtitle}</p> : null}
@@ -62,21 +37,26 @@ const BracketsTable = ({ id, data }: BracketsTableProps) => {
 				</thead>
 			) : null}
 			<tbody>
-				{rowGroups.map(({ row, group, firstInGroup }, i) => (
-					<BracketRow
-						key={`table-${id}-row-${String(i)}`}
-						$highlighted={group % 2 === 0}
-						$firstInGroup={firstInGroup}
-					>
-						{row.map((cell, j) => (
-							<td key={`table-${id}-row-${String(i)}-cell-${String(j)}`}>
-								{cell}
-							</td>
-						))}
-					</BracketRow>
-				))}
+				{rowGroups.map(({ row, group, firstInGroup }, i) => {
+					const classNames = [styles.row];
+					if (group % 2 === 0) classNames.push(styles.highlighted);
+					if (firstInGroup) classNames.push(styles.firstInGroup);
+
+					return (
+						<tr
+							key={`table-${id}-row-${String(i)}`}
+							className={classNames.join(' ')}
+						>
+							{row.map((cell, j) => (
+								<td key={`table-${id}-row-${String(i)}-cell-${String(j)}`}>
+									{cell}
+								</td>
+							))}
+						</tr>
+					);
+				})}
 			</tbody>
-		</StyledTable>
+		</Table>
 	);
 };
 

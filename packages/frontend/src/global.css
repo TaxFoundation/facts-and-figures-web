@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-weight: var(--font-weight);
+	line-height: 1.6;
+	padding: 0 0 1px;
+}
+
+@media screen {
+	html,
+	body {
+		font-size: var(--font-size);
+	}
+}
+
+@media print {
+	html,
+	body {
+		font-size: var(--print-size);
+	}
+}
+
+thead,
+caption,
+a,
+caption p,
+th {
+	font-family: var(--font-roboto-flex);
+}
+
+tbody,
+td,
+tfoot,
+td p {
+	font-family: var(--font-roboto-mono);
+	font-size: 0.9rem;
+}
+
+p {
+	font-family: var(--font-roboto-mono);
+	font-size: 0.7rem;
+}
+
+div,
+h1,
+h2,
+h3,
+p {
+	page-break-inside: avoid;
+}

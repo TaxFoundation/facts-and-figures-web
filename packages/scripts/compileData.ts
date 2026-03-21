@@ -6,7 +6,7 @@ import mappings from '../../data/mappings.json';
 import parseBracketTable from './parseBracketTable';
 import parseSectionedTable from './parseSectionedTable';
 import parseStateTable, { findState } from './parseStateTable';
-import type { CompiledData, Mapping } from './types';
+import type { CompiledData, Manifest, Mapping } from './types';
 import writeExcelFiles from './writeExcelFiles';
 
 /**
@@ -183,11 +183,14 @@ function buildData(): void {
 	});
 }
 
+const jsonDataDir = path.resolve(__dirname, '../frontend/public/data');
+
 /**
  * Orchestrates the full data compilation and output process.
  *
  * Calls `buildData` to extract all table data from the source workbook,
  * writes the compiled data to a JSON file for the frontend application,
+ * writes per-table JSON files and a manifest for lazy loading,
  * and generates individual Excel files for each table via `writeExcelFiles`.
  */
 function writeData(): void {
@@ -195,6 +198,26 @@ function writeData(): void {
 	console.log('Writing new data to file...');
 	fs.writeFileSync(destination, JSON.stringify(data, null, 2));
 	console.log('New data created.');
+
+	// Write per-table JSON files and manifest for lazy loading
+	console.log('Writing per-table JSON files...');
+	const manifest: Manifest = {};
+	for (const [key, entry] of Object.entries(data)) {
+		if (!entry) continue;
+		const tableJsonPath = path.join(jsonDataDir, `table-${key}.json`);
+		fs.writeFileSync(tableJsonPath, JSON.stringify(entry));
+		manifest[key] = {
+			title: entry.title,
+			type: entry.type,
+		};
+	}
+	const manifestPath = path.resolve(
+		__dirname,
+		'../frontend/src/data/manifest.json',
+	);
+	fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2));
+	console.log('Manifest and per-table JSON files written.');
+
 	console.log('Writing individual Excel files...');
 	writeExcelFiles(data);
 }
