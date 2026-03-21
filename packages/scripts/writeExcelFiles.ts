@@ -2,7 +2,12 @@ import fs from 'fs';
 import path from 'path';
 import XLSX from 'xlsx';
 
-import type { CompiledData, StateData, TableEntry } from './types';
+import type {
+	CompiledData,
+	SectionedData,
+	StateData,
+	TableEntry,
+} from './types';
 
 /**
  * Finds the maximum length among an array of arrays.
@@ -193,7 +198,9 @@ function writeWorkbook(
 
 	const length = Array.isArray(entry.data)
 		? maxLength(entry.data)
-		: entry.data.headers.length;
+		: 'headers' in entry.data
+			? entry.data.headers.length
+			: Math.max(...entry.data.rows.map(r => r.cells.length));
 
 	// Add top metadata
 	addMetadataRows(wsData, entry, ['title', 'subtitle', 'date'], length);
@@ -201,6 +208,15 @@ function writeWorkbook(
 	// Add data rows (different handling for state tables vs regular tables)
 	if (entry.type === 'states') {
 		addStateDataRows(wsData, entry.data as StateData, length);
+	} else if (entry.type === 'sectioned') {
+		const sectionedData = entry.data as SectionedData;
+		wsData.push(new Array(length));
+		sectionedData.rows.forEach(row => {
+			const cells = row.cells.map(c => c ?? undefined);
+			while (cells.length < length) cells.push(undefined);
+			wsData.push(cells);
+		});
+		wsData.push(new Array(length));
 	} else {
 		addRegularDataRows(wsData, entry.data as unknown[][], length);
 	}

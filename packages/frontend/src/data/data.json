@@ -3221,244 +3221,387 @@
     "footnotes": null
   },
   "10": {
-    "type": "table",
-    "data": [
-      [
-        "Individual Income Tax",
-        null,
-        null
-      ],
-      [
-        null,
-        "Single",
-        null
-      ],
-      [
-        "Rates",
-        null,
-        "Brackets"
-      ],
-      [
-        "10%",
-        ">",
-        "$0"
-      ],
-      [
-        "12%",
-        ">",
-        "$12,400"
-      ],
-      [
-        "22%",
-        ">",
-        "$50,400"
-      ],
-      [
-        "24%",
-        ">",
-        "$105,700"
-      ],
-      [
-        "32%",
-        ">",
-        "$201,775"
-      ],
-      [
-        "35%",
-        ">",
-        "$256,225"
-      ],
-      [
-        "37%",
-        ">",
-        "$640,600"
-      ],
-      [
-        null,
-        "Married Filing Jointly",
-        null
-      ],
-      [
-        "Rates",
-        null,
-        null
-      ],
-      [
-        "10%",
-        ">",
-        "$0"
-      ],
-      [
-        "12%",
-        ">",
-        "$24,800"
-      ],
-      [
-        "22%",
-        ">",
-        "$100,800"
-      ],
-      [
-        "24%",
-        ">",
-        "$211,400"
-      ],
-      [
-        "32%",
-        ">",
-        "$403,550"
-      ],
-      [
-        "35%",
-        ">",
-        "$512,450"
-      ],
-      [
-        "37%",
-        ">",
-        "$768,700"
-      ],
-      [
-        null,
-        "Head of Household",
-        null
-      ],
-      [
-        "Rates",
-        null,
-        null
-      ],
-      [
-        "10%",
-        ">",
-        "$0"
-      ],
-      [
-        "12%",
-        ">",
-        "$17,700"
-      ],
-      [
-        "22%",
-        ">",
-        "$67,450"
-      ],
-      [
-        "24%",
-        ">",
-        "$105,700"
-      ],
-      [
-        "32%",
-        ">",
-        "$201,775"
-      ],
-      [
-        "35%",
-        ">",
-        "$256,200"
-      ],
-      [
-        "37%",
-        ">",
-        "$640,600"
-      ],
-      [
-        "Social Security and Medicare Payroll Taxes (a)",
-        null,
-        null
-      ],
-      [
-        "15.3%",
-        ">",
-        "$0 "
-      ],
-      [
-        "2.9%",
-        ">",
-        "$184,500"
-      ],
-      [
-        "3.8%",
-        ">",
-        "$200,000"
-      ],
-      [
-        "Corporate Income Tax",
-        null,
-        null
-      ],
-      [
-        "Rates",
-        null,
-        "Brackets"
-      ],
-      [
-        "21%",
-        ">",
-        "$0"
-      ],
-      [
-        "Select Federal Excise Taxes (b)",
-        null,
-        null
-      ],
-      [
-        "Item",
-        null,
-        "Rate"
-      ],
-      [
-        "Pistols & Revolvers",
-        null,
-        "10%"
-      ],
-      [
-        "Other Firearms",
-        null,
-        "11%"
-      ],
-      [
-        "Ammunition",
-        null,
-        "11%"
-      ],
-      [
-        "Indoor Tanning",
-        null,
-        "10%"
-      ],
-      [
-        "Tackle Boxes",
-        null,
-        "3%"
-      ],
-      [
-        "Arrow Shafts",
-        null,
-        "65¢ per shaft "
-      ],
-      [
-        "Air Transportation",
-        null,
-        "7.5%"
-      ],
-      [
-        "Truck Bodies",
-        null,
-        "12%"
-      ],
-      [
-        "Liq. Natural Gas",
-        null,
-        "24.3¢/gallon"
-      ],
-      [
-        "Surface Coal",
-        null,
-        "4.4% or $0.55/ton"
+    "type": "sectioned",
+    "data": {
+      "rows": [
+        {
+          "type": "section",
+          "cells": [
+            "Individual Income Tax",
+            null,
+            null
+          ]
+        },
+        {
+          "type": "subsection",
+          "cells": [
+            null,
+            "Single",
+            null
+          ]
+        },
+        {
+          "type": "columnHeader",
+          "cells": [
+            "Rates",
+            null,
+            "Brackets"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "10%",
+            ">",
+            "$0"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "12%",
+            ">",
+            "$12,400"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "22%",
+            ">",
+            "$50,400"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "24%",
+            ">",
+            "$105,700"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "32%",
+            ">",
+            "$201,775"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "35%",
+            ">",
+            "$256,225"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "37%",
+            ">",
+            "$640,600"
+          ]
+        },
+        {
+          "type": "subsection",
+          "cells": [
+            null,
+            "Married Filing Jointly",
+            null
+          ]
+        },
+        {
+          "type": "columnHeader",
+          "cells": [
+            "Rates",
+            null,
+            null
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "10%",
+            ">",
+            "$0"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "12%",
+            ">",
+            "$24,800"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "22%",
+            ">",
+            "$100,800"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "24%",
+            ">",
+            "$211,400"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "32%",
+            ">",
+            "$403,550"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "35%",
+            ">",
+            "$512,450"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "37%",
+            ">",
+            "$768,700"
+          ]
+        },
+        {
+          "type": "subsection",
+          "cells": [
+            null,
+            "Head of Household",
+            null
+          ]
+        },
+        {
+          "type": "columnHeader",
+          "cells": [
+            "Rates",
+            null,
+            null
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "10%",
+            ">",
+            "$0"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "12%",
+            ">",
+            "$17,700"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "22%",
+            ">",
+            "$67,450"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "24%",
+            ">",
+            "$105,700"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "32%",
+            ">",
+            "$201,775"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "35%",
+            ">",
+            "$256,200"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "37%",
+            ">",
+            "$640,600"
+          ]
+        },
+        {
+          "type": "section",
+          "cells": [
+            "Social Security and Medicare Payroll Taxes (a)",
+            null,
+            null
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "15.3%",
+            ">",
+            "$0 "
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "2.9%",
+            ">",
+            "$184,500"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "3.8%",
+            ">",
+            "$200,000"
+          ]
+        },
+        {
+          "type": "section",
+          "cells": [
+            "Corporate Income Tax",
+            null,
+            null
+          ]
+        },
+        {
+          "type": "columnHeader",
+          "cells": [
+            "Rates",
+            null,
+            "Brackets"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "21%",
+            ">",
+            "$0"
+          ]
+        },
+        {
+          "type": "section",
+          "cells": [
+            "Select Federal Excise Taxes (b)",
+            null,
+            null
+          ]
+        },
+        {
+          "type": "columnHeader",
+          "cells": [
+            "Item",
+            null,
+            "Rate"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "Pistols & Revolvers",
+            null,
+            "10%"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "Other Firearms",
+            null,
+            "11%"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "Ammunition",
+            null,
+            "11%"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "Indoor Tanning",
+            null,
+            "10%"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "Tackle Boxes",
+            null,
+            "3%"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "Arrow Shafts",
+            null,
+            "65¢ per shaft "
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "Air Transportation",
+            null,
+            "7.5%"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "Truck Bodies",
+            null,
+            "12%"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "Liq. Natural Gas",
+            null,
+            "24.3¢/gallon"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "Surface Coal",
+            null,
+            "4.4% or $0.55/ton"
+          ]
+        }
       ]
-    ],
+    },
     "title": "Selected Federal Tax Rates",
     "date": "Calendar Year 2026",
     "source": "Source: Tax Foundation; IRS; US Department of Energy; Alchohol and Tobacco Tax and Trade Bureau. ",
@@ -15118,99 +15261,146 @@
     "footnotes": null
   },
   "43": {
-    "type": "brackets",
-    "data": [
-      [
-        "Household Effective Tax Incidence Rates",
-        null,
-        null,
-        null
-      ],
-      [
-        "Quintile",
-        "Total",
-        "Federal",
-        "State & Local"
-      ],
-      [
-        "1",
-        "0.10",
-        "0.02",
-        "0.078"
-      ],
-      [
-        "2",
-        "0.14",
-        "0.05",
-        "0.089"
-      ],
-      [
-        "3",
-        "0.22",
-        "0.13",
-        "0.099"
-      ],
-      [
-        "4",
-        "0.28",
-        "0.18",
-        "0.101"
-      ],
-      [
-        "5",
-        "0.41",
-        "0.29",
-        "0.121"
-      ],
-      [
-        null,
-        null,
-        null,
-        null
-      ],
-      [
-        "Household Effective Rates of Taxes and Transfers",
-        null,
-        null,
-        null
-      ],
-      [
-        "Quintile",
-        "Rate",
-        null,
-        null
-      ],
-      [
-        "1",
-        "-1.27",
-        null,
-        null
-      ],
-      [
-        "2",
-        "-0.31",
-        null,
-        null
-      ],
-      [
-        "3",
-        "0.02",
-        null,
-        null
-      ],
-      [
-        "4",
-        "0.16",
-        null,
-        null
-      ],
-      [
-        "5",
-        "0.31",
-        null,
-        null
+    "type": "sectioned",
+    "data": {
+      "rows": [
+        {
+          "type": "section",
+          "cells": [
+            "Household Effective Tax Incidence Rates",
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "type": "columnHeader",
+          "cells": [
+            "Quintile",
+            "Total",
+            "Federal",
+            "State & Local"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "1",
+            "0.10",
+            "0.02",
+            "0.078"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "2",
+            "0.14",
+            "0.05",
+            "0.089"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "3",
+            "0.22",
+            "0.13",
+            "0.099"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "4",
+            "0.28",
+            "0.18",
+            "0.101"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "5",
+            "0.41",
+            "0.29",
+            "0.121"
+          ]
+        },
+        {
+          "type": "separator",
+          "cells": [
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "type": "section",
+          "cells": [
+            "Household Effective Rates of Taxes and Transfers",
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "type": "columnHeader",
+          "cells": [
+            "Quintile",
+            "Rate",
+            null,
+            null
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "1",
+            "-1.27",
+            null,
+            null
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "2",
+            "-0.31",
+            null,
+            null
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "3",
+            "0.02",
+            null,
+            null
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "4",
+            "0.16",
+            null,
+            null
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "5",
+            "0.31",
+            null,
+            null
+          ]
+        }
       ]
-    ],
+    },
     "title": "Household Effective Tax Incidence Rates",
     "date": "Fiscal Year 2019",
     "source": "Source: Bureau of Economic Analysis; Bureau of Labor Statistics; Social Security Administration; Centers for Medicare and Medicaid Services; US Department of Veterans Affairs; Tax Foundation analysis.",

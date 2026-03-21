@@ -4,6 +4,7 @@ import XLSX from 'xlsx';
 
 import mappings from '../../data/mappings.json';
 import parseBracketTable from './parseBracketTable';
+import parseSectionedTable from './parseSectionedTable';
 import parseStateTable from './parseStateTable';
 import type { CompiledData, Mapping } from './types';
 import writeExcelFiles from './writeExcelFiles';
@@ -112,6 +113,8 @@ function mapValues(table: Mapping, sheet: XLSX.WorkSheet): void {
 
 	if (table.type === 'states') {
 		tableEntry.data = parseStateTable(rawData);
+	} else if (table.type === 'sectioned') {
+		tableEntry.data = parseSectionedTable(rawData);
 	} else {
 		tableEntry.data = parseBracketTable(rawData);
 	}

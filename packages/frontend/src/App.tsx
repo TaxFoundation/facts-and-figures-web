@@ -2,6 +2,7 @@ import { type ChangeEvent, useState } from 'react';
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 
 import BracketsTable from './components/BracketsTable';
+import SectionedTable from './components/SectionedTable';
 import StatesTable from './components/StatesTable';
 import Table, { AlternateRowTable } from './components/Table';
 import { StyledButtonLink } from './components/ui/Button';
@@ -110,6 +111,8 @@ function App() {
 					<StatesTable id={table} data={currentTable} />
 				) : currentTable.type === 'brackets' ? (
 					<BracketsTable id={table} data={currentTable} />
+				) : currentTable.type === 'sectioned' ? (
+					<SectionedTable id={table} data={currentTable} />
 				) : (
 					<GenericTable>
 						<caption>

@@ -30,7 +30,7 @@ export interface TableEntry {
 	date?: string;
 	notes?: string;
 	source?: string;
-	data: unknown[][] | StateData;
+	data: unknown[][] | StateData | SectionedData;
 	footnotes?: unknown[][] | null;
 	[key: string]: unknown;
 }
@@ -52,4 +52,20 @@ export interface Mapping {
 export interface ParsedStateTable {
 	headers: Header[];
 	values: StateValue[];
+}
+
+export type SectionedRowType =
+	| 'section'
+	| 'subsection'
+	| 'columnHeader'
+	| 'data'
+	| 'separator';
+
+export interface SectionedRow {
+	type: SectionedRowType;
+	cells: (string | null)[];
+}
+
+export interface SectionedData {
+	rows: SectionedRow[];
 }

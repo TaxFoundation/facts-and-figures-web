@@ -82,7 +82,7 @@
 	},
 	{
 		"sheetName": "10",
-		"type": "table",
+		"type": "sectioned",
 		"title": "A2",
 		"date": "A3",
 		"data": "A5:C51",
@@ -399,7 +399,7 @@
 	},
 	{
 		"sheetName": "43",
-		"type": "brackets",
+		"type": "sectioned",
 		"title": "A5",
 		"date": "B3",
 		"data": "A5:D19",

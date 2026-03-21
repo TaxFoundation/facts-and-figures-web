@@ -23,8 +23,24 @@ export interface TableEntry {
 	date?: string;
 	notes?: string;
 	source?: string;
-	data: string[][] | StateData;
+	data: string[][] | StateData | SectionedData;
 	footnotes?: string[][] | null;
+}
+
+export type SectionedRowType =
+	| 'section'
+	| 'subsection'
+	| 'columnHeader'
+	| 'data'
+	| 'separator';
+
+export interface SectionedRow {
+	type: SectionedRowType;
+	cells: (string | null)[];
+}
+
+export interface SectionedData {
+	rows: SectionedRow[];
 }
 
 export type DataRecord = Record<string, TableEntry>;
