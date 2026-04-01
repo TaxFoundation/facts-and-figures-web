@@ -1,10 +1,10 @@
-import { kebabCase } from 'lodash';
 import { useEffect, useState } from 'react';
 
 import type { StateData, TableEntry } from '../types';
-import { AlternateRowTable } from './Table';
+import { kebabCase } from '../utils';
+import Table from './Table';
 import SortedHeading from './ui/SortedHeading';
-import { StyledTableRow } from './ui/TableRow';
+import { TableRowClassName } from './ui/TableRow';
 
 function valueCleanup(value: string): string {
 	return value.trim().replace(/[$%,-]/g, '');
@@ -52,7 +52,7 @@ const StatesTable = ({ id, data }: StatesTableProps) => {
 	const stateData = data.data as StateData;
 
 	return (
-		<AlternateRowTable>
+		<Table alternateRows>
 			<caption>
 				<h1>{data.title}</h1>
 				{data.subtitle ? <p>{data.subtitle}</p> : null}
@@ -65,7 +65,7 @@ const StatesTable = ({ id, data }: StatesTableProps) => {
 							key={`table-${id}-header-${header.id}-${String(i)}`}
 							ascending={sortAsc}
 							orderedBy={sortBy}
-							id={header.id === 'state' ? 'fips' : header.id}
+							headingId={header.id === 'state' ? 'fips' : header.id}
 							onClick={() => {
 								if (
 									header.id === sortBy ||
@@ -82,7 +82,7 @@ const StatesTable = ({ id, data }: StatesTableProps) => {
 								}
 							}}
 						>
-							<div>{header.name}</div>
+							{header.name}
 						</SortedHeading>
 					))}
 				</tr>
@@ -91,7 +91,10 @@ const StatesTable = ({ id, data }: StatesTableProps) => {
 				{[...stateData.values]
 					.sort((a, b) => sortValues(a[sortBy], b[sortBy], sortAsc))
 					.map(row => (
-						<StyledTableRow key={`table-${id}-row-${kebabCase(row.state)}`}>
+						<tr
+							key={`table-${id}-row-${kebabCase(row.state)}`}
+							className={TableRowClassName}
+						>
 							{stateData.headers.map((header, i) => {
 								const cellValue = row[header.id];
 								const displayValue =
@@ -108,10 +111,10 @@ const StatesTable = ({ id, data }: StatesTableProps) => {
 									</td>
 								);
 							})}
-						</StyledTableRow>
+						</tr>
 					))}
 			</tbody>
-		</AlternateRowTable>
+		</Table>
 	);
 };
 

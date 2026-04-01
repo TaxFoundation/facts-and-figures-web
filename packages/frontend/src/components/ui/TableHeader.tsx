@@ -1,19 +1,11 @@
-import styled from 'styled-components';
-
-export const StyledTableHeader = styled.tr`
-	border-bottom: 2px solid ${props => props.theme.tfBlue};
-
-	th {
-		font-weight: bold;
-	}
-`;
+import styles from './TableHeader.module.css';
 
 const TableHeader = ({ headings }: { headings: string[] }) => (
-	<StyledTableHeader>
+	<tr className={styles.row}>
 		{headings.map((heading, i) => (
 			<th key={`cell-${heading}-${String(i)}`}>{heading}</th>
 		))}
-	</StyledTableHeader>
+	</tr>
 );
 
 export default TableHeader;

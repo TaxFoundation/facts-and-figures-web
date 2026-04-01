@@ -1,0 +1,31 @@
+.row {
+	font-family: var(--font-roboto-mono);
+	background-color: transparent;
+	border-top-width: 0;
+	border-top-style: solid;
+	border-top-color: var(--border-color);
+}
+
+.row td {
+	padding: 0.25rem;
+	text-align: center;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: var(--border-color);
+}
+
+.row td:first-child {
+	border-top: none;
+}
+
+.highlighted {
+	background-color: var(--tf-blue-highlight);
+}
+
+.firstInGroup {
+	border-top-width: 1px;
+}
+
+.firstInGroup td {
+	border-top-width: 0;
+}

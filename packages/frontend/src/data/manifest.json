@@ -1,0 +1,174 @@
+{
+  "1": {
+    "title": "State Tax Collections per Capita",
+    "type": "states"
+  },
+  "2": {
+    "title": "State-Local Tax Burdens per Capita & as a Percentage of Income",
+    "type": "states"
+  },
+  "3": {
+    "title": "2026 State Tax Competitiveness Index",
+    "type": "states"
+  },
+  "4": {
+    "title": "State Revenue per Capita",
+    "type": "states"
+  },
+  "5": {
+    "title": "State & Local Tax Collections per Capita",
+    "type": "states"
+  },
+  "6": {
+    "title": "State & Local Revenue per Capita",
+    "type": "states"
+  },
+  "7": {
+    "title": "Sources of State & Local Tax Collections, Percentage of Total from Each Source",
+    "type": "states"
+  },
+  "8": {
+    "title": "Federal Aid as a Percentage of State General Revenue",
+    "type": "states"
+  },
+  "9": {
+    "title": "Federal Income Tax Payments by Income Percentile",
+    "type": "table"
+  },
+  "10": {
+    "title": "Selected Federal Tax Rates",
+    "type": "sectioned"
+  },
+  "11": {
+    "title": "State Individual Income Tax Rates",
+    "type": "brackets"
+  },
+  "12": {
+    "title": "State Individual Income Tax Collections per Capita",
+    "type": "states"
+  },
+  "13": {
+    "title": "State & Local Individual Income Tax Collections per Capita",
+    "type": "states"
+  },
+  "14": {
+    "title": "State Corporate Income Tax Rates",
+    "type": "brackets"
+  },
+  "15": {
+    "title": "State Corporate Income Tax Collections per Capita ",
+    "type": "states"
+  },
+  "16": {
+    "title": "State & Local Corporate Income Tax Collections per Capita",
+    "type": "states"
+  },
+  "17": {
+    "title": "State Gross Receipts Taxes",
+    "type": "table"
+  },
+  "18": {
+    "title": "State & Local Sales Tax Rates",
+    "type": "states"
+  },
+  "19": {
+    "title": "State General Sales Tax Collections per Capita",
+    "type": "states"
+  },
+  "20": {
+    "title": "State & Local General Sales Tax Collections per Capita",
+    "type": "states"
+  },
+  "21": {
+    "title": "State Sales Tax Breadth ",
+    "type": "states"
+  },
+  "22": {
+    "title": "State Gasoline Tax Rates (Cents per Gallon)",
+    "type": "states"
+  },
+  "23": {
+    "title": "Share of State & Local Road Spending Covered by State  & Local Tolls, User Fees, & User Taxes",
+    "type": "states"
+  },
+  "24": {
+    "title": "State Cigarette Excise Tax Rates (Dollars per 20-Pack)",
+    "type": "states"
+  },
+  "25": {
+    "title": "State Vapor Excise Tax Rates",
+    "type": "table"
+  },
+  "26": {
+    "title": "State Recreational Marijuana Excise Tax Rates",
+    "type": "table"
+  },
+  "27": {
+    "title": "State Spirits Excise Tax Rates  (Dollars per Gallon)",
+    "type": "states"
+  },
+  "28": {
+    "title": "State Wine Excise Tax Rates (Dollars per Gallon)",
+    "type": "states"
+  },
+  "29": {
+    "title": "State Beer Excise Tax Rates (Dollars per Gallon)",
+    "type": "states"
+  },
+  "30": {
+    "title": "State & Local Cell Phone Tax Rates",
+    "type": "states"
+  },
+  "31": {
+    "title": "Sales Tax Treatment of Groceries, Candy, & Soda",
+    "type": "states"
+  },
+  "32": {
+    "title": "State & Local Excise Tax  Collections per Capita",
+    "type": "states"
+  },
+  "33": {
+    "title": "Property Taxes Paid as a Percentage of Owner-Occupied Housing Value",
+    "type": "states"
+  },
+  "34": {
+    "title": "State & Local Property Tax Collections per Capita",
+    "type": "states"
+  },
+  "35": {
+    "title": "State Capital Stock Tax Rates",
+    "type": "table"
+  },
+  "36": {
+    "title": "State Estate Tax Rates & Exemptions",
+    "type": "states"
+  },
+  "37": {
+    "title": "State Inheritance Tax Rates & Exemptions",
+    "type": "brackets"
+  },
+  "38": {
+    "title": "State Debt per Capita",
+    "type": "states"
+  },
+  "39": {
+    "title": "State & Local Debt per Capita",
+    "type": "states"
+  },
+  "40": {
+    "title": "Funded Ratio of Public Pension Plans",
+    "type": "states"
+  },
+  "41": {
+    "title": "Income per Capita by State",
+    "type": "states"
+  },
+  "42": {
+    "title": "People per Household by State",
+    "type": "states"
+  },
+  "43": {
+    "title": "Household Effective Tax Incidence Rates",
+    "type": "sectioned"
+  }
+}

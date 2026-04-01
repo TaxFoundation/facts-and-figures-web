@@ -1,0 +1,51 @@
+.sectionHeader td {
+	font-family: var(--font-roboto-flex);
+	font-weight: bold;
+	color: var(--tf-blue);
+	font-size: 1.1rem;
+	padding: 0.25rem;
+	padding-top: 1rem;
+	border: none;
+}
+
+.sectionHeaderFirst td {
+	padding-top: 0;
+}
+
+.subSectionHeader td {
+	font-family: var(--font-roboto-flex);
+	font-weight: bold;
+	font-style: italic;
+	color: var(--tf-blue);
+	font-size: 0.95rem;
+	padding: 0.25rem;
+	padding-top: 0.5rem;
+	border: none;
+}
+
+.columnHeader {
+	border-bottom: 2px solid var(--tf-blue);
+}
+
+.columnHeader th {
+	font-weight: bold;
+	padding: 0.25rem;
+}
+
+.dataRow {
+	font-family: var(--font-roboto-mono);
+	background-color: transparent;
+}
+
+.dataRow td {
+	padding: 0.25rem;
+	text-align: center;
+}
+
+.dataRow td:first-child {
+	text-align: left;
+}
+
+.dataRowHighlighted {
+	background-color: var(--tf-blue-highlight);
+}

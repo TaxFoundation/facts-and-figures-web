@@ -1,0 +1,14 @@
+:root {
+	--border-color: #bbb;
+	--color: hsl(0, 0%, 7%);
+	--font-roboto-flex: 'Roboto Flex', sans-serif;
+	--font-roboto-mono: 'Roboto Mono', monospace;
+	--font-size: 16px;
+	--print-size: 10pt;
+	--font-weight: 400;
+	--tf-blue: hsl(210, 61%, 22%);
+	--tf-blue-highlight: hsl(210, 58%, 90%);
+	--tf-yellow-cta: hsl(47, 100%, 62%);
+	--tf-yellow-cta-hover: hsl(47, 100%, 50%);
+	--white: hsl(0, 0%, 100%);
+}

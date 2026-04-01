@@ -1,31 +1,7 @@
-import styled, { css } from 'styled-components';
+import type { ComponentProps } from 'react';
 
-const ButtonStyles = css`
-	background-color: ${props => props.theme.tfYellowCTA};
-	border: 1px solid ${props => props.theme.tfYellowCTA};
-	border-radius: 0px;
-	color: ${props => props.theme.tfBlue};
-	font-size: 0.75rem;
-	font-weight: 600;
-	letter-spacing: 0.1em;
-	padding: 0.5rem 1rem;
-	text-transform: uppercase;
-	width: 100%;
+import styles from './Button.module.css';
 
-	&:hover {
-		background-color: ${props => props.theme.tfYellowCTAhover};
-		transition: 0.3s;
-		transition-timing-function: ease-in-out;
-	}
-`;
-
-export const StyledButtonButton = styled.button`
-	${ButtonStyles}
-`;
-
-export const StyledButtonLink = styled.a`
-	${ButtonStyles}
-	display: block;
-	text-align: center;
-	text-decoration: none;
-`;
+export const ButtonLink = (props: ComponentProps<'a'>) => (
+	<a className={[styles.button, styles.link].join(' ')} {...props} />
+);

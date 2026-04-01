@@ -1,0 +1,30 @@
+.table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.table caption {
+	margin: 2rem;
+	color: var(--tf-blue);
+}
+
+.table caption h1 {
+	font-size: 1.75rem;
+	font-weight: 700;
+	line-height: 1;
+	margin: 0;
+}
+
+.table caption p {
+	font-size: 1.25rem;
+	font-style: italic;
+	margin: 0;
+}
+
+.table caption tr {
+	font-family: var(--font-roboto-mono);
+}
+
+.alternateRows tr:nth-child(even) {
+	background-color: var(--tf-blue-highlight);
+}

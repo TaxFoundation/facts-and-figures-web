@@ -3,10 +3,21 @@ import path from 'path';
 import XLSX from 'xlsx';
 
 import mappings from '../../data/mappings.json';
-import parseStateTable from './parseStateTable';
-import type { CompiledData, Mapping } from './types';
+import parseBracketTable from './parseBracketTable';
+import parseSectionedTable from './parseSectionedTable';
+import parseStateTable, { findState } from './parseStateTable';
+import type { CompiledData, Manifest, Mapping } from './types';
 import writeExcelFiles from './writeExcelFiles';
 
+/**
+ * Finds the maximum length among an array of arrays.
+ *
+ * Used to determine the number of columns needed when normalizing
+ * rows of varying lengths to have consistent column counts.
+ *
+ * @param arrays - An array of arrays to measure
+ * @returns The length of the longest inner array
+ */
 function maxLength(arrays: unknown[][]): number {
 	let length = 0;
 	arrays.forEach(array => {
@@ -19,10 +30,20 @@ function maxLength(arrays: unknown[][]): number {
 const data: CompiledData = {};
 
 const source = path.resolve(__dirname, '../../data/facts-and-figures.xlsx');
-const destination = path.resolve(__dirname, '../frontend/src/data/data.json');
 const wb = XLSX.readFile(source);
 
-const concatRange = (range: string, sheet: XLSX.WorkSheet): string => {
+/**
+ * Concatenates all cell values within a given Excel range into a single string.
+ *
+ * Extracts all cells from the specified range, flattens them, and joins their
+ * values with spaces. This is useful for metadata fields like notes or sources
+ * that may span multiple cells in the source spreadsheet.
+ *
+ * @param range - An Excel range string (e.g., "A1:C3") specifying cells to concatenate
+ * @param sheet - The XLSX worksheet to read from
+ * @returns A space-separated string of all non-null cell values in the range
+ */
+function concatRange(range: string, sheet: XLSX.WorkSheet): string {
 	const cells = XLSX.utils.sheet_to_json(sheet, {
 		header: 1,
 		range,
@@ -45,9 +66,22 @@ const concatRange = (range: string, sheet: XLSX.WorkSheet): string => {
 	}, '');
 
 	return concatenation;
-};
+}
 
-const mapValues = (table: Mapping, sheet: XLSX.WorkSheet): void => {
+/**
+ * Extracts and transforms data from an Excel sheet based on a mapping configuration.
+ *
+ * This function reads raw data from the specified range in the worksheet, normalizes
+ * row lengths, and stores the result in the global `data` object. For state-type tables,
+ * the data is further processed through `parseStateTable` to structure it with headers
+ * and state-keyed values. Metadata fields (title, subtitle, date, notes, source) are
+ * extracted from their configured cell references, with multi-cell ranges concatenated.
+ * Footnotes are also extracted if specified in the mapping.
+ *
+ * @param table - The mapping configuration specifying sheet name, data range, type, and metadata locations
+ * @param sheet - The XLSX worksheet to extract data from
+ */
+function mapValues(table: Mapping, sheet: XLSX.WorkSheet): void {
 	data[table.sheetName] = {
 		type: table.type,
 		data: [],
@@ -76,8 +110,29 @@ const mapValues = (table: Mapping, sheet: XLSX.WorkSheet): void => {
 	const tableEntry = data[table.sheetName];
 	if (!tableEntry) return;
 
-	tableEntry.data =
-		table.type === 'states' ? parseStateTable(rawData) : rawData;
+	if (table.type === 'states') {
+		tableEntry.data = parseStateTable(rawData);
+	} else if (table.type === 'sectioned') {
+		tableEntry.data = parseSectionedTable(rawData);
+	} else {
+		tableEntry.data = parseBracketTable(rawData);
+
+		// Detect if this table has state names in the first column
+		// so the frontend can apply alternating row styling
+		const parsed = tableEntry.data;
+		if (parsed.length > 1) {
+			const dataRows = parsed.slice(1);
+			const allStates = dataRows.every(row => {
+				const first = row[0];
+				if (first == null) return false;
+				const cell = typeof first === 'string' ? first : '';
+				return !!findState(cell.replace(/\s*\(.*\)\s*$/, '').trim());
+			});
+			if (allStates) {
+				tableEntry.alternateRows = true;
+			}
+		}
+	}
 
 	metadata.forEach(term => {
 		const value = table[term];
@@ -104,9 +159,17 @@ const mapValues = (table: Mapping, sheet: XLSX.WorkSheet): void => {
 	} else {
 		tableEntry.footnotes = null;
 	}
-};
+}
 
-const buildData = (): void => {
+/**
+ * Iterates through all table mappings and extracts data from the source workbook.
+ *
+ * Verifies the source file exists, then processes each mapping configuration
+ * by finding the corresponding sheet in the workbook and calling `mapValues`
+ * to extract and transform the data. Progress is logged to the console for
+ * each sheet processed.
+ */
+function buildData(): void {
 	fs.access(source, err => {
 		if (err) throw err;
 	});
@@ -117,27 +180,42 @@ const buildData = (): void => {
 			mapValues(table, sheet);
 		}
 	});
-};
+}
 
-const writeData = (): void => {
+const jsonDataDir = path.resolve(__dirname, '../frontend/public/data');
+
+/**
+ * Orchestrates the full data compilation and output process.
+ *
+ * Calls `buildData` to extract all table data from the source workbook,
+ * writes the compiled data to a JSON file for the frontend application,
+ * writes per-table JSON files and a manifest for lazy loading,
+ * and generates individual Excel files for each table via `writeExcelFiles`.
+ */
+function writeData(): void {
 	buildData();
-	console.log('Writing new data to file...');
-	fs.writeFileSync(destination, JSON.stringify(data, null, 2));
-	console.log('New data created.');
+
+	// Write per-table JSON files and manifest for lazy loading
+	console.log('Writing per-table JSON files...');
+	const manifest: Manifest = {};
+	for (const [key, entry] of Object.entries(data)) {
+		if (!entry) continue;
+		const tableJsonPath = path.join(jsonDataDir, `table-${key}.json`);
+		fs.writeFileSync(tableJsonPath, JSON.stringify(entry));
+		manifest[key] = {
+			title: entry.title,
+			type: entry.type,
+		};
+	}
+	const manifestPath = path.resolve(
+		__dirname,
+		'../frontend/src/data/manifest.json',
+	);
+	fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2));
+	console.log('Manifest and per-table JSON files written.');
+
 	console.log('Writing individual Excel files...');
 	writeExcelFiles(data);
-};
+}
 
-fs.access(destination, err => {
-	console.log('Deleting old data...');
-	if (err) {
-		console.log('No data file found, creating from scratch.');
-		writeData();
-	} else {
-		fs.unlink(destination, err => {
-			if (err) throw err;
-			console.log('Old data deleted.');
-			writeData();
-		});
-	}
-});
+writeData();

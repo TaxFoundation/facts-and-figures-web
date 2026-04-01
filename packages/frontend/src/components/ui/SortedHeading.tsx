@@ -1,56 +1,45 @@
-import styled from 'styled-components';
+import type { ComponentProps, KeyboardEvent } from 'react';
 
-interface SortedHeadingProps {
+import styles from './SortedHeading.module.css';
+
+interface SortedHeadingProps extends ComponentProps<'th'> {
 	ascending: boolean;
 	orderedBy: string;
-	id: string;
+	headingId: string;
 }
 
-const SortedHeading = styled.th<SortedHeadingProps>`
-	background-color: ${props => props.theme.white};
-	border-bottom: 2px solid ${props => props.theme.tfBlue};
-	cursor: pointer;
-	font-weight: 700;
-	text-align: center;
-	transition: 0.2s ease-in-out background-color;
+const SortedHeading = ({
+	ascending,
+	orderedBy,
+	headingId,
+	children,
+	onClick,
+	...rest
+}: SortedHeadingProps) => {
+	const isActive = orderedBy === headingId;
 
-	div {
-		overflow: hidden;
-		text-overflow: ellipsis;
-
-		@media screen and (min-width: 500px) {
-			padding-right: 0.5rem;
-			position: relative;
-
-			&::after,
-			&::before {
-				border: 4px solid transparent;
-				content: '';
-				display: block;
-				height: 0;
-				right: 0;
-				top: 50%;
-				position: absolute;
-				width: 0;
-			}
-
-			&::before {
-				border-bottom-color: ${props =>
-					props.ascending && props.orderedBy === props.id
-						? props.theme.color
-						: props.theme.borderColor};
-				margin-top: -9px;
-			}
-
-			&::after {
-				border-top-color: ${props =>
-					!props.ascending && props.orderedBy === props.id
-						? props.theme.color
-						: props.theme.borderColor};
-				margin-top: 1px;
-			}
+	const handleKeyDown = (e: KeyboardEvent<HTMLTableCellElement>) => {
+		if (e.key === 'Enter' || e.key === ' ') {
+			e.preventDefault();
+			onClick?.(e as unknown as React.MouseEvent<HTMLTableCellElement>);
 		}
-	}
-`;
+	};
+
+	return (
+		<th
+			className={styles.heading}
+			data-active-asc={isActive && ascending}
+			data-active-desc={isActive && !ascending}
+			aria-sort={isActive ? (ascending ? 'ascending' : 'descending') : 'none'}
+			role="button"
+			tabIndex={0}
+			onClick={onClick}
+			onKeyDown={handleKeyDown}
+			{...rest}
+		>
+			<div className={styles.inner}>{children}</div>
+		</th>
+	);
+};
 
 export default SortedHeading;
